@@ -1,0 +1,2600 @@
+ESP research knowledge: P33
+
+Title: A Fault Diagnosis Model of an Electric Submersible Pump Based on Mechanism Knowledge
+
+Authors: Faming Gong; Siyuan Tong; Chengze Du; Zhenghao Wan; Shiyu Qiu
+
+Year: 2025
+
+Publication: Sensors 25, 2444
+
+DOI: 10.3390/s25082444
+
+Related study group: None assigned
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P33-F01
+Type: Failures
+
+Failure or condition: Overload
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F02
+Type: Failures
+
+Failure or condition: Underload
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F03
+Type: Failures
+
+Failure or condition: Shutdown
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F04
+Type: Failures
+
+Failure or condition: Motor burnout
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F05
+Type: Failures
+
+Failure or condition: Phase-loss shutdown
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F06
+Type: Failures
+
+Failure or condition: Zero ground insulation
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F07
+Type: Failures
+
+Failure or condition: No-load current at startup
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F08
+Type: Failures
+
+Failure or condition: Tight motor-shaft rotation
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F09
+Type: Failures
+
+Failure or condition: Broken motor spline sleeve
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F10
+Type: Failures
+
+Failure or condition: Immobile motor shaft
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F11
+Type: Failures
+
+Failure or condition: Worn motor thrust bearing
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F12
+Type: Failures
+
+Failure or condition: Cable breakdown
+
+Category: Cable
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F13
+Type: Failures
+
+Failure or condition: Cable burnout
+
+Category: Cable
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F14
+Type: Failures
+
+Failure or condition: Cable disconnection at copper sleeve
+
+Category: Cable
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F15
+Type: Failures
+
+Failure or condition: Unbalanced motor supply voltage
+
+Category: VSD
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F16
+Type: Failures
+
+Failure or condition: Phase loss in motor supply
+
+Category: VSD
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F17
+Type: Failures
+
+Failure or condition: Current drops to zero
+
+Category: VSD
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F18
+Type: Failures
+
+Failure or condition: Low current
+
+Category: VSD
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F19
+Type: Failures
+
+Failure or condition: Inter-phase imbalance
+
+Category: VSD
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F20
+Type: Failures
+
+Failure or condition: Insufficient pump head (listed under control faults)
+
+Category: VSD
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F21
+Type: Failures
+
+Failure or condition: Pump blockage
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F22
+Type: Failures
+
+Failure or condition: Impeller damage
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F23
+Type: Failures
+
+Failure or condition: Pump bearing failure
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F24
+Type: Failures
+
+Failure or condition: Shaft breakage between upper pump and gas-liquid pump
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F25
+Type: Failures
+
+Failure or condition: Immobile upper shaft with tight lower shaft
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F26
+Type: Failures
+
+Failure or condition: Sand-control failure
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F27
+Type: Failures
+
+Failure or condition: Failure to build pressure in pressure test
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F28
+Type: Failures
+
+Failure or condition: Motor ingress of well fluid
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F29
+Type: Failures
+
+Failure or condition: Oil backpressure equilibrium (source wording)
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F30
+Type: Failures
+
+Failure or condition: Inability to discharge liquid
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F31
+Type: Failures
+
+Failure or condition: Oil release valve not closed
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F32
+Type: Failures
+
+Failure or condition: Poor motor-cable-joint sealing
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F33
+Type: Failures
+
+Failure or condition: Sand settling in tubing
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F34
+Type: Failures
+
+Failure or condition: Tubing leakage
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F35
+Type: Failures
+
+Failure or condition: Sand eyes in tubing (source wording)
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F36
+Type: Failures
+
+Failure or condition: Tubing scale blockage
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F37
+Type: Failures
+
+Failure or condition: Leak at tubing male thread
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F38
+Type: Failures
+
+Failure or condition: Holes in original well tubing
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F39
+Type: Failures
+
+Failure or condition: Circular holes in tubing body
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F40
+Type: Failures
+
+Failure or condition: Tubing filled with fine sand
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F41
+Type: Failures
+
+Failure or condition: Insufficient formation fluid supply
+
+Category: Reservoir
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F42
+Type: Failures
+
+Failure or condition: Insufficient reservoir pressure
+
+Category: Reservoir
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F43
+Type: Failures
+
+Failure or condition: Reservoir pressure increase
+
+Category: Reservoir
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F44
+Type: Failures
+
+Failure or condition: Motor housing corrosion
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F45
+Type: Failures
+
+Failure or condition: Cable-packer rubber damage
+
+Category: Cable
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F46
+Type: Failures
+
+Failure or condition: Sand-cleaner cracks
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F47
+Type: Failures
+
+Failure or condition: Self-cleaning sand-separator cracks
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F48
+Type: Failures
+
+Failure or condition: Protector failure
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F49
+Type: Failures
+
+Failure or condition: Motor flat-head disengagement
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F50
+Type: Failures
+
+Failure or condition: Motor insulation loss
+
+Category: Motor
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F51
+Type: Failures
+
+Failure or condition: Insulation material aging
+
+Category: Pump
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F52
+Type: Failures
+
+Failure or condition: Cable insulation loss
+
+Category: Cable
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F53
+Type: Failures
+
+Failure or condition: Cable insulation aging
+
+Category: Cable
+
+Symptoms: Named fault-tree item; unique measured signature not supplied for this item.
+
+Root causes: Not individually established; taxonomy combines symptoms, mechanisms and failed parts.
+
+Consequences: Potential production/equipment impact; not quantified per item.
+
+Field indicators: Surface symptom groups and independent engineering checks; no one-to-one rule established.
+
+Confidence level: Low
+
+Confidence basis: Low for diagnosis from taxonomy alone
+
+PDF pages: Fig.3 p.5
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F54
+Type: Failures
+
+Failure or condition: Cavitation
+
+Category: Pump
+
+Symptoms: Gas/liquid ratio increase associated in partial table.
+
+Root causes: Mechanism not independently verified in study.
+
+Consequences: Hydraulic/mechanical stress.
+
+Field indicators: Gas/liquid ratio and corroborating evidence.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: Table 2 p.10
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F55
+Type: Failures
+
+Failure or condition: Choked nozzle
+
+Category: Surface Network
+
+Symptoms: Production, current and temperature decrease in worked example.
+
+Root causes: Surface restriction candidate.
+
+Consequences: Reduced production.
+
+Field indicators: Surface pressure and valve checks.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp.9–10
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-F56
+Type: Failures
+
+Failure or condition: Pump wear
+
+Category: Pump
+
+Symptoms: Production decrease associated 43.1% in source table.
+
+Root causes: Wear.
+
+Consequences: Reduced capacity.
+
+Field indicators: Trend and physical duty checks.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Table 2 p.10
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D01
+Type: Rules
+
+Rule name: Three-phase current increase association
+
+Source status: do_not_deploy_as_written
+
+IF: Three-phase current increase
+
+AND: Other evidence and operating state considered
+
+THEN: Overload candidate; source association 67.3%
+
+Engineering explanation: Dataset-specific association, not calibrated field probability or unique cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Table 2 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D02
+Type: Rules
+
+Rule name: Production decrease association
+
+Source status: candidate_requires_local_validation
+
+IF: Production decrease
+
+AND: Other evidence and operating state considered
+
+THEN: Pump wear candidate; source association 43.1%
+
+Engineering explanation: Dataset-specific association, not calibrated field probability or unique cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Table 2 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D03
+Type: Rules
+
+Rule name: Three-phase current fluctuation association
+
+Source status: candidate_requires_local_validation
+
+IF: Three-phase current fluctuation
+
+AND: Other evidence and operating state considered
+
+THEN: Control cabinet fault candidate; source association 34.4%
+
+Engineering explanation: Dataset-specific association, not calibrated field probability or unique cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Table 2 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D04
+Type: Rules
+
+Rule name: Three-phase current fluctuation association
+
+Source status: candidate_requires_local_validation
+
+IF: Three-phase current fluctuation
+
+AND: Other evidence and operating state considered
+
+THEN: Motor insulation damage candidate; source association 36.8%
+
+Engineering explanation: Dataset-specific association, not calibrated field probability or unique cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Table 2 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D05
+Type: Rules
+
+Rule name: Gas/liquid ratio increase association
+
+Source status: candidate_requires_local_validation
+
+IF: Gas/liquid ratio increase
+
+AND: Other evidence and operating state considered
+
+THEN: Cavitation candidate; source association 52.9%
+
+Engineering explanation: Dataset-specific association, not calibrated field probability or unique cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Table 2 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D06
+Type: Rules
+
+Rule name: Voltage drops to zero association
+
+Source status: candidate_requires_local_validation
+
+IF: Voltage drops to zero
+
+AND: Other evidence and operating state considered
+
+THEN: Motor fault candidate; source association 85.2%
+
+Engineering explanation: Dataset-specific association, not calibrated field probability or unique cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Table 2 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D07
+Type: Rules
+
+Rule name: Published exclusion: Cavitation
+
+Source status: do_not_deploy_as_written
+
+IF: Temperature drop
+
+AND: Source ERIM treats symptom as mutually exclusive with fault
+
+THEN: Source removes Cavitation; do not deploy as absolute exclusion.
+
+Engineering explanation: Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low; requires correction before use
+
+PDF pages: Table 3 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D08
+Type: Rules
+
+Rule name: Published exclusion: Motor insulation failure
+
+Source status: do_not_deploy_as_written
+
+IF: Three-phase current decrease
+
+AND: Source ERIM treats symptom as mutually exclusive with fault
+
+THEN: Source removes Motor insulation failure; do not deploy as absolute exclusion.
+
+Engineering explanation: Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low; requires correction before use
+
+PDF pages: Table 3 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D09
+Type: Rules
+
+Rule name: Published exclusion: Motor insulation failure
+
+Source status: do_not_deploy_as_written
+
+IF: Voltage drop
+
+AND: Source ERIM treats symptom as mutually exclusive with fault
+
+THEN: Source removes Motor insulation failure; do not deploy as absolute exclusion.
+
+Engineering explanation: Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low; requires correction before use
+
+PDF pages: Table 3 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D10
+Type: Rules
+
+Rule name: Published exclusion: Pump outlet blockage
+
+Source status: do_not_deploy_as_written
+
+IF: Three-phase current decrease
+
+AND: Source ERIM treats symptom as mutually exclusive with fault
+
+THEN: Source removes Pump outlet blockage; do not deploy as absolute exclusion.
+
+Engineering explanation: Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low; requires correction before use
+
+PDF pages: Table 3 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D11
+Type: Rules
+
+Rule name: Published exclusion: Pump leakage
+
+Source status: do_not_deploy_as_written
+
+IF: Oil production increase
+
+AND: Source ERIM treats symptom as mutually exclusive with fault
+
+THEN: Source removes Pump leakage; do not deploy as absolute exclusion.
+
+Engineering explanation: Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low; requires correction before use
+
+PDF pages: Table 3 p.10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-D12
+Type: Rules
+
+Rule name: Worked supply-shortage ranking
+
+Source status: do_not_deploy_as_written
+
+IF: Production, temperature and three-phase current decrease
+
+AND: Candidate set supply shortage, outlet blockage, choked nozzle, insulation failure
+
+THEN: Source ranks insufficient formation supply after exclusions.
+
+Engineering explanation: Useful evidence-ranking example; unvalidated exclusions must become soft penalties/checks.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Useful evidence-ranking example; unvalidated exclusions must become soft penalties/checks.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: pp.9–10
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-I01
+Type: Indicators
+
+Indicator: Surface symptom sequence
+
+Physical meaning: Patterns supporting fault ranking.
+
+Required parameters: 14 sequences over 60 time steps.
+
+Typical trend: Increase, decrease, fluctuation or drop-to-zero.
+
+Lead time qualification: 60 steps (~50–60 min) is lookback. Reported diagnostic/warning times have unclear units and reference origin; no defensible universal lead.
+
+Relevant channels: ESP Current, Voltage, Temperature, Oil Rate, Water Rate, Gas Rate, Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp.6, 11–15
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P33-M01
+Type: AI Models
+
+Model type: Meta-learning convolutional shrinkage symptom model; semantic/fault trees; Jaccard entity linking; graph subgraph ranking; BiLSTM-CRF and expert inference, choosing higher-confidence result.
+
+Inputs: 1373 offshore fault records over 10 years; 7398 sentences from 62 papers+10 annual reports; 14 series; 27 symptoms; 50 claimed fault classes; 70/15/15 record split 961/206/206; separate 80/20 meta-stage description.
+
+Outputs: Ranked fault candidates and confidence.
+
+Reported performance: Recall@3=93.35%, reported macro F1=89.93%, time 35.5 (unit not explicit in table). LSTM73.26/83.26/33.2; KG-BDA88.10/87.74/37.9. Not 93.35% top-one accuracy. Warning/alarm table 38.3/32.6 versus 42.9/32.8 without sufficiently clear timing definition.
+
+Advantages: Surface-based inputs; explicit symptoms, candidates and explanation; knowledge helps sparse classes.
+
+Limitations: Restricted private data/graph; hard exclusions physically overbroad; random event split not external-field validation; equation 8 accuracy omits TN and F1 derivation inconsistent; confidence scores from two models may be incomparable; exact 50-label taxonomy not cleanly enumerated.
+
+Data feasibility: Potentially close to project, but requires continuous surface channels, plant rate-estimation method, verified fault labels and graph. Sparse Excel tests cannot substitute for minute production estimates. No downhole sensors required by core input set.
+
+Complexity: High
+
+Prediction target: Current fault diagnosis/ranking; early recognition of some progressing conditions.
+
+Lead time qualification: Not established as a transferable forecast horizon.30–60 min general assertion is not evidence for all ESP failure modes.
+
+Signals: Surface electrical/pressure/temperature plus reliable rate estimates and metadata.
+
+Source thresholds: Normalized>1 termed overload, cap 1.5; normal-reference exceedance is not equipment-rated overload. Partial associations/exclusions retained for audit, not approved rules.
+
+Implementation proposal: Start with curated symptoms and soft candidate ranking, not full architecture; keep alternatives, unknown state and evidence provenance; validate independent wells and calibrated confidence.
+
+Recommended future model: Knowledge-assisted surface classifier after reliable rate/label integration.
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0641
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Infer symptoms from surface data, retrieve candidate faults from a knowledge graph, and combine BiLSTM-CRF with expert-rule diagnosis.
+
+Engineering context: Sparse, poorly labeled faults and geological variation limit data-only classifiers.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0642
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Overload; Underload; Shutdown; Motor burnout; Phase-loss shutdown; Zero ground insulation; No-load current at startup; Tight motor-shaft rotation; Broken motor spline sleeve; Immobile motor shaft; Worn motor thrust bearing; Cable breakdown; Cable burnout; Cable disconnection at copper sleeve; Unbalanced motor supply voltage; Phase loss in motor supply; Current drops to zero; Low current; Inter-phase imbalance; Insufficient pump head (listed under control faults); Pump blockage; Impeller damage; Pump bearing failure; Shaft breakage between upper pump and gas-liquid pump; Immobile upper shaft with tight lower shaft; Sand-control failure; Failure to build pressure in pressure test; Motor ingress of well fluid; Oil backpressure equilibrium (source wording); Inability to discharge liquid; Oil release valve not closed; Poor motor-cable-joint sealing; Sand settling in tubing; Tubing leakage; Sand eyes in tubing (source wording); Tubing scale blockage; Leak at tubing male thread; Holes in original well tubing; Circular holes in tubing body; Tubing filled with fine sand; Insufficient formation fluid supply; Insufficient reservoir pressure; Reservoir pressure increase; Motor housing corrosion; Cable-packer rubber damage; Sand-cleaner cracks; Self-cleaning sand-separator cracks; Protector failure; Motor flat-head disengagement; Motor insulation loss; Insulation material aging; Cable insulation loss; Cable insulation aging; Cavitation; Choked nozzle; Pump wear
+
+Engineering context: Surface current/voltage, wellhead pressures/temperature and estimated rates show increases, decreases, fluctuations or zero drops.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0643
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 1373 offshore fault records over 10 years; 7398 sentences from 62 papers+10 annual reports; 14 series; 27 symptoms; 50 claimed fault classes; 70/15/15 record split 961/206/206; separate 80/20 meta-stage description.
+
+Engineering context: Source describes six parameter families but 14 input sequences; exact expansion to 14 not fully reconciled. Rates are calculated by plant methods, not directly observed continuous tests. Parameter-group weights electrical(.48,.33,.095,.095), mechanical(.28,.40,.16,.16), environmental(.19,.29,.23,.29), other(.25 each).
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0644
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Potentially close to project, but requires continuous surface channels, plant rate-estimation method, verified fault labels and graph. Sparse Excel tests cannot substitute for minute production estimates. No downhole sensors required by core input set.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0645
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Three-phase current increase association: Overload candidate; source association 67.3%; Production decrease association: Pump wear candidate; source association 43.1%; Three-phase current fluctuation association: Control cabinet fault candidate; source association 34.4%
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0646
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not established as a transferable forecast horizon.30–60 min general assertion is not evidence for all ESP failure modes.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0647
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Recall@3=93.35%, reported macro F1=89.93%, time 35.5 (unit not explicit in table). LSTM73.26/83.26/33.2; KG-BDA88.10/87.74/37.9. Not 93.35% top-one accuracy. Warning/alarm table 38.3/32.6 versus 42.9/32.8 without sufficiently clear timing definition.
+
+Engineering context: Restricted private data/graph; hard exclusions physically overbroad; random event split not external-field validation; equation 8 accuracy omits TN and F1 derivation inconsistent; confidence scores from two models may be incomparable; exact 50-label taxonomy not cleanly enumerated.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0648
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Normalized>1 termed overload, cap 1.5; normal-reference exceedance is not equipment-rated overload. Partial associations/exclusions retained for audit, not approved rules.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0649
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Symptom→candidate→check architecture; taxonomy; top-three metric interpretation; source-rule contradictions.
+
+Engineering context: Soft evidence rules only; reject absolute exclusion of restriction/cavitation/insulation from single trend.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0650
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Knowledge-assisted surface classifier after reliable rate/label integration.
+
+Engineering context: Start with curated symptoms and soft candidate ranking, not full architecture; keep alternatives, unknown state and evidence provenance; validate independent wells and calibrated confidence.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0651
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Surface current/voltage, wellhead pressures/temperature and estimated rates show increases, decreases, fluctuations or zero drops.
+
+Engineering context: Sparse, poorly labeled faults and geological variation limit data-only classifiers.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0652
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0653
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Ranked fault candidates and confidence.; an output must be interpreted within the reported validation.
+
+Engineering context: Restricted private data/graph; hard exclusions physically overbroad; random event split not external-field validation; equation 8 accuracy omits TN and F1 derivation inconsistent; confidence scores from two models may be incomparable; exact 50-label taxonomy not cleanly enumerated.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0654
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not established as a transferable forecast horizon.30–60 min general assertion is not evidence for all ESP failure modes.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0655
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 1373 offshore fault records over 10 years; 7398 sentences from 62 papers+10 annual reports; 14 series; 27 symptoms; 50 claimed fault classes; 70/15/15 record split 961/206/206; separate 80/20 meta-stage description.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0656
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Potentially close to project, but requires continuous surface channels, plant rate-estimation method, verified fault labels and graph. Sparse Excel tests cannot substitute for minute production estimates. No downhole sensors required by core input set.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0657
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0658
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Normalized>1 termed overload, cap 1.5; normal-reference exceedance is not equipment-rated overload. Partial associations/exclusions retained for audit, not approved rules.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0659
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0660
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Soft evidence rules only; reject absolute exclusion of restriction/cavitation/insulation from single trend.
+
+Source report: reports/P33.md
+
+Review status: Pending
+
+Source caveats: Figure 3 visually inspected. Taxonomy includes translated/ambiguous labels retained as such; do not claim each is a validated distinct failure mode. BiLSTM must operate only on a fully available past window for online use.
+
+Source report: reports/P33.md. PDF page references refer to the original paper, not this text file.

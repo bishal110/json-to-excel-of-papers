@@ -1,0 +1,995 @@
+ESP research knowledge: P35
+
+Title: Time-aware predictive maintenance of electrical submersible pumps using catboost ensemble learning and trend-based labeling
+
+Authors: Yasin Khalili; Mohammad Ahmadi; Mostafa Keshavarz Moraveji
+
+Year: 2025
+
+Publication: Journal of Petroleum Exploration and Production Technology 15: 147
+
+DOI: 10.1007/s13202-025-02070-z
+
+Related study group: None assigned
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P35-F01
+Type: Failures
+
+Failure or condition: Motor overheating/burnout
+
+Category: Motor
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-F02
+Type: Failures
+
+Failure or condition: Vibration anomaly / imbalance
+
+Category: Pump
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-F03
+Type: Failures
+
+Failure or condition: Shaft misalignment
+
+Category: Pump
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-F04
+Type: Failures
+
+Failure or condition: Cavitation
+
+Category: Pump
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-F05
+Type: Failures
+
+Failure or condition: Motor overload
+
+Category: Motor
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-F06
+Type: Failures
+
+Failure or condition: Pressure instability / inflow collapse
+
+Category: Reservoir
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-F07
+Type: Failures
+
+Failure or condition: Seal damage
+
+Category: Pump
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-F08
+Type: Failures
+
+Failure or condition: Cable fault
+
+Category: Cable
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-F09
+Type: Failures
+
+Failure or condition: Impeller wear
+
+Category: Pump
+
+Symptoms: Thermal rise, pressure change or vibration escalation are generic source symptoms.
+
+Root causes: Named background failure mechanism; state classifier does not distinguish root cause.
+
+Consequences: Downtime, intervention or performance loss.
+
+Field indicators: Required multichannel trend plus independent event confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; rule-derived state labels
+
+PDF pages: pp.2–3, 6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-D01
+Type: Rules
+
+Rule name: Published thermal label
+
+Source status: do_not_deploy_as_written
+
+IF: Motor temperature>90°C
+
+AND: Rising over 2–4 h in early description; later table omits trend condition
+
+THEN: Assign source Failure label, not confirmed physical failure.
+
+Engineering explanation: Threshold derived from selected field data; conflicts with reported cleaned minimum 95°C and 88.3% stable population if applied as OR alone.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Threshold derived from selected field data; conflicts with reported cleaned minimum 95°C and 88.3% stable population if applied as OR alone.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low; do not deploy unchanged
+
+PDF pages: pp.6, 13–15
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-D02
+Type: Rules
+
+Rule name: Published vibration label
+
+Source status: do_not_deploy_as_written
+
+IF: Delta vibration X>.02 g
+
+AND: Sustained 1 h in example
+
+THEN: Assign source Failure label.
+
+Engineering explanation: Delta definition and persistence later omitted; absolute vibration>.02 g is not equivalent.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Delta definition and persistence later omitted; absolute vibration>.02 g is not equivalent.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: pp.6, 14
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-D03
+Type: Rules
+
+Rule name: Published pressure label
+
+Source status: do_not_deploy_as_written
+
+IF: Intake pressure slope<−100 psi/min
+
+AND: Trend window and measurement quality valid
+
+THEN: Assign source Failure label.
+
+Engineering explanation: Source screening/label rule, not a validated cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source screening/label rule, not a validated cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: p.14
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-D04
+Type: Rules
+
+Rule name: Published unstable label
+
+Source status: do_not_deploy_as_written
+
+IF: T85–90°C or delta Vibration X .01–.02 g or pressure slope−100 to−50 psi/min
+
+AND: No higher-priority failure condition
+
+THEN: Assign source Unstable label.
+
+Engineering explanation: Boundary inclusivity/priority and complete Boolean formulation need clarification.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Boundary inclusivity/priority and complete Boolean formulation need clarification.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p.14
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-I01
+Type: Indicators
+
+Indicator: Thermal rise
+
+Physical meaning: Increasing thermal stress.
+
+Required parameters: Motor temperature and 2–4 h trend.
+
+Typical trend: >90°C with rising slope in example.
+
+Lead time qualification: 4 h pre-event analysis and 7 day illustration; no event-level warning distribution.
+
+Relevant channels: Temperature
+
+Avalon availability: Unknown
+
+PDF pages: pp.6, 14–16
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-I02
+Type: Indicators
+
+Indicator: Vibration increment
+
+Physical meaning: Growing mechanical/hydraulic disturbance.
+
+Required parameters: Delta vibration X and 1 h persistence.
+
+Typical trend: Delta>.02 g sustained 1 h in example.
+
+Lead time qualification: Observation window is not validated lead.
+
+Relevant channels: Vibration
+
+Avalon availability: Unknown
+
+PDF pages: pp.6, 14
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-I03
+Type: Indicators
+
+Indicator: Intake pressure slope
+
+Physical meaning: Rapid hydraulic change.
+
+Required parameters: Past-only pressure slope.
+
+Typical trend: <−100 psi/min for failure label;−100 to−50 unstable.
+
+Lead time qualification: No validated lead.
+
+Relevant channels: Intake Pressure
+
+Avalon availability: Unknown
+
+PDF pages: Table 6 p.14
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P35-M01
+Type: AI Models
+
+Model type: Isolation Forest→PCA5 PCs→CatBoost/ExtraTrees with temporal features; SVM/MLP comparators; SMOTE/class weights reported.
+
+Inputs: One selected well of 7,105 day window, 87390 raw records; 83020 final prose versus 82350 table; 30 s claimed sampling.
+
+Outputs: Rule-derived three-state class.
+
+Reported performance: Abstract accuracy 94.2%, failure recall 96.5%; Table 9 CatBoost 99.85% accuracy/F1~99.83%; Table 10/11 CV97.2% accuracy, F1~97.2%; ExtraTrees 96.8% test/93.8% CV. These are distinct conflicting reports, not one validated score.
+
+Advantages: Useful past-window trend features and comparison of practical tabular models.
+
+Limitations: One well, selected anomalous window; labels depend on same signals as features; no independent event-level prospective validation; chronological versus stratified K-fold descriptions conflict; preprocessing/SMOTE placement unclear; outlier removal may discard true faults; claimed 5 PC variance 90/95/97% inconsistent.
+
+Data feasibility: Requires working downhole pressure/temperature/vibration; surface voltage/current prior to transformer must not be treated as motor-terminal values. Missing-sensor version untested.
+
+Complexity: Medium
+
+Prediction target: Operational state according to retrospective rules; superiority in future failure prediction not established.
+
+Lead time qualification: No validated forecast horizon; 2–4 h/1 h conditions and 4 h plots are not demonstrated advance warning.
+
+Signals: Eight physical variables plus causal engineered trends and independent outcomes.
+
+Source thresholds: 90°C,.02 g delta,−100 psi/min are study-specific and internally inconsistent with distribution; not approved ESP limits.
+
+Implementation proposal: Benchmark direct rules against trees using independent DIFA/trip labels; fit preprocessing within training folds; grouped chronological holdout and event-level alarms; preserve genuine anomalies.
+
+Recommended future model: CatBoost/ExtraTrees benchmark with independently labeled future events, including raw-feature ablation.
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0681
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Classify stable, unstable and failure-labeled states using temporal features, PCA and ensemble trees.
+
+Engineering context: Sparse failure labels and noisy telemetry impede early degradation monitoring.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0682
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Motor overheating/burnout; Vibration anomaly / imbalance; Shaft misalignment; Cavitation; Motor overload; Pressure instability / inflow collapse; Seal damage; Cable fault; Impeller wear
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0683
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: One selected well of 7,105 day window, 87390 raw records; 83020 final prose versus 82350 table; 30 s claimed sampling.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0684
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Requires working downhole pressure/temperature/vibration; surface voltage/current prior to transformer must not be treated as motor-terminal values. Missing-sensor version untested.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0685
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Published thermal label: Assign source Failure label, not confirmed physical failure.; Published vibration label: Assign source Failure label.; Published pressure label: Assign source Failure label.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0686
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: No validated forecast horizon; 2–4 h/1 h conditions and 4 h plots are not demonstrated advance warning.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0687
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Abstract accuracy 94.2%, failure recall 96.5%; Table 9 CatBoost 99.85% accuracy/F1~99.83%; Table 10/11 CV97.2% accuracy, F1~97.2%; ExtraTrees 96.8% test/93.8% CV. These are distinct conflicting reports, not one validated score.
+
+Engineering context: One well, selected anomalous window; labels depend on same signals as features; no independent event-level prospective validation; chronological versus stratified K-fold descriptions conflict; preprocessing/SMOTE placement unclear; outlier removal may discard true faults; claimed 5 PC variance 90/95/97% inconsistent.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0688
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: 90°C,.02 g delta,−100 psi/min are study-specific and internally inconsistent with distribution; not approved ESP limits.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0689
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Causal rolling features; labels versus independent failure truth; measured electrical location.
+
+Engineering context: Do not activate published thresholds without resolution and well-specific limits.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0690
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: CatBoost/ExtraTrees benchmark with independently labeled future events, including raw-feature ablation.
+
+Engineering context: Benchmark direct rules against trees using independent DIFA/trip labels; fit preprocessing within training folds; grouped chronological holdout and event-level alarms; preserve genuine anomalies.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0691
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Sparse failure labels and noisy telemetry impede early degradation monitoring.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0692
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0693
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Rule-derived three-state class.; an output must be interpreted within the reported validation.
+
+Engineering context: One well, selected anomalous window; labels depend on same signals as features; no independent event-level prospective validation; chronological versus stratified K-fold descriptions conflict; preprocessing/SMOTE placement unclear; outlier removal may discard true faults; claimed 5 PC variance 90/95/97% inconsistent.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0694
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: No validated forecast horizon; 2–4 h/1 h conditions and 4 h plots are not demonstrated advance warning.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0695
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: One selected well of 7,105 day window, 87390 raw records; 83020 final prose versus 82350 table; 30 s claimed sampling.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0696
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Requires working downhole pressure/temperature/vibration; surface voltage/current prior to transformer must not be treated as motor-terminal values. Missing-sensor version untested.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0697
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0698
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: 90°C,.02 g delta,−100 psi/min are study-specific and internally inconsistent with distribution; not approved ESP limits.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0699
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0700
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Do not activate published thresholds without resolution and well-specific limits.
+
+Source report: reports/P35.md
+
+Review status: Pending
+
+Source caveats: 87390 points at 30 s span~30.34 days of samples, not 105 continuous days; coverage/gaps unclear. Cleaned motor temperature minimum 95°C conflicts with stable<85°C rule. Data availability statement says no datasets analyzed despite empirical study. Do not advertise 99.85% field failure prediction.
+
+Source report: reports/P35.md. PDF page references refer to the original paper, not this text file.

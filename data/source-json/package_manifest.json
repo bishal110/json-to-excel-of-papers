@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "papers": 37,
+    "pdf_pages": 665,
+    "failure_entries": 315,
+    "diagnostic_rules": 177,
+    "expert_conversions": 177,
+    "indicators": 78,
+    "action_groups": 68,
+    "parameter_mentions": 631,
+    "qa_entries": 740,
+    "blocked_source_rules": 26
+  },
+  "validation_errors": [],
+  "source_inventory": "data/manifest.json",
+  "source_files_modified": false,
+  "avalon_tags_audited": false,
+  "models_trained": false,
+  "field_rules_approved": false
+}

@@ -1,0 +1,820 @@
+ESP research knowledge: P34
+
+Title: Three Approaches to Predicting ESP Pump Failures During SAGD Operations
+
+Authors: Leon Fedenczuk; John Graham; Trent Pehlke
+
+Year: 2018
+
+Publication: SPE Canada Heavy Oil Technical Conference, Calgary, 13–14 March; SPE-189747-MS
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P34-F01
+Type: Failures
+
+Failure or condition: ESP failure versus nonfailure shutdown
+
+Category: Pump
+
+Symptoms: Current period ends; zero current alone cannot distinguish cause.
+
+Root causes: Failure mechanism not individually diagnosed.
+
+Consequences: Downtime and replacement.
+
+Field indicators: Independent shutdown reason and complete run history.
+
+Confidence level: Medium
+
+Confidence basis: Medium for event distinction
+
+PDF pages: pp.1–5
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-D01
+Type: Rules
+
+Rule name: Current-period segmentation
+
+Source status: do_not_deploy_as_written
+
+IF: Motor current remains>0
+
+AND: No intervening zero-current stop
+
+THEN: Treat as one uninterrupted motor-current period.
+
+Engineering explanation: Restart begins a new period; a stop is not automatically failure.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Restart begins a new period; a stop is not automatically failure.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: p.3
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-D02
+Type: Rules
+
+Rule name: Observed life association
+
+Source status: do_not_deploy_as_written
+
+IF: Injector TVDSS variation, F2 fraction, gross pore volume higher
+
+AND: Gross porosity lower in fitted combined model
+
+THEN: Longer observed time-to-failure associated in this dataset.
+
+Engineering explanation: Not a causal operating prescription; geological confounding.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Not a causal operating prescription; geological confounding.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: pp.2–3
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-D03
+Type: Rules
+
+Rule name: Retrospective tree leaf 1
+
+Source status: do_not_deploy_as_written
+
+IF: INJ_TBG_PCT_MAX<93.71022
+
+AND: PROD_CSG_PCT_MIN_MEDIAN<.5574627202
+
+THEN: Fitted mean hours-on=1483.39 h
+
+Engineering explanation: Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low for deployment
+
+PDF pages: Appendix 1 p.7
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-D04
+Type: Rules
+
+Rule name: Retrospective tree leaf 2
+
+Source status: do_not_deploy_as_written
+
+IF: INJ_TBG_PCT_MAX<93.71022
+
+AND: PROD_CSG_PCT_MIN_MEDIAN>=.5574627202
+
+THEN: Fitted mean hours-on=4984.36 h
+
+Engineering explanation: Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low for deployment
+
+PDF pages: Appendix 1 p.7
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-D05
+Type: Rules
+
+Rule name: Retrospective tree leaf 3
+
+Source status: do_not_deploy_as_written
+
+IF: INJ_TBG_PCT_MAX>=93.71022
+
+AND: STM_TBG_STDDEV_MEAN<.4059904246
+
+THEN: Fitted mean hours-on=8343.72 h
+
+Engineering explanation: Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low for deployment
+
+PDF pages: Appendix 1 p.7
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-D06
+Type: Rules
+
+Rule name: Retrospective tree leaf 4
+
+Source status: do_not_deploy_as_written
+
+IF: INJ_TBG_PCT_MAX>=93.71022
+
+AND: STM_TBG_STDDEV_MEAN>=.4059904246 and<.8842965364
+
+THEN: Fitted mean hours-on=12603.11 h
+
+Engineering explanation: Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low for deployment
+
+PDF pages: Appendix 1 p.7
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-D07
+Type: Rules
+
+Rule name: Retrospective tree leaf 5
+
+Source status: do_not_deploy_as_written
+
+IF: INJ_TBG_PCT_MAX>=93.71022
+
+AND: STM_TBG_STDDEV_MEAN>=.8842965364
+
+THEN: Fitted mean hours-on=6108.51 h
+
+Engineering explanation: Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low for deployment
+
+PDF pages: Appendix 1 p.7
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-I01
+Type: Indicators
+
+Indicator: Operating-period feature changes
+
+Physical meaning: Duty and exposure differ between uninterrupted runs.
+
+Required parameters: Current>0 segments plus pressure, temperature, steam/gas/choke statistics.
+
+Typical trend: Changing summaries and increasing age.
+
+Lead time qualification: No validated advance lead; some labels identify failure during its final current period.
+
+Relevant channels: ESP Current, Frequency, Gas Rate, Wellhead Pressure, Temperature
+
+Avalon availability: Unknown
+
+PDF pages: pp.3–5
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P34-M01
+Type: AI Models
+
+Model type: Linear regression, decision tree and logistic regression at multiple time scales.
+
+Inputs: Geology/trajectory plus whole-run or current-period summaries; 42 paired failure/non failure periods; all-period set 29 fail/891 nonfail.
+
+Outputs: Total life, active hours-to-failure and period failure probability.
+
+Reported performance: Geology+geometry R².41(adj.38); hours-on regression R².75(adj.73), tree.82. Paired classifier TP30, FN12, FP18, TN24=>recall 71.43%, precision 62.5%. All-period fitted TP25, FN4, FP1, TN890=>recall 86.21%, precision 96.15%, but evaluated on fitting data; authors acknowledge optimism and unsuccessful small-data validation.
+
+Advantages: Distinguishes calendar time, active exposure and failure versus other stops.
+
+Limitations: Completed-run summaries leak future information if used as prospective predictors; only 29/42 failure cases; correlated features; no reliable external validation or forecast lead.
+
+Data feasibility: Surface concepts transferable, but SAGD steam/injector/geological inputs absent from stated sources. Ordinary water injection cannot substitute for SAGD steam variables.
+
+Complexity: Medium
+
+Prediction target: Exploratory lifetime association and final-period failure classification.
+
+Lead time qualification: Not quantified; source explicitly describes some predictions as failure happening.
+
+Signals: Current-defined periods, independent event labels and operating context.
+
+Source thresholds: Tree cutoffs are fitted retrospective partitions, not control settings.
+
+Implementation proposal: Use past-only rolling exposure; retain censored runs and competing shutdown reasons; assess survival models with independent future runs.
+
+Recommended future model: Censored survival/competing-risk model with past-only operating exposure.
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0661
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Compare calendar/active life models and event classification using motor-current-defined operating periods.
+
+Engineering context: SAGD changes rapidly; sparse comparable failure histories make conventional lifetime fits unreliable.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0662
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: ESP failure versus nonfailure shutdown
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0663
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Geology/trajectory plus whole-run or current-period summaries; 42 paired failure/non failure periods; all-period set 29 fail/891 nonfail.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0664
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Surface concepts transferable, but SAGD steam/injector/geological inputs absent from stated sources. Ordinary water injection cannot substitute for SAGD steam variables.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0665
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Current-period segmentation: Treat as one uninterrupted motor-current period.; Observed life association: Longer observed time-to-failure associated in this dataset.; Retrospective tree leaf 1: Fitted mean hours-on=1483.39 h
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0666
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not quantified; source explicitly describes some predictions as failure happening.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0667
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Geology+geometry R².41(adj.38); hours-on regression R².75(adj.73), tree.82. Paired classifier TP30, FN12, FP18, TN24=>recall 71.43%, precision 62.5%. All-period fitted TP25, FN4, FP1, TN890=>recall 86.21%, precision 96.15%, but evaluated on fitting data; authors acknowledge optimism and unsuccessful small-data validation.
+
+Engineering context: Completed-run summaries leak future information if used as prospective predictors; only 29/42 failure cases; correlated features; no reliable external validation or forecast lead.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0668
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Tree cutoffs are fitted retrospective partitions, not control settings.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0669
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Calendar versus active life; run versus current period; retrospective summary leakage.
+
+Engineering context: Run-state segmentation and shutdown reason verification.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0670
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Censored survival/competing-risk model with past-only operating exposure.
+
+Engineering context: Use past-only rolling exposure; retain censored runs and competing shutdown reasons; assess survival models with independent future runs.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0671
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: SAGD changes rapidly; sparse comparable failure histories make conventional lifetime fits unreliable.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0672
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0673
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Total life, active hours-to-failure and period failure probability.; an output must be interpreted within the reported validation.
+
+Engineering context: Completed-run summaries leak future information if used as prospective predictors; only 29/42 failure cases; correlated features; no reliable external validation or forecast lead.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0674
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not quantified; source explicitly describes some predictions as failure happening.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0675
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Geology/trajectory plus whole-run or current-period summaries; 42 paired failure/non failure periods; all-period set 29 fail/891 nonfail.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0676
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Surface concepts transferable, but SAGD steam/injector/geological inputs absent from stated sources. Ordinary water injection cannot substitute for SAGD steam variables.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0677
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0678
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Tree cutoffs are fitted retrospective partitions, not control settings.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0679
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0680
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Run-state segmentation and shutdown reason verification.
+
+Source report: reports/P34.md
+
+Review status: Pending
+
+Source caveats: Appendix tree/tables visually verified. Source prose alternates mean/min producer-choke summary names; tree uses MIN_MEDIAN. Higher R² does not establish prospective RUL accuracy.
+
+Source report: reports/P34.md. PDF page references refer to the original paper, not this text file.

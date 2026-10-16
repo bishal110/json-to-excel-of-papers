@@ -1,0 +1,1232 @@
+ESP research knowledge: P30
+
+Title: Real-Time Data and Expert System Combine to Develop Artificial Lift Predictive Diagnostics
+
+Authors: Thibault Blanckaert; Yves Marie Subervie
+
+Year: 2013
+
+Publication: SPE Production and Operations Symposium, Oklahoma City, 23–26 March; SPE164497
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P30-F01
+Type: Failures
+
+Failure or condition: Broken shaft
+
+Category: Pump
+
+Symptoms: Current/torque fall; flow rapidly→0; PIP rises; motor temperature rises.
+
+Root causes: Shaft no longer transfers torque.
+
+Consequences: Lost delivery, stress or eventual damage depending condition.
+
+Field indicators: Current/torque fall; flow rapidly→0; PIP rises; motor temperature rises.
+
+Confidence level: Medium
+
+Confidence basis: Medium; pattern requires full context
+
+PDF pages: pp.3
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-F02
+Type: Failures
+
+Failure or condition: Pump wear
+
+Category: Pump
+
+Symptoms: Vibration↑, efficiency/current/flow↓, PIP↑.
+
+Root causes: Progressive mechanical wear.
+
+Consequences: Lost delivery, stress or eventual damage depending condition.
+
+Field indicators: Vibration↑, efficiency/current/flow↓, PIP↑.
+
+Confidence level: Medium
+
+Confidence basis: Medium; pattern requires full context
+
+PDF pages: p.3
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-F03
+Type: Failures
+
+Failure or condition: Gauge fault
+
+Category: Sensor
+
+Symptoms: Inaccurate electrical/downhole readings.
+
+Root causes: Connection error or short circuit; source Cf/Cl/Cl-a details not fully specified.
+
+Consequences: Lost delivery, stress or eventual damage depending condition.
+
+Field indicators: Inaccurate electrical/downhole readings.
+
+Confidence level: Medium
+
+Confidence basis: Medium; pattern requires full context
+
+PDF pages: p.3
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-F04
+Type: Failures
+
+Failure or condition: Low flow
+
+Category: Pump
+
+Symptoms: Low speed, current↓, PIP↑, PDP↓, motor temperature↑; WHP response depends on choke.
+
+Root causes: Insufficient developed head/duty for system demand.
+
+Consequences: Lost delivery, stress or eventual damage depending condition.
+
+Field indicators: Low speed, current↓, PIP↑, PDP↓, motor temperature↑; WHP response depends on choke.
+
+Confidence level: Medium
+
+Confidence basis: Medium; pattern requires full context
+
+PDF pages: p.4
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-F05
+Type: Failures
+
+Failure or condition: Deadhead
+
+Category: Surface Network
+
+Symptoms: PDP/PIP and differential pressure rise; motor temperature↑; WHP helps locate restriction.
+
+Root causes: Restriction above ESP, including closed surface valve.
+
+Consequences: Lost delivery, stress or eventual damage depending condition.
+
+Field indicators: PDP/PIP and differential pressure rise; motor temperature↑; WHP helps locate restriction.
+
+Confidence level: Medium
+
+Confidence basis: Medium; pattern requires full context
+
+PDF pages: pp.4, 12–13
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-F06
+Type: Failures
+
+Failure or condition: Gas ingestion
+
+Category: Pump
+
+Symptoms: Unstable PIP/current/motor temperature; flow↓.
+
+Root causes: Drawdown/free gas at low intake pressure.
+
+Consequences: Lost delivery, stress or eventual damage depending condition.
+
+Field indicators: Unstable PIP/current/motor temperature; flow↓.
+
+Confidence level: Medium
+
+Confidence basis: Medium; pattern requires full context
+
+PDF pages: p.5
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-F07
+Type: Failures
+
+Failure or condition: Pump-off
+
+Category: Reservoir
+
+Symptoms: No cases in field-event table; mechanism not separately quantified.
+
+Root causes: Insufficient supply relative to withdrawal.
+
+Consequences: Lost delivery, stress or eventual damage depending condition.
+
+Field indicators: No cases in field-event table; mechanism not separately quantified.
+
+Confidence level: Medium
+
+Confidence basis: Medium; pattern requires full context
+
+PDF pages: p.12
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D01
+Type: Rules
+
+Rule name: Broken shaft
+
+Source status: candidate_requires_local_validation
+
+IF: Current/torque fall; flow rapidly→0; PIP rises; motor temperature rises.
+
+AND: Valid reference and sufficient available inputs
+
+THEN: Broken shaft candidate
+
+Engineering explanation: Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.3
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D02
+Type: Rules
+
+Rule name: Pump wear
+
+Source status: candidate_requires_local_validation
+
+IF: Vibration↑, efficiency/current/flow↓, PIP↑.
+
+AND: Valid reference and sufficient available inputs
+
+THEN: Pump wear candidate
+
+Engineering explanation: Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.3
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D03
+Type: Rules
+
+Rule name: Gauge fault
+
+Source status: candidate_requires_local_validation
+
+IF: Inaccurate electrical/downhole readings.
+
+AND: Valid reference and sufficient available inputs
+
+THEN: Gauge fault candidate
+
+Engineering explanation: Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.3
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D04
+Type: Rules
+
+Rule name: Low flow
+
+Source status: candidate_requires_local_validation
+
+IF: Low speed, current↓, PIP↑, PDP↓, motor temperature↑; WHP response depends on choke.
+
+AND: Valid reference and sufficient available inputs
+
+THEN: Low flow candidate
+
+Engineering explanation: Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.4
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D05
+Type: Rules
+
+Rule name: Deadhead
+
+Source status: candidate_requires_local_validation
+
+IF: PDP/PIP and differential pressure rise; motor temperature↑; WHP helps locate restriction.
+
+AND: Valid reference and sufficient available inputs
+
+THEN: Deadhead candidate
+
+Engineering explanation: Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Recommended actions: condition: Deadhead; immediate: Verify pressure pattern and actual valve status with operations.; short_term: Follow approved restriction/valve correction and restart process.; attribution: pp.12–13
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.4, 12–13
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D06
+Type: Rules
+
+Rule name: Gas ingestion
+
+Source status: candidate_requires_local_validation
+
+IF: Unstable PIP/current/motor temperature; flow↓.
+
+AND: Valid reference and sufficient available inputs
+
+THEN: Gas ingestion candidate
+
+Engineering explanation: Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.5
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D07
+Type: Rules
+
+Rule name: Missing-input gate
+
+Source status: candidate_requires_local_validation
+
+IF: Two or more crucial inputs absent
+
+AND: Crucial set={PIP, PDP, frequency}
+
+THEN: Do not run diagnosis as relevant/accurate.
+
+Engineering explanation: Source says one missing crucial can be tolerated, but two makes diagnosis useless.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source says one missing crucial can be tolerated, but two makes diagnosis useless.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High for source constraint
+
+PDF pages: p.14
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D08
+Type: Rules
+
+Rule name: Optional-input gate
+
+Source status: candidate_requires_local_validation
+
+IF: Three or more optional inputs absent
+
+AND: Optional set={delta P, average amps, voltage, WHP, WHT}
+
+THEN: Abstain or seek engineer review.
+
+Engineering explanation: Source limitation; not a universal information-theory rule.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source limitation; not a universal information-theory rule.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High for source constraint
+
+PDF pages: p.14
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-D09
+Type: Rules
+
+Rule name: Probabilistic alert
+
+Source status: candidate_requires_local_validation
+
+IF: Event probability exceeds~75%
+
+AND: Reference/data gates pass
+
+THEN: Send event advisory.
+
+Engineering explanation: Expert probability tables are not necessarily statistically calibrated.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Expert probability tables are not necessarily statistically calibrated.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.13
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-I01
+Type: Indicators
+
+Indicator: Broken shaft pattern
+
+Physical meaning: Shaft no longer transfers torque.
+
+Required parameters: Current/torque fall; flow rapidly→0; PIP rises; motor temperature rises.
+
+Typical trend: Current/torque fall; flow rapidly→0; PIP rises; motor temperature rises.
+
+Lead time qualification: No uniform failure lead; 10 events detected≥1 h before engineer report, not necessarily before physical onset.
+
+Relevant channels: ESP Current, Intake Pressure, Temperature; flow and torque also used
+
+Avalon availability: Unknown
+
+PDF pages: pp.3
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-I02
+Type: Indicators
+
+Indicator: Pump wear pattern
+
+Physical meaning: Progressive mechanical wear.
+
+Required parameters: Vibration↑, efficiency/current/flow↓, PIP↑.
+
+Typical trend: Vibration↑, efficiency/current/flow↓, PIP↑.
+
+Lead time qualification: No uniform failure lead; 10 events detected≥1 h before engineer report, not necessarily before physical onset.
+
+Relevant channels: Vibration, ESP Current, Intake Pressure; flow and efficiency also used
+
+Avalon availability: Unknown
+
+PDF pages: p.3
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-I03
+Type: Indicators
+
+Indicator: Gauge fault pattern
+
+Physical meaning: Connection error or short circuit; source Cf/Cl/Cl-a details not fully specified.
+
+Required parameters: Inaccurate electrical/downhole readings.
+
+Typical trend: Inaccurate electrical/downhole readings.
+
+Lead time qualification: No uniform failure lead; 10 events detected≥1 h before engineer report, not necessarily before physical onset.
+
+Relevant channels: Voltage, ESP Current, Intake Pressure, Discharge Pressure; channel-specific corroboration required
+
+Avalon availability: Unknown
+
+PDF pages: p.3
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-I04
+Type: Indicators
+
+Indicator: Low flow pattern
+
+Physical meaning: Insufficient developed head/duty for system demand.
+
+Required parameters: Low speed, current↓, PIP↑, PDP↓, motor temperature↑; WHP response depends on choke.
+
+Typical trend: Low speed, current↓, PIP↑, PDP↓, motor temperature↑; WHP response depends on choke.
+
+Lead time qualification: No uniform failure lead; 10 events detected≥1 h before engineer report, not necessarily before physical onset.
+
+Relevant channels: ESP Current, Frequency, Intake Pressure, Discharge Pressure, Temperature, Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: p.4
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-I05
+Type: Indicators
+
+Indicator: Deadhead pattern
+
+Physical meaning: Restriction above ESP, including closed surface valve.
+
+Required parameters: PDP/PIP and differential pressure rise; motor temperature↑; WHP helps locate restriction.
+
+Typical trend: PDP/PIP and differential pressure rise; motor temperature↑; WHP helps locate restriction.
+
+Lead time qualification: No uniform failure lead; 10 events detected≥1 h before engineer report, not necessarily before physical onset.
+
+Relevant channels: Intake Pressure, Discharge Pressure, Temperature, Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp.4, 12–13
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-I06
+Type: Indicators
+
+Indicator: Gas ingestion pattern
+
+Physical meaning: Drawdown/free gas at low intake pressure.
+
+Required parameters: Unstable PIP/current/motor temperature; flow↓.
+
+Typical trend: Unstable PIP/current/motor temperature; flow↓.
+
+Lead time qualification: No uniform failure lead; 10 events detected≥1 h before engineer report, not necessarily before physical onset.
+
+Relevant channels: Intake Pressure, ESP Current, Temperature; flow also used
+
+Avalon availability: Unknown
+
+PDF pages: p.5
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-A01
+Type: Actions
+
+Condition: Deadhead
+
+Immediate actions: Verify pressure pattern and actual valve status with operations.
+
+Short term actions: Follow approved restriction/valve correction and restart process.
+
+Long term actions: Correct valve-status monitoring and operational cause.
+
+Prevention: Track restriction patterns with operating context.
+
+Expected benefit: Restore flow and avoid heating.
+
+Production impact: Case returned to normal after closed valve corrected; volume not quantified.
+
+Attribution: pp.12–13
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-A02
+Type: Actions
+
+Condition: Low flow/gas/wear
+
+Immediate actions: Verify supply, head, temperature, frequency and reference levels.
+
+Short term actions: Engineer duty/choke/frequency correction appropriate to confirmed condition; assess wear for intervention.
+
+Long term actions: Update reference after control changes and track persistent stress.
+
+Prevention: Maintain condition-specific baselines and missing-input gates.
+
+Expected benefit: Reduce damaging stress and time to diagnosis.
+
+Production impact: No controlled production gain.
+
+Attribution: pp.3–5, 13–15
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P30-M01
+Type: AI Models
+
+Model type: Bayesian/HMM-like piecewise signal segmentation (top 200 paths), trend/noise/correlation probabilities, expert Bayesian network with manually/equation-set CPTs.
+
+Inputs: Minute telemetry and physical/reference knowledge.
+
+Outputs: Probabilities of stress patterns and failures.
+
+Reported performance: 57 field/offline events: 37 low flow, 12 deadhead, 6 gas, 2 mechanical; 14 missed by engineer, 10≥1 h earlier, 1 wrong diagnosis later addressed, 32 same-time. Additional 22 proof-of-concept=>79 total; no independent healthy-time denominator or fleet false alarm rate.
+
+Advantages: Interpretable uncertainty and explicitly limited missing-input handling.
+
+Limitations: Reference tuning after frequency change;~5% unusual wells require tuning; incomplete sensors+unusual conditions degrade accuracy; 57 event selection does not prove universal 100% recall.
+
+Data feasibility: Some partial-sensor cases supported, 17/79 events with≥1 missing parameter. Loss ofboth PIP/PDP violates source crucial-input gate; surface-only cannot claim this method's diagnostic performance.
+
+Complexity: High
+
+Prediction target: Stress-pattern detection before possible damage; existing fault diagnosis.
+
+Lead time qualification: 10/57 events≥1 h before engineer report; stress-to-failure time not calibrated.
+
+Signals: Eight core inputs with quality/reference context.
+
+Source thresholds: ~75% event probability; trend threshold examples~40% strong change,~5% wear; sensor-resolution-specific noise limits.
+
+Implementation proposal: Implement explainable candidate logic first; calibrate priors locally, abstain on missing critical evidence; measure alarm workload and confirmed outcomes.
+
+Recommended future model: Bayesian diagnostic ranking and causal change-point feature extractor.
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0581
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Convert Bayesian signal segmentation into probabilistic physical diagnoses and stress-pattern warnings.
+
+Engineering context: 150 wells generate>2000 alerts/day, only 5–10 requiring follow-up; alarm overload delays diagnosis.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0582
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Broken shaft; Pump wear; Gauge fault; Low flow; Deadhead; Gas ingestion; Pump-off
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0583
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Minute telemetry and physical/reference knowledge.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0584
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Some partial-sensor cases supported, 17/79 events with≥1 missing parameter. Loss ofboth PIP/PDP violates source crucial-input gate; surface-only cannot claim this method's diagnostic performance.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0585
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Broken shaft: Broken shaft candidate; Pump wear: Pump wear candidate; Gauge fault: Gauge fault candidate
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0586
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: 10/57 events≥1 h before engineer report; stress-to-failure time not calibrated.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0587
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: 57 field/offline events: 37 low flow, 12 deadhead, 6 gas, 2 mechanical; 14 missed by engineer, 10≥1 h earlier, 1 wrong diagnosis later addressed, 32 same-time. Additional 22 proof-of-concept=>79 total; no independent healthy-time denominator or fleet false alarm rate.
+
+Engineering context: Reference tuning after frequency change;~5% unusual wells require tuning; incomplete sensors+unusual conditions degrade accuracy; 57 event selection does not prove universal 100% recall.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0588
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: ~75% event probability; trend threshold examples~40% strong change,~5% wear; sensor-resolution-specific noise limits.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0589
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Stress versus failure; missing-input gates; reference conditioning; event-specific checks.
+
+Engineering context: Low flow, deadhead, gas, wear, shaft and gauge candidates.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0590
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Bayesian diagnostic ranking and causal change-point feature extractor.
+
+Engineering context: Implement explainable candidate logic first; calibrate priors locally, abstain on missing critical evidence; measure alarm workload and confirmed outcomes.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0591
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: 150 wells generate>2000 alerts/day, only 5–10 requiring follow-up; alarm overload delays diagnosis.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0592
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify pressure pattern and actual valve status with operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0593
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Probabilities of stress patterns and failures.; an output must be interpreted within the reported validation.
+
+Engineering context: Reference tuning after frequency change;~5% unusual wells require tuning; incomplete sensors+unusual conditions degrade accuracy; 57 event selection does not prove universal 100% recall.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0594
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: 10/57 events≥1 h before engineer report; stress-to-failure time not calibrated.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0595
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Minute telemetry and physical/reference knowledge.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0596
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Some partial-sensor cases supported, 17/79 events with≥1 missing parameter. Loss ofboth PIP/PDP violates source crucial-input gate; surface-only cannot claim this method's diagnostic performance.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0597
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Follow approved restriction/valve correction and restart process.
+
+Engineering context: pp.12–13
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0598
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: ~75% event probability; trend threshold examples~40% strong change,~5% wear; sensor-resolution-specific noise limits.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0599
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0600
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Low flow, deadhead, gas, wear, shaft and gauge candidates.
+
+Source report: reports/P30.md
+
+Review status: Pending
+
+Source caveats: Correlation loss is not proof a causal link is broken. Conclusion percentages 20/15% differ from detailed table 25/18%; retain table counts. Abstract missing-data robustness does not imply fully sensorless operation.
+
+Source report: reports/P30.md. PDF page references refer to the original paper, not this text file.

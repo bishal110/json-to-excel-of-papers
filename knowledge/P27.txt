@@ -1,0 +1,838 @@
+ESP research knowledge: P27
+
+Title: Predictive Approach to Perform Fault Detection in Electrical Submersible Pump Systems
+
+Authors: Long Peng; Guoqing Han; Xianfu Sui; Arnold Landjobo Pagou; Liying Zhu; Jin Shu
+
+Year: 2021
+
+Publication: ACS Omega 6, 8104–8111
+
+DOI: 10.1021/acsomega.0c05808
+
+Related study group: None assigned
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P27-F01
+Type: Failures
+
+Failure or condition: Centrifugal pump failure
+
+Category: Pump
+
+Symptoms: Not individually specified.
+
+Root causes: Component-level categories; root causes not uniquely diagnosed.
+
+Consequences: ESP loss or diminished delivery.
+
+Field indicators: PCA departure; corroboration required.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Fig.5 p.4; pp.1, 5
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-F02
+Type: Failures
+
+Failure or condition: Cable failure
+
+Category: Cable
+
+Symptoms: Not individually specified.
+
+Root causes: Component-level categories; root causes not uniquely diagnosed.
+
+Consequences: ESP loss or diminished delivery.
+
+Field indicators: PCA departure; corroboration required.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Fig.5 p.4; pp.1, 5
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-F03
+Type: Failures
+
+Failure or condition: Pump broken shaft
+
+Category: Pump
+
+Symptoms: May occur without precursor.
+
+Root causes: Component-level categories; root causes not uniquely diagnosed.
+
+Consequences: ESP loss or diminished delivery.
+
+Field indicators: PCA departure; corroboration required.
+
+Confidence level: Medium
+
+Confidence basis: Medium for absence-of-warning limitation
+
+PDF pages: Fig.5 p.4; pp.1, 5
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-F04
+Type: Failures
+
+Failure or condition: Pump protector broken shaft
+
+Category: Pump
+
+Symptoms: May occur without precursor.
+
+Root causes: Component-level categories; root causes not uniquely diagnosed.
+
+Consequences: ESP loss or diminished delivery.
+
+Field indicators: PCA departure; corroboration required.
+
+Confidence level: Medium
+
+Confidence basis: Medium for absence-of-warning limitation
+
+PDF pages: Fig.5 p.4; pp.1, 5
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-F05
+Type: Failures
+
+Failure or condition: Motor failure
+
+Category: Motor
+
+Symptoms: Current, voltage or temperature abnormal before some failures.
+
+Root causes: Component-level categories; root causes not uniquely diagnosed.
+
+Consequences: ESP loss or diminished delivery.
+
+Field indicators: PCA departure; corroboration required.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Fig.5 p.4; pp.1, 5
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-F06
+Type: Failures
+
+Failure or condition: Unbalanced motor three-phase direct resistance
+
+Category: Motor
+
+Symptoms: Not individually specified.
+
+Root causes: Component-level categories; root causes not uniquely diagnosed.
+
+Consequences: ESP loss or diminished delivery.
+
+Field indicators: PCA departure; corroboration required.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Fig.5 p.4; pp.1, 5
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-F07
+Type: Failures
+
+Failure or condition: Other failures
+
+Category: Pump
+
+Symptoms: Not individually specified.
+
+Root causes: Component-level categories; root causes not uniquely diagnosed.
+
+Consequences: ESP loss or diminished delivery.
+
+Field indicators: PCA departure; corroboration required.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Fig.5 p.4; pp.1, 5
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-F08
+Type: Failures
+
+Failure or condition: Pump intake blockage
+
+Category: Pump
+
+Symptoms: Not individually specified.
+
+Root causes: Component-level categories; root causes not uniquely diagnosed.
+
+Consequences: ESP loss or diminished delivery.
+
+Field indicators: PCA departure; corroboration required.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: Fig.5 p.4; pp.1, 5
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-D01
+Type: Rules
+
+Rule name: Sphere anomaly
+
+Source status: candidate_requires_local_validation
+
+IF: New PC score distance exceeds healthy sphere radius
+
+AND: Training transform and comparable valid operating state used
+
+THEN: Flag abnormal operation for investigation.
+
+Engineering explanation: Center least-squares fitted; radius max healthy distance. Does not identify cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Center least-squares fitted; radius max healthy distance. Does not identify cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.4
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-D02
+Type: Rules
+
+Rule name: Abrupt shaft limitation
+
+Source status: candidate_requires_local_validation
+
+IF: Shaft failure has no measured precursor
+
+AND: Signals stayed normal before event
+
+THEN: Allow event detection without claiming prediction.
+
+Engineering explanation: Observed model limitation, not proof all shaft failures unforecastable.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Observed model limitation, not proof all shaft failures unforecastable.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.5
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-I01
+Type: Indicators
+
+Indicator: Outside healthy PC sphere
+
+Physical meaning: Multivariate departure from training state.
+
+Required parameters: 13 variables transformed to 3 PCs.
+
+Typical trend: Distance from fitted center exceeds maximum healthy radius.
+
+Lead time qualification: 20/47 events preceded; no quantified lead distribution.
+
+Relevant channels: ESP Current, Voltage, Frequency, Intake Pressure, Discharge Pressure, Temperature, Vibration, Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp.3–7
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P27-M01
+Type: AI Models
+
+Model type: PCA to 3 dimensions plus least-squares enclosing sphere.
+
+Inputs: 13 variables, 20 min samples, 174538 stable records from 47 wells; 40 normal comparison wells use daily report data.
+
+Outputs: Stable versus anomalous/failure trajectory.
+
+Reported performance: TP20, FN27, TN40, FP0; event recall 42.55%, calculated overall accuracy 68.97%, observed precision 100% in this small selected sample. Paper calls 42.5%'accuracy' but it is failure recall.3 PCs retain~70% variance.
+
+Advantages: Simple interpretable healthy-boundary monitor; explicitly reports missed failures.
+
+Limitations: Normal/failure sampling resolution differs; only 70% variance retained; 20 min samples miss fast dynamics; same wells contribute healthy/failure periods; small selected normal set.
+
+Data feasibility: Needs 13 inputs including downhole signals and choke. Sensor-lost model requires new baseline and separate validation; daily Excel context does not recreate 20 min telemetry.
+
+Complexity: Medium
+
+Prediction target: Some developing faults; abrupt failures may only be detected.
+
+Lead time qualification: Unquantified; 20 events before recorded failure.
+
+Signals: 13 synchronized channels with mode/quality metadata.
+
+Source thresholds: Maximum training distance, not physical safety limit.
+
+Implementation proposal: Use high-frequency Avalon data and regime-specific baselines; compare PCA residual/SPE and T² with sphere; test independent runs and record false alerts per operating hour.
+
+Recommended future model: PCA baseline with both retained-space and residual-space monitoring.
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0521
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Detect departures outside a healthy three-PC sphere from 13 ESP variables.
+
+Engineering context: Developing faults are missed by manual/current-only surveillance.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0522
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Centrifugal pump failure; Cable failure; Pump broken shaft; Pump protector broken shaft; Motor failure; Unbalanced motor three-phase direct resistance; Other failures; Pump intake blockage
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0523
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 13 variables, 20 min samples, 174538 stable records from 47 wells; 40 normal comparison wells use daily report data.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0524
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Needs 13 inputs including downhole signals and choke. Sensor-lost model requires new baseline and separate validation; daily Excel context does not recreate 20 min telemetry.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0525
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Sphere anomaly: Flag abnormal operation for investigation.; Abrupt shaft limitation: Allow event detection without claiming prediction.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0526
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Unquantified; 20 events before recorded failure.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0527
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: TP20, FN27, TN40, FP0; event recall 42.55%, calculated overall accuracy 68.97%, observed precision 100% in this small selected sample. Paper calls 42.5%'accuracy' but it is failure recall.3 PCs retain~70% variance.
+
+Engineering context: Normal/failure sampling resolution differs; only 70% variance retained; 20 min samples miss fast dynamics; same wells contribute healthy/failure periods; small selected normal set.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0528
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Maximum training distance, not physical safety limit.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0529
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Recall correction; sampling-rate limitation; abrupt versus progressive failure.
+
+Engineering context: Persistent anomaly with signal contributions, not root-cause assertion.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0530
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: PCA baseline with both retained-space and residual-space monitoring.
+
+Engineering context: Use high-frequency Avalon data and regime-specific baselines; compare PCA residual/SPE and T² with sphere; test independent runs and record false alerts per operating hour.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0531
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Developing faults are missed by manual/current-only surveillance.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0532
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0533
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Stable versus anomalous/failure trajectory.; an output must be interpreted within the reported validation.
+
+Engineering context: Normal/failure sampling resolution differs; only 70% variance retained; 20 min samples miss fast dynamics; same wells contribute healthy/failure periods; small selected normal set.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0534
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Unquantified; 20 events before recorded failure.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0535
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 13 variables, 20 min samples, 174538 stable records from 47 wells; 40 normal comparison wells use daily report data.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0536
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Needs 13 inputs including downhole signals and choke. Sensor-lost model requires new baseline and separate validation; daily Excel context does not recreate 20 min telemetry.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0537
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0538
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Maximum training distance, not physical safety limit.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0539
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0540
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Persistent anomaly with signal contributions, not root-cause assertion.
+
+Source report: reports/P27.md
+
+Review status: Pending
+
+Source caveats: Figure 5 visually verified lists 6 specific categories plus Other despite text 'six'. No 100% reliability inference from 40 normal cases.
+
+Source report: reports/P27.md. PDF page references refer to the original paper, not this text file.

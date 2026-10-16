@@ -32,4 +32,3 @@ Counts include overlapping sources; they are not counts of unique validated fail
 The [37 detailed reports](reports) retain all 12 requested sections and final outputs A–F. [Project recommendations](docs/PROJECT_SYNTHESIS.md) and [evidence limitations](docs/EVIDENCE_AND_LIMITATIONS.md) explain applicability to offshore wells and missing downhole sensors.
 
 The repository contains derived knowledge and citations. Original PDFs, local filesystem paths, well telemetry and credentials are not included. Avalon tag availability is unverified until mapped against actual field data. No Copilot connection or live model has been deployed.
-

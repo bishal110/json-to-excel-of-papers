@@ -1,0 +1,19 @@
+{
+  "workbook_sha256": "f4f422e920995cdbe12167f62ab5d9794968d131d88e27ae9a139226c47cf332",
+  "tables": {
+    "Failures": 315,
+    "Rules": 177,
+    "Indicators": 78,
+    "Actions": 68,
+    "Parameters": 631,
+    "AI Models": 37,
+    "Q and A": 740,
+    "Papers": 37,
+    "Study Groups": 3,
+    "Data Dictionary": 119
+  },
+  "knowledge_records": 1415,
+  "rejected_rows_excluded_from_knowledge": true,
+  "pending_rows_included_as_research_reference": true,
+  "source_json_role": "Original extraction snapshot; does not receive workbook edits."
+}

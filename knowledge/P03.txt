@@ -1,0 +1,1248 @@
+ESP research knowledge: P03
+
+Title: Application of a Fuzzy Expert System to Analyze and Anticipate ESP Failure Modes
+
+Authors: David Grassian; Mohammed Bahatem; Trevor Scott; Daniel Olsen
+
+Year: 2017
+
+Publication: Abu Dhabi International Petroleum Exhibition & Conference, 13–16 November; SPE-188305-MS
+
+DOI: Not printed; SPE-188305-MS is the paper identifier
+
+Related study group: None assigned
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P03-F01
+Type: Failures
+
+Failure or condition: Change in fluids
+
+Category: Reservoir
+
+Symptoms: Rule R1 trend vector
+
+Root causes: Fluid property/composition changes; not established by teardown
+
+Consequences: Changed hydraulic/electrical response
+
+Field indicators: R1 in Section 6
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F02
+Type: Failures
+
+Failure or condition: Closed valve
+
+Category: Surface Network
+
+Symptoms: R2 vector
+
+Root causes: Valve closure
+
+Consequences: Reduced flow / pressure redistribution
+
+Field indicators: R2
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F03
+Type: Failures
+
+Failure or condition: Plugged tubing
+
+Category: Surface Network
+
+Symptoms: R3 vector
+
+Root causes: Restriction, material unspecified
+
+Consequences: Reduced delivery
+
+Field indicators: R3
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5; tubing is downhole despite forced category
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F04
+Type: Failures
+
+Failure or condition: Plugged pump / sand or scale sticking
+
+Category: Pump
+
+Symptoms: R4 vector; some cases labeled pump stuck
+
+Root causes: Sand; gas/scale listed as possible causes
+
+Consequences: Loss of lift
+
+Field indicators: R4; case labels
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 5, 8
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F05
+Type: Failures
+
+Failure or condition: Tubing leak
+
+Category: Surface Network
+
+Symptoms: R5 vector
+
+Root causes: Integrity loss
+
+Consequences: Delivery loss
+
+Field indicators: R5
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5; downhole tubing
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F06
+Type: Failures
+
+Failure or condition: Gas locking / gas-stuck pump
+
+Category: Pump
+
+Symptoms: R6 vector; case labels gas
+
+Root causes: Gas loading; actual root causes unconfirmed
+
+Consequences: Lift failure
+
+Field indicators: R6
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 5, 8
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F07
+Type: Failures
+
+Failure or condition: Reverse rotation
+
+Category: Pump
+
+Symptoms: R7 vector
+
+Root causes: Rotation problem; mechanism not validated
+
+Consequences: Low hydraulic output
+
+Field indicators: R7
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F08
+Type: Failures
+
+Failure or condition: Broken shaft
+
+Category: Pump
+
+Symptoms: R8 vector
+
+Root causes: Mechanical breakage
+
+Consequences: Loss of lift
+
+Field indicators: R8
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F09
+Type: Failures
+
+Failure or condition: Worn pump
+
+Category: Pump
+
+Symptoms: R9 vector
+
+Root causes: Progressive wear, potentially over years
+
+Consequences: Efficiency/head loss
+
+Field indicators: R9
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 5, 10
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-F10
+Type: Failures
+
+Failure or condition: Platform/generator/ESP trips
+
+Category: Surface Network
+
+Symptoms: Start/stop discontinuities
+
+Root causes: Planned shutdown or trip; not necessarily pump failure
+
+Consequences: Production interruption and distorted trend
+
+Field indicators: Run state/event record
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 8–10
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D01
+Type: Rules
+
+Rule name: R1 fluid change
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C; current C; PIP I
+
+AND: Motor temperature C or D; flow I; tubing pressure C or I; PDP C or I; intake temperature C or D
+
+THEN: Fluid-change hypothesis
+
+Engineering explanation: C=constant, I=increasing, D=decreasing normalized slope
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. C=constant, I=increasing, D=decreasing normalized slope
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D02
+Type: Rules
+
+Rule name: R2 closed valve
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C; current D; PIP I
+
+AND: Motor temperature I; flow D; tubing pressure I; PDP I; intake temperature I
+
+THEN: Closed-valve hypothesis
+
+Engineering explanation: Inherited fuzzy rule; not validated root cause
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Inherited fuzzy rule; not validated root cause
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D03
+Type: Rules
+
+Rule name: R3 plugged tubing
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C; current D; PIP I
+
+AND: Motor temperature I; flow D; tubing pressure D; PDP I; intake temperature I
+
+THEN: Plugged-tubing hypothesis
+
+Engineering explanation: Distinguishes restriction location through pressure pattern
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Distinguishes restriction location through pressure pattern
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D04
+Type: Rules
+
+Rule name: R4 plugged pump
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C; current D; PIP I
+
+AND: Motor temperature I; flow D; tubing pressure D; PDP D; intake temperature I
+
+THEN: Plugged-pump hypothesis
+
+Engineering explanation: Identical to R8/R9 in printed table
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Identical to R8/R9 in printed table
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D05
+Type: Rules
+
+Rule name: R5 tubing leak
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C; current C or D; PIP I
+
+AND: Motor temperature I; flow D; tubing pressure D; PDP C; intake temperature I
+
+THEN: Tubing-leak hypothesis
+
+Engineering explanation: Requires integrity confirmation
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Requires integrity confirmation
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D06
+Type: Rules
+
+Rule name: R6 gas lock
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C; current D; PIP C or I
+
+AND: Motor temperature I; flow D; tubing pressure D; PDP D; intake temperature I
+
+THEN: Gas-lock hypothesis
+
+Engineering explanation: Other loss-of-head modes overlap
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Other loss-of-head modes overlap
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D07
+Type: Rules
+
+Rule name: R7 reverse rotation
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C or D; current D; PIP I
+
+AND: Motor temperature C or I; flow D; tubing pressure D; PDP C or D; intake temperature C or I
+
+THEN: Reverse-rotation hypothesis
+
+Engineering explanation: Requires rotation/electrical investigation
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Requires rotation/electrical investigation
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D08
+Type: Rules
+
+Rule name: R8 broken shaft
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C; current D; PIP I
+
+AND: Motor temperature I; flow D; tubing pressure D; PDP D; intake temperature I
+
+THEN: Broken-shaft hypothesis
+
+Engineering explanation: Printed premises match R4/R9 exactly
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Printed premises match R4/R9 exactly
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D09
+Type: Rules
+
+Rule name: R9 worn pump
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency C; current D; PIP I
+
+AND: Motor temperature I; flow D; tubing pressure D; PDP D; intake temperature I
+
+THEN: Worn-pump hypothesis
+
+Engineering explanation: Printed premises match R4/R8 exactly
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Printed premises match R4/R8 exactly
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5 Fig. 4
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-D10
+Type: Rules
+
+Rule name: Trend risk
+
+Source status: candidate_requires_local_validation
+
+IF: Seven-day aggregate premise/rule activity elevated
+
+AND: Check data interruptions and operating changes first
+
+THEN: Request engineering review; do not claim unique cause
+
+Engineering explanation: Qualitative failed-versus-running separation only
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Qualitative failed-versus-running separation only
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 9–10
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-I01
+Type: Indicators
+
+Indicator: Seven-day fuzzy premise activity
+
+Physical meaning: Several observed slopes depart from constant behavior
+
+Required parameters: Eight trend inputs
+
+Typical trend: More premises activated in failed cases
+
+Lead time qualification: Retrospective seven-day window; prospective warning time not established
+
+Relevant channels: ESP Current; Frequency; Intake Pressure; Discharge Pressure; Temperature; Oil Rate; Water Rate; Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp. 8–10
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-I02
+Type: Indicators
+
+Indicator: Longer-term wear trend
+
+Physical meaning: Slow change that short windows can miss
+
+Required parameters: Head/rate/electrical history
+
+Typical trend: Gradual degradation
+
+Lead time qualification: May develop over years; not a measured prediction horizon
+
+Relevant channels: ESP Current; Frequency; Intake Pressure; Discharge Pressure; Oil Rate; Water Rate
+
+Avalon availability: Unknown
+
+PDF pages: p. 10
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-A01
+Type: Actions
+
+Condition: Elevated fuzzy activity
+
+Immediate actions: Review actual trends and event timeline
+
+Short term actions: Investigate competing causes; compare hydraulic and electrical evidence
+
+Long term actions: Capture confirmed failures and expand rules
+
+Prevention: Calibrate per variable/well and remove stop/start distortion
+
+Expected benefit: More consistent triage
+
+Production impact: No quantified recovery or avoided failure
+
+Attribution: pp. 9–10; proposed operationalization
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-A02
+Type: Actions
+
+Condition: Poor rule discrimination
+
+Immediate actions: Do not issue a unique root-cause label
+
+Short term actions: Inspect unit scaling, overlapping premises and missing modes
+
+Long term actions: Develop unit-aware/configuration-specific membership functions
+
+Prevention: Validate against teardown-confirmed failures
+
+Expected benefit: Reduce misleading diagnoses
+
+Production impact: Not quantified
+
+Attribution: Author corrections pp. 9–10
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P03-M01
+Type: AI Models
+
+Model type: Spreadsheet fuzzy inference; triangular memberships; product AND, OR and Most-of coupling; rank DOF directly without separate defuzzification
+
+Inputs: Eight daily-median trend variables; slopes normalized with arctangent
+
+Outputs: Scores for nine failure-mode hypotheses and possible generic risk indication
+
+Reported performance: No validated accuracy. System did not identify actual root causes in five failures. Many zero premises defeated product AND; Most-of remained low. Table 2 includes example scores, not probabilities.
+
+Advantages: Transparent and spreadsheet-compatible; offshore dataset and explicit rule matrix.
+
+Limitations: Nine selected wells; actual causes not established; scale/unit-sensitive arctangent; common memberships; trip contamination; three identical rule vectors; 30/60-day gaps.
+
+Data feasibility: Avalon+production+surface-pressure data could support full rules only where all eight inputs exist. Lost PIP/PDP/temperature makes published rules incomplete; do not replace missing conditions by true.
+
+Complexity: Medium
+
+Prediction target: Possible developing distress/risk, not specific failure or RUL.
+
+Lead time qualification: 7/30/60 days are analysis windows, not proven warning lead times.
+
+Signals: Eight signals plus event masks and confirmed outcomes.
+
+Source thresholds: Figure 3 prints D=(-100,-0.6,-0.2), C=(-0.5, 0, 0.5), I=(0.2, 0.6,100). Curve shoulders and text's triangle notation need careful implementation; no validated alert DOF threshold.
+
+Implementation proposal: Implement as explainable hypothesis scores, with unit-consistent slopes, event segmentation and missing-signal coverage; validate specificity before operational use.
+
+Recommended future model: Unit-aware fuzzy risk triage; learned membership functions; comparison with supervised failure labels.
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0041
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Test a spreadsheet fuzzy expert system for developing failure modes and retrospective root causes in offshore ESPs.
+
+Engineering context: Inconsistent expert-dependent surveillance of many complex ESP systems; inherited rule sets may not discriminate actual failures.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0042
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Change in fluids; Closed valve; Plugged tubing; Plugged pump / sand or scale sticking; Tubing leak; Gas locking / gas-stuck pump; Reverse rotation; Broken shaft; Worn pump; Platform/generator/ESP trips
+
+Engineering context: Compare daily-median slopes over 7, 30, 60 days; failed systems triggered more short-term premises, but no reliable causal identification (pp. 7–10).
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0043
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Eight daily-median trend variables; slopes normalized with arctangent
+
+Engineering context: Eight model inputs (pp. 3–4); five-second historian transfer, daily medians and 7/30/60-day slopes. Oil/water/gas/BS&W describe case wells (p. 8). Membership and DOF are derived, not raw Avalon tags.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0044
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Avalon+production+surface-pressure data could support full rules only where all eight inputs exist. Lost PIP/PDP/temperature makes published rules incomplete; do not replace missing conditions by true.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0045
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: R1 fluid change: Fluid-change hypothesis; R2 closed valve: Closed-valve hypothesis; R3 plugged tubing: Plugged-tubing hypothesis
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0046
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: 7/30/60 days are analysis windows, not proven warning lead times.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0047
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No validated accuracy. System did not identify actual root causes in five failures. Many zero premises defeated product AND; Most-of remained low. Table 2 includes example scores, not probabilities.
+
+Engineering context: Nine selected wells; actual causes not established; scale/unit-sensitive arctangent; common memberships; trip contamination; three identical rule vectors; 30/60-day gaps.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0048
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Figure 3 prints D=(-100,-0.6,-0.2), C=(-0.5, 0, 0.5), I=(0.2, 0.6,100). Curve shoulders and text's triangle notation need careful implementation; no validated alert DOF threshold.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0049
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Exact trend matrix; fuzzy degree is not probability; ambiguity and unit-sensitivity lessons.
+
+Engineering context: Use rule vectors as competing hypotheses with explicit missing evidence, not automatic cause labels.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0050
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Unit-aware fuzzy risk triage; learned membership functions; comparison with supervised failure labels.
+
+Engineering context: Implement as explainable hypothesis scores, with unit-consistent slopes, event segmentation and missing-signal coverage; validate specificity before operational use.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0051
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Compare daily-median slopes over 7, 30, 60 days; failed systems triggered more short-term premises, but no reliable causal identification (pp. 7–10).
+
+Engineering context: Inconsistent expert-dependent surveillance of many complex ESP systems; inherited rule sets may not discriminate actual failures.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0052
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Review actual trends and event timeline
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0053
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Scores for nine failure-mode hypotheses and possible generic risk indication; an output must be interpreted within the reported validation.
+
+Engineering context: Nine selected wells; actual causes not established; scale/unit-sensitive arctangent; common memberships; trip contamination; three identical rule vectors; 30/60-day gaps.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0054
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: 7/30/60 days are analysis windows, not proven warning lead times.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0055
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Eight daily-median trend variables; slopes normalized with arctangent
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0056
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Avalon+production+surface-pressure data could support full rules only where all eight inputs exist. Lost PIP/PDP/temperature makes published rules incomplete; do not replace missing conditions by true.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0057
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Investigate competing causes; compare hydraulic and electrical evidence
+
+Engineering context: pp. 9–10; proposed operationalization
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0058
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Figure 3 prints D=(-100,-0.6,-0.2), C=(-0.5, 0, 0.5), I=(0.2, 0.6,100). Curve shoulders and text's triangle notation need careful implementation; no validated alert DOF threshold.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0059
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Production loss during ESP downtime stated, not quantified. Nine wells: four operating and five failed; selected from >100 offshore Thailand ESPs.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0060
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Use rule vectors as competing hypotheses with explicit missing evidence, not automatic cause labels.
+
+Source report: reports/P03.md
+
+Review status: Pending
+
+Source caveats: Case Table 1 lists possible sand, gas and gas/scale sticking; these are not confirmed teardown diagnoses. Figure 4 and Tables 1–2 were visually inspected.
+
+Source report: reports/P03.md. PDF page references refer to the original paper, not this text file.

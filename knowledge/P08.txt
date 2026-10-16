@@ -1,0 +1,759 @@
+ESP research knowledge: P08
+
+Title: AI4ESP - Autonomous Well Surveillance for ESP Pumps Using Artificial Intelligence
+
+Authors: Nico Jansen van Rensburg
+
+Year: 2019
+
+Publication: SPE Oil and Gas India Conference and Exhibition, Mumbai, 9–11 April; SPE-194587-MS
+
+DOI: Not printed
+
+Related study group: G01
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P08-F01
+Type: Failures
+
+Failure or condition: Unspecified developing ESP faults
+
+Category: Pump
+
+Symptoms: Abnormal learned relationships
+
+Root causes: Various mechanisms; not diagnosed in this paper
+
+Consequences: Forced outage / lost production
+
+Field indicators: Anomaly level and process context
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 2–6
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-F02
+Type: Failures
+
+Failure or condition: Abrasive/corrosive/thermal degradation
+
+Category: Pump
+
+Symptoms: General exposure, not quantified signatures
+
+Root causes: Harsh subsurface fluid/temperature
+
+Consequences: Reliability loss
+
+Field indicators: No mode-specific feature set
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 2
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-F03
+Type: Failures
+
+Failure or condition: Surveillance/data-service failure
+
+Category: Sensor
+
+Symptoms: Missing/failed analytics
+
+Root causes: Communication/platform/analytics availability
+
+Consequences: Loss of advisory capability; SCADA remains active
+
+Field indicators: Telemetry and analytics health
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 5–6
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-D01
+Type: Rules
+
+Rule name: Advisory prioritization
+
+Source status: candidate_requires_local_validation
+
+IF: ESP anomaly detected
+
+AND: Analytics evidence available
+
+THEN: Rank well for operator/engineer review
+
+Engineering explanation: Surveillance is decision support
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Surveillance is decision support
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 5–6
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-D02
+Type: Rules
+
+Rule name: Control separation
+
+Source status: candidate_requires_local_validation
+
+IF: Advisory system fails or misses anomaly
+
+AND: Existing control/protection remains available
+
+THEN: SCADA retains control and alarm responsibilities
+
+Engineering explanation: Architecture explicitly supplements SCADA; does not prove all hazards are covered
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Architecture explicitly supplements SCADA; does not prove all hazards are covered
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: p. 6
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-D03
+Type: Rules
+
+Rule name: Unknown cause
+
+Source status: candidate_requires_local_validation
+
+IF: Novel anomaly identified
+
+AND: Engineering review required
+
+THEN: Share common evidence with well engineer and operator
+
+Engineering explanation: Common analytical dataset supports different roles
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Common analytical dataset supports different roles
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 6
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-I01
+Type: Indicators
+
+Indicator: Fleet anomaly ranking
+
+Physical meaning: Relative abnormality requiring attention
+
+Required parameters: Historical and live ESP process data
+
+Typical trend: Increasing anomaly level / priority
+
+Lead time qualification: No lead-time result reported in this paper
+
+Relevant channels: Individual channels not enumerated
+
+Avalon availability: Unknown
+
+PDF pages: pp. 3–6
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-A01
+Type: Actions
+
+Condition: Ranked anomaly
+
+Immediate actions: Review current evidence
+
+Short term actions: Engineer investigates cause and suggests mitigation
+
+Long term actions: Capture validated response and improve model
+
+Prevention: Maintain synchronized quality data and baseline
+
+Expected benefit: Focus limited surveillance effort
+
+Production impact: No quantified production impact
+
+Attribution: pp. 3–6
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-A02
+Type: Actions
+
+Condition: Advisory outage
+
+Immediate actions: Use existing control/alarm workflow
+
+Short term actions: Restore data/application service
+
+Long term actions: Review service reliability
+
+Prevention: Keep advisory failures independent of protection functions
+
+Expected benefit: Preserve operational visibility/control
+
+Production impact: Unquantified
+
+Attribution: p. 6
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P08-M01
+Type: AI Models
+
+Model type: Neural-network anomaly analytics on centralized Io T cloud with multiuser HMI
+
+Inputs: ESP historical/real-time process data; not enumerated
+
+Outputs: Anomaly severity, notifications and fleet priority list
+
+Reported performance: No numerical model performance or warning time; continuation of earlier Siemens work.
+
+Advantages: Shared evidence, scalable triage and explicit advisory/control separation.
+
+Limitations: Architecture-level treatment; root causes and model mechanics undisclosed; availability of unknown downhole inputs not resolved.
+
+Data feasibility: User sources can support an analogous architecture, but cannot establish exact model replication or sensor-loss performance.
+
+Complexity: High
+
+Prediction target: Abnormal behavior requiring review.
+
+Lead time qualification: Not quantified here.
+
+Signals: Quality synchronized process history; full list not disclosed.
+
+Source thresholds: Not reported.
+
+Implementation proposal: Build read-only evidence-backed fleet triage in Copilot, keep existing control/protection workflow and measure alert usefulness.
+
+Recommended future model: Fleet anomaly ranking service feeding Copilot; specific model requires other evidence.
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0141
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Use cloud anomaly analytics to prioritize an ESP fleet while operators retain control decisions.
+
+Engineering context: Continuous manual alarm monitoring limits how many wells one operator can supervise.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0142
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Unspecified developing ESP faults; Abrasive/corrosive/thermal degradation; Surveillance/data-service failure
+
+Engineering context: Fleet HMI ranks anomaly level, displays process evidence and sends notifications.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0143
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: ESP historical/real-time process data; not enumerated
+
+Engineering context: Architecture paper does not specify the full model feature list, sample size, frequency or numerical thresholds.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0144
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: User sources can support an analogous architecture, but cannot establish exact model replication or sensor-loss performance.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0145
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Advisory prioritization: Rank well for operator/engineer review; Control separation: SCADA retains control and alarm responsibilities; Unknown cause: Share common evidence with well engineer and operator
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0146
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not quantified here.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0147
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No numerical model performance or warning time; continuation of earlier Siemens work.
+
+Engineering context: Architecture-level treatment; root causes and model mechanics undisclosed; availability of unknown downhole inputs not resolved.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0148
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Not reported.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0149
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Fleet prioritization, common evidence, uncertainty, advisory/control boundaries.
+
+Engineering context: Evidence review and missing-service workflow; no physical fault rules.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0150
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Fleet anomaly ranking service feeding Copilot; specific model requires other evidence.
+
+Engineering context: Build read-only evidence-backed fleet triage in Copilot, keep existing control/protection workflow and measure alert usefulness.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0151
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Fleet HMI ranks anomaly level, displays process evidence and sends notifications.
+
+Engineering context: Continuous manual alarm monitoring limits how many wells one operator can supervise.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0152
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Review current evidence
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0153
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Anomaly severity, notifications and fleet priority list; an output must be interpreted within the reported validation.
+
+Engineering context: Architecture-level treatment; root causes and model mechanics undisclosed; availability of unknown downhole inputs not resolved.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0154
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not quantified here.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0155
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: ESP historical/real-time process data; not enumerated
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0156
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: User sources can support an analogous architecture, but cannot establish exact model replication or sensor-loss performance.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0157
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Engineer investigates cause and suggests mitigation
+
+Engineering context: pp. 3–6
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0158
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Not reported.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0159
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Failed-pump exchange plus production losses described as hundreds of thousands to millions of dollars; no measured project savings.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0160
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Evidence review and missing-service workflow; no physical fault rules.
+
+Source report: reports/P08.md
+
+Review status: Pending
+
+Source caveats: Do not infer autonomous equipment control from the title; authors explicitly describe support to human operators.
+
+Source report: reports/P08.md. PDF page references refer to the original paper, not this text file.

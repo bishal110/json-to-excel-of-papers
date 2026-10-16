@@ -1,0 +1,1026 @@
+ESP research knowledge: P29
+
+Title: Preventive Maintenance of Electric Submersible Pumps and its Relationship to Root Cause of Failure Analysis
+
+Authors: W.A.Limanowka; S.Degen; G.Benwell
+
+Year: 2001
+
+Publication: SPE Western Regional Meeting, Bakersfield, 26–30 March; SPE68789
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P29-F01
+Type: Failures
+
+Failure or condition: Motor burnout/insulation fatigue
+
+Category: Motor
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Prior overheating from plugged pump can leave latent insulation damage.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F02
+Type: Failures
+
+Failure or condition: Gas lock with failed protection
+
+Category: Pump
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Underload settings changed, preventing protective shutdown.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F03
+Type: Failures
+
+Failure or condition: Pump plugging/scale lock
+
+Category: Pump
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Fe S, Ca SO4 and minor sulfide deposits; impeller locked on shaft.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F04
+Type: Failures
+
+Failure or condition: Thrust bearing overload
+
+Category: Pump
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Scale prevents floating impeller movement.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F05
+Type: Failures
+
+Failure or condition: Cable installation damage
+
+Category: Cable
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Insufficient clearance in 4.5 inch tight-hole completion.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F06
+Type: Failures
+
+Failure or condition: Sour/chloride corrosion
+
+Category: Pump
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Material incompatibility with H2 S/chlorides; multiple components affected.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F07
+Type: Failures
+
+Failure or condition: Elastomer/chemical incompatibility
+
+Category: Pump
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Source examples Aflas/condensate, Viton/amine treatment; grade-specific.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F08
+Type: Failures
+
+Failure or condition: Drive/power-induced electrical failure
+
+Category: VSD
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Faulty drive or poor incoming supply; grid-end exposure.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F09
+Type: Failures
+
+Failure or condition: Grounded electrical assembly
+
+Category: Cable
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Electrical insulation loss; repeated restart can destroy evidence.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-F10
+Type: Failures
+
+Failure or condition: Unprotected low flow with oversized motor
+
+Category: Motor
+
+Symptoms: Symptoms depend on mechanism; inspect operating history and pulled components.
+
+Root causes: Loaded current near idling makes underload protection insensitive.
+
+Consequences: Failure, repair expense and lost production.
+
+Field indicators: Relevant electrical/hydraulic trends plus preserved physical evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium; field-specific mechanisms
+
+PDF pages: pp.1–4
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-D01
+Type: Rules
+
+Rule name: Preserve failure evidence
+
+Source status: candidate_requires_local_validation
+
+IF: ESP trips or appears grounded
+
+AND: Restart could overwrite history or worsen damage
+
+THEN: Capture drive history and diagnose before restart decisions.
+
+Engineering explanation: Author emphasizes evidence preservation and avoiding repeated blind restart.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author emphasizes evidence preservation and avoiding repeated blind restart.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: pp.1–2
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-D02
+Type: Rules
+
+Rule name: Underload blind spot
+
+Source status: candidate_requires_local_validation
+
+IF: Oversized motor operates near idle current
+
+AND: Low-flow/hot-well service or pump plugging risk
+
+THEN: Current-only underload may be inadequate; assess independent flow protection.
+
+Engineering explanation: Small current difference masks loss of delivery.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Small current difference masks loss of delivery.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium/High
+
+PDF pages: p.2
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-D03
+Type: Rules
+
+Rule name: Scale/thrust linkage
+
+Source status: candidate_requires_local_validation
+
+IF: Heavy scale locks floating impeller to shaft
+
+AND: Thrust bearing overloaded
+
+THEN: Investigate scale as initiating cause, not just bearing failure.
+
+Engineering explanation: Distinguishes failure mode from root cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Distinguishes failure mode from root cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.3
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-D04
+Type: Rules
+
+Rule name: Compatibility gate
+
+Source status: candidate_requires_local_validation
+
+IF: Treatment or reservoir conditions change
+
+AND: ESP material/elastomer compatibility unverified
+
+THEN: Obtain grade-specific compatibility assessment/coupon testing.
+
+Engineering explanation: Published generic material names are insufficient for all grades.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published generic material names are insufficient for all grades.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: pp.2–3
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-I01
+Type: Indicators
+
+Indicator: Changed operating duty
+
+Physical meaning: Well/fluid conditions diverge from original ESP design.
+
+Required parameters: Production tests, electrical/surface/downhole data, original design.
+
+Typical trend: Trend outside design; compare first/last weeks ofrun.
+
+Lead time qualification: Not quantified.
+
+Relevant channels: ESP Current, Voltage, Frequency, Intake Pressure, Temperature, Oil Rate, Water Rate, Gas Rate, Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp.2–3
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-I02
+Type: Indicators
+
+Indicator: Protection-setting drift
+
+Physical meaning: Protective response disabled or rendered insensitive.
+
+Required parameters: As-installed/current VSD settings, trip history, flow evidence.
+
+Typical trend: Settings differ or no-flow persists without trip.
+
+Lead time qualification: No quantified lead.
+
+Relevant channels: ESP Current, Frequency; additional settings and flow switch
+
+Avalon availability: Unknown
+
+PDF pages: p.2
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-A01
+Type: Actions
+
+Condition: Failure/recurrence
+
+Immediate actions: Preserve drive history, charts and physical evidence; qualified diagnosis before restart.
+
+Short term actions: Joint operator/vendor DIFA; separate observations from causal interpretation; compare previous pulls and startup settings.
+
+Long term actions: Implement confirmed material, design, power or operating corrections and verify outcomes.
+
+Prevention: Author recommends operating/test review at least biweekly and quarterly optimization; local risk may require more frequent review.
+
+Expected benefit: Longer life and fewer repeat failures.
+
+Production impact: ~200 to>600 day field association; not controlled proof of a single measure.
+
+Attribution: pp.1–5
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-A02
+Type: Actions
+
+Condition: Harsh service/tight-hole damage
+
+Immediate actions: Review fluid chemistry, clearance and damage location.
+
+Short term actions: Select compatible coatings/elastomers/metallurgy and cable protection with supplier.
+
+Long term actions: Source upgrades: coated pump/intake/discharge, Ni-Cu shafts/housings, lead-sheath cable, tandem seals, modified low-profile heads/grooves/centralizers.
+
+Prevention: Maintain field-specific specifications and specialized spares; assess full-cable replacement rather than routine new-to-old splicing.
+
+Expected benefit: Less corrosion, scale adhesion and installation damage.
+
+Production impact: Servicing cost increased~50% but total expenditure reported lower.
+
+Attribution: pp.3–4; historical field-specific specification, not current universal material standard.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P29-M01
+Type: AI Models
+
+Model type: RCFA and descriptive reliability trending; no ML.
+
+Inputs: Operating/design/material/DIFA/history records.
+
+Outputs: Evidence-supported root cause and preventive action.
+
+Reported performance: No diagnostic accuracy. MTBF chart 196,190,168,292,254,628 days for 1995–2000; active runs require censoring in formal reliability analysis.
+
+Advantages: Directly actionable evidence and prevention workflow.
+
+Limitations: Small field, concurrent interventions, ambiguous improvement percentages/economic units.
+
+Data feasibility: Avalon+Excel support surveillance but not full RCFA; needs DIFA, materials, chemistry, settings, installation records.
+
+Complexity: Low for workflow; Medium for integrated reliability analysis
+
+Prediction target: Recurring risk/exposure and duty mismatch, not individual failure time.
+
+Lead time qualification: Not quantified.
+
+Signals: Telemetry plus design and forensic records.
+
+Source thresholds: No universal numerical warning. Biweekly data review and quarterly optimization are source practices.
+
+Implementation proposal: Create ESP-run/DIFA taxonomy linking initiating cause, mechanism, failed part and corrective action; verify effectiveness on subsequent runs.
+
+Recommended future model: Repeat-failure risk and censored survival analysis once DIFA/run history cleaned.
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0561
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Use disciplined RCFA, materials/design upgrades and operating practices to prevent repeated ESP failures.
+
+Engineering context: Repeated restarts and incomplete evidence obscure the actual cause; harsh sour/scaling service and tight-hole installation damage shorten life.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0562
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Motor burnout/insulation fatigue; Gas lock with failed protection; Pump plugging/scale lock; Thrust bearing overload; Cable installation damage; Sour/chloride corrosion; Elastomer/chemical incompatibility; Drive/power-induced electrical failure; Grounded electrical assembly; Unprotected low flow with oversized motor
+
+Engineering context: Recurring failure by well/installation crew/material, changed trip settings, scale/thrust damage, ground faults, poor power and incompatible chemicals.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0563
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Operating/design/material/DIFA/history records.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0564
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Avalon+Excel support surveillance but not full RCFA; needs DIFA, materials, chemistry, settings, installation records.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0565
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Preserve failure evidence: Capture drive history and diagnose before restart decisions.; Underload blind spot: Current-only underload may be inadequate; assess independent flow protection.; Scale/thrust linkage: Investigate scale as initiating cause, not just bearing failure.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0566
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not quantified.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0567
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No diagnostic accuracy. MTBF chart 196,190,168,292,254,628 days for 1995–2000; active runs require censoring in formal reliability analysis.
+
+Engineering context: Small field, concurrent interventions, ambiguous improvement percentages/economic units.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0568
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: No universal numerical warning. Biweekly data review and quarterly optimization are source practices.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0569
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Mode versus root cause, evidence preservation, compatibility, setting audit and vendor feedback.
+
+Engineering context: Evidence-first restart triage; underload blind spot; scale-thrust causal chain.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0570
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Repeat-failure risk and censored survival analysis once DIFA/run history cleaned.
+
+Engineering context: Create ESP-run/DIFA taxonomy linking initiating cause, mechanism, failed part and corrective action; verify effectiveness on subsequent runs.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0571
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Recurring failure by well/installation crew/material, changed trip settings, scale/thrust damage, ground faults, poor power and incompatible chemicals.
+
+Engineering context: Repeated restarts and incomplete evidence obscure the actual cause; harsh sour/scaling service and tight-hole installation damage shorten life.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0572
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Preserve drive history, charts and physical evidence; qualified diagnosis before restart.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0573
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Evidence-supported root cause and preventive action.; an output must be interpreted within the reported validation.
+
+Engineering context: Small field, concurrent interventions, ambiguous improvement percentages/economic units.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0574
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not quantified.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0575
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Operating/design/material/DIFA/history records.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0576
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Avalon+Excel support surveillance but not full RCFA; needs DIFA, materials, chemistry, settings, installation records.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0577
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Joint operator/vendor DIFA; separate observations from causal interpretation; compare previous pulls and startup settings.
+
+Engineering context: pp.1–5
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0578
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: No universal numerical warning. Biweekly data review and quarterly optimization are source practices.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0579
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Reported average run life~200 days to>600 days; servicing cost per intervention increased~50%, overall expenditure declined. Earlier losses 12 days/year/well and 3000 bbl; claimed decrease '2000 bbl/day' is dimensionally inconsistent and should not be used as a measured daily saving (p.4).
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0580
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Evidence-first restart triage; underload blind spot; scale-thrust causal chain.
+
+Source report: reports/P29.md
+
+Review status: Pending
+
+Source caveats: Duplicate text layers were removed for extraction.200 to 600 days is roughly 3×run life (200% increase), not a 300% increase. Waterflood description is context, not an injection-well diagnostic model.
+
+Source report: reports/P29.md. PDF page references refer to the original paper, not this text file.

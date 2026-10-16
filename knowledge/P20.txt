@@ -1,0 +1,627 @@
+ESP research knowledge: P20
+
+Title: Failure Prediction for Rod Pump Artificial Lift Systems
+
+Authors: Y.Liu; K.Yao; S.Liu; C.S.Raghavendra; T.L.Lenz; L.Olabinjo; B.Seren; S.Seddighrad; C.G.Dinesh Babu
+
+Year: 2010
+
+Publication: SPE Western Regional Meeting, Anaheim, 27–29 May; SPE133545
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P20-F01
+Type: Failures
+
+Failure or condition: Rod pump failure
+
+Category: Pump
+
+Symptoms: Abnormal dynamometer/load/runtime trends; sometimes abrupt.
+
+Root causes: Wear/design/manufacturing, solids/gas and corrosive fluids; no unique model cause.
+
+Consequences: Production loss and workover.
+
+Field indicators: Rod-pump-specific load-card features.
+
+Confidence level: Low
+
+Confidence basis: Medium for rod pumps; Low transfer to ESP
+
+PDF pages: Methods and field cases
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P20-F02
+Type: Failures
+
+Failure or condition: Tubing leak
+
+Category: Pump
+
+Symptoms: Loss of useful production while pump may keep operating.
+
+Root causes: Mechanical wear/rod cutting and corrosion.
+
+Consequences: Recirculation and sustained production loss.
+
+Field indicators: Dynamometer card shrinkage plus production evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium for rod pumps
+
+PDF pages: Problem description
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P20-D01
+Type: Rules
+
+Rule name: ADTree alert
+
+Source status: candidate_requires_local_validation
+
+IF: Weighted sum of traversed ADTree prediction nodes is negative
+
+AND: Valid rod-pump feature vector
+
+THEN: Flag potential future failure.
+
+Engineering explanation: Classifier decision rule; no unique physical cause.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Classifier decision rule; no unique physical cause.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium for study
+
+PDF pages: p.6
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P20-I01
+Type: Indicators
+
+Indicator: Normalized trend shifts
+
+Physical meaning: Load/runtime behavior changes near failure.
+
+Required parameters: Rod card/load/runtime features; robust polynomial coefficients and differences.
+
+Typical trend: Feature departure from previous median.
+
+Lead time qualification: Two cross-validation examples one month ahead; 60 day tolerance in held-out evaluation is not guaranteed lead.
+
+Relevant channels: Wellhead Pressure, Oil Rate, Water Rate only supporting; core rod-card inputs unavailable among 11 channels
+
+Avalon availability: Unknown
+
+PDF pages: pp.4–8
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P20-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P20-M01
+Type: AI Models
+
+Model type: ADTree, SVM, naive Bayes; Grubbs outlier test, LOWESS, robust polynomial trends; random-peek semi-supervision.
+
+Inputs: Daily LOWIS measurements; 42 training wells(19 failure), 32 reported test wells(6 failure); intermittent tests carried forward.
+
+Outputs: Normal versus pre-failure.
+
+Reported performance: Held-out SVM TP5, FN1, FP10, TN17 => precision 33.3%, recall 83.3%; ADTree TP1, FN5, FP5, TN22 =>precision 16.7%, recall 16.7%. Both matrices total 33 although text says 32. Table 2 SVM failure error.017, normal.002, overall.026 cannot all be consistent weighted error.
+
+Advantages: Robust trends; distinguishes failure and normal error; adaptation to test-well distribution.
+
+Limitations: Very small event count; random-peek uses unlabeled test distribution (transductive evaluation); high false alarms; inconsistent counts/metrics; smoothing may erase real events.
+
+Data feasibility: No direct ESP reproduction from Avalon/Excel; card/load/rod variables absent. Can reuse causal feature engineering and event-based evaluation design.
+
+Complexity: Medium
+
+Prediction target: Rod pump/tubing failure patterns.
+
+Lead time qualification: One-month examples; evaluation counts alarms within 60 days.14 day/7 day windows are features, not lead.
+
+Signals: Dynamometer/load/runtime and outcome records.
+
+Source thresholds: ADTree negative score; no transferable physical cutoff.
+
+Implementation proposal: For ESP build fresh features; avoid interpreting random-peek test adaptation as untouched prospective validation.
+
+Recommended future model: Robust trend classifier benchmark after ESP-specific redesign.
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0381
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Use robust trend features and semi-supervised random-peek learning to predict rod pump/tubing failures.
+
+Engineering context: POC protection and manual dynocard review do not scale to large fleets.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0382
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Rod pump failure; Tubing leak
+
+Engineering context: For rod pumps inspect dynamometer/load and runtime changes alongside flow/tests; these signatures are not ESP measurements.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0383
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Daily LOWIS measurements; 42 training wells(19 failure), 32 reported test wells(6 failure); intermittent tests carried forward.
+
+Engineering context: Rod-pump inputs are not available from an ESP historian merely because it records current. Transfer methodology only; rebuild features and labels for ESP.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0384
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: No direct ESP reproduction from Avalon/Excel; card/load/rod variables absent. Can reuse causal feature engineering and event-based evaluation design.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0385
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: ADTree alert: Flag potential future failure.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0386
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: One-month examples; evaluation counts alarms within 60 days.14 day/7 day windows are features, not lead.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0387
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Held-out SVM TP5, FN1, FP10, TN17 => precision 33.3%, recall 83.3%; ADTree TP1, FN5, FP5, TN22 =>precision 16.7%, recall 16.7%. Both matrices total 33 although text says 32. Table 2 SVM failure error.017, normal.002, overall.026 cannot all be consistent weighted error.
+
+Engineering context: Very small event count; random-peek uses unlabeled test distribution (transductive evaluation); high false alarms; inconsistent counts/metrics; smoothing may erase real events.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0388
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: ADTree negative score; no transferable physical cutoff.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0389
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Small-sample warning, stale tests, transductive-learning distinction.
+
+Engineering context: No ESP fault rule; quality and model validation lessons only.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0390
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Robust trend classifier benchmark after ESP-specific redesign.
+
+Engineering context: For ESP build fresh features; avoid interpreting random-peek test adaptation as untouched prospective validation.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0391
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: For rod pumps inspect dynamometer/load and runtime changes alongside flow/tests; these signatures are not ESP measurements.
+
+Engineering context: POC protection and manual dynocard review do not scale to large fleets.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0392
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0393
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Normal versus pre-failure.; an output must be interpreted within the reported validation.
+
+Engineering context: Very small event count; random-peek uses unlabeled test distribution (transductive evaluation); high false alarms; inconsistent counts/metrics; smoothing may erase real events.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0394
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: One-month examples; evaluation counts alarms within 60 days.14 day/7 day windows are features, not lead.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0395
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Daily LOWIS measurements; 42 training wells(19 failure), 32 reported test wells(6 failure); intermittent tests carried forward.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0396
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: No direct ESP reproduction from Avalon/Excel; card/load/rod variables absent. Can reuse causal feature engineering and event-based evaluation design.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0397
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0398
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: ADTree negative score; no transferable physical cutoff.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0399
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0400
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: No ESP fault rule; quality and model validation lessons only.
+
+Source report: reports/P20.md
+
+Review status: Pending
+
+Source caveats: Published test size and cross-validation error arithmetic inconsistent; do not advertise high ESP accuracy from rod data.
+
+Source report: reports/P20.md. PDF page references refer to the original paper, not this text file.

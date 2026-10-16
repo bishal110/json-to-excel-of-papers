@@ -1,0 +1,2008 @@
+ESP research knowledge: P19
+
+Title: Prescriptive-Based Decision Support System for Online Real-Time Electrical Submersible Pump Operations Management
+
+Authors: Moradeyo Adesanwo; Tommy Denney; Sony Lazarus; Oladele Bello
+
+Year: 2016
+
+Publication: SPE Intelligent Energy, Aberdeen, 6–8 September; SPE-181013-MS
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P19-F01
+Type: Failures
+
+Failure or condition: Fluid characteristics changed
+
+Category: Reservoir
+
+Symptoms: I constant; PIP↑; motor temperature↓/constant; Q↑; tubing pressure↑/constant; PDP↑/constant; intake temperature↓/constant
+
+Root causes: Changed density/viscosity/gas/water fraction
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: I constant; PIP↑; motor temperature↓/constant; Q↑; tubing pressure↑/constant; PDP↑/constant; intake temperature↓/constant
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; non-unique pattern
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-F02
+Type: Failures
+
+Failure or condition: Closed valve
+
+Category: Surface Network
+
+Symptoms: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↑; PDP↑; intake temperature↑
+
+Root causes: Closed, partially closed or malfunctioning surface valve
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↑; PDP↑; intake temperature↑
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; non-unique pattern
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-F03
+Type: Failures
+
+Failure or condition: Plugged tubing
+
+Category: Pump
+
+Symptoms: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↑; intake temperature↑
+
+Root causes: Scale/paraffin/salt/debris restriction
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↑; intake temperature↑
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; non-unique pattern
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-F04
+Type: Failures
+
+Failure or condition: Plugged pump
+
+Category: Pump
+
+Symptoms: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+Root causes: Debris, scale, paraffin, salt, viscous fluid or bacteria
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-F05
+Type: Failures
+
+Failure or condition: Tubing leak
+
+Category: Pump
+
+Symptoms: I↓/constant; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP constant; intake temperature↑
+
+Root causes: Tubing integrity loss and recirculation
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: I↓/constant; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP constant; intake temperature↑
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; non-unique pattern
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-F06
+Type: Failures
+
+Failure or condition: Gas locking
+
+Category: Pump
+
+Symptoms: I↓; PIP↑/constant; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+Root causes: Free-gas ingestion and low mixture density
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: I↓; PIP↑/constant; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-F07
+Type: Failures
+
+Failure or condition: Reverse pump rotation
+
+Category: Pump
+
+Symptoms: Frequency↓/constant; I↓; PIP↑; motor temperature↑/constant; Q↓; tubing pressure↓; PDP↓/constant; intake temperature↑/constant
+
+Root causes: Incorrect phase sequence/rotation
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: Frequency↓/constant; I↓; PIP↑; motor temperature↑/constant; Q↓; tubing pressure↓; PDP↓/constant; intake temperature↑/constant
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; non-unique pattern
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-F08
+Type: Failures
+
+Failure or condition: Broken pump shaft
+
+Category: Pump
+
+Symptoms: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+Root causes: Mechanical shaft failure
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; non-unique pattern
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-F09
+Type: Failures
+
+Failure or condition: Worn pump
+
+Category: Pump
+
+Symptoms: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+Root causes: Erosion/wear and bearing/stage damage
+
+Consequences: Lost or unstable production; heating/damage possible depending condition.
+
+Field indicators: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; non-unique pattern
+
+PDF pages: Table 1 pp.7–9; cases pp.11–16
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D01
+Type: Rules
+
+Rule name: Fluid characteristics changed
+
+Source status: candidate_requires_local_validation
+
+IF: I constant; PIP↑; motor temperature↓/constant; Q↑; tubing pressure↑/constant; PDP↑/constant; intake temperature↓/constant
+
+AND: Frequency constant
+
+THEN: Fluid characteristics changed is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Fluid characteristics changed; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Check well test and fluid composition; involve reservoir team for water-cut change; assess pump sizing and operating range.; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D02
+Type: Rules
+
+Rule name: Closed valve
+
+Source status: candidate_requires_local_validation
+
+IF: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↑; PDP↑; intake temperature↑
+
+AND: Frequency constant
+
+THEN: Closed valve is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Closed valve; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Check actual valve position, operator history and intended choke setting; repair malfunction under approved procedure.; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D03
+Type: Rules
+
+Rule name: Plugged tubing
+
+Source status: candidate_requires_local_validation
+
+IF: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↑; intake temperature↑
+
+AND: Frequency constant
+
+THEN: Plugged tubing is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Plugged tubing; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Model restriction; identify deposit and check-valve configuration; select engineered chemical/cleaning or intervention program.; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D04
+Type: Rules
+
+Rule name: Plugged pump
+
+Source status: candidate_requires_local_validation
+
+IF: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+AND: Frequency constant
+
+THEN: Plugged pump is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Plugged pump; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Compare pump curve and fluid samples; qualified team selects compatible treatment; bacteria case recovered after biocide.; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D05
+Type: Rules
+
+Rule name: Tubing leak
+
+Source status: candidate_requires_local_validation
+
+IF: I↓/constant; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP constant; intake temperature↑
+
+AND: Frequency constant
+
+THEN: Tubing leak is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Tubing leak; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Qualified integrity investigation and engineered pressure test; repair confirmed leaking joint(s).; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D06
+Type: Rules
+
+Rule name: Gas locking
+
+Source status: candidate_requires_local_validation
+
+IF: I↓; PIP↑/constant; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+AND: Frequency constant
+
+THEN: Gas locking is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Gas locking; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Assess free gas, submergence, BEP and casing pressure; engineer frequency/PID amperage or pressure control; specialist gas-handling solution.; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D07
+Type: Rules
+
+Rule name: Reverse pump rotation
+
+Source status: candidate_requires_local_validation
+
+IF: Frequency↓/constant; I↓; PIP↑; motor temperature↑/constant; Q↓; tubing pressure↓; PDP↓/constant; intake temperature↑/constant
+
+AND: Frequency decreases or constant
+
+THEN: Reverse pump rotation is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Reverse pump rotation; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Qualified electrical verification of rotation and phase sequence; verify absence of backspin before any approved restart.; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D08
+Type: Rules
+
+Rule name: Broken pump shaft
+
+Source status: candidate_requires_local_validation
+
+IF: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+AND: Frequency constant
+
+THEN: Broken pump shaft is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Broken pump shaft; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Check developed head, undercurrent trip and backspin; specialist diagnosis and repair planning.; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D09
+Type: Rules
+
+Rule name: Worn pump
+
+Source status: candidate_requires_local_validation
+
+IF: I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑
+
+AND: Frequency constant
+
+THEN: Worn pump is a candidate diagnosis.
+
+Engineering explanation: Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.
+
+Recommended actions: condition: Worn pump; immediate: Verify pattern, sensor quality and actual operating condition; involve field service.; short_term: Compare normalized efficiency/head with installation baseline; check vibration; specialist-approved curve test within equipment ratings.; attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Confidence level: Low
+
+Confidence basis: Medium for screening, Low for unique cause
+
+PDF pages: Table 1 pp.7–9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D10
+Type: Rules
+
+Rule name: PIP change
+
+Source status: candidate_requires_local_validation
+
+IF: absolute daily-average PIP change >=5% in 24 h
+
+AND: Frequency unchanged
+
+THEN: Investigate upstream/inflow issue, tubing leak or plugging.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.10
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D11
+Type: Rules
+
+Rule name: Rapid motor temperature rise
+
+Source status: do_not_deploy_as_written
+
+IF: motor temperature increases >=10% over 30 min
+
+AND: With/without frequency change or startup/restart; context retained
+
+THEN: Flag significant flow/cooling change even below absolute thermal limit.
+
+Engineering explanation: Author screening heuristic; percent-temperature change is scale-dependent and must be redefined in engineering units before implementation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic; percent-temperature change is scale-dependent and must be redefined in engineering units before implementation.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.10
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D12
+Type: Rules
+
+Rule name: Wellhead pressure change
+
+Source status: candidate_requires_local_validation
+
+IF: absolute daily-average WHP change >5% in 24 h
+
+AND: Frequency unchanged
+
+THEN: Check closed/partly closed/faulty surface valve.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.10
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D13
+Type: Rules
+
+Rule name: Unstable intake/current
+
+Source status: candidate_requires_local_validation
+
+IF: PIP standard deviation changes >20% over 24 h
+
+AND: Current SD may also change >20% over same interval
+
+THEN: Investigate pump-off/gas cycling and solids mobilization.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.10
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D14
+Type: Rules
+
+Rule name: Rapid discharge change
+
+Source status: candidate_requires_local_validation
+
+IF: absolute PDP change >=20% over 15 min
+
+AND: Frequency/startup context retained through 48 h
+
+THEN: Investigate slugging or abrasive settling in discharge/tubing.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.10
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D15
+Type: Rules
+
+Rule name: Discharge thermal rise
+
+Source status: do_not_deploy_as_written
+
+IF: absolute daily-average discharge temperature change >=7% over 48 h
+
+AND: Frequency unchanged
+
+THEN: Investigate impeded flow and scale/asphaltene/bacterial plugging.
+
+Engineering explanation: Author screening heuristic; percent-temperature change is scale-dependent and must be redefined in engineering units before implementation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic; percent-temperature change is scale-dependent and must be redefined in engineering units before implementation.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.11
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D16
+Type: Rules
+
+Rule name: Vibration increase
+
+Source status: candidate_requires_local_validation
+
+IF: vibration >20% above installation baseline
+
+AND: Comparable speed and measurement
+
+THEN: Check bearing wear, stage imbalance; if rate declining also consider pump-off.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.11
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D17
+Type: Rules
+
+Rule name: High motor loading
+
+Source status: candidate_requires_local_validation
+
+IF: motor amps >=90% nameplate at 60 Hz
+
+AND: Rating and measurement location verified
+
+THEN: Consider fluid-density increase or scale-related bearing drag.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.11
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D18
+Type: Rules
+
+Rule name: Loading change
+
+Source status: candidate_requires_local_validation
+
+IF: motor loading changes >25% over time
+
+AND: Exclude frequency changes; trend interval not specified
+
+THEN: Investigate plugging, wear, bearing damage; correlate current/temperature.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.11
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D19
+Type: Rules
+
+Rule name: Specific-energy deterioration
+
+Source status: do_not_deploy_as_written
+
+IF: source specific-energy/lift metric differs >15% from as-installed
+
+AND: Comparable duty and reliable model
+
+THEN: Check changing PI, abrasion or plugging; pressure/model mismatch supports PI investigation.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.11
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-D20
+Type: Rules
+
+Rule name: Worn versus plugged head curve
+
+Source status: candidate_requires_local_validation
+
+IF: head curve lower over operating range
+
+AND: Shut-in head also lower than baseline
+
+THEN: Wear more consistent; partial plugging may retain near-new shut-in head.
+
+Engineering explanation: Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium as candidate heuristic
+
+PDF pages: p.11, Table 1 p.9
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I01
+Type: Indicators
+
+Indicator: PIP change
+
+Physical meaning: Investigate upstream/inflow issue, tubing leak or plugging.
+
+Required parameters: absolute daily-average PIP change >=5% in 24 h
+
+Typical trend: absolute daily-average PIP change >=5% in 24 h; Frequency unchanged
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: Intake Pressure, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p.10
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I02
+Type: Indicators
+
+Indicator: Rapid motor temperature rise
+
+Physical meaning: Flag significant flow/cooling change even below absolute thermal limit.
+
+Required parameters: motor temperature increases >=10% over 30 min
+
+Typical trend: motor temperature increases >=10% over 30 min; With/without frequency change or startup/restart; context retained
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: Temperature, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p.10
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I03
+Type: Indicators
+
+Indicator: Wellhead pressure change
+
+Physical meaning: Check closed/partly closed/faulty surface valve.
+
+Required parameters: absolute daily-average WHP change >5% in 24 h
+
+Typical trend: absolute daily-average WHP change >5% in 24 h; Frequency unchanged
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: Wellhead Pressure, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p.10
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I04
+Type: Indicators
+
+Indicator: Unstable intake/current
+
+Physical meaning: Investigate pump-off/gas cycling and solids mobilization.
+
+Required parameters: PIP standard deviation changes >20% over 24 h
+
+Typical trend: PIP standard deviation changes >20% over 24 h; Current SD may also change >20% over same interval
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: Intake Pressure, ESP Current, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p.10
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I05
+Type: Indicators
+
+Indicator: Rapid discharge change
+
+Physical meaning: Investigate slugging or abrasive settling in discharge/tubing.
+
+Required parameters: absolute PDP change >=20% over 15 min
+
+Typical trend: absolute PDP change >=20% over 15 min; Frequency/startup context retained through 48 h
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: Discharge Pressure, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p.10
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I06
+Type: Indicators
+
+Indicator: Discharge thermal rise
+
+Physical meaning: Investigate impeded flow and scale/asphaltene/bacterial plugging.
+
+Required parameters: absolute daily-average discharge temperature change >=7% over 48 h
+
+Typical trend: absolute daily-average discharge temperature change >=7% over 48 h; Frequency unchanged
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: Temperature, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p.11
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I07
+Type: Indicators
+
+Indicator: Vibration increase
+
+Physical meaning: Check bearing wear, stage imbalance; if rate declining also consider pump-off.
+
+Required parameters: vibration >20% above installation baseline
+
+Typical trend: vibration >20% above installation baseline; Comparable speed and measurement
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: Vibration, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p.11
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I08
+Type: Indicators
+
+Indicator: High motor loading
+
+Physical meaning: Consider fluid-density increase or scale-related bearing drag.
+
+Required parameters: motor amps >=90% nameplate at 60 Hz
+
+Typical trend: motor amps >=90% nameplate at 60 Hz; Rating and measurement location verified
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: ESP Current, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p.11
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I09
+Type: Indicators
+
+Indicator: Loading change
+
+Physical meaning: Investigate plugging, wear, bearing damage; correlate current/temperature.
+
+Required parameters: motor loading changes >25% over time
+
+Typical trend: motor loading changes >25% over time; Exclude frequency changes; trend interval not specified
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: ESP Current, Frequency, Temperature
+
+Avalon availability: Unknown
+
+PDF pages: p.11
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-I10
+Type: Indicators
+
+Indicator: Specific-energy deterioration
+
+Physical meaning: Check changing PI, abrasion or plugging; pressure/model mismatch supports PI investigation.
+
+Required parameters: source specific-energy/lift metric differs >15% from as-installed
+
+Typical trend: source specific-energy/lift metric differs >15% from as-installed; Comparable duty and reliable model
+
+Lead time qualification: Not established; change window is not failure lead time.
+
+Relevant channels: ESP Current, Voltage, Frequency, Intake Pressure, Discharge Pressure; additional measured power, liquid flow and lift needed
+
+Avalon availability: Unknown
+
+PDF pages: p.11
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A01
+Type: Actions
+
+Condition: Fluid characteristics changed
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Check well test and fluid composition; involve reservoir team for water-cut change; assess pump sizing and operating range.
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A02
+Type: Actions
+
+Condition: Closed valve
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Check actual valve position, operator history and intended choke setting; repair malfunction under approved procedure.
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A03
+Type: Actions
+
+Condition: Plugged tubing
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Model restriction; identify deposit and check-valve configuration; select engineered chemical/cleaning or intervention program.
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A04
+Type: Actions
+
+Condition: Plugged pump
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Compare pump curve and fluid samples; qualified team selects compatible treatment; bacteria case recovered after biocide.
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A05
+Type: Actions
+
+Condition: Tubing leak
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Qualified integrity investigation and engineered pressure test; repair confirmed leaking joint(s).
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A06
+Type: Actions
+
+Condition: Gas locking
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Assess free gas, submergence, BEP and casing pressure; engineer frequency/PID amperage or pressure control; specialist gas-handling solution.
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A07
+Type: Actions
+
+Condition: Reverse pump rotation
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Qualified electrical verification of rotation and phase sequence; verify absence of backspin before any approved restart.
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A08
+Type: Actions
+
+Condition: Broken pump shaft
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Check developed head, undercurrent trip and backspin; specialist diagnosis and repair planning.
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-A09
+Type: Actions
+
+Condition: Worn pump
+
+Immediate actions: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Short term actions: Compare normalized efficiency/head with installation baseline; check vibration; specialist-approved curve test within equipment ratings.
+
+Long term actions: Record confirmed cause and revise maintenance/design as appropriate.
+
+Prevention: Monitor relevant trend against validated baseline and approved limits.
+
+Expected benefit: Earlier intervention and potential recovery of stable operation.
+
+Production impact: No quantified condition-specific gain; bacterial-plugging case returned to operation.
+
+Attribution: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P19-M01
+Type: AI Models
+
+Model type: Streaming change/anomaly detection; PCA; linear regression/least median squares; trapezoidal/Gaussian fuzzy trend inference; influence-diagram decision ranking.
+
+Inputs: Core 8 channels and operating/economic context.
+
+Outputs: Detected event, candidate cause and ranked prescriptive message.
+
+Reported performance: Five illustrative cases: plugged pump, fluid change, gas lock, tubing leak, no alert. No confusion matrix, statistical accuracy or validated lead distribution.
+
+Advantages: Explicit interpretable patterns and practical action alternatives; field bacterial blockage and gas-control examples.
+
+Limitations: Membership thresholds not fully reproducible; overlapping pump patterns; experimental percentages not universal limits; no sensitivity/specificity.
+
+Data feasibility: Full matrix cannot run on sensor-lost wells. With Avalon electrical channels and sparse Excel only, retain partial-evidence hypotheses and request missing checks; no fabricated PIP/PDP or live rate.
+
+Complexity: Medium
+
+Prediction target: Abnormal operating conditions; paper demonstrates detection/prescriptive support, not calibrated RUL.
+
+Lead time qualification: Not established.15/30 min and 24/48 h thresholds are observation windows.
+
+Signals: Core 8 channels plus optional vibration/discharge temperature/rating/curves.
+
+Source thresholds: PIP change: absolute daily-average PIP change >=5% in 24 h; Rapid motor temperature rise: motor temperature increases >=10% over 30 min; Wellhead pressure change: absolute daily-average WHP change >5% in 24 h; Unstable intake/current: PIP standard deviation changes >20% over 24 h; Rapid discharge change: absolute PDP change >=20% over 15 min; Discharge thermal rise: absolute daily-average discharge temperature change >=7% over 48 h; Vibration increase: vibration >20% above installation baseline; High motor loading: motor amps >=90% nameplate at 60 Hz; Loading change: motor loading changes >25% over time; Specific-energy deterioration: source specific-energy/lift metric differs >15% from as-installed; Worn versus plugged head curve: head curve lower over operating range
+
+Implementation proposal: Implement source-qualified candidate rules with data/frequency gates; retain multiple causes; score evidence completeness; display approved checks and verified operational limits.
+
+Recommended future model: Fuzzy diagnostic ranking; trend/change-point detector; outcome-based ranking of engineer-approved interventions.
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0361
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Combine change detection, fuzzy diagnosis and economic ranking of alternative actions into prescriptive ESP surveillance.
+
+Engineering context: Unrecognized restrictions, gas interference and integrity problems persist despite abundant telemetry.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0362
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Fluid characteristics changed; Closed valve; Plugged tubing; Plugged pump; Tubing leak; Gas locking; Reverse pump rotation; Broken pump shaft; Worn pump
+
+Engineering context: Match simultaneous trends at comparable frequency; pressure location differentiates surface valve, tubing restriction and pump restriction. Similar pump patterns remain ambiguous.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0363
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Core 8 channels and operating/economic context.
+
+Engineering context: Eight core fuzzy inputs: frequency, current, PIP, motor temperature, flow, tubing pressure, PDP, intake temperature. Additional screening criteria use vibration, discharge temperature, nameplate and energy/physical models. Eleven candidates reduced to eight by PCA; selection described as arbitrary.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0364
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Full matrix cannot run on sensor-lost wells. With Avalon electrical channels and sparse Excel only, retain partial-evidence hypotheses and request missing checks; no fabricated PIP/PDP or live rate.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0365
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Fluid characteristics changed: Fluid characteristics changed is a candidate diagnosis.; Closed valve: Closed valve is a candidate diagnosis.; Plugged tubing: Plugged tubing is a candidate diagnosis.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0366
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not established.15/30 min and 24/48 h thresholds are observation windows.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0367
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Five illustrative cases: plugged pump, fluid change, gas lock, tubing leak, no alert. No confusion matrix, statistical accuracy or validated lead distribution.
+
+Engineering context: Membership thresholds not fully reproducible; overlapping pump patterns; experimental percentages not universal limits; no sensitivity/specificity.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0368
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: PIP change: absolute daily-average PIP change >=5% in 24 h; Rapid motor temperature rise: motor temperature increases >=10% over 30 min; Wellhead pressure change: absolute daily-average WHP change >5% in 24 h; Unstable intake/current: PIP standard deviation changes >20% over 24 h; Rapid discharge change: absolute PDP change >=20% over 15 min; Discharge thermal rise: absolute daily-average discharge temperature change >=7% over 48 h; Vibration increase: vibration >20% above installation baseline; High motor loading: motor amps >=90% nameplate at 60 Hz; Loading change: motor loading changes >25% over time; Specific-energy deterioration: source specific-energy/lift metric differs >15% from as-installed; Worn versus plugged head curve: head curve lower over operating range
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0369
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Nine trend-pattern diagnoses, 11 screening heuristics, case outcomes and qualified action menus.
+
+Engineering context: All 20 candidate rules, with frequency/location/quality gates and explicit competing causes.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0370
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Fuzzy diagnostic ranking; trend/change-point detector; outcome-based ranking of engineer-approved interventions.
+
+Engineering context: Implement source-qualified candidate rules with data/frequency gates; retain multiple causes; score evidence completeness; display approved checks and verified operational limits.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0371
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Match simultaneous trends at comparable frequency; pressure location differentiates surface valve, tubing restriction and pump restriction. Similar pump patterns remain ambiguous.
+
+Engineering context: Unrecognized restrictions, gas interference and integrity problems persist despite abundant telemetry.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0372
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify pattern, sensor quality and actual operating condition; involve field service.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0373
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Detected event, candidate cause and ranked prescriptive message.; an output must be interpreted within the reported validation.
+
+Engineering context: Membership thresholds not fully reproducible; overlapping pump patterns; experimental percentages not universal limits; no sensitivity/specificity.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0374
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not established.15/30 min and 24/48 h thresholds are observation windows.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0375
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Core 8 channels and operating/economic context.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0376
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Full matrix cannot run on sensor-lost wells. With Avalon electrical channels and sparse Excel only, retain partial-evidence hypotheses and request missing checks; no fabricated PIP/PDP or live rate.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0377
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Check well test and fluid composition; involve reservoir team for water-cut change; assess pump sizing and operating range.
+
+Engineering context: Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0378
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: PIP change: absolute daily-average PIP change >=5% in 24 h; Rapid motor temperature rise: motor temperature increases >=10% over 30 min; Wellhead pressure change: absolute daily-average WHP change >5% in 24 h; Unstable intake/current: PIP standard deviation changes >20% over 24 h; Rapid discharge change: absolute PDP change >=20% over 15 min; Discharge thermal rise: absolute daily-average discharge temperature change >=7% over 48 h; Vibration increase: vibration >20% above installation baseline; High motor loading: motor amps >=90% nameplate at 60 Hz; Loading change: motor loading changes >25% over time; Specific-energy deterioration: source specific-energy/lift metric differs >15% from as-installed; Worn versus plugged head curve: head curve lower over operating range
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0379
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Reduced flow, trips, heating, wear and repair downtime. Five cases demonstrate feasibility; no controlled aggregate oil gain or avoided-failure rate.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0380
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: All 20 candidate rules, with frequency/location/quality gates and explicit competing causes.
+
+Source report: reports/P19.md
+
+Review status: Pending
+
+Source caveats: Matrix visually checked onpp.7–10. Plugged pump/broken shaft/worn pump share patterns. Source suggests potentially hazardous testing/fluid/casing/electrical interventions; extraction is not an execution procedure. Temperature percentage thresholds depend on Celsius/Fahrenheit baseline and need reformulation. Specific-energy notation KWD/BPD/1000 ft*lift is ambiguous; do not encode literally.
+
+Source report: reports/P19.md. PDF page references refer to the original paper, not this text file.

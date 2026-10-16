@@ -1,0 +1,693 @@
+ESP research knowledge: P26
+
+Title: Predicting Non-Newtonian Fluid Electric Submersible Pump failure using Deep Learning and Artificial Neural Network
+
+Authors: Emmanuel E.Okoro; Samuel E.Sanni; Amarachi Okigbo; Fisayo Adeyemi; Moses E.Emetere; Tamunotonjo Obomanu
+
+Year: 2021 (ICSSD2020)
+
+Publication: IOP Conference Series: Earth and Environmental Science 655, 012027
+
+DOI: 10.1088/1755-1315/655/1/012027
+
+Related study group: None assigned
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P26-F01
+Type: Failures
+
+Failure or condition: Gas interference
+
+Category: Pump
+
+Symptoms: Reduced developed load/delivery.
+
+Root causes: Excess free gas.
+
+Consequences: Production loss/damage.
+
+Field indicators: Hydraulic and electrical changes; no tested class rule.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: pp.2–3
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P26-F02
+Type: Failures
+
+Failure or condition: Viscous-fluid performance loss
+
+Category: Pump
+
+Symptoms: Efficiency reduction compared with water.
+
+Root causes: Higher viscosity/non-Newtonian service.
+
+Consequences: Reduced capacity and altered duty.
+
+Field indicators: Pressure/rate/speed and fluid characterization.
+
+Confidence level: Medium
+
+Confidence basis: Medium for context; unvalidated in model
+
+PDF pages: pp.4–6
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P26-F03
+Type: Failures
+
+Failure or condition: Aggregate instantaneous/partial failure
+
+Category: Pump
+
+Symptoms: Loss/reduction of lift.
+
+Root causes: Not isolated; pressure-build-up assumption incomplete.
+
+Consequences: Deferred production.
+
+Field indicators: Pressure prediction departure; no valid universal direction.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp.9–11
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P26-D01
+Type: Rules
+
+Rule name: Pressure-collapse hypothesis—do not deploy
+
+Source status: do_not_deploy_as_written
+
+IF: Pump discharge pressure tends toward zero
+
+AND: Authors associate this with loss of lift
+
+THEN: Paper infers failure; engineering review rejects zero absolute/gauge downhole PDP as a universal criterion.
+
+Engineering explanation: Hydrostatic pressure can remain after shutdown; use developed differential/head and verified state, not literal zero-PDP rule.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Hydrostatic pressure can remain after shutdown; use developed differential/head and verified state, not literal zero-PDP rule.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p.10
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P26-D02
+Type: Rules
+
+Rule name: Forecast residual review (derived)
+
+Source status: do_not_deploy_as_written
+
+IF: Pressure forecast diverges from valid measurement
+
+AND: Run state and changing controls accounted for
+
+THEN: Investigate hydraulic/model anomaly.
+
+Engineering explanation: Proposed adaptation, not a tested source diagnostic.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Proposed adaptation, not a tested source diagnostic.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp.9–10
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P26-I01
+Type: Indicators
+
+Indicator: Pressure forecast deviation
+
+Physical meaning: Potential change in hydraulic behavior.
+
+Required parameters: LSTM input history including PDP.
+
+Typical trend: Predicted versus measured pressure; failure-specific criterion not given.
+
+Lead time qualification: No quantified lead.
+
+Relevant channels: Intake Pressure, Discharge Pressure, ESP Current, Frequency, Temperature, Vibration
+
+Avalon availability: Unknown
+
+PDF pages: pp.5–10
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P26-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P26-M01
+Type: AI Models
+
+Model type: Proposed LSTM/ANN with min-max scaling and 70/30 split.
+
+Inputs: Field surveillance and X/Yvibration; sample table 52 Hz; record counts, architecture and event labels insufficiently specified.
+
+Outputs: Pump discharge pressure prediction interpreted as failure warning.
+
+Reported performance: No numeric RMSE, classification precision/recall, confusion matrix or lead-time validation. Qualitative plotted fit/correlation claim only.
+
+Advantages: Sequence modeling concept and multichannel data assembly.
+
+Limitations: Assumes build-up failure mechanism; instantaneous failures acknowledged; no non-Newtonian rheology validation or quantified predictive evidence; table lacks units.
+
+Data feasibility: No reproduction without downhole pressure/temperature/vibration and fuller model specification. Surface-only performance not demonstrated.
+
+Complexity: High
+
+Prediction target: Pressure trajectory hypothesis, not established failure/RUL.
+
+Lead time qualification: Not reported.
+
+Signals: Pressure, current, speed, temperature, vibration histories.
+
+Source thresholds: 30–70 Hz stated as typical range, 52 Hz case; neither is universal operating limit. No validated alarm threshold.
+
+Implementation proposal: Use only as low-priority concept; define physical target and causal validation before LSTM development.
+
+Recommended future model: Pressure residual forecasting only after simpler physics/tree benchmarks.
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0501
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Explore LSTM/ANN pressure prediction as a precursor to ESP failure.
+
+Engineering context: Unplanned failures and retrieval expense; proposal assumes pressure/readings build up before failure.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0502
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Gas interference; Viscous-fluid performance loss; Aggregate instantaneous/partial failure
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0503
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Field surveillance and X/Yvibration; sample table 52 Hz; record counts, architecture and event labels insufficiently specified.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0504
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: No reproduction without downhole pressure/temperature/vibration and fuller model specification. Surface-only performance not demonstrated.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0505
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Pressure-collapse hypothesis—do not deploy: Paper infers failure; engineering review rejects zero absolute/gauge downhole PDP as a universal criterion.; Forecast residual review (derived): Investigate hydraulic/model anomaly.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0506
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not reported.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0507
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No numeric RMSE, classification precision/recall, confusion matrix or lead-time validation. Qualitative plotted fit/correlation claim only.
+
+Engineering context: Assumes build-up failure mechanism; instantaneous failures acknowledged; no non-Newtonian rheology validation or quantified predictive evidence; table lacks units.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0508
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: 30–70 Hz stated as typical range, 52 Hz case; neither is universal operating limit. No validated alarm threshold.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0509
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Failure versus pressure-forecast distinction; hydrostatic-pressure caveat.
+
+Engineering context: Do not activate zero-PDP failure rule.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0510
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Pressure residual forecasting only after simpler physics/tree benchmarks.
+
+Engineering context: Use only as low-priority concept; define physical target and causal validation before LSTM development.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0511
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Unplanned failures and retrieval expense; proposal assumes pressure/readings build up before failure.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0512
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0513
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Pump discharge pressure prediction interpreted as failure warning.; an output must be interpreted within the reported validation.
+
+Engineering context: Assumes build-up failure mechanism; instantaneous failures acknowledged; no non-Newtonian rheology validation or quantified predictive evidence; table lacks units.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0514
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not reported.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0515
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Field surveillance and X/Yvibration; sample table 52 Hz; record counts, architecture and event labels insufficiently specified.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0516
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: No reproduction without downhole pressure/temperature/vibration and fuller model specification. Surface-only performance not demonstrated.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0517
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0518
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: 30–70 Hz stated as typical range, 52 Hz case; neither is universal operating limit. No validated alarm threshold.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0519
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0520
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Do not activate zero-PDP failure rule.
+
+Source report: reports/P26.md
+
+Review status: Pending
+
+Source caveats: PDF page 1 blank. Title's non-Newtonian emphasis is not backed by a rheology-specific experiment; no quantitative accuracy should be invented.
+
+Source report: reports/P26.md. PDF page references refer to the original paper, not this text file.

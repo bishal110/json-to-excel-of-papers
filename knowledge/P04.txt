@@ -1,0 +1,825 @@
+ESP research knowledge: P04
+
+Title: Applying Artificial Intelligence to Optimize Oil and Gas Production
+
+Authors: Christoph Kandziora
+
+Year: 2019
+
+Publication: Offshore Technology Conference, Houston, 6–9 May; OTC-29384-MS
+
+DOI: Not printed; OTC-29384-MS is the paper identifier
+
+Related study group: G01
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P04-F01
+Type: Failures
+
+Failure or condition: Seal degradation from corrosive fluid
+
+Category: Motor
+
+Symptoms: Performance deterioration; no unique signal supplied
+
+Root causes: Corrosive liquids including H2 S
+
+Consequences: Integrity/performance loss
+
+Field indicators: No validated signature
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 1–2
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-F02
+Type: Failures
+
+Failure or condition: Bearing fouling / particulate damage
+
+Category: Pump
+
+Symptoms: Anomalous behavior; no isolated rule
+
+Root causes: Sand/particulates
+
+Consequences: Mechanical degradation
+
+Field indicators: No validated signature
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 2
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-F03
+Type: Failures
+
+Failure or condition: Thermal stress
+
+Category: Motor
+
+Symptoms: High operating temperature context
+
+Root causes: Harsh well temperatures
+
+Consequences: Reduced reliability
+
+Field indicators: Motor/intake temperature
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 1
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-F04
+Type: Failures
+
+Failure or condition: Unspecified ESP failure / complex anomalies
+
+Category: Pump
+
+Symptoms: Departure from normal multivariable relationships
+
+Root causes: Known or previously unknown mechanism; model does not diagnose it
+
+Consequences: Degradation or shutdown
+
+Field indicators: Aggregated anomaly score
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 6–8
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-D01
+Type: Rules
+
+Rule name: Anomaly screening
+
+Source status: candidate_requires_local_validation
+
+IF: Learned multivariable relations depart from baseline
+
+AND: Anomaly score exceeds tuned threshold
+
+THEN: Flag anomaly for expert diagnosis
+
+Engineering explanation: Score is not demonstrated as calibrated failure probability
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Score is not demonstrated as calibrated failure probability
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 6–7
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-D02
+Type: Rules
+
+Rule name: Sensitivity tradeoff
+
+Source status: candidate_requires_local_validation
+
+IF: Threshold lowered below 40% in source tests
+
+AND: Data/model unchanged
+
+THEN: Expect earlier signals and more false anomalies
+
+Engineering explanation: Source qualitative examples, not portable setpoints
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source qualitative examples, not portable setpoints
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 7
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-D03
+Type: Rules
+
+Rule name: High threshold
+
+Source status: candidate_requires_local_validation
+
+IF: Threshold above 80% in source tests
+
+AND: Anomaly growing toward failure
+
+THEN: Alerts often only hours before failure
+
+Engineering explanation: No statistical performance distribution supplied
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. No statistical performance distribution supplied
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 7
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-D04
+Type: Rules
+
+Rule name: Fleet grouping
+
+Source status: candidate_requires_local_validation
+
+IF: ESPs differ in available variables/type
+
+AND: Similar variants can share baseline training
+
+THEN: Train separate variant models
+
+Engineering explanation: Avoid combining incompatible measurement systems
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Avoid combining incompatible measurement systems
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 6
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-I01
+Type: Indicators
+
+Indicator: Multivariable anomaly score
+
+Physical meaning: Departure from normal learned relations
+
+Required parameters: Seven surface/downhole variables
+
+Typical trend: Score crosses tuned threshold
+
+Lead time qualification: One retrospective case 12 days; high threshold >80% typically hours, low <40% several days with more false alarms
+
+Relevant channels: ESP Current; Frequency; Intake Pressure; Temperature; Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp. 5–7
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-A01
+Type: Actions
+
+Condition: Anomaly alert
+
+Immediate actions: Validate with independent SCADA diagnostics
+
+Short term actions: Identify cause and decide intervention or managed operation
+
+Long term actions: Plan maintenance; document new anomaly mechanisms
+
+Prevention: Maintain representative clean baseline and synchronized data
+
+Expected benefit: Provide time for informed intervention
+
+Production impact: No measured production benefit; 12-day historical example
+
+Attribution: pp. 6–8
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-A02
+Type: Actions
+
+Condition: Unknown anomaly
+
+Immediate actions: Retain uncertainty and investigate
+
+Short term actions: Correlate logs and equipment evidence
+
+Long term actions: Add confirmed mechanism and response to knowledge base
+
+Prevention: Tune threshold against actual false alerts
+
+Expected benefit: Discover previously unrecognized degradation
+
+Production impact: Unquantified
+
+Attribution: pp. 7–8
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P04-M01
+Type: AI Models
+
+Model type: Generic multilayer neural networks, Python/TensorFlow; one model per ESP variant; cloud anomaly monitoring
+
+Inputs: Annulus and production pressure, current, speed, intake pressure, intake temperature, motor temperature
+
+Outputs: Anomaly indication described probabilistically; human selects mitigation
+
+Reported performance: No accuracy, recall, precision or false-alarm rate reported. One 12-day retrospective warning; qualitative pilot success.
+
+Advantages: Learns normal relationships and can flag unfamiliar patterns; independent SCADA validation.
+
+Limitations: Architecture/training details undisclosed; causality unclear; manual baseline cleansing; unknown anomalies hard to interpret; repeated historical tuning risks optimism.
+
+Data feasibility: Avalon plus surface pressures can supply some inputs if tags exist; published model still needs three downhole channels. Production tests alone are insufficient. Reduced-sensor model requires separate training/validation.
+
+Complexity: High
+
+Prediction target: Abnormal operation potentially preceding failure; not a verified failure mode or exact date.
+
+Lead time qualification: 12 days in one historical case; hours-to-days threshold tradeoff.
+
+Signals: Seven synchronized inputs, variant and historical events.
+
+Source thresholds: Source examples >80% and <40%; not proven probabilities or field alarm settings.
+
+Implementation proposal: Train on adjudicated healthy regimes, hold out complete wells/runs, score in shadow mode, calibrate false alerts and provide evidence to engineers.
+
+Recommended future model: Normal-behavior anomaly detector with separate sensor-available and surface-only versions.
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0061
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Demonstrate cloud neural-network anomaly monitoring as decision support for an onshore fleet with offshore applicability.
+
+Engineering context: Conventional threshold alarms can occur after degradation leaves little intervention time.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0062
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Seal degradation from corrosive fluid; Bearing fouling / particulate damage; Thermal stress; Unspecified ESP failure / complex anomalies
+
+Engineering context: Multivariable behavior differs from a trained normal baseline, even when individual values remain within conventional limits (pp. 2–7).
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0063
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Annulus and production pressure, current, speed, intake pressure, intake temperature, motor temperature
+
+Engineering context: Seven physical inputs, 5–10-second SCADA sampling with store-on-change compression; approximately one year of curated baseline data; 30 ESPs, 200–500 k W (pp. 4–6).
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0064
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Avalon plus surface pressures can supply some inputs if tags exist; published model still needs three downhole channels. Production tests alone are insufficient. Reduced-sensor model requires separate training/validation.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0065
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Anomaly screening: Flag anomaly for expert diagnosis; Sensitivity tradeoff: Expect earlier signals and more false anomalies; High threshold: Alerts often only hours before failure
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0066
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: 12 days in one historical case; hours-to-days threshold tradeoff.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0067
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No accuracy, recall, precision or false-alarm rate reported. One 12-day retrospective warning; qualitative pilot success.
+
+Engineering context: Architecture/training details undisclosed; causality unclear; manual baseline cleansing; unknown anomalies hard to interpret; repeated historical tuning risks optimism.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0068
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Source examples >80% and <40%; not proven probabilities or field alarm settings.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0069
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Anomaly versus diagnosis, threshold/lead-time tradeoff, variant grouping and timestamp quality.
+
+Engineering context: Data-quality and independent-confirmation rules; no validated physical fault classifier.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0070
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Normal-behavior anomaly detector with separate sensor-available and surface-only versions.
+
+Engineering context: Train on adjudicated healthy regimes, hold out complete wells/runs, score in shadow mode, calibrate false alerts and provide evidence to engineers.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0071
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Multivariable behavior differs from a trained normal baseline, even when individual values remain within conventional limits (pp. 2–7).
+
+Engineering context: Conventional threshold alarms can occur after degradation leaves little intervention time.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0072
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Validate with independent SCADA diagnostics
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0073
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Anomaly indication described probabilistically; human selects mitigation; an output must be interpreted within the reported validation.
+
+Engineering context: Architecture/training details undisclosed; causality unclear; manual baseline cleansing; unknown anomalies hard to interpret; repeated historical tuning risks optimism.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0074
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: 12 days in one historical case; hours-to-days threshold tradeoff.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0075
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Annulus and production pressure, current, speed, intake pressure, intake temperature, motor temperature
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0076
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Avalon plus surface pressures can supply some inputs if tags exist; published model still needs three downhole channels. Production tests alone are insufficient. Reduced-sensor model requires separate training/validation.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0077
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Identify cause and decide intervention or managed operation
+
+Engineering context: pp. 6–8
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0078
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Source examples >80% and <40%; not proven probabilities or field alarm settings.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0079
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Author discusses offshore losses potentially in millions of dollars/day as context, not measured pilot savings. No production gain or avoided-cost trial.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0080
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Data-quality and independent-confirmation rules; no validated physical fault classifier.
+
+Source report: reports/P04.md
+
+Review status: Pending
+
+Source caveats: Likely overlaps the 30-ESP/12-day use case in the cited SPE-192610-MS paper; do not count repeated descriptions as independent evidence.
+
+Source report: reports/P04.md. PDF page references refer to the original paper, not this text file.

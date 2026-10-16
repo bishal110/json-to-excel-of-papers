@@ -1,0 +1,1340 @@
+ESP research knowledge: P31
+
+Title: Real-Time Monitoring and Diagnosis of Electrical Submersible Pump
+
+Authors: Guoqing Han; Mian Chen; He Zhang; Kegang Ling
+
+Year: 2015
+
+Publication: SPE ATCE, Houston, 28–30 September; SPE-174873-MS
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P31-F01
+Type: Failures
+
+Failure or condition: Insufficient reservoir inflow
+
+Category: Reservoir
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F02
+Type: Failures
+
+Failure or condition: Gas interference
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F03
+Type: Failures
+
+Failure or condition: Gas locking trip
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F04
+Type: Failures
+
+Failure or condition: Sand influence
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F05
+Type: Failures
+
+Failure or condition: Pump stuck / solids debris
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F06
+Type: Failures
+
+Failure or condition: Overload trip
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F07
+Type: Failures
+
+Failure or condition: Frequent stop/restart
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F08
+Type: Failures
+
+Failure or condition: Emulsification
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F09
+Type: Failures
+
+Failure or condition: Electrical power fluctuation
+
+Category: VSD
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F10
+Type: Failures
+
+Failure or condition: Tubing/draining valve/gauge valve leak
+
+Category: Pump
+
+Symptoms: Production loss may coexist with normal current; abnormal pressure buildup.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F11
+Type: Failures
+
+Failure or condition: Y-adapter leak
+
+Category: Pump
+
+Symptoms: Production loss may coexist with normal current; abnormal pressure buildup.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F12
+Type: Failures
+
+Failure or condition: Broken shaft
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F13
+Type: Failures
+
+Failure or condition: Impeller wear
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F14
+Type: Failures
+
+Failure or condition: Scaling / waxing restriction
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F15
+Type: Failures
+
+Failure or condition: Reverse rotation
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F16
+Type: Failures
+
+Failure or condition: Surface flowline/choke blockage
+
+Category: Surface Network
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F17
+Type: Failures
+
+Failure or condition: Cavitation
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-F18
+Type: Failures
+
+Failure or condition: Corrosion
+
+Category: Pump
+
+Symptoms: Current/pressure pattern varies by condition; see diagnostic rules.
+
+Root causes: Named mechanism; confirmation needed beyond current pattern.
+
+Consequences: Reduced delivery, trips or component stress.
+
+Field indicators: Current-card features, production test and engineered pressure response.
+
+Confidence level: Low
+
+Confidence basis: Medium for confirmed tubing leak; Low/Medium for other classifications
+
+PDF pages: Table 1 p.2; Fig.4 p.7; Fig.5 p.8; Appendices pp.16–20
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-D01
+Type: Rules
+
+Rule name: Buildup normal range
+
+Source status: candidate_requires_local_validation
+
+IF: 0.78 <= actual/theoretical maximum WHP ratio <1.5
+
+AND: Test and hydraulic model valid
+
+THEN: Source classifies normal operation.
+
+Engineering explanation: Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Medium for case; Low for unvalidated branches
+
+PDF pages: Fig.4 p.7
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-D02
+Type: Rules
+
+Rule name: High pressure ratio
+
+Source status: candidate_requires_local_validation
+
+IF: actual/theoretical maximum WHP ratio >=1.5
+
+AND: Test valid
+
+THEN: Source flags low pump efficiency due to gas interference or other causes; unusual direction requires local validation.
+
+Engineering explanation: Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Medium for case; Low for unvalidated branches
+
+PDF pages: Fig.4 p.7
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-D03
+Type: Rules
+
+Rule name: Tubing leak pattern
+
+Source status: candidate_requires_local_validation
+
+IF: maximum WHP ratio <0.78
+
+AND: Pressure increases then decreases
+
+THEN: Suspect tubing leak; pressure cannot remain constant.
+
+Engineering explanation: Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Medium for case; Low for unvalidated branches
+
+PDF pages: Fig.4 p.7
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-D04
+Type: Rules
+
+Rule name: Low-head plateau
+
+Source status: candidate_requires_local_validation
+
+IF: maximum WHP ratio <0.78
+
+AND: Pressure does not increase then decrease, but increases then flattens
+
+THEN: Suspect worn vanes, broken shaft or scaling.
+
+Engineering explanation: Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Medium for case; Low for unvalidated branches
+
+PDF pages: Fig.4 p.7
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-D05
+Type: Rules
+
+Rule name: Y-adapter candidate
+
+Source status: candidate_requires_local_validation
+
+IF: maximum WHP ratio <0.78; neither preceding curve pattern matches
+
+AND: Maximum-current ratio before/after test <1
+
+THEN: Source infers lift loss or idle cycling from Y-adapter leak.
+
+Engineering explanation: Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Medium for case; Low for unvalidated branches
+
+PDF pages: Fig.4 p.7
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-D06
+Type: Rules
+
+Rule name: Viscosity/emulsion candidate
+
+Source status: candidate_requires_local_validation
+
+IF: maximum WHP ratio <0.78; neither preceding curve pattern matches
+
+AND: Maximum-current ratio before/after test >=1
+
+THEN: Source infers lift-capacity loss from high viscosity or emulsion.
+
+Engineering explanation: Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Medium for case; Low for unvalidated branches
+
+PDF pages: Fig.4 p.7
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-D07
+Type: Rules
+
+Rule name: Do not clear well from normal current
+
+Source status: candidate_requires_local_validation
+
+IF: Production falls
+
+AND: Current-card model predicts normal
+
+THEN: Investigate tubing/pump integrity with independent hydraulic evidence.
+
+Engineering explanation: Confirmed case had 57% normal and 12.3% sand output yet actual tubing leak.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Confirmed case had 57% normal and 12.3% sand output yet actual tubing leak.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High for limitation
+
+PDF pages: pp.10–13
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-I01
+Type: Indicators
+
+Indicator: Production-current mismatch
+
+Physical meaning: Electrical work not reaching useful surface production.
+
+Required parameters: Valid production tests and current/power at comparable duty.
+
+Typical trend: Production declines while electrical consumption steady.
+
+Lead time qualification: Existing-fault indicator; no forecast lead.
+
+Relevant channels: ESP Current, Voltage, Frequency, Oil Rate, Water Rate, Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp.10–13
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-I02
+Type: Indicators
+
+Indicator: Abnormal buildup curve
+
+Physical meaning: Hydraulic response differs from modeled intact system.
+
+Required parameters: High-resolution engineered WHP test plus pump/fluid/completion model.
+
+Typical trend: Reduced plateau, rise-then-fall or altered gradients.
+
+Lead time qualification: Diagnostic test, not predictive warning horizon.
+
+Relevant channels: Wellhead Pressure, ESP Current; additional model inputs required
+
+Avalon availability: Unknown
+
+PDF pages: pp.3–7
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-A01
+Type: Actions
+
+Condition: Production loss with normal current
+
+Immediate actions: Check test quality, frequency, fluid changes and surface restrictions.
+
+Short term actions: Engineering team evaluates whether a dedicated pressure-response test is appropriate and defines safe test limits.
+
+Long term actions: Repair confirmed integrity loss; update completion and failure records.
+
+Prevention: Pair current surveillance with independent hydraulic/production evidence.
+
+Expected benefit: Detect hidden leak missed by current classifier.
+
+Production impact: Case verified leak after tubing pull; no quantified uplift.
+
+Attribution: pp.10–13; test is not an autonomous Copilot instruction.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P31-M01
+Type: AI Models
+
+Model type: BP neural network 45 inputs–15 hidden–10 outputs plus analytical pressure-buildup model.
+
+Inputs: Field and synthetic current cards; abstract training across>900 wells; at least 50 simulated examples per class; 45 features from 24 h cards; hydraulic model needs fluid/completion/pump curve.
+
+Outputs: Ten current-card classes plus hydraulic diagnosis.
+
+Reported performance: No held-out aggregate accuracy. Case output 57% normal, 12.3% sand failed to identify leak; pressure method led to confirmed tubing leak.
+
+Advantages: Directly addresses absence of downhole sensors using additional surface test evidence.
+
+Limitations: Synthetic training and validation not fully characterized; current classes overlap; Figure 5 rendering partly corrupted; empirical 0.78/1.5/1 cutoffs not universal.
+
+Data feasibility: Current features possible from Avalon; full pressure method needs dedicated time-resolved test and extra completion/PVT/curve data. Routine Excel pressures/tests alone insufficient.
+
+Complexity: High
+
+Prediction target: Present operational class and integrity/performance fault; no validated RUL.
+
+Lead time qualification: No quantified advance warning; 24 h card is lookback.
+
+Signals: Current plus engineered WHP response and physical model.
+
+Source thresholds: Pressure ratio 0.78/1.5, current ratio 1; learning rate.4 is model setting, not field alarm.
+
+Implementation proposal: Use production-current mismatch as screening; retain multiple causes; implement pressure interpretation only for approved acquired tests with uncertainty.
+
+Recommended future model: Current-pattern classifier with verified field labels; hybrid hydraulic integrity classifier.
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0601
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Combine current-card neural classification with modeled wellhead pressure buildup to diagnose failures missed by current alone.
+
+Engineering context: Offshore production may decline while electrical consumption stays constant; leakage and poor efficiency remain hidden.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0602
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Insufficient reservoir inflow; Gas interference; Gas locking trip; Sand influence; Pump stuck / solids debris; Overload trip; Frequent stop/restart; Emulsification; Electrical power fluctuation; Tubing/draining valve/gauge valve leak; Y-adapter leak; Broken shaft; Impeller wear; Scaling / waxing restriction; Reverse rotation; Surface flowline/choke blockage; Cavitation; Corrosion
+
+Engineering context: Production decline with stable current/power should trigger hydraulic/integrity investigation even when current classifier reports normal.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0603
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Field and synthetic current cards; abstract training across>900 wells; at least 50 simulated examples per class; 45 features from 24 h cards; hydraulic model needs fluid/completion/pump curve.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0604
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Current features possible from Avalon; full pressure method needs dedicated time-resolved test and extra completion/PVT/curve data. Routine Excel pressures/tests alone insufficient.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0605
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Buildup normal range: Source classifies normal operation.; High pressure ratio: Source flags low pump efficiency due to gas interference or other causes; unusual direction requires local validation.; Tubing leak pattern: Suspect tubing leak; pressure cannot remain constant.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0606
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: No quantified advance warning; 24 h card is lookback.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0607
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No held-out aggregate accuracy. Case output 57% normal, 12.3% sand failed to identify leak; pressure method led to confirmed tubing leak.
+
+Engineering context: Synthetic training and validation not fully characterized; current classes overlap; Figure 5 rendering partly corrupted; empirical 0.78/1.5/1 cutoffs not universal.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0608
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Pressure ratio 0.78/1.5, current ratio 1; learning rate.4 is model setting, not field alarm.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0609
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Current-only blind spot; pressure-response interpretation; exact source branching and limitations.
+
+Engineering context: Production-current mismatch and qualified buildup branches.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0610
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Current-pattern classifier with verified field labels; hybrid hydraulic integrity classifier.
+
+Engineering context: Use production-current mismatch as screening; retain multiple causes; implement pressure interpretation only for approved acquired tests with uncertainty.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0611
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Production decline with stable current/power should trigger hydraulic/integrity investigation even when current classifier reports normal.
+
+Engineering context: Offshore production may decline while electrical consumption stays constant; leakage and poor efficiency remain hidden.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0612
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Check test quality, frequency, fluid changes and surface restrictions.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0613
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Ten current-card classes plus hydraulic diagnosis.; an output must be interpreted within the reported validation.
+
+Engineering context: Synthetic training and validation not fully characterized; current classes overlap; Figure 5 rendering partly corrupted; empirical 0.78/1.5/1 cutoffs not universal.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0614
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: No quantified advance warning; 24 h card is lookback.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0615
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Field and synthetic current cards; abstract training across>900 wells; at least 50 simulated examples per class; 45 features from 24 h cards; hydraulic model needs fluid/completion/pump curve.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0616
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Current features possible from Avalon; full pressure method needs dedicated time-resolved test and extra completion/PVT/curve data. Routine Excel pressures/tests alone insufficient.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0617
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Engineering team evaluates whether a dedicated pressure-response test is appropriate and defines safe test limits.
+
+Engineering context: pp.10–13; test is not an autonomous Copilot instruction.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0618
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Pressure ratio 0.78/1.5, current ratio 1; learning rate.4 is model setting, not field alarm.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0619
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: One offshore tubing-leak case confirmed after pull; no quantified saved bar rels or cost.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0620
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Production-current mismatch and qualified buildup branches.
+
+Source report: reports/P31.md
+
+Review status: Pending
+
+Source caveats: Figure 4 visually transcribed. Figure 5 has overlapping/corrupted content; nine named abnormal classes retained, but ambiguous intermediate branches are not invented. Table 1 reverse-rotation causal statement is questionable and should not be copied as a general mechanism.
+
+Source report: reports/P31.md. PDF page references refer to the original paper, not this text file.

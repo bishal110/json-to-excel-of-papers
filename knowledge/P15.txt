@@ -1,0 +1,780 @@
+ESP research knowledge: P15
+
+Title: Electrical Submersible Pump Digital Twin, the Missing Link for Successful Condition Monitoring and Failure Prediction
+
+Authors: Rafael Lastra
+
+Year: 2019
+
+Publication: ADIPEC, Abu Dhabi, 11–14 November; SPE-197156-MS
+
+DOI: Not printed
+
+Related study group: None assigned
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P15-F01
+Type: Failures
+
+Failure or condition: Water/gas breakthrough / inflow issue
+
+Category: Reservoir
+
+Symptoms: Changed inflow/fluid behavior
+
+Root causes: Near-wellbore changes
+
+Consequences: Changed pump duty
+
+Field indicators: Reservoir, pressure and fluid response
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 3
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-F02
+Type: Failures
+
+Failure or condition: Pump wear
+
+Category: Pump
+
+Symptoms: Changing simulated head/load
+
+Root causes: Progressive component degradation
+
+Consequences: Hydraulic efficiency loss
+
+Field indicators: Model/measurement residuals
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 3, 9
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-F03
+Type: Failures
+
+Failure or condition: Scale / hole in tubing
+
+Category: Surface Network
+
+Symptoms: Completion-related deviations
+
+Root causes: Deposit or integrity loss
+
+Consequences: Restricted/leaking delivery
+
+Field indicators: Pressure/rate residual
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 3
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-F04
+Type: Failures
+
+Failure or condition: Closed valve / pressure heading
+
+Category: Surface Network
+
+Symptoms: Surface hydraulic disturbance
+
+Root causes: Valve/network condition
+
+Consequences: Changed flow/backpressure
+
+Field indicators: Wellhead pressure and rate
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 3
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-F05
+Type: Failures
+
+Failure or condition: Electrical / motor / cable / thermal faults
+
+Category: Motor
+
+Symptoms: Simulated failure signatures; no complete fault list
+
+Root causes: Subsystem-specific changes
+
+Consequences: Degraded operation
+
+Field indicators: Electrical, mechanical and thermal residuals
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 3–8
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-D01
+Type: Rules
+
+Rule name: Twin deviation
+
+Source status: candidate_requires_local_validation
+
+IF: Measured response differs materially from calibrated twin
+
+AND: Normal controls/transients and model uncertainty accounted for
+
+THEN: Investigate abnormal system condition
+
+Engineering explanation: Conceptual residual logic; no thresholds or fault classifier published
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Conceptual residual logic; no thresholds or fault classifier published
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 3, 8–9
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-D02
+Type: Rules
+
+Rule name: Synthetic training
+
+Source status: candidate_requires_local_validation
+
+IF: Failure observations sparse
+
+AND: Simulator includes relevant operating configurations and normal changes
+
+THEN: Use labeled synthetic signatures with real data
+
+Engineering explanation: Simulation-to-field validity still requires field trials
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Simulation-to-field validity still requires field trials
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 8–9
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-I01
+Type: Indicators
+
+Indicator: Dimensionless twin residual
+
+Physical meaning: Difference between calibrated real and virtual asset
+
+Required parameters: Measured versus simulated signals
+
+Typical trend: Residual magnitude/pattern departs from healthy state
+
+Lead time qualification: Not reported
+
+Relevant channels: ESP Current; Voltage; Frequency; Intake Pressure; Discharge Pressure; Temperature; Vibration; Oil Rate; Water Rate; Gas Rate; Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: p. 8; simulator aims to generate monitored signals, exact classifier undisclosed
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-A01
+Type: Actions
+
+Condition: Model mismatch
+
+Immediate actions: Verify sensors, configuration and calibration
+
+Short term actions: Run candidate fault/normal-change scenarios
+
+Long term actions: Update model and validate against real cases
+
+Prevention: Store lifecycle configuration and event history
+
+Expected benefit: Better diagnostic context
+
+Production impact: No quantified benefit
+
+Attribution: pp. 2–3, 8–9
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-A02
+Type: Actions
+
+Condition: Design or operating choice
+
+Immediate actions: Use calibrated what-if simulation
+
+Short term actions: Engineer reviews predicted constraints/response
+
+Long term actions: Refine design and training dataset
+
+Prevention: Maintain modular physics and calibration
+
+Expected benefit: Explore choices without field trial-and-error
+
+Production impact: Unquantified
+
+Attribution: p. 9
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P15-M01
+Type: AI Models
+
+Model type: Simulink multiphysics twin; synthetic data generator; future hybrid AI module
+
+Inputs: Detailed asset/fluid/reservoir/completion metadata and live telemetry
+
+Outputs: Full signal simulation, latent residuals, training signatures; diagnosis/RUL are intended AI capabilities
+
+Reported performance: No field predictive accuracy, residual threshold or RUL error. AI module and field prototype/trials are future work.
+
+Advantages: Couples thermal/electrical/hydraulic behavior; represents transients; synthetic fault coverage.
+
+Limitations: Calibration/identifiability, uncertain physics, sim-to-real gap; stochastic life assignment is not observed RUL; no deployed validation.
+
+Data feasibility: Three user data sources alone insufficient without equipment, completion, fluid and reservoir model. Virtual sensing for missing downhole channels is an opportunity, not demonstrated accuracy here.
+
+Complexity: High
+
+Prediction target: Simulated response and synthetic fault signatures; future RUL/diagnostic capability.
+
+Lead time qualification: Not reported.
+
+Signals: System metadata, telemetry and calibration references.
+
+Source thresholds: No operational alarm limits; two-minute simulation target is computational cadence.
+
+Implementation proposal: Begin with calibrated hydraulic/electrical residuals and independent tests; add thermal model and missing-sensor estimates with uncertainty before full twin.
+
+Recommended future model: Virtual sensor with uncertainty; hybrid residual classifier; synthetic-data augmentation tested on real withheld runs.
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0281
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Build modular electrical/mechanical/hydraulic/fluid/thermal ESP simulator and generate labeled synthetic failure data.
+
+Engineering context: Real datasets cannot readily cover every pump–motor combination and fault trajectory; pure data-driven model reliability remains uncertain.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0282
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Water/gas breakthrough / inflow issue; Pump wear; Scale / hole in tubing; Closed valve / pressure heading; Electrical / motor / cable / thermal faults
+
+Engineering context: Measured system response diverges from calibrated physics twin; model must represent normal transients first.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0283
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Detailed asset/fluid/reservoir/completion metadata and live telemetry
+
+Engineering context: Modular simulation dependencies pp. 3–8. Design target: full simulation every two minutes, resolution at least as fine as collected data. Synthetic population: 295 wells, 69 pumps, motors 30–740 HP; stochastic life/cause assignment.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0284
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Three user data sources alone insufficient without equipment, completion, fluid and reservoir model. Virtual sensing for missing downhole channels is an opportunity, not demonstrated accuracy here.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0285
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Twin deviation: Investigate abnormal system condition; Synthetic training: Use labeled synthetic signatures with real data
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0286
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not reported.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0287
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No field predictive accuracy, residual threshold or RUL error. AI module and field prototype/trials are future work.
+
+Engineering context: Calibration/identifiability, uncertain physics, sim-to-real gap; stochastic life assignment is not observed RUL; no deployed validation.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0288
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: No operational alarm limits; two-minute simulation target is computational cadence.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0289
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Twin versus static simulator, normal transient modeling, configuration traceability and synthetic-data limitations.
+
+Engineering context: Residual-based candidate investigation only after calibration.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0290
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Virtual sensor with uncertainty; hybrid residual classifier; synthetic-data augmentation tested on real withheld runs.
+
+Engineering context: Begin with calibrated hydraulic/electrical residuals and independent tests; add thermal model and missing-sensor estimates with uncertainty before full twin.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0291
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Measured system response diverges from calibrated physics twin; model must represent normal transients first.
+
+Engineering context: Real datasets cannot readily cover every pump–motor combination and fault trajectory; pure data-driven model reliability remains uncertain.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0292
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify sensors, configuration and calibration
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0293
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Full signal simulation, latent residuals, training signatures; diagnosis/RUL are intended AI capabilities; an output must be interpreted within the reported validation.
+
+Engineering context: Calibration/identifiability, uncertain physics, sim-to-real gap; stochastic life assignment is not observed RUL; no deployed validation.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0294
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not reported.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0295
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Detailed asset/fluid/reservoir/completion metadata and live telemetry
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0296
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Three user data sources alone insufficient without equipment, completion, fluid and reservoir model. Virtual sensing for missing downhole channels is an opportunity, not demonstrated accuracy here.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0297
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Run candidate fault/normal-change scenarios
+
+Engineering context: pp. 2–3, 8–9
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0298
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: No operational alarm limits; two-minute simulation target is computational cadence.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0299
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Failure downtime and intervention context; no quantified avoided production loss.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0300
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Residual-based candidate investigation only after calibration.
+
+Source report: reports/P15.md
+
+Review status: Pending
+
+Source caveats: Autonomous-control/RUL capabilities are requirements, not demonstrated outcomes. No water-injection model validated.
+
+Source report: reports/P15.md. PDF page references refer to the original paper, not this text file.

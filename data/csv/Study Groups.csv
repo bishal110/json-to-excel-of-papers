@@ -1,0 +1,4 @@
+﻿Group ID,Paper IDs,Evidence note
+G01,P04; P06; P08; P36; P37,Related Siemens / 30-ESP pilot publications; repeated 12-day case is not independent validation.
+G02,P05; P18,Related robust-PCA / health-KPI methodology and case material; assess shared data before pooling.
+G03,P12; P14,Overlapping thesis / failure-classification research; do not count shared taxonomy/data twice.

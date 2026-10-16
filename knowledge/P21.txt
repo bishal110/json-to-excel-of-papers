@@ -1,0 +1,691 @@
+ESP research knowledge: P21
+
+Title: Global Model for Failure Prediction for Rod Pump Artificial Lift Systems
+
+Authors: Yintao Liu; Ke-Thia Yao; Cauligi S.Raghavenda [as printed]; Anqi Wu; Dong Guo; Jingwen Zheng; Lanre Olabinjo; Oluwafemi Balogun; Iraj Ershaghi
+
+Year: 2013
+
+Publication: SPE Western Regional & AAPG Pacific Section Joint Technical Conference, Monterey, 19–25 April; SPE165374
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P21-F01
+Type: Failures
+
+Failure or condition: Rod pump failure
+
+Category: Pump
+
+Symptoms: Abnormal dynamometer/load/runtime trends; sometimes abrupt.
+
+Root causes: Wear/design/manufacturing, solids/gas and corrosive fluids; no unique model cause.
+
+Consequences: Production loss and workover.
+
+Field indicators: Rod-pump-specific load-card features.
+
+Confidence level: Low
+
+Confidence basis: Medium for rod pumps; Low transfer to ESP
+
+PDF pages: Methods and field cases
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P21-F02
+Type: Failures
+
+Failure or condition: Tubing leak
+
+Category: Pump
+
+Symptoms: Loss of useful production while pump may keep operating.
+
+Root causes: Mechanical wear/rod cutting and corrosion.
+
+Consequences: Recirculation and sustained production loss.
+
+Field indicators: Dynamometer card shrinkage plus production evidence.
+
+Confidence level: Medium
+
+Confidence basis: Medium for rod pumps
+
+PDF pages: Problem description
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P21-D01
+Type: Rules
+
+Rule name: Frozen-card check
+
+Source status: candidate_requires_local_validation
+
+IF: Card area, peak and minimum load all exactly unchanged
+
+AND: Consecutive days accumulate
+
+THEN: Consider POC/data problem or pump issue; do not assume healthy.
+
+Engineering explanation: Source warning is ambiguousensor-versus-process evidence.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source warning is ambiguousensor-versus-process evidence.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.3–4
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P21-D02
+Type: Rules
+
+Rule name: Cluster training eligibility
+
+Source status: candidate_requires_local_validation
+
+IF: At least 100 nonmissing signatures
+
+AND: Normal cluster dominates and failure cluster includes last pre-event observation; tubing-failure card shrinks sufficiently
+
+THEN: Accept rule-consistent labeled sequence for multiclass training.
+
+Engineering explanation: Training filter excludes atypical events and can bias learned population.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Training filter excludes atypical events and can bias learned population.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High for method
+
+PDF pages: pp.5–6
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P21-I01
+Type: Indicators
+
+Indicator: Unchanged card values
+
+Physical meaning: May represent failed measurement or problematic pump.
+
+Required parameters: Days card area, peak/min load unchanged to last digit; missing dates counted unchanged in source.
+
+Typical trend: Counter rises.
+
+Lead time qualification: Example precedes failure; no calibrated lead.
+
+Relevant channels: None of 11 channels directly; rod-card measurement freshness
+
+Avalon availability: Unknown
+
+PDF pages: pp.3–4
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P21-I02
+Type: Indicators
+
+Indicator: Runtime ratio decline
+
+Physical meaning: Captures low duty fraction faster than smoothed trend.
+
+Required parameters: Daily runtime/24 h.
+
+Typical trend: Declines.
+
+Lead time qualification: No quantified lead.
+
+Relevant channels: Frequency, ESP Current can support analogous run-state measure only after redesign
+
+Avalon availability: Unknown
+
+PDF pages: p.4
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P21-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P21-M01
+Type: AI Models
+
+Model type: EM Gaussian-mixture labeling plus physical-rule filtering; multiclass RBF SVM.
+
+Inputs: 1947 rod pumps, five fields; train 2010, validate 2011; four primary trends plus card unchanged days/runtime ratio.
+
+Outputs: Normal, pre-failure and failure classes for tubing/pump.
+
+Reported performance: TP278, FP145, FN141, TN1383 =>precision 65.7%, recall 66.4%. Field precision 50.0–80.2%, recall 47.1–88.5%. Historical evaluation; deployment future work.
+
+Advantages: Cross-field training and chronological holdout; documents sudden failures cannot be anticipated from absent trends.
+
+Limitations: 100 day matching tolerance; alerts within 15 days of downtime filtered; different fields vary markedly; prose incorrectly labels false positive as false negative; normal-cluster cutoff 70% prose versus 50% algorithm.
+
+Data feasibility: Rod-card variables absent in ESP sources; methodology transferable only after new ESP training/labels.
+
+Complexity: High
+
+Prediction target: Trend-bearing rod pump/tubing failures; abrupt rod/joint events not reliably forecast.
+
+Lead time qualification: 100 day evaluation tolerance is not proven 100 day advance warning; actual failure may precede recorded discovery.
+
+Signals: Load-card/runtime series and independent event dates.
+
+Source thresholds: 100 nonmissing signatures; normal cluster>50% algorithm versus 70% prose; tubing-card shrinkage lambda unspecified.
+
+Implementation proposal: Use source methodology to design cross-well ESP study; audit true onset vs discovery date and report abrupt-event detection separately.
+
+Recommended future model: Global ESP classifier with well/time holdout and cohort-specific performance.
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0401
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Learn cross-field rod-pump failure patterns through rule-enhanced EM labeling and global multiclass SVM.
+
+Engineering context: Field-specific classifiers require repeated expert labeling and generalize poorly.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0402
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Rod pump failure; Tubing leak
+
+Engineering context: For rod pumps inspect dynamometer/load and runtime changes alongside flow/tests; these signatures are not ESP measurements.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0403
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 1947 rod pumps, five fields; train 2010, validate 2011; four primary trends plus card unchanged days/runtime ratio.
+
+Engineering context: Rod-pump inputs are not available from an ESP historian merely because it records current. Transfer methodology only; rebuild features and labels for ESP.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0404
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Rod-card variables absent in ESP sources; methodology transferable only after new ESP training/labels.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0405
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Frozen-card check: Consider POC/data problem or pump issue; do not assume healthy.; Cluster training eligibility: Accept rule-consistent labeled sequence for multiclass training.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0406
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: 100 day evaluation tolerance is not proven 100 day advance warning; actual failure may precede recorded discovery.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0407
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: TP278, FP145, FN141, TN1383 =>precision 65.7%, recall 66.4%. Field precision 50.0–80.2%, recall 47.1–88.5%. Historical evaluation; deployment future work.
+
+Engineering context: 100 day matching tolerance; alerts within 15 days of downtime filtered; different fields vary markedly; prose incorrectly labels false positive as false negative; normal-cluster cutoff 70% prose versus 50% algorithm.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0408
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: 100 nonmissing signatures; normal cluster>50% algorithm versus 70% prose; tubing-card shrinkage lambda unspecified.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0409
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Onset versus recorded-date distinction; sudden-event limitation; field-domain shift.
+
+Engineering context: Data freshness/run-state checks only as adapted candidates.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0410
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Global ESP classifier with well/time holdout and cohort-specific performance.
+
+Engineering context: Use source methodology to design cross-well ESP study; audit true onset vs discovery date and report abrupt-event detection separately.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0411
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: For rod pumps inspect dynamometer/load and runtime changes alongside flow/tests; these signatures are not ESP measurements.
+
+Engineering context: Field-specific classifiers require repeated expert labeling and generalize poorly.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0412
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0413
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Normal, pre-failure and failure classes for tubing/pump.; an output must be interpreted within the reported validation.
+
+Engineering context: 100 day matching tolerance; alerts within 15 days of downtime filtered; different fields vary markedly; prose incorrectly labels false positive as false negative; normal-cluster cutoff 70% prose versus 50% algorithm.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0414
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: 100 day evaluation tolerance is not proven 100 day advance warning; actual failure may precede recorded discovery.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0415
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 1947 rod pumps, five fields; train 2010, validate 2011; four primary trends plus card unchanged days/runtime ratio.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0416
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Rod-card variables absent in ESP sources; methodology transferable only after new ESP training/labels.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0417
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0418
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: 100 nonmissing signatures; normal cluster>50% algorithm versus 70% prose; tubing-card shrinkage lambda unspecified.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0419
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0420
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Data freshness/run-state checks only as adapted candidates.
+
+Source report: reports/P21.md
+
+Review status: Pending
+
+Source caveats: Source data are rod pumps. Do not transfer rod-cutting/card rules directly to ESP. Training ratio statement is inconsistent with stated 50 failure/350 normal well count.
+
+Source report: reports/P21.md. PDF page references refer to the original paper, not this text file.

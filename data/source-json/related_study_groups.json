@@ -1,0 +1,29 @@
+[
+  {
+    "id": "G01",
+    "papers": [
+      "P04",
+      "P06",
+      "P08",
+      "P36",
+      "P37"
+    ],
+    "note": "Related Siemens / 30-ESP pilot publications; repeated 12-day case is not independent validation."
+  },
+  {
+    "id": "G02",
+    "papers": [
+      "P05",
+      "P18"
+    ],
+    "note": "Related robust-PCA / health-KPI methodology and case material; assess shared data before pooling."
+  },
+  {
+    "id": "G03",
+    "papers": [
+      "P12",
+      "P14"
+    ],
+    "note": "Overlapping thesis / failure-classification research; do not count shared taxonomy/data twice."
+  }
+]

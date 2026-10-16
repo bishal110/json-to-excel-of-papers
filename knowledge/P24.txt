@@ -1,0 +1,778 @@
+ESP research knowledge: P24
+
+Title: Machine Learning Approach for Predictive Maintenance of the Electrical Submersible Pumps (ESPs)
+
+Authors: Ramez Abdalla; Hanin Samara; Nelson Perozo; Carlos Paz Carvajal; Philip Jaeger
+
+Year: 2022
+
+Publication: ACS Omega 7, 17641–17651
+
+DOI: 10.1021/acsomega.1c05881
+
+Related study group: None assigned
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P24-F01
+Type: Failures
+
+Failure or condition: Cable insulation/electrical failure
+
+Category: Cable
+
+Symptoms: Electrical downhole failure; specific continuous signature not isolated.
+
+Root causes: Corrosion, material failure, abrasion, overload.
+
+Consequences: Workover and deferment.
+
+Field indicators: Combined telemetry and electrical testing.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.2–3
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-F02
+Type: Failures
+
+Failure or condition: Motor stator overheating
+
+Category: Motor
+
+Symptoms: Motor temperature rises; frequency rampsdown at thermal limit.
+
+Root causes: Polymer deposition reduces heat dissipation, raising T and promoting further deposition.
+
+Consequences: Stator failure and shutdown.
+
+Field indicators: Motor temperature/current/frequency and polymer context.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.3
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-F03
+Type: Failures
+
+Failure or condition: Polymer intake plugging
+
+Category: Pump
+
+Symptoms: Flow restriction; hot motor region.
+
+Root causes: Thermallypromoted polymer precipitation.
+
+Consequences: Loss of cooling/delivery.
+
+Field indicators: Thermal/hydraulic response; not separately classified.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.3
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-F04
+Type: Failures
+
+Failure or condition: Downhole sensor electrical failure
+
+Category: Sensor
+
+Symptoms: Electrical failure category include sensor.
+
+Root causes: Electrical component fault; no unique mechanism specified.
+
+Consequences: Loss of monitoring.
+
+Field indicators: Missing/invalid readings and electrical checks.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p.3
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-F05
+Type: Failures
+
+Failure or condition: Tubing leak
+
+Category: Pump
+
+Symptoms: Discharge pressure↓; PIP/annulus pressure↑ in explanatory example.
+
+Root causes: Tubing integrity loss.
+
+Consequences: Recirculation and production loss.
+
+Field indicators: Correlated pressure departure.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium; illustrative not validated case
+
+PDF pages: p.5
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-D01
+Type: Rules
+
+Rule name: Polymer thermal candidate
+
+Source status: candidate_requires_local_validation
+
+IF: Motor temperature rises in polymer flood well
+
+AND: Cooling/deposition evidence and frequency ramp down present
+
+THEN: Investigate polymer deposition and stator overheating.
+
+Engineering explanation: Mechanism described; not validated uniquely by classifier.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Mechanism described; not validated uniquely by classifier.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.3
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-D02
+Type: Rules
+
+Rule name: Pre-event classification
+
+Source status: candidate_requires_local_validation
+
+IF: Cleaned features mapped through PCA/XGBoost
+
+AND: Model identifies preworkover class
+
+THEN: Issue impending electrical-event advisory.
+
+Engineering explanation: Event-date label may reflect workover scheduling rather than physical onset.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Event-date label may reflect workover scheduling rather than physical onset.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.7–9
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-I01
+Type: Indicators
+
+Indicator: PCA/boosting preworkover class
+
+Physical meaning: Multivariate state resembles 7 day pre-event window.
+
+Required parameters: 8 signals+moving differences; 8 PCs>90% variance.
+
+Typical trend: Learned risk rises.
+
+Lead time qualification: Labels cover≤7 days; not all seven days detectable and no event-level lead distribution.
+
+Relevant channels: ESP Current, Frequency, Intake Pressure, Discharge Pressure, Temperature, Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp.3–9
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-I02
+Type: Indicators
+
+Indicator: Thermal-deposition feedback
+
+Physical meaning: Polymer coating progressively reduces motor cooling.
+
+Required parameters: Motor temperature, frequency, polymer/fluid context.
+
+Typical trend: Motor temperature↑ followed by frequency reduction.
+
+Lead time qualification: Not quantified.
+
+Relevant channels: Temperature, Frequency, ESP Current
+
+Avalon availability: Unknown
+
+PDF pages: p.3
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P24-M01
+Type: AI Models
+
+Model type: PCA+XGBoost; hourly median, 1.5 IQR filter, standardization, moving differences.
+
+Inputs: 339089 normal, 1728 preworkover, 288 workover hourly points; 8 physical signals+differences.
+
+Outputs: Normal versus≤7 day pre-event; discussion uses normal/preworkover/workover classes.
+
+Reported performance: 10 fold mean ROC-AUC.95; test pre-event precision.80, recall.60, F1.71, support 604; normal 101726. Abstract says>0.71, table.71.
+
+Advantages: Clear physical polymer mechanism and explicit imbalanced-class metrics.
+
+Limitations: 70/30 versus 70/15/15 split descriptions; random folds not well/run chronological validation; full-data PCA/scaling language risks leakage; tables contain impossible descriptive ordering(mean/std versus max); standardization text says variance rather than SD.
+
+Data feasibility: Full model needs downhole sensors and workover labels. Three sources alone insufficient unless labels/equipment context supplied. Sensorless variant untested.
+
+Complexity: Medium
+
+Prediction target: Electrical preworkover state.
+
+Lead time qualification: ≤7 day label; point recall 60% does not equal 60% event recall or guaranteed 7 day warning.
+
+Signals: Eight synchronized signals, causal moving differences, independent failure/workover records.
+
+Source thresholds: 1.5 IQR is cleaning threshold, not fault limit; no physical operating cutoff.
+
+Implementation proposal: Preserve genuine extremes; fit transforms on training only; chronological ESP-run holdout; report event recall, alarm duration, lead and false alerts.
+
+Recommended future model: PCA+boosting benchmark alongside raw-feature boosting, full sensor and surface-only cohorts.
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0461
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: PCA feature reduction plus XGBoost to identify samples within 7 days of electrical failure/workover.
+
+Engineering context: Polymer flood ESP electrical/thermal failures need proactive recognition.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0462
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Cable insulation/electrical failure; Motor stator overheating; Polymer intake plugging; Downhole sensor electrical failure; Tubing leak
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0463
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 339089 normal, 1728 preworkover, 288 workover hourly points; 8 physical signals+differences.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0464
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Full model needs downhole sensors and workover labels. Three sources alone insufficient unless labels/equipment context supplied. Sensorless variant untested.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0465
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Polymer thermal candidate: Investigate polymer deposition and stator overheating.; Pre-event classification: Issue impending electrical-event advisory.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0466
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: ≤7 day label; point recall 60% does not equal 60% event recall or guaranteed 7 day warning.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0467
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: 10 fold mean ROC-AUC.95; test pre-event precision.80, recall.60, F1.71, support 604; normal 101726. Abstract says>0.71, table.71.
+
+Engineering context: 70/30 versus 70/15/15 split descriptions; random folds not well/run chronological validation; full-data PCA/scaling language risks leakage; tables contain impossible descriptive ordering(mean/std versus max); standardization text says variance rather than SD.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0468
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: 1.5 IQR is cleaning threshold, not fault limit; no physical operating cutoff.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0469
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Polymer thermal feedback; class imbalance; event date ambiguity.
+
+Engineering context: Thermal/deposition checks where polymer exposure exists.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0470
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: PCA+boosting benchmark alongside raw-feature boosting, full sensor and surface-only cohorts.
+
+Engineering context: Preserve genuine extremes; fit transforms on training only; chronological ESP-run holdout; report event recall, alarm duration, lead and false alerts.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0471
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Polymer flood ESP electrical/thermal failures need proactive recognition.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0472
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0473
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Normal versus≤7 day pre-event; discussion uses normal/preworkover/workover classes.; an output must be interpreted within the reported validation.
+
+Engineering context: 70/30 versus 70/15/15 split descriptions; random folds not well/run chronological validation; full-data PCA/scaling language risks leakage; tables contain impossible descriptive ordering(mean/std versus max); standardization text says variance rather than SD.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0474
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: ≤7 day label; point recall 60% does not equal 60% event recall or guaranteed 7 day warning.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0475
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 339089 normal, 1728 preworkover, 288 workover hourly points; 8 physical signals+differences.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0476
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Full model needs downhole sensors and workover labels. Three sources alone insufficient unless labels/equipment context supplied. Sensorless variant untested.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0477
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0478
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: 1.5 IQR is cleaning threshold, not fault limit; no physical operating cutoff.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0479
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0480
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Thermal/deposition checks where polymer exposure exists.
+
+Source report: reports/P24.md
+
+Review status: Pending
+
+Source caveats: Do not treat flood field results as water-injection well fault model. The paper's isolated dynamometer reference does not make its ESP inputs dynamometer cards.
+
+Source report: reports/P24.md. PDF page references refer to the original paper, not this text file.

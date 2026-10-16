@@ -1,0 +1,120 @@
+﻿Table,Column,Logical name,Data type,Editable,Definition
+Failures,Entry ID,entry_id,Text,No,Stable identifier; retain when sorting or editing.
+Failures,Paper ID,paper_id,Text,No,Join to Papers.Paper ID.
+Failures,Failure or condition,failure_or_condition,Text,No,"One source-specific failure, symptom or stress condition per row. Overlapping sources are retained."
+Failures,Category,category,Text,No,"One source-specific failure, symptom or stress condition per row. Overlapping sources are retained."
+Failures,Symptoms,symptoms,Text,No,"One source-specific failure, symptom or stress condition per row. Overlapping sources are retained."
+Failures,Root causes,root_causes,Text,No,"One source-specific failure, symptom or stress condition per row. Overlapping sources are retained."
+Failures,Consequences,consequences,Text,No,"One source-specific failure, symptom or stress condition per row. Overlapping sources are retained."
+Failures,Field indicators,field_indicators,Text,No,"One source-specific failure, symptom or stress condition per row. Overlapping sources are retained."
+Failures,Confidence level,confidence_level,Text,No,Conservative Low/Medium/High label; read Confidence basis for nuance.
+Failures,Confidence basis,confidence_basis,Text,No,"One source-specific failure, symptom or stress condition per row. Overlapping sources are retained."
+Failures,PDF pages,pdf_pages,Text,No,Page reference in the supplied PDF; Papers uses total page count.
+Failures,Review status,review_status,Text,Yes,"Pending, Reviewed or Rejected. Reviewed means content review, not permission to operate equipment."
+Failures,Reviewer,reviewer,Text,Yes,"One source-specific failure, symptom or stress condition per row. Overlapping sources are retained."
+Failures,Review notes,review_notes,Text,Yes,"Record corrections, uncertainty or rationale; do not overwrite source evidence."
+Rules,Entry ID,entry_id,Text,No,Stable identifier; retain when sorting or editing.
+Rules,Paper ID,paper_id,Text,No,Join to Papers.Paper ID.
+Rules,Rule name,rule_name,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Source status,source_status,Text,No,Original rule/action status. A review does not remove a source deployment restriction.
+Rules,IF,if,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,AND,and,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,THEN,then,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Engineering explanation,engineering_explanation,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Alternative causes,alternative_causes,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Recommended checks,recommended_checks,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Recommended actions,recommended_actions,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Confidence level,confidence_level,Text,No,Conservative Low/Medium/High label; read Confidence basis for nuance.
+Rules,Confidence basis,confidence_basis,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,PDF pages,pdf_pages,Text,No,Page reference in the supplied PDF; Papers uses total page count.
+Rules,Source caveats,source_caveats,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Evidence type,evidence_type,Text,No,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Review status,review_status,Text,Yes,"Pending, Reviewed or Rejected. Reviewed means content review, not permission to operate equipment."
+Rules,Reviewer,reviewer,Text,Yes,"One diagnostic rule per row, with the related expert-system checks and actions. Source status is independent of review status."
+Rules,Review notes,review_notes,Text,Yes,"Record corrections, uncertainty or rationale; do not overwrite source evidence."
+Indicators,Entry ID,entry_id,Text,No,Stable identifier; retain when sorting or editing.
+Indicators,Paper ID,paper_id,Text,No,Join to Papers.Paper ID.
+Indicators,Indicator,indicator,Text,No,Observation windows and actual advance warning remain separate.
+Indicators,Physical meaning,physical_meaning,Text,No,Observation windows and actual advance warning remain separate.
+Indicators,Required parameters,required_parameters,Text,No,Observation windows and actual advance warning remain separate.
+Indicators,Typical trend,typical_trend,Text,No,Observation windows and actual advance warning remain separate.
+Indicators,Lead time qualification,lead_time_qualification,Text,No,"Includes source distinctions between windows, horizons and demonstrated warning."
+Indicators,Relevant channels,relevant_channels,Text,No,Observation windows and actual advance warning remain separate.
+Indicators,Avalon availability,avalon_availability,Text,No,Unknown until mapped to actual local data; Yes and No require a tag audit.
+Indicators,PDF pages,pdf_pages,Text,No,Page reference in the supplied PDF; Papers uses total page count.
+Indicators,Review status,review_status,Text,Yes,"Pending, Reviewed or Rejected. Reviewed means content review, not permission to operate equipment."
+Indicators,Reviewer,reviewer,Text,Yes,Observation windows and actual advance warning remain separate.
+Indicators,Review notes,review_notes,Text,Yes,"Record corrections, uncertainty or rationale; do not overwrite source evidence."
+Actions,Entry ID,entry_id,Text,No,Stable identifier; retain when sorting or editing.
+Actions,Paper ID,paper_id,Text,No,Join to Papers.Paper ID.
+Actions,Condition,condition,Text,No,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Immediate actions,immediate_actions,Text,No,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Short term actions,short_term_actions,Text,No,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Long term actions,long_term_actions,Text,No,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Prevention,prevention,Text,No,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Expected benefit,expected_benefit,Text,No,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Production impact,production_impact,Text,No,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Attribution,attribution,Text,No,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Source status,source_status,Text,No,Original rule/action status. A review does not remove a source deployment restriction.
+Actions,Review status,review_status,Text,Yes,"Pending, Reviewed or Rejected. Reviewed means content review, not permission to operate equipment."
+Actions,Reviewer,reviewer,Text,Yes,One condition-specific action group per row. General engineering proposals retain their attribution.
+Actions,Review notes,review_notes,Text,Yes,"Record corrections, uncertainty or rationale; do not overwrite source evidence."
+Parameters,Entry ID,entry_id,Text,No,Stable identifier; retain when sorting or editing.
+Parameters,Paper ID,paper_id,Text,No,Join to Papers.Paper ID.
+Parameters,Parameter,parameter,Text,No,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+Parameters,Avalon availability,avalon_availability,Text,Yes,Unknown until mapped to actual local data; Yes and No require a tag audit.
+Parameters,Local tag name,local_tag_name,Text,Yes,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+Parameters,Local units,local_units,Text,Yes,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+Parameters,Measurement location,measurement_location,Text,Yes,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+Parameters,Source method,source_method,Text,No,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+Parameters,Source scope,source_scope,Text,No,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+Parameters,Source input description,source_input_description,Text,No,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+Parameters,Role confirmation,role_confirmation,Text,No,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+Parameters,Mapping notes,mapping_notes,Text,Yes,"Map actual Avalon tags here. Blank local fields mean unverified; source mentions include inputs, context and outcomes."
+AI Models,Entry ID,entry_id,Text,No,Stable identifier; retain when sorting or editing.
+AI Models,Paper ID,paper_id,Text,No,Join to Papers.Paper ID.
+AI Models,Model type,model_type,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Inputs,inputs,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Outputs,outputs,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Reported performance,reported_performance,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Advantages,advantages,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Limitations,limitations,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Data feasibility,data_feasibility,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Complexity,complexity,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Prediction target,prediction_target,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Lead time qualification,lead_time_qualification,Text,No,"Includes source distinctions between windows, horizons and demonstrated warning."
+AI Models,Signals,signals,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Source thresholds,source_thresholds,Text,No,Research thresholds and definitions; not approved equipment limits.
+AI Models,Implementation proposal,implementation_proposal,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Recommended future model,recommended_future_model,Text,No,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Review status,review_status,Text,Yes,"Pending, Reviewed or Rejected. Reviewed means content review, not permission to operate equipment."
+AI Models,Reviewer,reviewer,Text,Yes,One study-method record per paper; performance claims and future-model proposals remain distinct.
+AI Models,Review notes,review_notes,Text,Yes,"Record corrections, uncertainty or rationale; do not overwrite source evidence."
+Q and A,Entry ID,entry_id,Text,No,Stable identifier; retain when sorting or editing.
+Q and A,Paper ID,paper_id,Text,No,Join to Papers.Paper ID.
+Q and A,Audience,audience,Text,No,Ten engineer and ten operator questions per source paper; similar questions may have different source-specific answers.
+Q and A,Question,question,Text,No,Ten engineer and ten operator questions per source paper; similar questions may have different source-specific answers.
+Q and A,Ideal answer,ideal_answer,Text,No,Ten engineer and ten operator questions per source paper; similar questions may have different source-specific answers.
+Q and A,Engineering context,engineering_context,Text,No,Ten engineer and ten operator questions per source paper; similar questions may have different source-specific answers.
+Q and A,Source report,source_report,Text,No,Ten engineer and ten operator questions per source paper; similar questions may have different source-specific answers.
+Q and A,Review status,review_status,Text,Yes,"Pending, Reviewed or Rejected. Reviewed means content review, not permission to operate equipment."
+Q and A,Reviewer,reviewer,Text,Yes,Ten engineer and ten operator questions per source paper; similar questions may have different source-specific answers.
+Q and A,Review notes,review_notes,Text,Yes,"Record corrections, uncertainty or rationale; do not overwrite source evidence."
+Papers,Paper ID,paper_id,Text,No,Join to Papers.Paper ID.
+Papers,Title,title,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Year,year,Integer,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Authors,authors,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Journal or conference,journal_or_conference,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,DOI,doi,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Research type,research_type,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Project score,project_score,Integer,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Project fit,project_fit,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Related study group,related_study_group,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,PDF pages,pdf_pages,Integer,No,Page reference in the supplied PDF; Papers uses total page count.
+Papers,Source filename,source_filename,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Report path,report_path,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Source caveats,source_caveats,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Papers,Source SHA256,source_sha256,Text,No,"Paper ID is the join key for bibliographic details, caveats and reports. Project score is an analyst judgment, not a validation metric."
+Study Groups,Group ID,group_id,Text,No,Related publications must not be counted as independent validation.
+Study Groups,Paper IDs,paper_ids,Text,No,Related publications must not be counted as independent validation.
+Study Groups,Evidence note,evidence_note,Text,No,Related publications must not be counted as independent validation.

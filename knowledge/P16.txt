@@ -1,0 +1,807 @@
+ESP research knowledge: P16
+
+Title: ESP Well and Component Failure Prediction in Advance using Engineered Analytics - A Breakthrough in Minimizing Unscheduled Subsurface Deferments
+
+Authors: Antonio Andrade Marin; Salim Busaidy; Mohammed Murad; Issa Balushi; Abdullah Riyami; Sultan Jahwari; Adnan Ghadani; Erik Ferdiansyah; Ghosin Shukaili; Faham Amri; Nitish Kumar; Eduardo Marin; Rahul Gala; Rakesh Rai; Bimal Venkatesh; Brian Bai; Arun Kumar; Edward Ang; George Jacob
+
+Year: 2019
+
+Publication: ADIPEC, Abu Dhabi, 11–14 November; SPE-197806-MS
+
+DOI: 10.2118/197806-MS (also cited in P17)
+
+Related study group: None assigned
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P16-F01
+Type: Failures
+
+Failure or condition: Pump wear / off-design thrust damage
+
+Category: Pump
+
+Symptoms: Declining modeled efficiency or abnormal hydraulic duty.
+
+Root causes: Wear, upthrust/downthrust, operation outside feasible range.
+
+Consequences: Pump failure and deferred production.
+
+Field indicators: Pressure differential, inferred inflow/rate/efficiency and operating history.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.3–8, 20–21
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-F02
+Type: Failures
+
+Failure or condition: Motor failure
+
+Category: Motor
+
+Symptoms: Aggregate failure class; mode-specific symptom not supplied.
+
+Root causes: Not individually resolved by the binary well model.
+
+Consequences: Loss of production and replacement work.
+
+Field indicators: Combined measured and inferred feature deviations.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for aggregate risk
+
+PDF pages: pp.3–8
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-F03
+Type: Failures
+
+Failure or condition: Cable failure
+
+Category: Cable
+
+Symptoms: Aggregate failure class; mode-specific symptom not supplied.
+
+Root causes: Not individually resolved by the binary well model.
+
+Consequences: Loss of production and replacement work.
+
+Field indicators: Combined measured and inferred feature deviations.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for aggregate risk
+
+PDF pages: pp.3–8
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-F04
+Type: Failures
+
+Failure or condition: Seal failure
+
+Category: Pump
+
+Symptoms: Aggregate failure class; mode-specific symptom not supplied.
+
+Root causes: Not individually resolved by the binary well model.
+
+Consequences: Loss of production and replacement work.
+
+Field indicators: Combined measured and inferred feature deviations.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for aggregate risk
+
+PDF pages: pp.3–8
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-F05
+Type: Failures
+
+Failure or condition: Tubing failure
+
+Category: Pump
+
+Symptoms: Aggregate failure class; mode-specific symptom not supplied.
+
+Root causes: Not individually resolved by the binary well model.
+
+Consequences: Loss of production and replacement work.
+
+Field indicators: Combined measured and inferred feature deviations.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for aggregate risk
+
+PDF pages: pp.3–8
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-F06
+Type: Failures
+
+Failure or condition: Frozen/erratic measurements
+
+Category: Sensor
+
+Symptoms: Unchanging or implausible data.
+
+Root causes: Instrument/communication issue.
+
+Consequences: Misleading inferred features or alerts.
+
+Field indicators: Quality coverage and cross-channel consistency.
+
+Confidence level: High
+
+Confidence basis: High for quality gate
+
+PDF pages: pp.5–9
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-D01
+Type: Rules
+
+Rule name: Risk classification
+
+Source status: candidate_requires_local_validation
+
+IF: Quality-valid historical features available
+
+AND: Trained random forest exceeds selected decision boundary
+
+THEN: Flag well/pump failure risk for engineering review.
+
+Engineering explanation: The model classifies impending failure, not an identified root cause; threshold not published.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. The model classifies impending failure, not an identified root cause; threshold not published.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.9–20
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-D02
+Type: Rules
+
+Rule name: Training quality gate
+
+Source status: candidate_requires_local_validation
+
+IF: 120-day pre-failure window assembled
+
+AND: Data quality/completeness >75%
+
+THEN: Retain candidate failure window; exclude normal examples within 120 days around failures.
+
+Engineering explanation: Author dataset-selection logic, not operating alarm.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author dataset-selection logic, not operating alarm.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High for reproducing method
+
+PDF pages: pp.6–10
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-I01
+Type: Indicators
+
+Indicator: Engineered failure risk
+
+Physical meaning: Patterns preceding labeled failure.
+
+Required parameters: 18 selected channels plus statistics and physics features.
+
+Typical trend: Elevated model risk.
+
+Lead time qualification: Blind-review mean well lead 60.22 days (0–165); pump 60.08 days (6–135); not guaranteed horizons.
+
+Relevant channels: ESP Current, Voltage, Frequency, Intake Pressure, Discharge Pressure, Temperature, Vibration, Wellhead Pressure; inferred rates
+
+Avalon availability: Unknown
+
+PDF pages: pp.18–20
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-I02
+Type: Indicators
+
+Indicator: Inferred inflow/pressure-difference deviation
+
+Physical meaning: Hydraulic state and changing pump response.
+
+Required parameters: Calibrated physics model and measured pressures/rates.
+
+Typical trend: Multivariate departure; no universal direction.
+
+Lead time qualification: No independent indicator lead time.
+
+Relevant channels: Intake Pressure, Discharge Pressure, ESP Current, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: pp.9–16
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P16-M01
+Type: AI Models
+
+Model type: Two random forests with engineered physics/statistical features
+
+Inputs: 35 raw channels reduced to 18; static completion/install/failure records; means, differences, SD and calibrated virtual rates/efficiencies. Three years used because physics-derived history limited.
+
+Outputs: Binary well failure next 30 days; pump failure next 45 days.
+
+Reported performance: Initial well test: TP55, FN42, TN96, FP1; precision 98.2%, recall 56.7%, accuracy 77.8%. Pump test: TP6, FN4, TN21, FP1; precision 85.7%, recall 60%, accuracy 84.4%. Blind 35-well review: well TP17, FN12, TN27, FP2 => precision 89.47%, recall 58.62%, accuracy 75.86%. Pump TP12, FN6, TN28, FP1 => precision 92.31%, recall 66.67%, calculated accuracy 85.11%; paper prints 88.11% and 39 correct although matrix has 40 correct (p.20).
+
+Advantages: Physics features and separate component target; blind wells; high positive predictive value in study.
+
+Limitations: Small component sample, SME-corrected event dates, balanced initial test prevalence and retrospective review. Roughly 40% well failures missed. Complete 18-feature names not disclosed.
+
+Data feasibility: Not directly from three stated sources alone: requires completion/equipment/failure records and validated physical models; missing downhole sensors remove important inputs. Reduced-signal model requires separate training.
+
+Complexity: High
+
+Prediction target: Aggregate failure risk and pump-component risk.
+
+Lead time qualification: Nominal 30/45 day labels; historical blind averages about 60 days are a different measurement, with broad ranges including 0 days for well failures.
+
+Signals: Measured telemetry, physical model outputs, maintenance/install outcomes.
+
+Source thresholds: No operational risk cutoff disclosed. >75% data quality over 120 days is a training gate.
+
+Implementation proposal: Reconstruct independent ESP-run timelines, causal features and physical models; prospective shadow alerts; measure event precision/recall, false alarms per well-month and lead distributions.
+
+Recommended future model: Hybrid physics plus tree model, separately validated for full-sensor and surface-only cohorts.
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0301
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Predict well failure within 30 days and pump-component failure within 45 days using engineered physical features and random forests.
+
+Engineering context: Failures become obvious after production stops; rig/workover planning takes 30–50 days and occasionally up to three months.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0302
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Pump wear / off-design thrust damage; Motor failure; Cable failure; Seal failure; Tubing failure; Frozen/erratic measurements
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0303
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 35 raw channels reduced to 18; static completion/install/failure records; means, differences, SD and calibrated virtual rates/efficiencies. Three years used because physics-derived history limited.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0304
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Not directly from three stated sources alone: requires completion/equipment/failure records and validated physical models; missing downhole sensors remove important inputs. Reduced-signal model requires separate training.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0305
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Risk classification: Flag well/pump failure risk for engineering review.; Training quality gate: Retain candidate failure window; exclude normal examples within 120 days around failures.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0306
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Nominal 30/45 day labels; historical blind averages about 60 days are a different measurement, with broad ranges including 0 days for well failures.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0307
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Initial well test: TP55, FN42, TN96, FP1; precision 98.2%, recall 56.7%, accuracy 77.8%. Pump test: TP6, FN4, TN21, FP1; precision 85.7%, recall 60%, accuracy 84.4%. Blind 35-well review: well TP17, FN12, TN27, FP2 => precision 89.47%, recall 58.62%, accuracy 75.86%. Pump TP12, FN6, TN28, FP1 => precision 92.31%, recall 66.67%, calculated accuracy 85.11%; paper prints 88.11% and 39 correct although matrix has 40 correct (p.20).
+
+Engineering context: Small component sample, SME-corrected event dates, balanced initial test prevalence and retrospective review. Roughly 40% well failures missed. Complete 18-feature names not disclosed.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0308
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: No operational risk cutoff disclosed. >75% data quality over 120 days is a training gate.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0309
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Failure-date audit; component vs well targets; physics-derived features; confusion-matrix caveat.
+
+Engineering context: Quality gate and hydraulic deviation escalation; do not translate RF features into unique diagnoses.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0310
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Hybrid physics plus tree model, separately validated for full-sensor and surface-only cohorts.
+
+Engineering context: Reconstruct independent ESP-run timelines, causal features and physical models; prospective shadow alerts; measure event precision/recall, false alarms per well-month and lead distributions.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0311
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Failures become obvious after production stops; rig/workover planning takes 30–50 days and occasionally up to three months.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0312
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0313
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Binary well failure next 30 days; pump failure next 45 days.; an output must be interpreted within the reported validation.
+
+Engineering context: Small component sample, SME-corrected event dates, balanced initial test prevalence and retrospective review. Roughly 40% well failures missed. Complete 18-feature names not disclosed.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0314
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Nominal 30/45 day labels; historical blind averages about 60 days are a different measurement, with broad ranges including 0 days for well failures.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0315
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 35 raw channels reduced to 18; static completion/install/failure records; means, differences, SD and calibrated virtual rates/efficiencies. Three years used because physics-derived history limited.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0316
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Not directly from three stated sources alone: requires completion/equipment/failure records and validated physical models; missing downhole sensors remove important inputs. Reduced-signal model requires separate training.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0317
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0318
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: No operational risk cutoff disclosed. >75% data quality over 120 days is a training gate.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0319
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Estimated 28.35% reduction in unscheduled deferment and 1% MTTF improvement; business-case estimates, not demonstrated prospective gains (pp.20–21).
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0320
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Quality gate and hydraulic deviation escalation; do not translate RF features into unique diagnoses.
+
+Source report: reports/P16.md
+
+Review status: Pending
+
+Source caveats: Figure 21 matrix visually verified. Printed blind pump accuracy does not reconcile. Estimated benefits are not field-achieved savings; authors' broad claims about uncontrollable component failures are not universal engineering rules.
+
+Source report: reports/P16.md. PDF page references refer to the original paper, not this text file.

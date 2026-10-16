@@ -1,0 +1,751 @@
+ESP research knowledge: P23
+
+Title: Intelligent diagnosis of petroleum equipment faults using a deep hybrid model
+
+Authors: Rasim Alguliyev; Yadigar Imamverdiyev; Lyudmila Sukhostat
+
+Year: 2020
+
+Publication: SN Applied Sciences 2: 924
+
+DOI: 10.1007/s42452-020-2741-0
+
+Related study group: None assigned
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P23-F01
+Type: Failures
+
+Failure or condition: Pump blade unbalance
+
+Category: Pump
+
+Symptoms: Altered rotational harmonics.
+
+Root causes: Blade/rotating mass imbalance.
+
+Consequences: Vibration and potential mechanical damage.
+
+Field indicators: First/second shaft-order harmonic behavior.
+
+Confidence level: Medium
+
+Confidence basis: Medium for laboratory
+
+PDF pages: p.9
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-F02
+Type: Failures
+
+Failure or condition: Shaft misalignment
+
+Category: Pump
+
+Symptoms: Altered harmonic vibration.
+
+Root causes: Misaligned rotating assembly.
+
+Consequences: Mechanical stress.
+
+Field indicators: First/second shaft-order features; not unique frequency diagnosis.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.9
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-F03
+Type: Failures
+
+Failure or condition: Mechanical rubbing
+
+Category: Pump
+
+Symptoms: Low-frequency noise.
+
+Root causes: Contact between components.
+
+Consequences: Wear/vibration.
+
+Field indicators: Low-frequency acceleration content.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.9
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-F04
+Type: Failures
+
+Failure or condition: Accelerometer fault
+
+Category: Sensor
+
+Symptoms: Distinct abnormal waveform.
+
+Root causes: Faulty measurement hardware; exact defect not described.
+
+Consequences: Misdiagnosis if mistaken for pump fault.
+
+Field indicators: Sensor-class waveform features.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.9–14
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-F05
+Type: Failures
+
+Failure or condition: Mechanical looseness
+
+Category: Pump
+
+Symptoms: Vibration anomaly in related work.
+
+Root causes: Loosened assembly; not a class tested here.
+
+Consequences: Potential mechanical degradation.
+
+Field indicators: Not validated in this study.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p.2 related work
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-D01
+Type: Rules
+
+Rule name: Harmonic-based candidate
+
+Source status: candidate_requires_local_validation
+
+IF: First/second shaft-order behavior abnormal
+
+AND: Raw signal quality and speed known
+
+THEN: Consider imbalance/misalignment; classifier/inspection needed.
+
+Engineering explanation: Source does not give exclusive 1×/2× thresholds.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source does not give exclusive 1×/2× thresholds.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.9
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-D02
+Type: Rules
+
+Rule name: Rubbing candidate
+
+Source status: candidate_requires_local_validation
+
+IF: Low-frequency vibration noise present
+
+AND: Sensor fault and other mechanisms checked
+
+THEN: Consider rubbing.
+
+Engineering explanation: Nonunique signature.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Nonunique signature.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.9
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-I01
+Type: Indicators
+
+Indicator: Vibration spectral fault signature
+
+Physical meaning: Mechanical or sensor class already present.
+
+Required parameters: 4096 Hz waveforms and shaft frequency.
+
+Typical trend: Harmonic/low frequency/time-statistical changes.
+
+Lead time qualification: Detection only; no failure lead time.
+
+Relevant channels: Vibration; Frequency for speed context
+
+Avalon availability: Unknown
+
+PDF pages: pp.5–12
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P23-M01
+Type: AI Models
+
+Model type: DNN(36 time/frequency features)+two CNN branches(STFT, CWT128×128 RGB) fused to 5 class softmax.
+
+Inputs: Manufacturer laboratory water tests; 36 accelerometers over 6 components; 4096 Hz.9690 stated samples.
+
+Outputs: Normal, unbalance, misalignment, rubbing, sensor fault.
+
+Reported performance: Reported mean accuracy~99.98%; Table 6 recall 100% exceptmisalignment 99.93%; AUC100% reported. Class counts 3774+2703+1938+969+255=9639, not 9690; split 7752/1938 matches 9690. Repetition count 10 versus 25 intext.
+
+Advantages: Combines complementary waveform representations and explicitly distinguishesensor fault.
+
+Limitations: Labwater data; random record split may share machine/test run signatures; no held-out field run validation or predictive lead; high training cost.
+
+Data feasibility: No, unless Avalon contains raw 4096 Hz waveforms with correct positions. HF operating telemetry is not automatically vibration waveform data. Excel sources cannot substitute.
+
+Complexity: High
+
+Prediction target: Present mechanical/sensor fault class; future failure not validated.
+
+Lead time qualification: Not reported.
+
+Signals: Raw accelerometers and speed.
+
+Source thresholds: No physical alarm cutoffs; spectral roll off.85 is feature definition.
+
+Implementation proposal: Confirm waveform availability; first run simple spectral/baseline classifiers; split by physical unit/test run before investing in deep fusion.
+
+Recommended future model: Laboratory/bench QA classifier or field waveform classifier after data acquisition.
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0441
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Fuse vibration time/frequency features and spectrogram/scalogram images to classify ESP mechanical and sensor faults.
+
+Engineering context: Preinstallation mechanical faults require laboratory detection before expensive downhole deployment.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0442
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Pump blade unbalance; Shaft misalignment; Mechanical rubbing; Accelerometer fault; Mechanical looseness
+
+Engineering context: Requires raw accelerometer waveform spectra; historian aggregate vibration alone does not reproduce this method.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0443
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Manufacturer laboratory water tests; 36 accelerometers over 6 components; 4096 Hz.9690 stated samples.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0444
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: No, unless Avalon contains raw 4096 Hz waveforms with correct positions. HF operating telemetry is not automatically vibration waveform data. Excel sources cannot substitute.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0445
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Harmonic-based candidate: Consider imbalance/misalignment; classifier/inspection needed.; Rubbing candidate: Consider rubbing.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0446
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not reported.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0447
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Reported mean accuracy~99.98%; Table 6 recall 100% exceptmisalignment 99.93%; AUC100% reported. Class counts 3774+2703+1938+969+255=9639, not 9690; split 7752/1938 matches 9690. Repetition count 10 versus 25 intext.
+
+Engineering context: Labwater data; random record split may share machine/test run signatures; no held-out field run validation or predictive lead; high training cost.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0448
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: No physical alarm cutoffs; spectral roll off.85 is feature definition.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0449
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Sensor fault as separate class; distinction between aggregate vibration and waveforms.
+
+Engineering context: Spectral hypotheses only with appropriate raw data.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0450
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Laboratory/bench QA classifier or field waveform classifier after data acquisition.
+
+Engineering context: Confirm waveform availability; first run simple spectral/baseline classifiers; split by physical unit/test run before investing in deep fusion.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0451
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Requires raw accelerometer waveform spectra; historian aggregate vibration alone does not reproduce this method.
+
+Engineering context: Preinstallation mechanical faults require laboratory detection before expensive downhole deployment.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0452
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0453
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Normal, unbalance, misalignment, rubbing, sensor fault.; an output must be interpreted within the reported validation.
+
+Engineering context: Labwater data; random record split may share machine/test run signatures; no held-out field run validation or predictive lead; high training cost.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0454
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not reported.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0455
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Manufacturer laboratory water tests; 36 accelerometers over 6 components; 4096 Hz.9690 stated samples.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0456
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: No, unless Avalon contains raw 4096 Hz waveforms with correct positions. HF operating telemetry is not automatically vibration waveform data. Excel sources cannot substitute.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0457
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0458
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: No physical alarm cutoffs; spectral roll off.85 is feature definition.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0459
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0460
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Spectral hypotheses only with appropriate raw data.
+
+Source report: reports/P23.md
+
+Review status: Pending
+
+Source caveats: Table 6 visually verified. Near-perfect classification is not field Pd M accuracy. Dataset counts/repeat protocol internally inconsistent.
+
+Source report: reports/P23.md. PDF page references refer to the original paper, not this text file.

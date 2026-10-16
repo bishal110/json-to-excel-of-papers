@@ -1,0 +1,881 @@
+ESP research knowledge: P11
+
+Title: Data-Driven Diagnosis for Artificial Lift Pump's Failures
+
+Authors: Thanawit Ounsakul; Ake Rittirong; Thanawee Kreethapon; Wararit Toempromraj; Kittipat Wejwittayaklung; Phattarakorn Rangsriwong
+
+Year: 2019
+
+Publication: SPE/IATMI Asia Pacific Oil & Gas Conference and Exhibition, Bali, 29–31 October; SPE-196470-MS
+
+DOI: Not printed
+
+Related study group: None assigned
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P11-F01
+Type: Failures
+
+Failure or condition: Cable damage
+
+Category: Cable
+
+Symptoms: Historical failure code
+
+Root causes: Cable length/splicing quality suggested; no unique measured precursor
+
+Consequences: Workover/lost production
+
+Field indicators: Failure report; pump depth proxy
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 4, 9
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-F02
+Type: Failures
+
+Failure or condition: Pump damage
+
+Category: Pump
+
+Symptoms: Historical failure code
+
+Root causes: Sand association; mechanism not uniquely determined
+
+Consequences: Shortened life
+
+Field indicators: Sand/HUD context
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 7
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-F03
+Type: Failures
+
+Failure or condition: Motor damage
+
+Category: Motor
+
+Symptoms: Historical failure code
+
+Root causes: Not resolved
+
+Consequences: ESP shutdown
+
+Field indicators: Historical report
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 4
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-F04
+Type: Failures
+
+Failure or condition: Other/unspecified ESP failures
+
+Category: Pump
+
+Symptoms: Unspecified report
+
+Root causes: Unknown
+
+Consequences: Shutdown/workover
+
+Field indicators: Failure labels incomplete
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 4
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-F05
+Type: Failures
+
+Failure or condition: Rod wear/parting; tubing leak; downhole rod-pump failure
+
+Category: Pump
+
+Symptoms: Beam-pump failure codes
+
+Root causes: Tortuosity/wear/other mechanisms
+
+Consequences: Beam-system workover
+
+Field indicators: Rod geometry and failure data
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 4, 9; not directly ESP transferable
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-D01
+Type: Rules
+
+Rule name: Reliability priorities
+
+Source status: candidate_requires_local_validation
+
+IF: Sand proxy, depth and cycle rank highest in AFS
+
+AND: Associations confirmed in own asset
+
+THEN: Prioritize solids control, cable quality and avoiding unplanned trips
+
+Engineering explanation: Author recommendations; no deterministic failure threshold
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Author recommendations; no deterministic failure threshold
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 7, 9
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-D02
+Type: Rules
+
+Rule name: Vendor comparison
+
+Source status: candidate_requires_local_validation
+
+IF: Vendor run lives differ
+
+AND: Equivalent operating environments not controlled
+
+THEN: Do not infer vendor superiority without adjustment
+
+Engineering explanation: Authors explicitly call comparisons preliminary
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Authors explicitly call comparisons preliminary
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: p. 4
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-D03
+Type: Rules
+
+Rule name: Post-event feature
+
+Source status: candidate_requires_local_validation
+
+IF: HUD measured after pulling failed pump
+
+AND: Prediction intended before failure/at installation
+
+THEN: Exclude that future value or replace with contemporaneous sand metric
+
+Engineering explanation: Prevent temporal leakage; derived deployment rule
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Prevent temporal leakage; derived deployment rule
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: p. 3
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-D04
+Type: Rules
+
+Rule name: Beam geometry limits
+
+Source status: candidate_requires_local_validation
+
+IF: Beam pump tortuosity >=85° or depth >1600 m
+
+AND: Studied beam-pump context only
+
+THEN: Review source beam design recommendation
+
+Engineering explanation: Not an ESP limit; tortuosity definition site-specific
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Not an ESP limit; tortuosity definition site-specific
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 9
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-I01
+Type: Indicators
+
+Indicator: Sand exposure proxy
+
+Physical meaning: Distance of pump from hang-up depth reflects deposited solids
+
+Required parameters: HUD and pump depth
+
+Typical trend: Association with service life; direction/threshold not established
+
+Lead time qualification: HUD measured after pump pull; unavailable as prospective warning
+
+Relevant channels: Not directly detectable from listed channels; needs solids/geometry evidence
+
+Avalon availability: Unknown
+
+PDF pages: pp. 3, 7
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-I02
+Type: Indicators
+
+Indicator: Repeated short cycles
+
+Physical meaning: Operating interruptions associated with reliability
+
+Required parameters: Runtime per cycle / trip history
+
+Typical trend: Shorter cycles merit review; causal effect unproven
+
+Lead time qualification: No warning horizon
+
+Relevant channels: ESP Current; Voltage; Frequency (derive run state)
+
+Avalon availability: Unknown
+
+PDF pages: pp. 7, 9
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-A01
+Type: Actions
+
+Condition: ESP reliability improvement
+
+Immediate actions: Review solids, cable failure and trip records
+
+Short term actions: Improve cable splicing quality and reduce unplanned trips
+
+Long term actions: Build controlled lifetime database and value-based procurement
+
+Prevention: Solids prevention and consistent failure labeling
+
+Expected benefit: Potential longer run life
+
+Production impact: No demonstrated gain
+
+Attribution: p. 9
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-A02
+Type: Actions
+
+Condition: Predictive model pilot
+
+Immediate actions: Audit predictor availability before failure
+
+Short term actions: Validate on unseen runs and more examples
+
+Long term actions: Add dynamic signals and censoring-aware lifetime modeling
+
+Prevention: Maintain chronology and data definitions
+
+Expected benefit: More credible lifetime planning
+
+Production impact: Unquantified
+
+Attribution: pp. 3, 8–9; censoring-aware extension is proposal
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P11-M01
+Type: AI Models
+
+Model type: Attribute forward selection; linear/polynomial regression and neural-network life regression
+
+Inputs: Primarily static equipment/geometry/production, sand proxy and operating-cycle duration
+
+Outputs: Pump service life/MTBF-type estimate
+
+Reported performance: ESP R²: linear 0.71, neural network 0.81; beam 0.10/0.12/0.29. R² is not classification accuracy. Authors do not recommend general deployment due to limited data.
+
+Advantages: Integrates heterogeneous records; interpretable factor priorities.
+
+Limitations: Post-pull HUD risks target leakage; censoring treatment and held-out validation unclear; correlated feature weights are not causes; only failure cases may bias life model.
+
+Data feasibility: Three sources alone insufficient: need installations/pulls/failure labels, completion geometry, equipment and contemporaneous solids data. Downhole sensors not essential to original static model.
+
+Complexity: Medium
+
+Prediction target: Service-life estimate conditional on recorded attributes.
+
+Lead time qualification: No early-warning horizon; post-pull predictor compromises prospective use.
+
+Signals: Static metadata, operation cycles, production and valid pre-event solids metric.
+
+Source thresholds: No ESP alarm thresholds. Beam geometry recommendations must remain separate.
+
+Implementation proposal: Assemble run-level dataset including censored survivors; replace HUD leakage; validate survival/life models on later installations.
+
+Recommended future model: Survival model and run-life regression with contemporaneous inputs; failure-report extraction.
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0201
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Relate static/well/production attributes to pump service life and compare regression with neural networks.
+
+Engineering context: Failure records fragmented across reports/Excel and equipment procurement/design not tied consistently to lifetime evidence.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0202
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Cable damage; Pump damage; Motor damage; Other/unspecified ESP failures; Rod wear/parting; tubing leak; downhole rod-pump failure
+
+Engineering context: Failure history shows cable damage dominant; sand proxy, pump depth and cycle duration associated with run life, not real-time diagnoses.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0203
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Primarily static equipment/geometry/production, sand proxy and operating-cycle duration
+
+Engineering context: ESP Table 2 visually checked (p. 3). AFS weights: HUD distance 25.2%, depth 23.4%, cycle 20.9%, gas 11.5%, temperature 8.3%, gross production 6.4%, inclination 4.3%. These are feature weights, not causal proportions. About 1540 failure cases across data preparation; ESP subset unspecified.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0204
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Three sources alone insufficient: need installations/pulls/failure labels, completion geometry, equipment and contemporaneous solids data. Downhole sensors not essential to original static model.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0205
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Reliability priorities: Prioritize solids control, cable quality and avoiding unplanned trips; Vendor comparison: Do not infer vendor superiority without adjustment; Post-event feature: Exclude that future value or replace with contemporaneous sand metric
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0206
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: No early-warning horizon; post-pull predictor compromises prospective use.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0207
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: ESP R²: linear 0.71, neural network 0.81; beam 0.10/0.12/0.29. R² is not classification accuracy. Authors do not recommend general deployment due to limited data.
+
+Engineering context: Post-pull HUD risks target leakage; censoring treatment and held-out validation unclear; correlated feature weights are not causes; only failure cases may bias life model.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0208
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: No ESP alarm thresholds. Beam geometry recommendations must remain separate.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0209
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: ESP failure taxonomy, data preparation workload (~70%), solids/cable/cycle priorities.
+
+Engineering context: Use associations for checks, not causal diagnosis; flag post-event data.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0210
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Survival model and run-life regression with contemporaneous inputs; failure-report extraction.
+
+Engineering context: Assemble run-level dataset including censored survivors; replace HUD leakage; validate survival/life models on later installations.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0211
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Failure history shows cable damage dominant; sand proxy, pump depth and cycle duration associated with run life, not real-time diagnoses.
+
+Engineering context: Failure records fragmented across reports/Excel and equipment procurement/design not tied consistently to lifetime evidence.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0212
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Review solids, cable failure and trip records
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0213
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Pump service life/MTBF-type estimate; an output must be interpreted within the reported validation.
+
+Engineering context: Post-pull HUD risks target leakage; censoring treatment and held-out validation unclear; correlated feature weights are not causes; only failure cases may bias life model.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0214
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: No early-warning horizon; post-pull predictor compromises prospective use.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0215
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Primarily static equipment/geometry/production, sand proxy and operating-cycle duration
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0216
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Three sources alone insufficient: need installations/pulls/failure labels, completion geometry, equipment and contemporaneous solids data. Downhole sensors not essential to original static model.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0217
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Improve cable splicing quality and reduce unplanned trips
+
+Engineering context: p. 9
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0218
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: No ESP alarm thresholds. Beam geometry recommendations must remain separate.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0219
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: ESP mean run life 729 days in studied asset versus cited comparator 810; beam 202 versus 220. No quantified production savings.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0220
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Use associations for checks, not causal diagnosis; flag post-event data.
+
+Source report: reports/P11.md
+
+Review status: Pending
+
+Source caveats: Reported ESP shares ~49% cable, 30% pump, 12% other and 7% motor are approximate and do not sum exactly to 100%. Do not force normalization or treat percentages as universal.
+
+Source report: reports/P11.md. PDF page references refer to the original paper, not this text file.

@@ -1,0 +1,976 @@
+ESP research knowledge: P13
+
+Title: Detecting Failures and Optimizing Performance in Artificial Lift Using Machine Learning Models
+
+Authors: Mike Pennel; Jeffrey Hsiung; V. B. Putcha
+
+Year: 2018
+
+Publication: SPE Western Regional Meeting, Garden Grove, 22–27 April; SPE-190090-MS
+
+DOI: Not printed
+
+Related study group: None assigned
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P13-F01
+Type: Failures
+
+Failure or condition: Rod-system tubing failure / hole
+
+Category: Surface Network
+
+Symptoms: Low load/tubing pressure, high fillage
+
+Root causes: Integrity loss
+
+Consequences: Lost delivery
+
+Field indicators: Rod-specific Table 3 features
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 7
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-F02
+Type: Failures
+
+Failure or condition: Rod pump failure / split bar rel / valve stuck or leaking
+
+Category: Pump
+
+Symptoms: Abnormal dynacard/pumping
+
+Root causes: Mechanical valve/bar rel failure
+
+Consequences: Production loss
+
+Field indicators: Load/position/fillage
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 5, 9–14
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-F03
+Type: Failures
+
+Failure or condition: Incorrect load signal
+
+Category: Sensor
+
+Symptoms: Flatline/spikes, pump slows or shuts
+
+Root causes: Detached/malfunctioning/moved load cell
+
+Consequences: False control response
+
+Field indicators: Load signal and physical check
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 12
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-F04
+Type: Failures
+
+Failure or condition: Improper POC configuration / junk card
+
+Category: VSD
+
+Symptoms: Unintelligible surface card
+
+Root causes: Position sensor/card rotation setup error
+
+Consequences: Slowdown/shutdown
+
+Field indicators: Dynacard/configuration
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 12; rod controller mapped to closest category
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-F05
+Type: Failures
+
+Failure or condition: Rod parting, friction, tagging, unanchored tubing, gas in pump, upstroke wear, fluid pound/flumping
+
+Category: Pump
+
+Symptoms: Distinct dynacard descriptors
+
+Root causes: Rod-system mechanical/fluid conditions
+
+Consequences: Suboptimal or failed operation
+
+Field indicators: Rod card shapes
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 5, 11, 14
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-F06
+Type: Failures
+
+Failure or condition: ESP pump/tubing failure, broken shaft, gas influx, scale/wax/debris, abrasion, rising temperature/load
+
+Category: Pump
+
+Symptoms: Suggested application only
+
+Root causes: Various; no ESP rule validation
+
+Consequences: Potential ESP deterioration
+
+Field indicators: Not evaluated here
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 14
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-F07
+Type: Failures
+
+Failure or condition: Gas-lift over/under injection, ice plugging, NGL dropout, valve leakage/throttling, liquid loading, flowline restriction
+
+Category: Injection
+
+Symptoms: Suggested gas-lift application
+
+Root causes: Gas-lift-specific causes
+
+Consequences: Lift inefficiency
+
+Field indicators: Gas-injection/pressure signals; not water injection
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 2, 14
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-D01
+Type: Rules
+
+Rule name: Quality cohort
+
+Source status: candidate_requires_local_validation
+
+IF: Required six rod signals available over preceding 4 h
+
+AND: ≥50 d reasonably consistent data
+
+THEN: Eligible for source model
+
+Engineering explanation: Poor data excluded, so reported performance does not apply to all assets
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Poor data excluded, so reported performance does not apply to all assets
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: p. 6
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-D02
+Type: Rules
+
+Rule name: Tubing candidate
+
+Source status: candidate_requires_local_validation
+
+IF: Fluid load, tubing pressure, casing pressure, peak load and rod horsepower low; fillage high; minimum load high
+
+AND: Variability patterns agree with source Table 3
+
+THEN: Rod tubing-failure candidate
+
+Engineering explanation: Not an ESP rule
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Not an ESP rule
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 7
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-D03
+Type: Rules
+
+Rule name: Event aggregation
+
+Source status: candidate_requires_local_validation
+
+IF: Contiguous high-scoring periods
+
+AND: Whole-event features and competing model scores considered
+
+THEN: Assign event class rather than alarm every sample
+
+Engineering explanation: Source score called p-value but is a model confidence score
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source score called p-value but is a model confidence score
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 6
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-D04
+Type: Rules
+
+Rule name: Score gates
+
+Source status: candidate_requires_local_validation
+
+IF: Tubing score >0.5 or pump score >0.75
+
+AND: Source model and asset class
+
+THEN: Classify target event
+
+Engineering explanation: Thresholds tune precision/recall, not physical fault limits
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Thresholds tune precision/recall, not physical fault limits
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 6–7
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-D05
+Type: Rules
+
+Rule name: Bad load signal
+
+Source status: candidate_requires_local_validation
+
+IF: Load flatlines/spikes
+
+AND: Load cell moved, detached or malfunctioning
+
+THEN: Check sensor before diagnosing pump failure
+
+Engineering explanation: Rod example; general evidence-quality lesson transferable
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Rod example; general evidence-quality lesson transferable
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 12
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-I01
+Type: Indicators
+
+Indicator: Event-level diagnostic score
+
+Physical meaning: Persistent periods likely to belong to target state
+
+Required parameters: Rod pressures/load/fillage/time series
+
+Typical trend: Contiguous high-confidence periods
+
+Lead time qualification: Diagnosis primarily; no validated ESP lead time
+
+Relevant channels: Wellhead Pressure; production context only; requires rod-specific signals
+
+Avalon availability: Unknown
+
+PDF pages: pp. 6–7
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-I02
+Type: Indicators
+
+Indicator: Faulty measurement/configuration patterns
+
+Physical meaning: Apparent equipment issue caused by sensing/control setup
+
+Required parameters: Load/position/dynacard
+
+Typical trend: Flatline/spikes or distorted card
+
+Lead time qualification: Current fault detection, not forecast
+
+Relevant channels: No direct mapping to specified ESP channels
+
+Avalon availability: Unknown
+
+PDF pages: pp. 11–13
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-A01
+Type: Actions
+
+Condition: Suboptimal rod operation
+
+Immediate actions: Verify sensor and POC configuration
+
+Short term actions: Correct confirmed low-cost sensor/setup issue
+
+Long term actions: Improve event labels and monitoring
+
+Prevention: Separate diagnosis from control and require SME review
+
+Expected benefit: Recover avoidable production loss
+
+Production impact: No measured ESP uplift
+
+Attribution: pp. 12–15
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-A02
+Type: Actions
+
+Condition: Model alerts
+
+Immediate actions: Aggregate and review event evidence
+
+Short term actions: Prioritize interventions by precision/recall and capacity
+
+Long term actions: Maintain iterative true/false alert labels
+
+Prevention: Use grouped well and chronological tests
+
+Expected benefit: Manage surveillance workload
+
+Production impact: False-intervention burden explicitly measured
+
+Attribution: pp. 6–10, 14
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P13-M01
+Type: AI Models
+
+Model type: Random forests for failure events; CNN dynacard descriptors; shallow trees/RF for suboptimal states; generalized supervised workflow
+
+Inputs: Rod controller, pressure, load, fillage, dynacard and event labels
+
+Outputs: Fault/suboptimal-event classes and scores
+
+Reported performance: Tubing test accuracy .995, precision .546, hourly recall .421; event detection 80/133=60.2%, 66 false interventions. Pump CV precision .714, accuracy .875, recall .996; event detection 113/172=65.7%, 45 false interventions. CNN descriptor precision/recall vary .596–.955/.651–.983. These are rod results; abstract >99% does not describe all models.
+
+Advantages: Whole-well CV, event aggregation, explicit false interventions and quality gates.
+
+Limitations: Rod-specific features; imbalance (~1% failure time) inflates accuracy; retrospective labels use later evidence; cannot use those future observations live; small suboptimal-event cohorts.
+
+Data feasibility: No direct ESP reproduction from Avalon/test/pressure sources; methodology transfers after new ESP features/labels. Gas-lift extension is not water-injection evidence.
+
+Complexity: High
+
+Prediction target: Rod failure/suboptimal states; ESP extension proposed.
+
+Lead time qualification: 31-day life-estimation error in abstract is not warning time; no validated ESP lead.
+
+Signals: Rod-specific six core signals and event labels.
+
+Source thresholds: Model scores .5/.75; eligibility 4 h/50 d, not ESP alarm limits.
+
+Implementation proposal: Transfer data eligibility, whole-well/time holdouts and event-level alert accounting to an ESP pilot.
+
+Recommended future model: ESP event detector using own electrical/production features and whole-event scoring.
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0241
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Label and model failure and suboptimal artificial-lift states using SME rules, fleet signals and event-level classification.
+
+Engineering context: Failures and avoidable inefficient operation are buried in large noisy signal collections; accuracy alone misleads for rare events.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0242
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Rod-system tubing failure / hole; Rod pump failure / split bar rel / valve stuck or leaking; Incorrect load signal; Improper POC configuration / junk card; Rod parting, friction, tagging, unanchored tubing, gas in pump, upstroke wear, fluid pound/flumping; ESP pump/tubing failure, broken shaft, gas influx, scale/wax/debris, abrasion, rising temperature/load; Gas-lift over/under injection, ice plugging, NGL dropout, valve leakage/throttling, liquid loading, flowline restriction
+
+Engineering context: Rod load/fillage/pressure and dynacard patterns plus event aggregation; ESP applicability is proposed rather than field-tested.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0243
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Rod controller, pressure, load, fillage, dynacard and event labels
+
+Engineering context: 800 Bakken rod-pump assets after ~40% excluded for quality; ≥50 days consistent data and measurable signals for 4 h prior to events; >100 GB. 99% outlier screen over 180 d. These are dataset eligibility choices, not universal limits.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0244
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: No direct ESP reproduction from Avalon/test/pressure sources; methodology transfers after new ESP features/labels. Gas-lift extension is not water-injection evidence.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0245
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Quality cohort: Eligible for source model; Tubing candidate: Rod tubing-failure candidate; Event aggregation: Assign event class rather than alarm every sample
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0246
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: 31-day life-estimation error in abstract is not warning time; no validated ESP lead.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0247
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Tubing test accuracy .995, precision .546, hourly recall .421; event detection 80/133=60.2%, 66 false interventions. Pump CV precision .714, accuracy .875, recall .996; event detection 113/172=65.7%, 45 false interventions. CNN descriptor precision/recall vary .596–.955/.651–.983. These are rod results; abstract >99% does not describe all models.
+
+Engineering context: Rod-specific features; imbalance (~1% failure time) inflates accuracy; retrospective labels use later evidence; cannot use those future observations live; small suboptimal-event cohorts.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0248
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Model scores .5/.75; eligibility 4 h/50 d, not ESP alarm limits.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0249
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Event-based alert evaluation, quality gating, retrospective-versus-live features and human label review.
+
+Engineering context: Sensor-quality precedence and event aggregation; keep rod/gas-lift rules separate.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0250
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: ESP event detector using own electrical/production features and whole-event scoring.
+
+Engineering context: Transfer data eligibility, whole-well/time holdouts and event-level alert accounting to an ESP pilot.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0251
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Rod load/fillage/pressure and dynacard patterns plus event aggregation; ESP applicability is proposed rather than field-tested.
+
+Engineering context: Failures and avoidable inefficient operation are buried in large noisy signal collections; accuracy alone misleads for rare events.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0252
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify sensor and POC configuration
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0253
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Fault/suboptimal-event classes and scores; an output must be interpreted within the reported validation.
+
+Engineering context: Rod-specific features; imbalance (~1% failure time) inflates accuracy; retrospective labels use later evidence; cannot use those future observations live; small suboptimal-event cohorts.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0254
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: 31-day life-estimation error in abstract is not warning time; no validated ESP lead.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0255
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Rod controller, pressure, load, fillage, dynacard and event labels
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0256
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: No direct ESP reproduction from Avalon/test/pressure sources; methodology transfers after new ESP features/labels. Gas-lift extension is not water-injection evidence.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0257
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Correct confirmed low-cost sensor/setup issue
+
+Engineering context: pp. 12–15
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0258
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Model scores .5/.75; eligibility 4 h/50 d, not ESP alarm limits.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0259
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: No quantified realized production uplift. Abstract reports long-term tubing life error 31 d over 100–600 d lifespans, without detailed supporting model in main results.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0260
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Sensor-quality precedence and event aggregation; keep rod/gas-lift rules separate.
+
+Source report: reports/P13.md
+
+Review status: Pending
+
+Source caveats: No evidence for autonomous ESP control. ROC AUC is ranking discrimination, not accuracy; false-positive rate is 1−specificity, despite source wording.
+
+Source report: reports/P13.md. PDF page references refer to the original paper, not this text file.

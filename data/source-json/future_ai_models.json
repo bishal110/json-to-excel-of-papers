@@ -1,0 +1,594 @@
+[
+  {
+    "paper_id": "P01",
+    "recommended_candidate": "Future failure-risk classifier with component metadata and labeled run histories; reduced-sensor retraining needed.",
+    "source_model": {
+      "type": "Proposed supervised three-layer feed-forward ANN; one binary output node; training/testing deferred",
+      "inputs": "20 proposed inputs listed in Section 5; measured and calculated surface/downhole variables",
+      "outputs": "Failure-directed operating condition versus suitable operation",
+      "accuracy": "Not reported. No dataset size, holdout results, confusion matrix or validated warning time.",
+      "advantages": "Combines heterogeneous component limits and operating patterns.",
+      "limitations": "Conceptual study; incomplete feature equations; several threshold/unit/comparator errors; model-specific inputs and extensive downhole/design data required.",
+      "availability": "Avalon alone: not established. Combined Avalon, test and surface-pressure data: insufficient without equipment ratings, fluid properties and valid downhole/calculated features. Surface-only version would be a new model.",
+      "complexity": "Medium"
+    },
+    "project_score": 5,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P02",
+    "recommended_candidate": "Hybrid response-to-frequency model; duty-cycle optimizer; later network and producer–injector optimization.",
+    "source_model": {
+      "type": "Hybrid pump physics plus pooled random forest and per-well linear regression; weighted prediction of increments; constrained grid search",
+      "inputs": "Current state, lagged/smoothed state, historical changes, proposed frequency change, static/pump data and economic data",
+      "outputs": "Post-change critical parameters, production response and recommended frequency/duty",
+      "accuracy": "One-sided intake-pressure prediction error ≤2.4×10^4 kg/m² for 99% of source cases; no full-model accuracy statistic. Production uplift 1.5% is not accuracy.",
+      "advantages": "Increment prediction reduces slowly varying reservoir measurement bias; pooled model supports sparse individual histories; uncertainty included.",
+      "limitations": "Stable wells only; blending confidence algorithm undisclosed; network interference and equivalent injection unresolved; geologist approves settings; sample-count/pressure-unit discrepancies.",
+      "availability": "Avalon alone: no. Combined three user sources: partial; need static equipment/fluid metadata, valid downhole CIPs, insulation, energy/prices and reservoir context. Injection response not solved.",
+      "complexity": "High"
+    },
+    "project_score": 8,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P03",
+    "recommended_candidate": "Unit-aware fuzzy risk triage; learned membership functions; comparison with supervised failure labels.",
+    "source_model": {
+      "type": "Spreadsheet fuzzy inference; triangular memberships; product AND, OR and Most-of coupling; rank DOF directly without separate defuzzification",
+      "inputs": "Eight daily-median trend variables; slopes normalized with arctangent",
+      "outputs": "Scores for nine failure-mode hypotheses and possible generic risk indication",
+      "accuracy": "No validated accuracy. System did not identify actual root causes in five failures. Many zero premises defeated product AND; Most-of remained low. Table 2 includes example scores, not probabilities.",
+      "advantages": "Transparent and spreadsheet-compatible; offshore dataset and explicit rule matrix.",
+      "limitations": "Nine selected wells; actual causes not established; scale/unit-sensitive arctangent; common memberships; trip contamination; three identical rule vectors; 30/60-day gaps.",
+      "availability": "Avalon+production+surface-pressure data could support full rules only where all eight inputs exist. Lost PIP/PDP/temperature makes published rules incomplete; do not replace missing conditions by true.",
+      "complexity": "Medium"
+    },
+    "project_score": 8,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P04",
+    "recommended_candidate": "Normal-behavior anomaly detector with separate sensor-available and surface-only versions.",
+    "source_model": {
+      "type": "Generic multilayer neural networks, Python/TensorFlow; one model per ESP variant; cloud anomaly monitoring",
+      "inputs": "Annulus and production pressure, current, speed, intake pressure, intake temperature, motor temperature",
+      "outputs": "Anomaly indication described probabilistically; human selects mitigation",
+      "accuracy": "No accuracy, recall, precision or false-alarm rate reported. One 12-day retrospective warning; qualitative pilot success.",
+      "advantages": "Learns normal relationships and can flag unfamiliar patterns; independent SCADA validation.",
+      "limitations": "Architecture/training details undisclosed; causality unclear; manual baseline cleansing; unknown anomalies hard to interpret; repeated historical tuning risks optimism.",
+      "availability": "Avalon plus surface pressures can supply some inputs if tags exist; published model still needs three downhole channels. Production tests alone are insufficient. Reduced-sensor model requires separate training/validation.",
+      "complexity": "High"
+    },
+    "project_score": 7,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P05",
+    "recommended_candidate": "Robust PCA baseline for sensor-rich wells, separate surface-only baseline, later fault classifier.",
+    "source_model": {
+      "type": "Robust PCA (configured for 25% outliers), T² surveillance, contribution diagnostics, quadratic conditional operating bands",
+      "inputs": "22 measured/derived variables; one-minute historian plus event records",
+      "outputs": "Health trajectory, scalar anomaly score, ranked contributions and suggested stable bands",
+      "accuracy": ">96% explained variance is not detection accuracy. All studied events reportedly detected hours early; event denominator/false-positive rate and independent prospective test not supplied.",
+      "advantages": "Interpretable visual trajectory and contributors; relatively modest mathematical complexity.",
+      "limitations": "Linear normal model; correlated data; anonymized inputs; fixed-other-variable bands are not causal control policy; no held-out performance counts.",
+      "availability": "Full replication requires downhole/thermal/vibration/leakage data and unnamed tags. A reduced Avalon+surface-pressure model is feasible as a new validated model; sparse production tests add context, not minute-scale signals.",
+      "complexity": "Medium"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P06",
+    "recommended_candidate": "Normal-behavior model concept only; use stronger papers for design.",
+    "source_model": {
+      "type": "Neural-network normal-behavior/anomaly model; architecture not disclosed",
+      "inputs": "Historical and real-time ESP KPIs, unnamed",
+      "outputs": "Anomaly/failure likelihood described conceptually",
+      "accuracy": "One 12-day retrospective example; no sensitivity, specificity, calibration or false-alert figures.",
+      "advantages": "Fleet triage and unfamiliar-pattern detection.",
+      "limitations": "Two-page guest editorial; no reproducible model specification or independent results; probable same Siemens case as P04/P36.",
+      "availability": "Cannot determine from unnamed inputs. Do not assume lost-sensor compatibility.",
+      "complexity": "High"
+    },
+    "project_score": 4,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P07",
+    "recommended_candidate": "Boosted classifier benchmark after complete ESP retraining.",
+    "source_model": {
+      "type": "Ada BNet (Ada Boost+Bayesian networks) and Ada DT (Ada Boost+decision trees)",
+      "inputs": "14+ daily rod-pump attributes with expert preprocessing and normalization",
+      "outputs": "Normal, tubing failure, rod failure and pre-signal classes",
+      "accuracy": "Narrative reports Ada BNet normal 97.7%, failure 91.9%; Table 3 has transposed/inconsistent labels/count orientation. Ada DT ~95% best at 80–180 iterations. Training-table 'percent' entries are actually fractional-looking errors; do not reproduce as <0.12% without correction.",
+      "advantages": "Single field model rather than one per well; well-level evaluation.",
+      "limitations": "Rod systems; recorded-date bias; missing-data fill; table inconsistencies; claimed proof of no overfitting contradicted by reported overfit above 180 iterations; record-level CV may leak within wells.",
+      "availability": "No direct ESP implementation with Avalon/tests/pressures: rod card/load inputs missing. General workflow transferable.",
+      "complexity": "Medium"
+    },
+    "project_score": 3,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P08",
+    "recommended_candidate": "Fleet anomaly ranking service feeding Copilot; specific model requires other evidence.",
+    "source_model": {
+      "type": "Neural-network anomaly analytics on centralized Io T cloud with multiuser HMI",
+      "inputs": "ESP historical/real-time process data; not enumerated",
+      "outputs": "Anomaly severity, notifications and fleet priority list",
+      "accuracy": "No numerical model performance or warning time; continuation of earlier Siemens work.",
+      "advantages": "Shared evidence, scalable triage and explicit advisory/control separation.",
+      "limitations": "Architecture-level treatment; root causes and model mechanics undisclosed; availability of unknown downhole inputs not resolved.",
+      "availability": "User sources can support an analogous architecture, but cannot establish exact model replication or sensor-loss performance.",
+      "complexity": "High"
+    },
+    "project_score": 7,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P09",
+    "recommended_candidate": "Surface-only interpretable classifier; current waveform matching plus production context.",
+    "source_model": {
+      "type": "Deterministic feature extraction and pattern matching: normalized mean, variance, thresholds, frequency features and waveform correlation",
+      "inputs": "Six surface signal groups with dynamic per-well reference patterns",
+      "outputs": "Nine operating conditions including normal",
+      "accuracy": "Qualitative laboratory/field suitability claim; no confusion matrix, sample count or numerical accuracy.",
+      "advantages": "Explicitly designed without downhole measurements; interpretable combined signatures.",
+      "limitations": "Several table/text contradictions; diagrams schematic; current waveform sampling requirement unspecified; live gas/liquid meter unlike intermittent tests; pressure formulas dimensionally ambiguous.",
+      "availability": "Combined Avalon+tests+surface pressure supports a reduced screening version if time aligned; exact method requires real-time gas/liquid sensing and waveform fidelity. Avalon alone insufficient for differential diagnosis.",
+      "complexity": "Medium"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P10",
+    "recommended_candidate": "Surface-only linear SVM or tree benchmark using electrical/runtime features.",
+    "source_model": {
+      "type": "Linear-kernel SVM with domain-engineered daily features and sliding-window ratios; hyperparameters cross-validated",
+      "inputs": "Current, voltage, frequency, runtime and quality/event labels",
+      "outputs": "Normal versus anomaly/inefficiency",
+      "accuracy": "Overall precision 61.8%, recall 61.5%; FMT1 62.5%/70%; FMT2 50%/33.3%. Separate years used for train/test; hundreds of wells. TP-I event recall and TP-II alert precision use ±90-day matching and differ in counting.",
+      "advantages": "No downhole sensor needed; fleet normalization and practical electrical features.",
+      "limitations": "Labels subjective; inefficiency versus failure confused; 90-day window can inflate usefulness; no fixed RUL; copying prior data can manufacture patterns.",
+      "availability": "Avalon alone conditionally sufficient for scoring if four raw tags and history exist; event/maintenance labels still needed for training. Tests/surface pressures useful for diagnosis, not original inputs.",
+      "complexity": "Medium"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P11",
+    "recommended_candidate": "Survival model and run-life regression with contemporaneous inputs; failure-report extraction.",
+    "source_model": {
+      "type": "Attribute forward selection; linear/polynomial regression and neural-network life regression",
+      "inputs": "Primarily static equipment/geometry/production, sand proxy and operating-cycle duration",
+      "outputs": "Pump service life/MTBF-type estimate",
+      "accuracy": "ESP R²: linear 0.71, neural network 0.81; beam 0.10/0.12/0.29. R² is not classification accuracy. Authors do not recommend general deployment due to limited data.",
+      "advantages": "Integrates heterogeneous records; interpretable factor priorities.",
+      "limitations": "Post-pull HUD risks target leakage; censoring treatment and held-out validation unclear; correlated feature weights are not causes; only failure cases may bias life model.",
+      "availability": "Three sources alone insufficient: need installations/pulls/failure labels, completion geometry, equipment and contemporaneous solids data. Downhole sensors not essential to original static model.",
+      "complexity": "Medium"
+    },
+    "project_score": 7,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P12",
+    "recommended_candidate": "30-day calibrated RF benchmark, survival/RUL model with censoring, hierarchical cause-assistance model only after label audit.",
+    "source_model": {
+      "type": "RUL: linear/ridge/lasso/DT/RF/GB/XGBoost/KNN/LSTM/ANN; horizon classification LR/DT/GB/XGB/RF/KNN/ANN/PCA+RF; failure type DT/GB/XGB/RF/KNN/CNN/ANN/SVM, one-vs-all and resampling variants",
+      "inputs": "Electrical, hydraulic, fluid/test, static configuration and history features; target labels must be excluded from inputs",
+      "outputs": "Days-to-next-failure, 30/14/7/1-day flags and ten classes: F-cable SC, high water cut, human error, motor SC, penetrator SC, pump shaft broken, pump stuck, R-cable SC, tubing leak, WO",
+      "accuracy": "Table 49 RF R²=.9897, MAE 12.02 d; KNN .9727/19.03 d; ANN .9752. Table 52 30 d RF precision .81/recall .96/F1 .88; KNN .88/.91/.90; ANN .12/.87/.21. Table 53 RF baseline 99.84% accuracy versus SMOTE+Tomek 82%. These are different experiments, not a single validated deployment score. Chronological ANN reported R² .94/.95 with RMSE 227.8 d; source acknowledges collapse of many random-split models.",
+      "advantages": "Large feature/taxonomy inventory, comparative models, explicit discussion of leakage and rare-class metrics.",
+      "limitations": "Conflicting cohort/metric tables, ambiguous split nomenclature, backward filling and full-well imputation risk lookahead, supervised failure clustering may require unavailable future mode, censoring handling unclear, post-event labels mixed with causal categories and WO. Claimed R² '4.0' is invalid as a conventional positive upper-bound score and likely missing a sign; retain as source error.",
+      "availability": "Avalon+tests+surface pressures insufficient alone: installation/failure/DIFA/configuration/chemistry needed. Models include downhole channels; missing-sensor imputation is not independently validated as a virtual sensor.",
+      "complexity": "High"
+    },
+    "project_score": 7,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P13",
+    "recommended_candidate": "ESP event detector using own electrical/production features and whole-event scoring.",
+    "source_model": {
+      "type": "Random forests for failure events; CNN dynacard descriptors; shallow trees/RF for suboptimal states; generalized supervised workflow",
+      "inputs": "Rod controller, pressure, load, fillage, dynacard and event labels",
+      "outputs": "Fault/suboptimal-event classes and scores",
+      "accuracy": "Tubing test accuracy .995, precision .546, hourly recall .421; event detection 80/133=60.2%, 66 false interventions. Pump CV precision .714, accuracy .875, recall .996; event detection 113/172=65.7%, 45 false interventions. CNN descriptor precision/recall vary .596–.955/.651–.983. These are rod results; abstract >99% does not describe all models.",
+      "advantages": "Whole-well CV, event aggregation, explicit false interventions and quality gates.",
+      "limitations": "Rod-specific features; imbalance (~1% failure time) inflates accuracy; retrospective labels use later evidence; cannot use those future observations live; small suboptimal-event cohorts.",
+      "availability": "No direct ESP reproduction from Avalon/test/pressure sources; methodology transfers after new ESP features/labels. Gas-lift extension is not water-injection evidence.",
+      "complexity": "High"
+    },
+    "project_score": 6,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P14",
+    "recommended_candidate": "NLP-assisted failure-report labeling; hierarchical mode classifier followed by evidence-based cause ranking; no causal certainty from SHAP/frequencies.",
+    "source_model": {
+      "type": "Descriptive failure statistics, chi-square association and Cramér’s V; no trained predictive AI in this article",
+      "inputs": "Failure/DIFA records and contextual operational data",
+      "outputs": "Two-level taxonomy, frequency rankings, associations and API-code crosswalk proposed by authors",
+      "accuracy": "No ML accuracy. Reported chi-square 342, df 324, p=0.2356; grouped Cramér’s V=0.16. This supports weak association, not causal certainty.",
+      "advantages": "Useful structured labels and distinction between failures and operational removals.",
+      "limitations": "Incomplete RCA, selection/subjective reporting, weak association, counts and category counts not perfectly consistent; counterfactual economics and unsupported discussion percentages.",
+      "availability": "Avalon/tests/pressures support evidence but not confirmed root causes; DIFA, workover and installation records essential. Sensor loss does not prevent taxonomy use.",
+      "complexity": "Low"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P15",
+    "recommended_candidate": "Virtual sensor with uncertainty; hybrid residual classifier; synthetic-data augmentation tested on real withheld runs.",
+    "source_model": {
+      "type": "Simulink multiphysics twin; synthetic data generator; future hybrid AI module",
+      "inputs": "Detailed asset/fluid/reservoir/completion metadata and live telemetry",
+      "outputs": "Full signal simulation, latent residuals, training signatures; diagnosis/RUL are intended AI capabilities",
+      "accuracy": "No field predictive accuracy, residual threshold or RUL error. AI module and field prototype/trials are future work.",
+      "advantages": "Couples thermal/electrical/hydraulic behavior; represents transients; synthetic fault coverage.",
+      "limitations": "Calibration/identifiability, uncertain physics, sim-to-real gap; stochastic life assignment is not observed RUL; no deployed validation.",
+      "availability": "Three user data sources alone insufficient without equipment, completion, fluid and reservoir model. Virtual sensing for missing downhole channels is an opportunity, not demonstrated accuracy here.",
+      "complexity": "High"
+    },
+    "project_score": 7,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P16",
+    "recommended_candidate": "Hybrid physics plus tree model, separately validated for full-sensor and surface-only cohorts.",
+    "source_model": {
+      "type": "Two random forests with engineered physics/statistical features",
+      "inputs": "35 raw channels reduced to 18; static completion/install/failure records; means, differences, SD and calibrated virtual rates/efficiencies. Three years used because physics-derived history limited.",
+      "outputs": "Binary well failure next 30 days; pump failure next 45 days.",
+      "accuracy": "Initial well test: TP55, FN42, TN96, FP1; precision 98.2%, recall 56.7%, accuracy 77.8%. Pump test: TP6, FN4, TN21, FP1; precision 85.7%, recall 60%, accuracy 84.4%. Blind 35-well review: well TP17, FN12, TN27, FP2 => precision 89.47%, recall 58.62%, accuracy 75.86%. Pump TP12, FN6, TN28, FP1 => precision 92.31%, recall 66.67%, calculated accuracy 85.11%; paper prints 88.11% and 39 correct although matrix has 40 correct (p.20).",
+      "advantages": "Physics features and separate component target; blind wells; high positive predictive value in study.",
+      "limitations": "Small component sample, SME-corrected event dates, balanced initial test prevalence and retrospective review. Roughly 40% well failures missed. Complete 18-feature names not disclosed.",
+      "availability": "Not directly from three stated sources alone: requires completion/equipment/failure records and validated physical models; missing downhole sensors remove important inputs. Reduced-signal model requires separate training.",
+      "complexity": "High"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P17",
+    "recommended_candidate": "Short-horizon boosting with measured-only and physics-assisted ablations.",
+    "source_model": {
+      "type": "Gradient-boosted tree ensembles using XGBoost, CatBoost and Light GBM tool families; source reports horizon models rather than a fully reproducible winner configuration.",
+      "inputs": "1153 wells, 2070 failures 2014–2020; daily measurements; 30 variables consolidated 9; derived UNIFLOC hydraulic/power features, 85% separation assumption; time statistics and cumulative work.",
+      "outputs": "Failure probability at 1, 2, 3, 7, 14 days.",
+      "accuracy": "Preprocessed horizons 1/2/3/7/14 d: ROC-AUC .944/.889/.869/.735/.625; precision .879/.809/.785/.655/.601; recall .871/.809/.781/.726/.624; F1 .875/.809/.783/.689/.612. Raw 1 d AUC .870, F1 .770. Table 3–4 p.13 visually verified.",
+      "advantages": "Large fleet, held-out 20% wells(397 test failures), physical preprocessing improves results.",
+      "limitations": "Balanced 50/50 class evaluation; interpolated/imputed values are not recovered measurements. Akima≤5 day gaps and long-gap moving-average/linear fills may use future data unless made causal. Component/manufacturer/stage metadata unavailable.",
+      "availability": "Needs equipment, trajectory, PVT, failure records and physical model beyond three sources. Surface-only version is a new experiment, not established by results.",
+      "complexity": "High"
+    },
+    "project_score": 8,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P18",
+    "recommended_candidate": "Robust PCA baseline as interpretable comparator to more complex models.",
+    "source_model": {
+      "type": "Robust PCA and Hotelling T-squared statistical monitoring",
+      "inputs": "Two years of minute data, 22 variables; robust treatment of roughly 25% outliers.",
+      "outputs": "Health KPI and abnormal operating-state alerts.",
+      "accuracy": "Six PCs explain>96% variance; two explain about two-thirds. These are variance-retention figures, not detection accuracy. No sensitivity/specificity/event denominator.",
+      "advantages": "Can learn normal behavior without labeled failures; compact dashboard.",
+      "limitations": "Limited illustrated cases; no validated causal diagnosis; 95% pointwise bound does not equal 5% fleet event false-alarm rate; operating regime shifts matter.",
+      "availability": "Potential with mapped Avalon channels; full reproduction requires 22 inputs, whose complete names are not disclosed. Missing-sensor cohort must use its own baseline. Excel tests are context, not minute inputs.",
+      "complexity": "Medium"
+    },
+    "project_score": 8,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P19",
+    "recommended_candidate": "Fuzzy diagnostic ranking; trend/change-point detector; outcome-based ranking of engineer-approved interventions.",
+    "source_model": {
+      "type": "Streaming change/anomaly detection; PCA; linear regression/least median squares; trapezoidal/Gaussian fuzzy trend inference; influence-diagram decision ranking.",
+      "inputs": "Core 8 channels and operating/economic context.",
+      "outputs": "Detected event, candidate cause and ranked prescriptive message.",
+      "accuracy": "Five illustrative cases: plugged pump, fluid change, gas lock, tubing leak, no alert. No confusion matrix, statistical accuracy or validated lead distribution.",
+      "advantages": "Explicit interpretable patterns and practical action alternatives; field bacterial blockage and gas-control examples.",
+      "limitations": "Membership thresholds not fully reproducible; overlapping pump patterns; experimental percentages not universal limits; no sensitivity/specificity.",
+      "availability": "Full matrix cannot run on sensor-lost wells. With Avalon electrical channels and sparse Excel only, retain partial-evidence hypotheses and request missing checks; no fabricated PIP/PDP or live rate.",
+      "complexity": "Medium"
+    },
+    "project_score": 10,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P20",
+    "recommended_candidate": "Robust trend classifier benchmark after ESP-specific redesign.",
+    "source_model": {
+      "type": "ADTree, SVM, naive Bayes; Grubbs outlier test, LOWESS, robust polynomial trends; random-peek semi-supervision.",
+      "inputs": "Daily LOWIS measurements; 42 training wells(19 failure), 32 reported test wells(6 failure); intermittent tests carried forward.",
+      "outputs": "Normal versus pre-failure.",
+      "accuracy": "Held-out SVM TP5, FN1, FP10, TN17 => precision 33.3%, recall 83.3%; ADTree TP1, FN5, FP5, TN22 =>precision 16.7%, recall 16.7%. Both matrices total 33 although text says 32. Table 2 SVM failure error.017, normal.002, overall.026 cannot all be consistent weighted error.",
+      "advantages": "Robust trends; distinguishes failure and normal error; adaptation to test-well distribution.",
+      "limitations": "Very small event count; random-peek uses unlabeled test distribution (transductive evaluation); high false alarms; inconsistent counts/metrics; smoothing may erase real events.",
+      "availability": "No direct ESP reproduction from Avalon/Excel; card/load/rod variables absent. Can reuse causal feature engineering and event-based evaluation design.",
+      "complexity": "Medium"
+    },
+    "project_score": 3,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P21",
+    "recommended_candidate": "Global ESP classifier with well/time holdout and cohort-specific performance.",
+    "source_model": {
+      "type": "EM Gaussian-mixture labeling plus physical-rule filtering; multiclass RBF SVM.",
+      "inputs": "1947 rod pumps, five fields; train 2010, validate 2011; four primary trends plus card unchanged days/runtime ratio.",
+      "outputs": "Normal, pre-failure and failure classes for tubing/pump.",
+      "accuracy": "TP278, FP145, FN141, TN1383 =>precision 65.7%, recall 66.4%. Field precision 50.0–80.2%, recall 47.1–88.5%. Historical evaluation; deployment future work.",
+      "advantages": "Cross-field training and chronological holdout; documents sudden failures cannot be anticipated from absent trends.",
+      "limitations": "100 day matching tolerance; alerts within 15 days of downtime filtered; different fields vary markedly; prose incorrectly labels false positive as false negative; normal-cluster cutoff 70% prose versus 50% algorithm.",
+      "availability": "Rod-card variables absent in ESP sources; methodology transferable only after new ESP training/labels.",
+      "complexity": "High"
+    },
+    "project_score": 4,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P22",
+    "recommended_candidate": "Physics-based virtual rate/efficiency; constrained optimization as later stage.",
+    "source_model": {
+      "type": "Deterministic engineering algorithms and virtual performance indicators; not trained ML.",
+      "inputs": "Pump curves, density, PI, electrical/downhole/surface variables.",
+      "outputs": "Envelope, motor load, rate estimates and prioritized relax/restrict/rerating candidates.",
+      "accuracy": "No prediction accuracy or false-alarm statistics.4.6 year run life is operational reported outcome, not controlled effect.",
+      "advantages": "Transparent and practical; basic/medium/high instrumentation tiers.",
+      "limitations": "Rate/head inference requires density and calibration; claimed benefits lack control cohort.",
+      "availability": "Basic electrical surveillance feasible if tags mapped. Full hydraulic envelope needs valid downhole pressures or independently validated estimates plus curves/PVT/completion data outside three sources.",
+      "complexity": "Medium"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P23",
+    "recommended_candidate": "Laboratory/bench QA classifier or field waveform classifier after data acquisition.",
+    "source_model": {
+      "type": "DNN(36 time/frequency features)+two CNN branches(STFT, CWT128×128 RGB) fused to 5 class softmax.",
+      "inputs": "Manufacturer laboratory water tests; 36 accelerometers over 6 components; 4096 Hz.9690 stated samples.",
+      "outputs": "Normal, unbalance, misalignment, rubbing, sensor fault.",
+      "accuracy": "Reported mean accuracy~99.98%; Table 6 recall 100% exceptmisalignment 99.93%; AUC100% reported. Class counts 3774+2703+1938+969+255=9639, not 9690; split 7752/1938 matches 9690. Repetition count 10 versus 25 intext.",
+      "advantages": "Combines complementary waveform representations and explicitly distinguishesensor fault.",
+      "limitations": "Labwater data; random record split may share machine/test run signatures; no held-out field run validation or predictive lead; high training cost.",
+      "availability": "No, unless Avalon contains raw 4096 Hz waveforms with correct positions. HF operating telemetry is not automatically vibration waveform data. Excel sources cannot substitute.",
+      "complexity": "High"
+    },
+    "project_score": 4,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P24",
+    "recommended_candidate": "PCA+boosting benchmark alongside raw-feature boosting, full sensor and surface-only cohorts.",
+    "source_model": {
+      "type": "PCA+XGBoost; hourly median, 1.5 IQR filter, standardization, moving differences.",
+      "inputs": "339089 normal, 1728 preworkover, 288 workover hourly points; 8 physical signals+differences.",
+      "outputs": "Normal versus≤7 day pre-event; discussion uses normal/preworkover/workover classes.",
+      "accuracy": "10 fold mean ROC-AUC.95; test pre-event precision.80, recall.60, F1.71, support 604; normal 101726. Abstract says>0.71, table.71.",
+      "advantages": "Clear physical polymer mechanism and explicit imbalanced-class metrics.",
+      "limitations": "70/30 versus 70/15/15 split descriptions; random folds not well/run chronological validation; full-data PCA/scaling language risks leakage; tables contain impossible descriptive ordering(mean/std versus max); standardization text says variance rather than SD.",
+      "availability": "Full model needs downhole sensors and workover labels. Three sources alone insufficient unless labels/equipment context supplied. Sensorless variant untested.",
+      "complexity": "Medium"
+    },
+    "project_score": 8,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P25",
+    "recommended_candidate": "Physics-assisted gas-flow/void-fraction estimator after obtaining suitable reference data.",
+    "source_model": {
+      "type": "Gaussian-kernel SVR with genetic-algorithm tuning of C, epsilon, kernel width; ten input combinations.",
+      "inputs": "J200 N test circuit, 1800/3000 rpm, inlet 100/200 bar, gas 0–3 kg/h; 80/20 train/test.",
+      "outputs": "Gas mass flow estimate.",
+      "accuracy": "Best total-flow+head model MSE .0027 (~.003), reported correlation .997. Vibration-only MSE .022, correlation .983; flow-only .930/.597. Units/scaling of MSE need source-data verification.",
+      "advantages": "Demonstrates value of combining hydraulic signals; vibration not required for best laboratory model.",
+      "limitations": "Narrow test domain; no offshore validation, failure outcomes or RUL; head/elevation is not simply well depth. Some estimates negative at zero gas.",
+      "availability": "Not directly: continuous total flow and developed head at matched conditions required. Sparse surface tests and no downhole sensors do not reproduce these inputs; requires PVT/calibrated hydraulic model and gas-reference labels.",
+      "complexity": "Medium"
+    },
+    "project_score": 6,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P26",
+    "recommended_candidate": "Pressure residual forecasting only after simpler physics/tree benchmarks.",
+    "source_model": {
+      "type": "Proposed LSTM/ANN with min-max scaling and 70/30 split.",
+      "inputs": "Field surveillance and X/Yvibration; sample table 52 Hz; record counts, architecture and event labels insufficiently specified.",
+      "outputs": "Pump discharge pressure prediction interpreted as failure warning.",
+      "accuracy": "No numeric RMSE, classification precision/recall, confusion matrix or lead-time validation. Qualitative plotted fit/correlation claim only.",
+      "advantages": "Sequence modeling concept and multichannel data assembly.",
+      "limitations": "Assumes build-up failure mechanism; instantaneous failures acknowledged; no non-Newtonian rheology validation or quantified predictive evidence; table lacks units.",
+      "availability": "No reproduction without downhole pressure/temperature/vibration and fuller model specification. Surface-only performance not demonstrated.",
+      "complexity": "High"
+    },
+    "project_score": 3,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P27",
+    "recommended_candidate": "PCA baseline with both retained-space and residual-space monitoring.",
+    "source_model": {
+      "type": "PCA to 3 dimensions plus least-squares enclosing sphere.",
+      "inputs": "13 variables, 20 min samples, 174538 stable records from 47 wells; 40 normal comparison wells use daily report data.",
+      "outputs": "Stable versus anomalous/failure trajectory.",
+      "accuracy": "TP20, FN27, TN40, FP0; event recall 42.55%, calculated overall accuracy 68.97%, observed precision 100% in this small selected sample. Paper calls 42.5%'accuracy' but it is failure recall.3 PCs retain~70% variance.",
+      "advantages": "Simple interpretable healthy-boundary monitor; explicitly reports missed failures.",
+      "limitations": "Normal/failure sampling resolution differs; only 70% variance retained; 20 min samples miss fast dynamics; same wells contribute healthy/failure periods; small selected normal set.",
+      "availability": "Needs 13 inputs including downhole signals and choke. Sensor-lost model requires new baseline and separate validation; daily Excel context does not recreate 20 min telemetry.",
+      "complexity": "Medium"
+    },
+    "project_score": 8,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P28",
+    "recommended_candidate": "Sensor-availability-aware anomaly models and electrical degradation risk.",
+    "source_model": {
+      "type": "Standardized PCA2 D plus Azure two-class boosted decision tree screenshot.",
+      "inputs": "8 variables abstract versus 10 Dmethod; 3 failed+1 operating case; tree 70/30 split.",
+      "outputs": "Normal/failed status and PCA drift.",
+      "accuracy": "PCA PC1=78.47%, PC2=9.94%, total 88.41% variance, not accuracy. Screenshot positive class NORMAL: TP441, FN0, FP14, TN56; accuracy.973, precision.969, recall 1, F1.984, AUC.927. Recast failure-positive: TP56, FN14, FP0, TN441 =>failure recall 80%, precision 100% in reported sample.",
+      "advantages": "Direct sensor-loss/ground-fault examples and frequency-conditioning lesson.",
+      "limitations": "Small cases; automatic real-time deployment future work; tree labels/sample independence unspecified; months-long retrospective drift can reflect onset/discovery ambiguity.",
+      "availability": "Full PCA unavailable after downhole loss; build separate surface baseline. Electrical integrity/DIFA/metadata are additional required records.",
+      "complexity": "Medium"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P29",
+    "recommended_candidate": "Repeat-failure risk and censored survival analysis once DIFA/run history cleaned.",
+    "source_model": {
+      "type": "RCFA and descriptive reliability trending; no ML.",
+      "inputs": "Operating/design/material/DIFA/history records.",
+      "outputs": "Evidence-supported root cause and preventive action.",
+      "accuracy": "No diagnostic accuracy. MTBF chart 196,190,168,292,254,628 days for 1995–2000; active runs require censoring in formal reliability analysis.",
+      "advantages": "Directly actionable evidence and prevention workflow.",
+      "limitations": "Small field, concurrent interventions, ambiguous improvement percentages/economic units.",
+      "availability": "Avalon+Excel support surveillance but not full RCFA; needs DIFA, materials, chemistry, settings, installation records.",
+      "complexity": "Low for workflow; Medium for integrated reliability analysis"
+    },
+    "project_score": 10,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P30",
+    "recommended_candidate": "Bayesian diagnostic ranking and causal change-point feature extractor.",
+    "source_model": {
+      "type": "Bayesian/HMM-like piecewise signal segmentation (top 200 paths), trend/noise/correlation probabilities, expert Bayesian network with manually/equation-set CPTs.",
+      "inputs": "Minute telemetry and physical/reference knowledge.",
+      "outputs": "Probabilities of stress patterns and failures.",
+      "accuracy": "57 field/offline events: 37 low flow, 12 deadhead, 6 gas, 2 mechanical; 14 missed by engineer, 10≥1 h earlier, 1 wrong diagnosis later addressed, 32 same-time. Additional 22 proof-of-concept=>79 total; no independent healthy-time denominator or fleet false alarm rate.",
+      "advantages": "Interpretable uncertainty and explicitly limited missing-input handling.",
+      "limitations": "Reference tuning after frequency change;~5% unusual wells require tuning; incomplete sensors+unusual conditions degrade accuracy; 57 event selection does not prove universal 100% recall.",
+      "availability": "Some partial-sensor cases supported, 17/79 events with≥1 missing parameter. Loss ofboth PIP/PDP violates source crucial-input gate; surface-only cannot claim this method's diagnostic performance.",
+      "complexity": "High"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P31",
+    "recommended_candidate": "Current-pattern classifier with verified field labels; hybrid hydraulic integrity classifier.",
+    "source_model": {
+      "type": "BP neural network 45 inputs–15 hidden–10 outputs plus analytical pressure-buildup model.",
+      "inputs": "Field and synthetic current cards; abstract training across>900 wells; at least 50 simulated examples per class; 45 features from 24 h cards; hydraulic model needs fluid/completion/pump curve.",
+      "outputs": "Ten current-card classes plus hydraulic diagnosis.",
+      "accuracy": "No held-out aggregate accuracy. Case output 57% normal, 12.3% sand failed to identify leak; pressure method led to confirmed tubing leak.",
+      "advantages": "Directly addresses absence of downhole sensors using additional surface test evidence.",
+      "limitations": "Synthetic training and validation not fully characterized; current classes overlap; Figure 5 rendering partly corrupted; empirical 0.78/1.5/1 cutoffs not universal.",
+      "availability": "Current features possible from Avalon; full pressure method needs dedicated time-resolved test and extra completion/PVT/curve data. Routine Excel pressures/tests alone insufficient.",
+      "complexity": "High"
+    },
+    "project_score": 9,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P32",
+    "recommended_candidate": "Vibration residual benchmark only on wells retaining reliable vibration.",
+    "source_model": {
+      "type": "Per-ESP PCA T² versus XGBoost motor-vibration regression residual with SPC aggregation.",
+      "inputs": "Six failed ESPs>1 year history; initial windows grown 20,000 min to 210,000 min; preferred 180,000 min~125 days; sequential 80/20 within-window validation for regression.",
+      "outputs": "Abnormal minute/day and persistent failure advisory.",
+      "accuracy": "Table 1 PCA false alarms 1, 4, 0, 3, 5; leads 14, 7, 1, 1, 3 days (first 5). Nonlinear false alarms 1, 11, 12, 10, 6; leads 14, 41, 10,120, 13. Sixth poor-quality well: PCA19 false/2 days, nonlinear 2 false/327 days, excluded from averages. No classification accuracy or independent nonfailure cohort.",
+      "advantages": "Chronological per-well construction and explicit alarm persistence tradeoff.",
+      "limitations": "Six failed wells only; parameter selection retrospective; no fleet rate denominator; two-day persistence delays fast faults; real-power proxy I×V omits three-phase power factor/efficiency.",
+      "availability": "PCA needs pressure/rate/temperature; residual method requires measured vibration at scoring, not just surface predictors. Cannot calculate residual after losing vibration sensor.",
+      "complexity": "Medium"
+    },
+    "project_score": 8,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P33",
+    "recommended_candidate": "Knowledge-assisted surface classifier after reliable rate/label integration.",
+    "source_model": {
+      "type": "Meta-learning convolutional shrinkage symptom model; semantic/fault trees; Jaccard entity linking; graph subgraph ranking; BiLSTM-CRF and expert inference, choosing higher-confidence result.",
+      "inputs": "1373 offshore fault records over 10 years; 7398 sentences from 62 papers+10 annual reports; 14 series; 27 symptoms; 50 claimed fault classes; 70/15/15 record split 961/206/206; separate 80/20 meta-stage description.",
+      "outputs": "Ranked fault candidates and confidence.",
+      "accuracy": "Recall@3=93.35%, reported macro F1=89.93%, time 35.5 (unit not explicit in table). LSTM73.26/83.26/33.2; KG-BDA88.10/87.74/37.9. Not 93.35% top-one accuracy. Warning/alarm table 38.3/32.6 versus 42.9/32.8 without sufficiently clear timing definition.",
+      "advantages": "Surface-based inputs; explicit symptoms, candidates and explanation; knowledge helps sparse classes.",
+      "limitations": "Restricted private data/graph; hard exclusions physically overbroad; random event split not external-field validation; equation 8 accuracy omits TN and F1 derivation inconsistent; confidence scores from two models may be incomparable; exact 50-label taxonomy not cleanly enumerated.",
+      "availability": "Potentially close to project, but requires continuous surface channels, plant rate-estimation method, verified fault labels and graph. Sparse Excel tests cannot substitute for minute production estimates. No downhole sensors required by core input set.",
+      "complexity": "High"
+    },
+    "project_score": 8,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P34",
+    "recommended_candidate": "Censored survival/competing-risk model with past-only operating exposure.",
+    "source_model": {
+      "type": "Linear regression, decision tree and logistic regression at multiple time scales.",
+      "inputs": "Geology/trajectory plus whole-run or current-period summaries; 42 paired failure/non failure periods; all-period set 29 fail/891 nonfail.",
+      "outputs": "Total life, active hours-to-failure and period failure probability.",
+      "accuracy": "Geology+geometry R².41(adj.38); hours-on regression R².75(adj.73), tree.82. Paired classifier TP30, FN12, FP18, TN24=>recall 71.43%, precision 62.5%. All-period fitted TP25, FN4, FP1, TN890=>recall 86.21%, precision 96.15%, but evaluated on fitting data; authors acknowledge optimism and unsuccessful small-data validation.",
+      "advantages": "Distinguishes calendar time, active exposure and failure versus other stops.",
+      "limitations": "Completed-run summaries leak future information if used as prospective predictors; only 29/42 failure cases; correlated features; no reliable external validation or forecast lead.",
+      "availability": "Surface concepts transferable, but SAGD steam/injector/geological inputs absent from stated sources. Ordinary water injection cannot substitute for SAGD steam variables.",
+      "complexity": "Medium"
+    },
+    "project_score": 5,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P35",
+    "recommended_candidate": "CatBoost/ExtraTrees benchmark with independently labeled future events, including raw-feature ablation.",
+    "source_model": {
+      "type": "Isolation Forest→PCA5 PCs→CatBoost/ExtraTrees with temporal features; SVM/MLP comparators; SMOTE/class weights reported.",
+      "inputs": "One selected well of 7,105 day window, 87390 raw records; 83020 final prose versus 82350 table; 30 s claimed sampling.",
+      "outputs": "Rule-derived three-state class.",
+      "accuracy": "Abstract accuracy 94.2%, failure recall 96.5%; Table 9 CatBoost 99.85% accuracy/F1~99.83%; Table 10/11 CV97.2% accuracy, F1~97.2%; ExtraTrees 96.8% test/93.8% CV. These are distinct conflicting reports, not one validated score.",
+      "advantages": "Useful past-window trend features and comparison of practical tabular models.",
+      "limitations": "One well, selected anomalous window; labels depend on same signals as features; no independent event-level prospective validation; chronological versus stratified K-fold descriptions conflict; preprocessing/SMOTE placement unclear; outlier removal may discard true faults; claimed 5 PC variance 90/95/97% inconsistent.",
+      "availability": "Requires working downhole pressure/temperature/vibration; surface voltage/current prior to transformer must not be treated as motor-terminal values. Missing-sensor version untested.",
+      "complexity": "Medium"
+    },
+    "project_score": 5,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P36",
+    "recommended_candidate": "Normal-behavior multivariate anomaly model per sensor/equipment cohort.",
+    "source_model": {
+      "type": "Generic multilayer neural-network anomaly detector; architecture/loss not disclosed.",
+      "inputs": "30 onshore ESPs, 200–500 k W; equipment variants grouped; one-year normal training baseline; surface/downhole telemetry.",
+      "outputs": "Anomaly level and prioritized advisory.",
+      "accuracy": "12 day retrospective example; no precision, recall, confusion matrix, false alerts per well-month or independent event denominator.",
+      "advantages": "Learns complex normal relationships; can highlight previously unrecognized anomalies.",
+      "limitations": "Manual training-data curation; repeated tuning on same history; missing cause specificity; limited reproducibility; related publications reuse pilot evidence.",
+      "availability": "Potential Avalon-fed monitoring, but full published model uses downhole inputs. A sensor-lost cohort requires new baseline and validation; Excel tests supply contextual evidence rather than fast stream.",
+      "complexity": "High"
+    },
+    "project_score": 7,
+    "status": "research_or_pilot_candidate_not_implemented"
+  },
+  {
+    "paper_id": "P37",
+    "recommended_candidate": "Normal-behavior multivariate anomaly model per sensor/equipment cohort.",
+    "source_model": {
+      "type": "Generic multilayer neural-network anomaly detector; architecture/loss not disclosed.",
+      "inputs": "30 onshore ESPs, 200–500 k W; equipment variants grouped; one-year normal training baseline; surface/downhole telemetry.",
+      "outputs": "Anomaly level and prioritized advisory.",
+      "accuracy": "12 day retrospective example; no precision, recall, confusion matrix, false alerts per well-month or independent event denominator.",
+      "advantages": "Learns complex normal relationships; can highlight previously unrecognized anomalies.",
+      "limitations": "Manual training-data curation; repeated tuning on same history; missing cause specificity; limited reproducibility; related publications reuse pilot evidence.",
+      "availability": "Potential Avalon-fed monitoring, but full published model uses downhole inputs. A sensor-lost cohort requires new baseline and validation; Excel tests supply contextual evidence rather than fast stream.",
+      "complexity": "High"
+    },
+    "project_score": 7,
+    "status": "research_or_pilot_candidate_not_implemented"
+  }
+]

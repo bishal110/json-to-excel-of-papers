@@ -1,0 +1,945 @@
+ESP research knowledge: P10
+
+Title: Data Driven Approach to Failure Prediction for Electrical Submersible Pump Systems
+
+Authors: Dong Guo; Cauligi S. Raghavendra; Ke-Thia Yao; Mark Harding; Amir Anvar; Anil Patel
+
+Year: 2015
+
+Publication: SPE Western Regional Meeting, Garden Grove, 27–30 April; SPE-174062-MS
+
+DOI: Not printed
+
+Related study group: None assigned
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P10-F01
+Type: Failures
+
+Failure or condition: Gas interference / gas lock
+
+Category: Pump
+
+Symptoms: Current fluctuation or motor cycling
+
+Root causes: High gas fraction / loss of cooling liquid
+
+Consequences: Inefficiency, overheating and mechanical damage risk
+
+Field indicators: Current variability, runtime
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 2
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-F02
+Type: Failures
+
+Failure or condition: Scaling / flow restriction
+
+Category: Pump
+
+Symptoms: Cycling with insufficient cooling
+
+Root causes: Reduced liquid throughput
+
+Consequences: Thermal trips and degradation
+
+Field indicators: Repeated current/voltage on-off cycles
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 2
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-F03
+Type: Failures
+
+Failure or condition: Solids-related loading
+
+Category: Pump
+
+Symptoms: Current spikes, possible restart
+
+Root causes: Solids intermittently increase pumping load
+
+Consequences: Overheating / breakdown risk
+
+Field indicators: Spike statistics and cycling
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 2
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-F04
+Type: Failures
+
+Failure or condition: Motor overheating
+
+Category: Motor
+
+Symptoms: Repeated protective shutdown/restart
+
+Root causes: Insufficient cooling flow
+
+Consequences: Lost runtime and eventual damage
+
+Field indicators: Cycling inferred from electrical series
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 2
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-F05
+Type: Failures
+
+Failure or condition: Missing / irregular sensor records
+
+Category: Sensor
+
+Symptoms: Negative voltage, impossible amps or prolonged gaps
+
+Root causes: Data error/telemetry; cause not necessarily failure
+
+Consequences: Misleading diagnosis
+
+Field indicators: Bounds and missingness percentage
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 3
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-D01
+Type: Rules
+
+Rule name: Cycling hypothesis
+
+Source status: candidate_requires_local_validation
+
+IF: Motor repeatedly cycles
+
+AND: Context supports low cooling flow
+
+THEN: Investigate gas lock, scale or other flow restriction
+
+Engineering explanation: Geology and deliberate field operation also cause cycling
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Geology and deliberate field operation also cause cycling
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 2
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-D02
+Type: Rules
+
+Rule name: Gassy pattern
+
+Source status: candidate_requires_local_validation
+
+IF: Current fluctuates repeatedly
+
+AND: Gas context corroborates
+
+THEN: Gas-loading instability candidate
+
+Engineering explanation: Current alone cannot prove gas
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Current alone cannot prove gas
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 2
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-D03
+Type: Rules
+
+Rule name: Solids pattern
+
+Source status: candidate_requires_local_validation
+
+IF: Intermittent current spikes
+
+AND: Evidence of solids or overheating/restarts
+
+THEN: Investigate solids-induced loading
+
+Engineering explanation: Not unique to solids
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Not unique to solids
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 2
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-D04
+Type: Rules
+
+Rule name: SVM anomaly
+
+Source status: candidate_requires_local_validation
+
+IF: Selected normalized features fall on anomaly side of linear SVM
+
+AND: Valid data and supported operating regime
+
+THEN: Flag abnormal/inefficient state for review
+
+Engineering explanation: Binary output is not a particular failure mode
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Binary output is not a particular failure mode
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 4–5
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-D05
+Type: Rules
+
+Rule name: Data gap
+
+Source status: candidate_requires_local_validation
+
+IF: Consecutive records missing for days
+
+AND: Actual equipment state unknown
+
+THEN: Flag telemetry uncertainty
+
+Engineering explanation: Authors duplicate prior periods; deployment should retain missingness and suppress unsupported certainty
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Authors duplicate prior periods; deployment should retain missingness and suppress unsupported certainty
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 3
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-I01
+Type: Indicators
+
+Indicator: Cycling fraction
+
+Physical meaning: Repeated off/on operation reduces effective runtime
+
+Required parameters: Current, voltage, runtime
+
+Typical trend: Cycling/zero fractions increase
+
+Lead time qualification: 90-day matching window used for evaluation; actual guaranteed warning not established
+
+Relevant channels: ESP Current; Voltage; Frequency
+
+Avalon availability: Unknown
+
+PDF pages: pp. 2–3, 5
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-I02
+Type: Indicators
+
+Indicator: Current instability
+
+Physical meaning: Variable load consistent with gas or solids
+
+Required parameters: Current statistics/waveform
+
+Typical trend: Standard deviation/fluctuation/spikes increase
+
+Lead time qualification: Not quantified
+
+Relevant channels: ESP Current; Frequency
+
+Avalon availability: Unknown
+
+PDF pages: pp. 2, 6
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-I03
+Type: Indicators
+
+Indicator: Short/long-window feature ratios
+
+Physical meaning: Deterioration relative to own recent baseline
+
+Required parameters: Medians in three windows; 60-day scale
+
+Typical trend: Short-window zero-voltage fraction > long window, e.g. 0.5 vs 0.2
+
+Lead time qualification: Example 3/7-day windows; model x/y/z not fully specified
+
+Relevant channels: ESP Current; Voltage; Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p. 3
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-A01
+Type: Actions
+
+Condition: Cycling/spike/variability alert
+
+Immediate actions: Verify planned operations and data quality
+
+Short term actions: Check gas/solids/flow evidence and maintenance logs
+
+Long term actions: Correct confirmed cause and improve labeled history
+
+Prevention: Track runtime and pattern statistics by well
+
+Expected benefit: Focused troubleshooting
+
+Production impact: Unquantified
+
+Attribution: pp. 1–3; proposed operational sequence
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-A02
+Type: Actions
+
+Condition: Missing data
+
+Immediate actions: Mark gap and stale features
+
+Short term actions: Restore telemetry and review independent evidence
+
+Long term actions: Improve historian quality
+
+Prevention: Do not treat duplicated historic values as new observations
+
+Expected benefit: Reduce false confidence
+
+Production impact: Unquantified
+
+Attribution: Engineering proposal addressing p. 3
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P10-M01
+Type: AI Models
+
+Model type: Linear-kernel SVM with domain-engineered daily features and sliding-window ratios; hyperparameters cross-validated
+
+Inputs: Current, voltage, frequency, runtime and quality/event labels
+
+Outputs: Normal versus anomaly/inefficiency
+
+Reported performance: Overall precision 61.8%, recall 61.5%; FMT1 62.5%/70%; FMT2 50%/33.3%. Separate years used for train/test; hundreds of wells. TP-I event recall and TP-II alert precision use ±90-day matching and differ in counting.
+
+Advantages: No downhole sensor needed; fleet normalization and practical electrical features.
+
+Limitations: Labels subjective; inefficiency versus failure confused; 90-day window can inflate usefulness; no fixed RUL; copying prior data can manufacture patterns.
+
+Data feasibility: Avalon alone conditionally sufficient for scoring if four raw tags and history exist; event/maintenance labels still needed for training. Tests/surface pressures useful for diagnosis, not original inputs.
+
+Complexity: Medium
+
+Prediction target: Anomalous/inefficient state associated with future reported events.
+
+Lead time qualification: 90 days is evaluation tolerance, not demonstrated per-event warning time.
+
+Signals: Electrical, runtime, quality and confirmed events.
+
+Source thresholds: Site maximum current for cleaning; no universal failure thresholds; SVM boundary learned.
+
+Implementation proposal: Strong surface-only baseline candidate; retain missingness, mask planned cycling, evaluate chronological run-held-out event precision/recall and false alerts per well-month.
+
+Recommended future model: Surface-only linear SVM or tree benchmark using electrical/runtime features.
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0181
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Generalized electrical-feature SVM for ESP anomalies across two fields.
+
+Engineering context: Labor-intensive surveillance and limited downhole visibility; inefficiency and failure precursors overlap.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0182
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Gas interference / gas lock; Scaling / flow restriction; Solids-related loading; Motor overheating; Missing / irregular sensor records
+
+Engineering context: Repeated motor cycling, unstable current and current spikes, normalized against prior operation (pp. 2–3).
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0183
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Current, voltage, frequency, runtime and quality/event labels
+
+Engineering context: Hourly normalized series to daily attributes; 60-day historical scale. More than 60 features gave richer signatures; <10 often labeled most dates anomalous. 'Amps-vibration' is a current-pattern feature, not a mechanical vibration sensor.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0184
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Avalon alone conditionally sufficient for scoring if four raw tags and history exist; event/maintenance labels still needed for training. Tests/surface pressures useful for diagnosis, not original inputs.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0185
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Cycling hypothesis: Investigate gas lock, scale or other flow restriction; Gassy pattern: Gas-loading instability candidate; Solids pattern: Investigate solids-induced loading
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0186
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: 90 days is evaluation tolerance, not demonstrated per-event warning time.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0187
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Overall precision 61.8%, recall 61.5%; FMT1 62.5%/70%; FMT2 50%/33.3%. Separate years used for train/test; hundreds of wells. TP-I event recall and TP-II alert precision use ±90-day matching and differ in counting.
+
+Engineering context: Labels subjective; inefficiency versus failure confused; 90-day window can inflate usefulness; no fixed RUL; copying prior data can manufacture patterns.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0188
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Site maximum current for cleaning; no universal failure thresholds; SVM boundary learned.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0189
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Electrical signatures, normalization, label ambiguity and honest interpretation of 90-day matching.
+
+Engineering context: Cycling/gas/solids hypotheses with corroboration; data gap gating.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0190
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Surface-only linear SVM or tree benchmark using electrical/runtime features.
+
+Engineering context: Strong surface-only baseline candidate; retain missingness, mask planned cycling, evaluate chronological run-held-out event precision/recall and false alerts per well-month.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0191
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Repeated motor cycling, unstable current and current spikes, normalized against prior operation (pp. 2–3).
+
+Engineering context: Labor-intensive surveillance and limited downhole visibility; inefficiency and failure precursors overlap.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0192
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify planned operations and data quality
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0193
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Normal versus anomaly/inefficiency; an output must be interpreted within the reported validation.
+
+Engineering context: Labels subjective; inefficiency versus failure confused; 90-day window can inflate usefulness; no fixed RUL; copying prior data can manufacture patterns.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0194
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: 90 days is evaluation tolerance, not demonstrated per-event warning time.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0195
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Current, voltage, frequency, runtime and quality/event labels
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0196
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Avalon alone conditionally sufficient for scoring if four raw tags and history exist; event/maintenance labels still needed for training. Tests/surface pressures useful for diagnosis, not original inputs.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0197
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Check gas/solids/flow evidence and maintenance logs
+
+Engineering context: pp. 1–3; proposed operational sequence
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0198
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Site maximum current for cleaning; no universal failure thresholds; SVM boundary learned.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0199
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Lost production and expensive ESP repair; no measured savings.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0200
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Cycling/gas/solids hypotheses with corroboration; data gap gating.
+
+Source report: reports/P10.md
+
+Review status: Pending
+
+Source caveats: Do not describe the paper as >90% accurate or as guaranteeing 90-day warning. Abstract's favorable language is weaker evidence than the numerical table.
+
+Source report: reports/P10.md. PDF page references refer to the original paper, not this text file.

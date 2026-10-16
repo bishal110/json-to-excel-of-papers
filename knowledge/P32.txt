@@ -1,0 +1,836 @@
+ESP research knowledge: P32
+
+Title: Real-Time Monitoring and Predictive Failure Identification for Electrical Submersible Pumps
+
+Authors: Abhijeet Sandeep Bhardwaj; Rahul Saraf; Geetha Gopakumar Nair; Sridharan Vallabhaneni
+
+Year: 2019
+
+Publication: ADIPEC, Abu Dhabi, 11–14 November; SPE-197911-MS
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P32-F01
+Type: Failures
+
+Failure or condition: Sand abrasion / impeller corrosion
+
+Category: Pump
+
+Symptoms: Model monitors multivariate/residual deviation; no unique signature provided.
+
+Root causes: Named background mechanism or data/operating disturbance.
+
+Consequences: Production loss or false alarms.
+
+Field indicators: PCA/vibration residual plus engineering confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for anomaly
+
+PDF pages: pp.3–4, 8–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-F02
+Type: Failures
+
+Failure or condition: Gas-related hydraulic deterioration
+
+Category: Pump
+
+Symptoms: Model monitors multivariate/residual deviation; no unique signature provided.
+
+Root causes: Named background mechanism or data/operating disturbance.
+
+Consequences: Production loss or false alarms.
+
+Field indicators: PCA/vibration residual plus engineering confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for anomaly
+
+PDF pages: pp.3–4, 8–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-F03
+Type: Failures
+
+Failure or condition: Thermal cable deterioration
+
+Category: Cable
+
+Symptoms: Model monitors multivariate/residual deviation; no unique signature provided.
+
+Root causes: Named background mechanism or data/operating disturbance.
+
+Consequences: Production loss or false alarms.
+
+Field indicators: PCA/vibration residual plus engineering confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for anomaly
+
+PDF pages: pp.3–4, 8–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-F04
+Type: Failures
+
+Failure or condition: Voltage-fluctuation motor heating
+
+Category: Motor
+
+Symptoms: Model monitors multivariate/residual deviation; no unique signature provided.
+
+Root causes: Named background mechanism or data/operating disturbance.
+
+Consequences: Production loss or false alarms.
+
+Field indicators: PCA/vibration residual plus engineering confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for anomaly
+
+PDF pages: pp.3–4, 8–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-F05
+Type: Failures
+
+Failure or condition: Seal/separator/shaft wear
+
+Category: Pump
+
+Symptoms: Model monitors multivariate/residual deviation; no unique signature provided.
+
+Root causes: Named background mechanism or data/operating disturbance.
+
+Consequences: Production loss or false alarms.
+
+Field indicators: PCA/vibration residual plus engineering confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for anomaly
+
+PDF pages: pp.3–4, 8–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-F06
+Type: Failures
+
+Failure or condition: Sensor fluctuation/data error
+
+Category: Sensor
+
+Symptoms: Model monitors multivariate/residual deviation; no unique signature provided.
+
+Root causes: Named background mechanism or data/operating disturbance.
+
+Consequences: Production loss or false alarms.
+
+Field indicators: PCA/vibration residual plus engineering confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for anomaly
+
+PDF pages: pp.3–4, 8–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-F07
+Type: Failures
+
+Failure or condition: Transient trip
+
+Category: Pump
+
+Symptoms: Model monitors multivariate/residual deviation; no unique signature provided.
+
+Root causes: Named background mechanism or data/operating disturbance.
+
+Consequences: Production loss or false alarms.
+
+Field indicators: PCA/vibration residual plus engineering confirmation.
+
+Confidence level: Low
+
+Confidence basis: Low for specific cause; Medium for anomaly
+
+PDF pages: pp.3–4, 8–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-D01
+Type: Rules
+
+Rule name: PCA persistent alarm
+
+Source status: candidate_requires_local_validation
+
+IF: More than 12 out-of-control minutes in 1440-minute day
+
+AND: Condition occurs on two consecutive days
+
+THEN: Flag serious abnormality for engineering inspection.
+
+Engineering explanation: Source multiplier 3×~4 chance exceedances; local validation required.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source multiplier 3×~4 chance exceedances; local validation required.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.8–10
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-D02
+Type: Rules
+
+Rule name: Residual persistent alarm
+
+Source status: candidate_requires_local_validation
+
+IF: More than 195 out-of-control minutes per day
+
+AND: Two consecutive days
+
+THEN: Flag serious abnormality.
+
+Engineering explanation: Source multiplier 13×~15; depends on envelope and sampling completeness.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source multiplier 13×~15; depends on envelope and sampling completeness.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.8–10
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-I01
+Type: Indicators
+
+Indicator: Persistent PCA abnormal minutes
+
+Physical meaning: Prolonged departure from normal correlated energy/hydraulic behavior.
+
+Required parameters: PCA T² and baseline envelope.
+
+Typical trend: Daily out-of-control count rises.
+
+Lead time qualification: First 5 ESP leads 14, 7, 1, 1, 3 days; averages~5 days before reference confirmation.
+
+Relevant channels: ESP Current, Voltage, Intake Pressure, Discharge Pressure, Temperature, Oil Rate, Water Rate
+
+Avalon availability: Unknown
+
+PDF pages: pp.5, 8–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-I02
+Type: Indicators
+
+Indicator: Persistent vibration residual
+
+Physical meaning: Measured vibration diverges from electrical-input prediction.
+
+Required parameters: Actual motor vibration plus XGBoost estimate.
+
+Typical trend: Residual outside trained envelope repeatedly.
+
+Lead time qualification: First 5 leads 14, 41, 10,120, 13 days; average~40 days; diagnosis-delay confounding.
+
+Relevant channels: ESP Current, Voltage, Frequency, Vibration
+
+Avalon availability: Unknown
+
+PDF pages: pp.6–10
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P32-M01
+Type: AI Models
+
+Model type: Per-ESP PCA T² versus XGBoost motor-vibration regression residual with SPC aggregation.
+
+Inputs: Six failed ESPs>1 year history; initial windows grown 20,000 min to 210,000 min; preferred 180,000 min~125 days; sequential 80/20 within-window validation for regression.
+
+Outputs: Abnormal minute/day and persistent failure advisory.
+
+Reported performance: Table 1 PCA false alarms 1, 4, 0, 3, 5; leads 14, 7, 1, 1, 3 days (first 5). Nonlinear false alarms 1, 11, 12, 10, 6; leads 14, 41, 10,120, 13. Sixth poor-quality well: PCA19 false/2 days, nonlinear 2 false/327 days, excluded from averages. No classification accuracy or independent nonfailure cohort.
+
+Advantages: Chronological per-well construction and explicit alarm persistence tradeoff.
+
+Limitations: Six failed wells only; parameter selection retrospective; no fleet rate denominator; two-day persistence delays fast faults; real-power proxy I×V omits three-phase power factor/efficiency.
+
+Data feasibility: PCA needs pressure/rate/temperature; residual method requires measured vibration at scoring, not just surface predictors. Cannot calculate residual after losing vibration sensor.
+
+Complexity: Medium
+
+Prediction target: Persistent abnormal operation or earlier recognition of existing failure.
+
+Lead time qualification: Abstract~2 weeks; detailed means 5/40 days. Source explicitly says one event already catastrophic for 14 days before confirmation—do not label all lead as prevention time.
+
+Signals: Synchronized minute telemetry, actual vibration for residual method, independent onset/confirmation dates.
+
+Source thresholds: PCA nominal tail.0027; residual.01;>12/>195 minutes daily and 2 days persistence. These statistical assumptions are not valid fleet guarantees under autocorrelation.
+
+Implementation proposal: Tune causal alarm persistence by fault urgency; preserve fast protective systems; count missing minutes separately; validate on healthy and failed runs.
+
+Recommended future model: Vibration residual benchmark only on wells retaining reliable vibration.
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0621
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Use PCA and predicted-vibration residuals with persistent statistical alarms to identify failures earlier than reactive confirmation.
+
+Engineering context: Transient trips, sensor fluctuations and genuine failures are difficult to distinguish; confirmation may take days.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0622
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Sand abrasion / impeller corrosion; Gas-related hydraulic deterioration; Thermal cable deterioration; Voltage-fluctuation motor heating; Seal/separator/shaft wear; Sensor fluctuation/data error; Transient trip
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0623
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Six failed ESPs>1 year history; initial windows grown 20,000 min to 210,000 min; preferred 180,000 min~125 days; sequential 80/20 within-window validation for regression.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0624
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: PCA needs pressure/rate/temperature; residual method requires measured vibration at scoring, not just surface predictors. Cannot calculate residual after losing vibration sensor.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0625
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: PCA persistent alarm: Flag serious abnormality for engineering inspection.; Residual persistent alarm: Flag serious abnormality.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0626
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Abstract~2 weeks; detailed means 5/40 days. Source explicitly says one event already catastrophic for 14 days before confirmation—do not label all lead as prevention time.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0627
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Table 1 PCA false alarms 1, 4, 0, 3, 5; leads 14, 7, 1, 1, 3 days (first 5). Nonlinear false alarms 1, 11, 12, 10, 6; leads 14, 41, 10,120, 13. Sixth poor-quality well: PCA19 false/2 days, nonlinear 2 false/327 days, excluded from averages. No classification accuracy or independent nonfailure cohort.
+
+Engineering context: Six failed wells only; parameter selection retrospective; no fleet rate denominator; two-day persistence delays fast faults; real-power proxy I×V omits three-phase power factor/efficiency.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0628
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: PCA nominal tail.0027; residual.01;>12/>195 minutes daily and 2 days persistence. These statistical assumptions are not valid fleet guarantees under autocorrelation.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0629
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Actual-versus-predicted residual requirement; diagnosis delay versus forecast lead; false-alert tradeoff.
+
+Engineering context: Persistent multivariate/residual escalation with data gates.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0630
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Vibration residual benchmark only on wells retaining reliable vibration.
+
+Engineering context: Tune causal alarm persistence by fault urgency; preserve fast protective systems; count missing minutes separately; validate on healthy and failed runs.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0631
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Transient trips, sensor fluctuations and genuine failures are difficult to distinguish; confirmation may take days.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0632
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0633
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Abnormal minute/day and persistent failure advisory.; an output must be interpreted within the reported validation.
+
+Engineering context: Six failed wells only; parameter selection retrospective; no fleet rate denominator; two-day persistence delays fast faults; real-power proxy I×V omits three-phase power factor/efficiency.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0634
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Abstract~2 weeks; detailed means 5/40 days. Source explicitly says one event already catastrophic for 14 days before confirmation—do not label all lead as prevention time.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0635
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Six failed ESPs>1 year history; initial windows grown 20,000 min to 210,000 min; preferred 180,000 min~125 days; sequential 80/20 within-window validation for regression.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0636
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: PCA needs pressure/rate/temperature; residual method requires measured vibration at scoring, not just surface predictors. Cannot calculate residual after losing vibration sensor.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0637
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0638
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: PCA nominal tail.0027; residual.01;>12/>195 minutes daily and 2 days persistence. These statistical assumptions are not valid fleet guarantees under autocorrelation.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0639
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0640
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Persistent multivariate/residual escalation with data gates.
+
+Source report: reports/P32.md
+
+Review status: Pending
+
+Source caveats: Table 1 visually verified.180000 minutes is study-specific baseline length. Do not suppress an urgent physical alarm merely because it lasted only one day.
+
+Source report: reports/P32.md. PDF page references refer to the original paper, not this text file.

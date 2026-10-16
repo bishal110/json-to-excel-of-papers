@@ -1,0 +1,902 @@
+ESP research knowledge: P22
+
+Title: Innovative Approach to Prolong ESP Run Life Using Algorithmic Models
+
+Authors: Hisham Al Shuwaikhat; Marcelo Ramos; Abdul-Rahman Aifan; Ali A.Al-Sadah
+
+Year: 2017
+
+Publication: ADIPEC, Abu Dhabi, 13–16 November; SPE-188807-MS
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P22-F01
+Type: Failures
+
+Failure or condition: Upthrust
+
+Category: Pump
+
+Symptoms: Flow above recommended maximum at operating speed.
+
+Root causes: Excess pump throughput relative to curve.
+
+Consequences: Thrust wear and reduced life.
+
+Field indicators: Rate/curve and differential pressure at known speed/density.
+
+Confidence level: High
+
+Confidence basis: High for operating-envelope concept
+
+PDF pages: pp.4, 10
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-F02
+Type: Failures
+
+Failure or condition: Downthrust
+
+Category: Pump
+
+Symptoms: Flow below recommended minimum.
+
+Root causes: Excess restriction or insufficient inflow.
+
+Consequences: Thrust wear and heating.
+
+Field indicators: Rate/curve and differential pressure.
+
+Confidence level: High
+
+Confidence basis: High for concept
+
+PDF pages: pp.4, 10
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-F03
+Type: Failures
+
+Failure or condition: Pump-off / excessive drawdown
+
+Category: Reservoir
+
+Symptoms: Low PIP or fluid level.
+
+Root causes: Inflow insufficient for pumping demand.
+
+Consequences: Gas/cooling issues and trips.
+
+Field indicators: PIP versus approved minimum/bubblepoint context.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.3–4
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-F04
+Type: Failures
+
+Failure or condition: Deadhead/low-flow operation
+
+Category: Pump
+
+Symptoms: Abnormal PDP and low flow.
+
+Root causes: High downstream restriction.
+
+Consequences: Heating and pump damage.
+
+Field indicators: PDP, rate, choke, wellhead pressure.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.4
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-F05
+Type: Failures
+
+Failure or condition: Motor overheating/burnout
+
+Category: Motor
+
+Symptoms: Motor winding temperature rise.
+
+Root causes: Inadequate cooling/excess duty.
+
+Consequences: Motor loss.
+
+Field indicators: Motor temperature responds before intake temperature in source discussion.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.4
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-F06
+Type: Failures
+
+Failure or condition: Underload/overload trip
+
+Category: Motor
+
+Symptoms: Current outside configured operating range.
+
+Root causes: Low rate, density change, oversized motor or excess loading.
+
+Consequences: Production interruptions.
+
+Field indicators: Current/nameplate ratio and surface pressure differential.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.8–10
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-F07
+Type: Failures
+
+Failure or condition: Y-tool bypass recirculation
+
+Category: Pump
+
+Symptoms: Potential discharge return to wellbore.
+
+Root causes: Blanking plug not in place during normal operation.
+
+Consequences: Lost effective delivery.
+
+Field indicators: Completion/intervention state; no validated trend supplied.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.2
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-D01
+Type: Rules
+
+Rule name: High-rate thrust warning
+
+Source status: candidate_requires_local_validation
+
+IF: Estimated/measured flow exceeds speed-corrected recommended maximum
+
+AND: Density and curve valid
+
+THEN: Flag upthrust risk and review duty.
+
+Engineering explanation: Source definition; thresholds are model-specific.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source definition; thresholds are model-specific.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: p.4
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-D02
+Type: Rules
+
+Rule name: Low-rate thrust warning
+
+Source status: candidate_requires_local_validation
+
+IF: Flow below speed-corrected recommended minimum
+
+AND: Data/curve valid
+
+THEN: Flag downthrust risk and review restriction/inflow.
+
+Engineering explanation: Cannot prescribe choke direction without full system constraints.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Cannot prescribe choke direction without full system constraints.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: p.4
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-D03
+Type: Rules
+
+Rule name: Drawdown protection
+
+Source status: candidate_requires_local_validation
+
+IF: PIP approaches field minimum/bubblepoint-related limit
+
+AND: Limit set from well/fluid/pump design
+
+THEN: Review pump-off and drawdown risk.
+
+Engineering explanation: No universal pressure given.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. No universal pressure given.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.4
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-I01
+Type: Indicators
+
+Indicator: Envelope departure
+
+Physical meaning: Duty outside recommended hydraulic/thrust range.
+
+Required parameters: Q, speed, density, pump curve or calibrated pressure-derived rate.
+
+Typical trend: Above maximum or below minimum allowed rate.
+
+Lead time qualification: No quantified lead.
+
+Relevant channels: Frequency, Intake Pressure, Discharge Pressure, Oil Rate, Water Rate
+
+Avalon availability: Unknown
+
+PDF pages: pp.4, 6–10
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-I02
+Type: Indicators
+
+Indicator: Motor loading
+
+Physical meaning: Current as fraction of motor nameplate.
+
+Required parameters: Current/nameplate current at appropriate voltage/frequency.
+
+Typical trend: Approaches configured low/high load.
+
+Lead time qualification: No quantified lead.
+
+Relevant channels: ESP Current, Voltage, Frequency
+
+Avalon availability: Unknown
+
+PDF pages: pp.3, 6, 9–10
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-A01
+Type: Actions
+
+Condition: Off-design duty
+
+Immediate actions: Verify curve, speed, density and ratings.
+
+Short term actions: Engineer choke/frequency optimization within well and network constraints.
+
+Long term actions: Resize/upgrade/downgrade ESP when duty mismatch persistent.
+
+Prevention: Maintain equipment curves, PI and installation/operating best practices.
+
+Expected benefit: Stable production and reduced thrust stress.
+
+Production impact: Source qualitative; no isolated causal gain.
+
+Attribution: pp.6–11
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-A02
+Type: Actions
+
+Condition: Motor loading mismatch
+
+Immediate actions: Confirm motor/transformer ratings and actual electrical state.
+
+Short term actions: Specialist voltage-optimization and motor rerating assessment.
+
+Long term actions: Review motor sizing and electrical design.
+
+Prevention: Track nameplate-normalized loading and trip history.
+
+Expected benefit: Avoid under/overload trips.
+
+Production impact: Reported loading adjustment 60% to 80%; not universally optimal.
+
+Attribution: pp.9–10; do not directly lower voltage based solely on this report.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P22-M01
+Type: AI Models
+
+Model type: Deterministic engineering algorithms and virtual performance indicators; not trained ML.
+
+Inputs: Pump curves, density, PI, electrical/downhole/surface variables.
+
+Outputs: Envelope, motor load, rate estimates and prioritized relax/restrict/rerating candidates.
+
+Reported performance: No prediction accuracy or false-alarm statistics.4.6 year run life is operational reported outcome, not controlled effect.
+
+Advantages: Transparent and practical; basic/medium/high instrumentation tiers.
+
+Limitations: Rate/head inference requires density and calibration; claimed benefits lack control cohort.
+
+Data feasibility: Basic electrical surveillance feasible if tags mapped. Full hydraulic envelope needs valid downhole pressures or independently validated estimates plus curves/PVT/completion data outside three sources.
+
+Complexity: Medium
+
+Prediction target: Off-envelope operation and impending trip risk; no RUL prediction.
+
+Lead time qualification: Not quantified.
+
+Signals: Telemetry plus curves/nameplates/fluid data.
+
+Source thresholds: Local curve limits and nameplates; 60→80% loading is an example, not alarm threshold.
+
+Implementation proposal: Start with electrical/rating dashboard, add pressure-based duty for instrumented wells, display uncertainty for sensor-lost wells.
+
+Recommended future model: Physics-based virtual rate/efficiency; constrained optimization as later stage.
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0421
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Integrate equipment curves, telemetry and well context to keep ESPs within operating envelopes and prioritize optimization.
+
+Engineering context: Manual visits/amp charts miss developing off-design operation and delayed optimization.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0422
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Upthrust; Downthrust; Pump-off / excessive drawdown; Deadhead/low-flow operation; Motor overheating/burnout; Underload/overload trip; Y-tool bypass recirculation
+
+Engineering context: Compare normalized motor loading and inferred rate/head to actual speed-dependent pump curve; check intake pressure, temperature and surface pressure drop.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0423
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Pump curves, density, PI, electrical/downhole/surface variables.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0424
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Basic electrical surveillance feasible if tags mapped. Full hydraulic envelope needs valid downhole pressures or independently validated estimates plus curves/PVT/completion data outside three sources.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0425
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: High-rate thrust warning: Flag upthrust risk and review duty.; Low-rate thrust warning: Flag downthrust risk and review restriction/inflow.; Drawdown protection: Review pump-off and drawdown risk.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0426
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not quantified.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0427
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No prediction accuracy or false-alarm statistics.4.6 year run life is operational reported outcome, not controlled effect.
+
+Engineering context: Rate/head inference requires density and calibration; claimed benefits lack control cohort.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0428
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Local curve limits and nameplates; 60→80% loading is an example, not alarm threshold.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0429
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Three instrumentation levels; five VPIs; TDH net lift+friction+wellhead head; curve-based thrust concepts.
+
+Engineering context: Envelope and rating checks with local limits.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0430
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Physics-based virtual rate/efficiency; constrained optimization as later stage.
+
+Engineering context: Start with electrical/rating dashboard, add pressure-based duty for instrumented wells, display uncertainty for sensor-lost wells.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0431
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Compare normalized motor loading and inferred rate/head to actual speed-dependent pump curve; check intake pressure, temperature and surface pressure drop.
+
+Engineering context: Manual visits/amp charts miss developing off-design operation and delayed optimization.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0432
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify curve, speed, density and ratings.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0433
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Envelope, motor load, rate estimates and prioritized relax/restrict/rerating candidates.; an output must be interpreted within the reported validation.
+
+Engineering context: Rate/head inference requires density and calibration; claimed benefits lack control cohort.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0434
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not quantified.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0435
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Pump curves, density, PI, electrical/downhole/surface variables.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0436
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Basic electrical surveillance feasible if tags mapped. Full hydraulic envelope needs valid downhole pressures or independently validated estimates plus curves/PVT/completion data outside three sources.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0437
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Engineer choke/frequency optimization within well and network constraints.
+
+Engineering context: pp.6–11
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0438
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Local curve limits and nameplates; 60→80% loading is an example, not alarm threshold.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0439
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Claims production restoration beyond 2017 plan and current 4.6 year run life compared with cited 3 year industry average; no controlled attribution or numeric production uplift (pp.9–11).
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0440
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Envelope and rating checks with local limits.
+
+Source report: reports/P22.md
+
+Review status: Pending
+
+Source caveats: Source contains equipment-description inaccuracies (pump paragraph mentions motors); do not import verbatim. Voltage rerating is specialist work. Runlife comparison does not prove program causality.
+
+Source report: reports/P22.md. PDF page references refer to the original paper, not this text file.

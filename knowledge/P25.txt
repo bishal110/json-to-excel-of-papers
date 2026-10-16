@@ -1,0 +1,598 @@
+ESP research knowledge: P25
+
+Title: Multiphase gas-flow model of an electrical submersible pump
+
+Authors: Diana Marcela Martinez Ricardo; German Efrain Castañeda Jiménez; Janito Vaqueiro Ferreira; Pablo Siqueira Meirelles
+
+Year: 2018
+
+Publication: Oil & Gas Science and Technology–Rev.IFP Energies nouvelles 73, 29
+
+DOI: 10.2516/ogst/2018031
+
+Related study group: None assigned
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P25-F01
+Type: Failures
+
+Failure or condition: Gas lock / gas interference
+
+Category: Pump
+
+Symptoms: Loss of delivery and changed electrical/hydraulic behavior.
+
+Root causes: Excess free gas in pump.
+
+Consequences: Premature shutdown and damage risk.
+
+Field indicators: Gas-flow estimate, current behavior, discharge flow.
+
+Confidence level: Medium
+
+Confidence basis: Medium for mechanism; laboratory estimator only
+
+PDF pages: pp.1, 4–7
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P25-D01
+Type: Rules
+
+Rule name: Gas-risk review
+
+Source status: candidate_requires_local_validation
+
+IF: Estimated gas flow changes materially
+
+AND: Estimator within validated fluid/speed/pressure domain and corroborating operating evidence
+
+THEN: Review gas interference risk and operating point.
+
+Engineering explanation: Derived operational use; source provides no calibrated gas-lock classifier or threshold.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Derived operational use; source provides no calibrated gas-lock classifier or threshold.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low/Medium
+
+PDF pages: pp.1, 7
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P25-I01
+Type: Indicators
+
+Indicator: Estimated gas flow
+
+Physical meaning: Gas mass transport in two-phase mixture.
+
+Required parameters: Best model total flow+elevation/head; alternatives vibration/torque.
+
+Typical trend: Increasing gas flow changes spectral/hydraulic response.
+
+Lead time qualification: Contemporaneous estimate; no failure lead time.
+
+Relevant channels: Vibration; Intake Pressure, Discharge Pressure may support head after calibration; Oil Rate, Water Rate, Gas Rate require consistent conditions
+
+Avalon availability: Unknown
+
+PDF pages: pp.4–7
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P25-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P25-M01
+Type: AI Models
+
+Model type: Gaussian-kernel SVR with genetic-algorithm tuning of C, epsilon, kernel width; ten input combinations.
+
+Inputs: J200 N test circuit, 1800/3000 rpm, inlet 100/200 bar, gas 0–3 kg/h; 80/20 train/test.
+
+Outputs: Gas mass flow estimate.
+
+Reported performance: Best total-flow+head model MSE .0027 (~.003), reported correlation .997. Vibration-only MSE .022, correlation .983; flow-only .930/.597. Units/scaling of MSE need source-data verification.
+
+Advantages: Demonstrates value of combining hydraulic signals; vibration not required for best laboratory model.
+
+Limitations: Narrow test domain; no offshore validation, failure outcomes or RUL; head/elevation is not simply well depth. Some estimates negative at zero gas.
+
+Data feasibility: Not directly: continuous total flow and developed head at matched conditions required. Sparse surface tests and no downhole sensors do not reproduce these inputs; requires PVT/calibrated hydraulic model and gas-reference labels.
+
+Complexity: Medium
+
+Prediction target: Gas mass flow soft sensor, not future failure.
+
+Lead time qualification: None established.
+
+Signals: Total flow and developed head preferred; optional raw vibration/torque.
+
+Source thresholds: Source introduction says gas-oil ratio should not exceed 10%; definition/dimensions ambiguous and pump-specific—do not use as universal gas fraction trip.
+
+Implementation proposal: Calibrate against multiphase measurements and physical head calculation across local speed/fluid domain; reject extrapolation and negative unphysical outputs.
+
+Recommended future model: Physics-assisted gas-flow/void-fraction estimator after obtaining suitable reference data.
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0481
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Estimate gas mass flow through a laboratory ESP from alternative combinations of hydraulic and vibration measurements.
+
+Engineering context: Gas interference can stop pumping; direct gas-flow knowledge is limited.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0482
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Gas lock / gas interference
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0483
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: J200 N test circuit, 1800/3000 rpm, inlet 100/200 bar, gas 0–3 kg/h; 80/20 train/test.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0484
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Not directly: continuous total flow and developed head at matched conditions required. Sparse surface tests and no downhole sensors do not reproduce these inputs; requires PVT/calibrated hydraulic model and gas-reference labels.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0485
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Gas-risk review: Review gas interference risk and operating point.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0486
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: None established.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0487
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Best total-flow+head model MSE .0027 (~.003), reported correlation .997. Vibration-only MSE .022, correlation .983; flow-only .930/.597. Units/scaling of MSE need source-data verification.
+
+Engineering context: Narrow test domain; no offshore validation, failure outcomes or RUL; head/elevation is not simply well depth. Some estimates negative at zero gas.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0488
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Source introduction says gas-oil ratio should not exceed 10%; definition/dimensions ambiguous and pump-specific—do not use as universal gas fraction trip.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0489
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Gas mass flow versus intake gas volume fraction; measurement-condition consistency.
+
+Engineering context: Gas estimate is supporting evidence, not unique gas-lock proof.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0490
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Physics-assisted gas-flow/void-fraction estimator after obtaining suitable reference data.
+
+Engineering context: Calibrate against multiphase measurements and physical head calculation across local speed/fluid domain; reject extrapolation and negative unphysical outputs.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0491
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Gas interference can stop pumping; direct gas-flow knowledge is limited.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0492
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0493
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Gas mass flow estimate.; an output must be interpreted within the reported validation.
+
+Engineering context: Narrow test domain; no offshore validation, failure outcomes or RUL; head/elevation is not simply well depth. Some estimates negative at zero gas.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0494
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: None established.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0495
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: J200 N test circuit, 1800/3000 rpm, inlet 100/200 bar, gas 0–3 kg/h; 80/20 train/test.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0496
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Not directly: continuous total flow and developed head at matched conditions required. Sparse surface tests and no downhole sensors do not reproduce these inputs; requires PVT/calibrated hydraulic model and gas-reference labels.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0497
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0498
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Source introduction says gas-oil ratio should not exceed 10%; definition/dimensions ambiguous and pump-specific—do not use as universal gas fraction trip.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0499
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0500
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Gas estimate is supporting evidence, not unique gas-lock proof.
+
+Source report: reports/P25.md
+
+Review status: Pending
+
+Source caveats: Paper's broad claim that failures can be easily avoided by changing conditions is not demonstrated field control validation.
+
+Source report: reports/P25.md. PDF page references refer to the original paper, not this text file.

@@ -1,0 +1,772 @@
+ESP research knowledge: P18
+
+Title: ESP Health Monitoring KPI: A Real-Time Predictive Analytics Application
+
+Authors: Supriya Gupta; Michael Nikolaou; Luigi Saputelli; Cesar Bravo
+
+Year: 2016
+
+Publication: SPE Intelligent Energy, Aberdeen, 6–8 September; SPE-181009-MS
+
+DOI: Not printed in supplied paper.
+
+Related study group: G02
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P18-F01
+Type: Failures
+
+Failure or condition: Gas interference
+
+Category: Pump
+
+Symptoms: General failure context; no unique validated signature.
+
+Root causes: Mechanism discussed as motivation; individual causal mapping not established.
+
+Consequences: Degraded efficiency or failure.
+
+Field indicators: Multivariate health departure, requiring further diagnosis.
+
+Confidence level: Low
+
+Confidence basis: Low for specific diagnosis
+
+PDF pages: pp.1–3, 7–9
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-F02
+Type: Failures
+
+Failure or condition: Thermal stress
+
+Category: Motor
+
+Symptoms: General failure context; no unique validated signature.
+
+Root causes: Mechanism discussed as motivation; individual causal mapping not established.
+
+Consequences: Degraded efficiency or failure.
+
+Field indicators: Multivariate health departure, requiring further diagnosis.
+
+Confidence level: Low
+
+Confidence basis: Low for specific diagnosis
+
+PDF pages: pp.1–3, 7–9
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-F03
+Type: Failures
+
+Failure or condition: Corrosion
+
+Category: Pump
+
+Symptoms: General failure context; no unique validated signature.
+
+Root causes: Mechanism discussed as motivation; individual causal mapping not established.
+
+Consequences: Degraded efficiency or failure.
+
+Field indicators: Multivariate health departure, requiring further diagnosis.
+
+Confidence level: Low
+
+Confidence basis: Low for specific diagnosis
+
+PDF pages: pp.1–3, 7–9
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-F04
+Type: Failures
+
+Failure or condition: Solids damage
+
+Category: Pump
+
+Symptoms: General failure context; no unique validated signature.
+
+Root causes: Mechanism discussed as motivation; individual causal mapping not established.
+
+Consequences: Degraded efficiency or failure.
+
+Field indicators: Multivariate health departure, requiring further diagnosis.
+
+Confidence level: Low
+
+Confidence basis: Low for specific diagnosis
+
+PDF pages: pp.1–3, 7–9
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-F05
+Type: Failures
+
+Failure or condition: Wear
+
+Category: Pump
+
+Symptoms: General failure context; no unique validated signature.
+
+Root causes: Mechanism discussed as motivation; individual causal mapping not established.
+
+Consequences: Degraded efficiency or failure.
+
+Field indicators: Multivariate health departure, requiring further diagnosis.
+
+Confidence level: Low
+
+Confidence basis: Low for specific diagnosis
+
+PDF pages: pp.1–3, 7–9
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-F06
+Type: Failures
+
+Failure or condition: Broken shaft
+
+Category: Pump
+
+Symptoms: General failure context; no unique validated signature.
+
+Root causes: Mechanism discussed as motivation; individual causal mapping not established.
+
+Consequences: Degraded efficiency or failure.
+
+Field indicators: Multivariate health departure, requiring further diagnosis.
+
+Confidence level: Low
+
+Confidence basis: Low for specific diagnosis
+
+PDF pages: pp.1–3, 7–9
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-F07
+Type: Failures
+
+Failure or condition: Intake blockage
+
+Category: Pump
+
+Symptoms: General failure context; no unique validated signature.
+
+Root causes: Mechanism discussed as motivation; individual causal mapping not established.
+
+Consequences: Degraded efficiency or failure.
+
+Field indicators: Multivariate health departure, requiring further diagnosis.
+
+Confidence level: Low
+
+Confidence basis: Low for specific diagnosis
+
+PDF pages: pp.1–3, 7–9
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-D01
+Type: Rules
+
+Rule name: Health anomaly
+
+Source status: candidate_requires_local_validation
+
+IF: T-squared exceeds healthy 95% confidence limit
+
+AND: Baseline and current operating state comparable and data quality valid
+
+THEN: Flag anomalous ESP operation, not a proven component cause.
+
+Engineering explanation: PCA reduces correlated signals; Mahalanobis-type distance measures departure.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. PCA reduces correlated signals; Mahalanobis-type distance measures departure.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp.4–9
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-I01
+Type: Indicators
+
+Indicator: Hotelling T-squared excursion
+
+Physical meaning: Correlated deviation from healthy operation.
+
+Required parameters: Standardized measured variables and robust baseline covariance.
+
+Typical trend: Increases beyond 95% confidence bound; case exceeds baseline by orders of magnitude.
+
+Lead time qualification: Example deviation before failure at minute 726; second event corrective 580–690 min, new problem~1100, trip 1518. No general lead distribution.
+
+Relevant channels: ESP Current, Voltage, Frequency, Intake Pressure, Discharge Pressure, Temperature, Vibration; complete 22 channel set undisclosed
+
+Avalon availability: Unknown
+
+PDF pages: pp.5–9
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P18-M01
+Type: AI Models
+
+Model type: Robust PCA and Hotelling T-squared statistical monitoring
+
+Inputs: Two years of minute data, 22 variables; robust treatment of roughly 25% outliers.
+
+Outputs: Health KPI and abnormal operating-state alerts.
+
+Reported performance: Six PCs explain>96% variance; two explain about two-thirds. These are variance-retention figures, not detection accuracy. No sensitivity/specificity/event denominator.
+
+Advantages: Can learn normal behavior without labeled failures; compact dashboard.
+
+Limitations: Limited illustrated cases; no validated causal diagnosis; 95% pointwise bound does not equal 5% fleet event false-alarm rate; operating regime shifts matter.
+
+Data feasibility: Potential with mapped Avalon channels; full reproduction requires 22 inputs, whose complete names are not disclosed. Missing-sensor cohort must use its own baseline. Excel tests are context, not minute inputs.
+
+Complexity: Medium
+
+Prediction target: Departure from normal multivariate operation.
+
+Lead time qualification: Case-specific hours; no population warning distribution or RUL.
+
+Signals: Consistent synchronized multichannel telemetry.
+
+Source thresholds: 95% confidence bound on T-squared; model-specific, not physical trip.
+
+Implementation proposal: Fit healthy regime-specific baselines; exclude startup/shutdown transients as appropriate; require persistence and contribution review; evaluate false alerts and event detection.
+
+Recommended future model: Robust PCA baseline as interpretable comparator to more complex models.
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0341
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Create a robust multivariate ESP health index using PCA and Hotelling T-squared.
+
+Engineering context: Single-channel limits miss coordinated changes and generate too many disconnected alarms.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0342
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Gas interference; Thermal stress; Corrosion; Solids damage; Wear; Broken shaft; Intake blockage
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0343
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Two years of minute data, 22 variables; robust treatment of roughly 25% outliers.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0344
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Potential with mapped Avalon channels; full reproduction requires 22 inputs, whose complete names are not disclosed. Missing-sensor cohort must use its own baseline. Excel tests are context, not minute inputs.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0345
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Health anomaly: Flag anomalous ESP operation, not a proven component cause.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0346
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Case-specific hours; no population warning distribution or RUL.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0347
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Six PCs explain>96% variance; two explain about two-thirds. These are variance-retention figures, not detection accuracy. No sensitivity/specificity/event denominator.
+
+Engineering context: Limited illustrated cases; no validated causal diagnosis; 95% pointwise bound does not equal 5% fleet event false-alarm rate; operating regime shifts matter.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0348
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: 95% confidence bound on T-squared; model-specific, not physical trip.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0349
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Health KPI meaning, covariance, operational baseline and anomaly-versus-cause distinction.
+
+Engineering context: Escalate persistent multivariate departure after quality/state gates.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0350
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Robust PCA baseline as interpretable comparator to more complex models.
+
+Engineering context: Fit healthy regime-specific baselines; exclude startup/shutdown transients as appropriate; require persistence and contribution review; evaluate false alerts and event detection.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0351
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Single-channel limits miss coordinated changes and generate too many disconnected alarms.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0352
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0353
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Health KPI and abnormal operating-state alerts.; an output must be interpreted within the reported validation.
+
+Engineering context: Limited illustrated cases; no validated causal diagnosis; 95% pointwise bound does not equal 5% fleet event false-alarm rate; operating regime shifts matter.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0354
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Case-specific hours; no population warning distribution or RUL.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0355
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Two years of minute data, 22 variables; robust treatment of roughly 25% outliers.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0356
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Potential with mapped Avalon channels; full reproduction requires 22 inputs, whose complete names are not disclosed. Missing-sensor cohort must use its own baseline. Excel tests are context, not minute inputs.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0357
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0358
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: 95% confidence bound on T-squared; model-specific, not physical trip.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0359
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0360
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Escalate persistent multivariate departure after quality/state gates.
+
+Source report: reports/P18.md
+
+Review status: Pending
+
+Source caveats: Related to P05; do not import P05's 30 hour example into this source. Contribution-based diagnosis/prescription described as future extension.
+
+Source report: reports/P18.md. PDF page references refer to the original paper, not this text file.

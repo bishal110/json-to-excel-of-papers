@@ -1,0 +1,3572 @@
+[
+  {
+    "id": "P01-E01",
+    "source_rule_id": "P01-D01",
+    "paper_id": "P01",
+    "rule_name": "PIP check",
+    "IF": "PIP < gas pressure at intake",
+    "AND": "Source also associates this with excessive rate",
+    "THEN": "Flag low-intake-pressure danger",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Gas-pressure definition and operating context must be established",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E02",
+    "source_rule_id": "P01-D02",
+    "paper_id": "P01",
+    "rule_name": "Gas fraction",
+    "IF": "Gas fraction before separation > 0.8",
+    "AND": "Same gas-fraction basis as source",
+    "THEN": "Warn of reduced throughput",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source-specific screening value; separator and pump capability matter",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E03",
+    "source_rule_id": "P01-D03",
+    "paper_id": "P01",
+    "rule_name": "Turpin",
+    "IF": "Turpin coefficient > 1",
+    "AND": "Coefficient calculated from intake gas/liquid and PIP",
+    "THEN": "Warn of excessive gas relative to liquid",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Correlation inputs and applicable units must be validated",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E04",
+    "source_rule_id": "P01-D04",
+    "paper_id": "P01",
+    "rule_name": "Viscosity",
+    "IF": "Calculated viscosity > 10",
+    "AND": "Units are not supplied",
+    "THEN": "Flag viscosity warning for review",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Do not deploy an undefined-unit threshold",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P01-E05",
+    "source_rule_id": "P01-D05",
+    "paper_id": "P01",
+    "rule_name": "Gas lock",
+    "IF": "Gas-at-intake / component gas-lock ratio >= 1",
+    "AND": "Compatible fraction basis",
+    "THEN": "Flag gas-lock danger",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Equipment-specific gas handling exceeded",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E06",
+    "source_rule_id": "P01-D06",
+    "paper_id": "P01",
+    "rule_name": "Rated operating range",
+    "IF": "Pump intake rate > maximum graph range",
+    "AND": "Intake volumes calculated on consistent conditions",
+    "THEN": "Flag outside pump range",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Requires actual pump curve",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E07",
+    "source_rule_id": "P01-D07",
+    "paper_id": "P01",
+    "rule_name": "Outside range ratio",
+    "IF": "Calculated outside-range ratio > 0.1",
+    "AND": "Exact ratio implementation requires source design details",
+    "THEN": "Warn off-range operation",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Not a universal 10% flow tolerance",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "pp. 3–4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E08",
+    "source_rule_id": "P01-D08",
+    "paper_id": "P01",
+    "rule_name": "Cable voltage loss",
+    "IF": "Cable voltage loss per thousand > 30",
+    "AND": "Table labels the maximum as 30 V/ft",
+    "THEN": "Quarantine threshold pending unit correction",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Per-thousand and per-foot wording contradict",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P01-E09",
+    "source_rule_id": "P01-D09",
+    "paper_id": "P01",
+    "rule_name": "Cable temperature",
+    "IF": "Power-cable temperature ratio > 1",
+    "AND": "Ratio uses cable thermal/design rating",
+    "THEN": "Flag cable thermal danger",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Risk of cable burnout and loss of power",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E10",
+    "source_rule_id": "P01-D10",
+    "paper_id": "P01",
+    "rule_name": "Motor lead temperature",
+    "IF": "Motor-lead cable temperature ratio > 1",
+    "AND": "Applicable lead rating is known",
+    "THEN": "Flag motor-lead thermal danger",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Component thermal margin exhausted",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E11",
+    "source_rule_id": "P01-D11",
+    "paper_id": "P01",
+    "rule_name": "Low cooling velocity",
+    "IF": "Motor flow velocity < 1 ft/s",
+    "AND": "Geometry and fluid flow confirmed",
+    "THEN": "Flag overheating risk",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Insufficient cooling around motor",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E12",
+    "source_rule_id": "P01-D12",
+    "paper_id": "P01",
+    "rule_name": "High velocity",
+    "IF": "Motor flow velocity > 7.5 ft/s",
+    "AND": "Source application context retained",
+    "THEN": "Flag erosion danger",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Not a universal OEM limit",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E13",
+    "source_rule_id": "P01-D13",
+    "paper_id": "P01",
+    "rule_name": "Abrasive velocity",
+    "IF": "Motor flow velocity > 12 ft/s",
+    "AND": "Fluid contains abrasives",
+    "THEN": "Warn abrasive erosion",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Do not treat clean and abrasive fluids identically",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E14",
+    "source_rule_id": "P01-D14",
+    "paper_id": "P01",
+    "rule_name": "Overload",
+    "IF": "Motor load ratio > 1",
+    "AND": "Rated horsepower basis confirmed",
+    "THEN": "Flag overload",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Demand exceeds rated motor power",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 5",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E15",
+    "source_rule_id": "P01-D15",
+    "paper_id": "P01",
+    "rule_name": "Skin temperature",
+    "IF": "Motor internal-stage temperature > 300°F",
+    "AND": "Table labels this as a skin-temperature check",
+    "THEN": "Flag thermal danger for review",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Measured-versus-calculated location is ambiguous",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P01-E16",
+    "source_rule_id": "P01-D16",
+    "paper_id": "P01",
+    "rule_name": "Winding temperature",
+    "IF": "Motor internal temperature > rated stage temperature",
+    "AND": "Comparable measurement and rating",
+    "THEN": "Flag winding thermal danger",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Use actual component rating",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 5",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P01-E17",
+    "source_rule_id": "P01-D17",
+    "paper_id": "P01",
+    "rule_name": "Start voltage contradiction",
+    "IF": "Startup ratio > 0.5 (as printed)",
+    "AND": "Text says voltage must be at least 50%; table also prints 50 V",
+    "THEN": "Do not activate the printed comparator",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Minimum requirement implies the opposite danger direction; correction needs validation",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P02-E01",
+    "source_rule_id": "P02-D01",
+    "paper_id": "P02",
+    "rule_name": "Eligibility",
+    "IF": "All critical variables available at required frequency",
+    "AND": "Historical behavior passes stability test",
+    "THEN": "Allow recommendation generation",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Unstable or incomplete wells excluded; numerical stability tolerance undisclosed",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 3, 9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P02-E02",
+    "source_rule_id": "P02-D02",
+    "paper_id": "P02",
+    "rule_name": "Intake margin",
+    "IF": "Predicted intake pressure > 30.4×10^4 kg/m²",
+    "AND": "Use source error bound 2.4×10^4 at 99% confidence",
+    "THEN": "Meets source lower limit 28×10^4 with modeled confidence",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Table 2 prints >28 kg/m²; prose differs by 10^4. Pressure-force unit convention also needs resolution.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "pp. 5, 7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P02-E03",
+    "source_rule_id": "P02-D03",
+    "paper_id": "P02",
+    "rule_name": "Constraint optimizer",
+    "IF": "Predicted temperature <110°C, insulation >8000 ohm, tubing pressure <40×10^4 kg/m² and current <200 A",
+    "AND": "All error-adjusted constraints plus intake limit pass",
+    "THEN": "Select greatest eligible frequency in 40–60 Hz at 1-Hz steps",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Field-specific constraints, not universal ESP ratings",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 5, 7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P02-E04",
+    "source_rule_id": "P02-D04",
+    "paper_id": "P02",
+    "rule_name": "Economic gate",
+    "IF": "Incremental electricity cost exceeds incremental oil revenue",
+    "AND": "Forecast and prices use consistent volume/water-cut definitions",
+    "THEN": "Withhold production-increase recommendation",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Avoid uneconomic speed increases",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 8",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P02-E05",
+    "source_rule_id": "P02-D05",
+    "paper_id": "P02",
+    "rule_name": "Drying/thermal reduction",
+    "IF": "Predicted operating limit violated",
+    "AND": "Lower speed restores acceptable operation",
+    "THEN": "Recommend frequency reduction",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. May lower immediate oil while protecting continuity",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 8",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P02-E06",
+    "source_rule_id": "P02-D06",
+    "paper_id": "P02",
+    "rule_name": "Intermittent operation",
+    "IF": "Well uses fixed 50-Hz intermittent mode",
+    "AND": "Duty-cycle change remains feasible",
+    "THEN": "Optimize operating and idle durations",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Control variable is duty cycle rather than frequency",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 8",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P02-E07",
+    "source_rule_id": "P02-D07",
+    "paper_id": "P02",
+    "rule_name": "Bad data",
+    "IF": "Measured/model values disagree beyond source tolerance",
+    "AND": "Reliable correction model exists",
+    "THEN": "Replace suspect historical value for analysis; otherwise exclude interval",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Preserve raw measurements and quality flag in deployment (proposed safeguard)",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E01",
+    "source_rule_id": "P03-D01",
+    "paper_id": "P03",
+    "rule_name": "R1 fluid change",
+    "IF": "Frequency C; current C; PIP I",
+    "AND": "Motor temperature C or D; flow I; tubing pressure C or I; PDP C or I; intake temperature C or D",
+    "THEN": "Fluid-change hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. C=constant, I=increasing, D=decreasing normalized slope",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E02",
+    "source_rule_id": "P03-D02",
+    "paper_id": "P03",
+    "rule_name": "R2 closed valve",
+    "IF": "Frequency C; current D; PIP I",
+    "AND": "Motor temperature I; flow D; tubing pressure I; PDP I; intake temperature I",
+    "THEN": "Closed-valve hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Inherited fuzzy rule; not validated root cause",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E03",
+    "source_rule_id": "P03-D03",
+    "paper_id": "P03",
+    "rule_name": "R3 plugged tubing",
+    "IF": "Frequency C; current D; PIP I",
+    "AND": "Motor temperature I; flow D; tubing pressure D; PDP I; intake temperature I",
+    "THEN": "Plugged-tubing hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Distinguishes restriction location through pressure pattern",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E04",
+    "source_rule_id": "P03-D04",
+    "paper_id": "P03",
+    "rule_name": "R4 plugged pump",
+    "IF": "Frequency C; current D; PIP I",
+    "AND": "Motor temperature I; flow D; tubing pressure D; PDP D; intake temperature I",
+    "THEN": "Plugged-pump hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Identical to R8/R9 in printed table",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E05",
+    "source_rule_id": "P03-D05",
+    "paper_id": "P03",
+    "rule_name": "R5 tubing leak",
+    "IF": "Frequency C; current C or D; PIP I",
+    "AND": "Motor temperature I; flow D; tubing pressure D; PDP C; intake temperature I",
+    "THEN": "Tubing-leak hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Requires integrity confirmation",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E06",
+    "source_rule_id": "P03-D06",
+    "paper_id": "P03",
+    "rule_name": "R6 gas lock",
+    "IF": "Frequency C; current D; PIP C or I",
+    "AND": "Motor temperature I; flow D; tubing pressure D; PDP D; intake temperature I",
+    "THEN": "Gas-lock hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Other loss-of-head modes overlap",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E07",
+    "source_rule_id": "P03-D07",
+    "paper_id": "P03",
+    "rule_name": "R7 reverse rotation",
+    "IF": "Frequency C or D; current D; PIP I",
+    "AND": "Motor temperature C or I; flow D; tubing pressure D; PDP C or D; intake temperature C or I",
+    "THEN": "Reverse-rotation hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Requires rotation/electrical investigation",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E08",
+    "source_rule_id": "P03-D08",
+    "paper_id": "P03",
+    "rule_name": "R8 broken shaft",
+    "IF": "Frequency C; current D; PIP I",
+    "AND": "Motor temperature I; flow D; tubing pressure D; PDP D; intake temperature I",
+    "THEN": "Broken-shaft hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Printed premises match R4/R9 exactly",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E09",
+    "source_rule_id": "P03-D09",
+    "paper_id": "P03",
+    "rule_name": "R9 worn pump",
+    "IF": "Frequency C; current D; PIP I",
+    "AND": "Motor temperature I; flow D; tubing pressure D; PDP D; intake temperature I",
+    "THEN": "Worn-pump hypothesis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Printed premises match R4/R8 exactly",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 5 Fig. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P03-E10",
+    "source_rule_id": "P03-D10",
+    "paper_id": "P03",
+    "rule_name": "Trend risk",
+    "IF": "Seven-day aggregate premise/rule activity elevated",
+    "AND": "Check data interruptions and operating changes first",
+    "THEN": "Request engineering review; do not claim unique cause",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Qualitative failed-versus-running separation only",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "pp. 9–10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P04-E01",
+    "source_rule_id": "P04-D01",
+    "paper_id": "P04",
+    "rule_name": "Anomaly screening",
+    "IF": "Learned multivariable relations depart from baseline",
+    "AND": "Anomaly score exceeds tuned threshold",
+    "THEN": "Flag anomaly for expert diagnosis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Score is not demonstrated as calibrated failure probability",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 6–7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P04-E02",
+    "source_rule_id": "P04-D02",
+    "paper_id": "P04",
+    "rule_name": "Sensitivity tradeoff",
+    "IF": "Threshold lowered below 40% in source tests",
+    "AND": "Data/model unchanged",
+    "THEN": "Expect earlier signals and more false anomalies",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source qualitative examples, not portable setpoints",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P04-E03",
+    "source_rule_id": "P04-D03",
+    "paper_id": "P04",
+    "rule_name": "High threshold",
+    "IF": "Threshold above 80% in source tests",
+    "AND": "Anomaly growing toward failure",
+    "THEN": "Alerts often only hours before failure",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. No statistical performance distribution supplied",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P04-E04",
+    "source_rule_id": "P04-D04",
+    "paper_id": "P04",
+    "rule_name": "Fleet grouping",
+    "IF": "ESPs differ in available variables/type",
+    "AND": "Similar variants can share baseline training",
+    "THEN": "Train separate variant models",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Avoid combining incompatible measurement systems",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P05-E01",
+    "source_rule_id": "P05-D01",
+    "paper_id": "P05",
+    "rule_name": "Multivariate departure",
+    "IF": "T² exceeds model-specific 95% F-based boundary",
+    "AND": "Baseline represents comparable healthy operating regime",
+    "THEN": "Flag instability / impending trip candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. T²=t covariance-inverse tᵀ; model-derived threshold, not fixed pressure/current limit",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 8–11",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P05-E02",
+    "source_rule_id": "P05-D02",
+    "paper_id": "P05",
+    "rule_name": "Contribution ranking",
+    "IF": "Anomaly detected",
+    "AND": "A variable contributes most to T²",
+    "THEN": "Prioritize investigation of that variable",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Statistical contribution does not establish physical causation",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 8–9, 12",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P05-E03",
+    "source_rule_id": "P05-D03",
+    "paper_id": "P05",
+    "rule_name": "Prescriptive band",
+    "IF": "Variable outside learned quadratic-inequality band",
+    "AND": "Other variables fixed at healthy training values in calculation",
+    "THEN": "Consider feasible controls that return joint operation toward healthy region",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Univariate conditional bands do not guarantee joint safety or causal improvement",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "pp. 9, 13",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P05-E04",
+    "source_rule_id": "P05-D04",
+    "paper_id": "P05",
+    "rule_name": "Counterproductive correction",
+    "IF": "Choke adjustment reduces thermal anomaly initially",
+    "AND": "Intake/wellbore pressure then falls below bubble point and anomaly returns",
+    "THEN": "Review induced gas interference",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Observed minute 581–682 improvement, renewed departure from minute 842, trip at 1518",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P06-E01",
+    "source_rule_id": "P06-D01",
+    "paper_id": "P06",
+    "rule_name": "Anomaly review",
+    "IF": "Model flags abnormal baseline relationship",
+    "AND": "Independent process/event evidence reviewed",
+    "THEN": "Investigate and select mitigation",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Editorial does not publish executable physical fault rules",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "pp. 1–2",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P06-E02",
+    "source_rule_id": "P06-D02",
+    "paper_id": "P06",
+    "rule_name": "Unknown behavior",
+    "IF": "Anomaly unfamiliar to operators",
+    "AND": "Cause not yet established",
+    "THEN": "Document and investigate before assigning diagnosis",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Novelty is not proof of a particular failure mode",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 2",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P07-E01",
+    "source_rule_id": "P07-D01",
+    "paper_id": "P07",
+    "rule_name": "Learned classification",
+    "IF": "Boosted Bayesian-network/decision-tree vote indicates pre-failure/failure",
+    "AND": "Domain-relevant normalized inputs and reliable labels",
+    "THEN": "Raise rod-pump alert",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. No explicit physical diagnostic IF/THEN thresholds published",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 3–8",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P07-E02",
+    "source_rule_id": "P07-D02",
+    "paper_id": "P07",
+    "rule_name": "Missing records",
+    "IF": "Data absent",
+    "AND": "Maintenance/failure/telemetry explanation unresolved",
+    "THEN": "Flag missingness for SME interpretation",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Missing data are not automatically normal or failed",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P08-E01",
+    "source_rule_id": "P08-D01",
+    "paper_id": "P08",
+    "rule_name": "Advisory prioritization",
+    "IF": "ESP anomaly detected",
+    "AND": "Analytics evidence available",
+    "THEN": "Rank well for operator/engineer review",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Surveillance is decision support",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 5–6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P08-E02",
+    "source_rule_id": "P08-D02",
+    "paper_id": "P08",
+    "rule_name": "Control separation",
+    "IF": "Advisory system fails or misses anomaly",
+    "AND": "Existing control/protection remains available",
+    "THEN": "SCADA retains control and alarm responsibilities",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Architecture explicitly supplements SCADA; does not prove all hazards are covered",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "p. 6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P08-E03",
+    "source_rule_id": "P08-D03",
+    "paper_id": "P08",
+    "rule_name": "Unknown cause",
+    "IF": "Novel anomaly identified",
+    "AND": "Engineering review required",
+    "THEN": "Share common evidence with well engineer and operator",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Common analytical dataset supports different roles",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E01",
+    "source_rule_id": "P09-D01",
+    "paper_id": "P09",
+    "rule_name": "Normal reference",
+    "IF": "All six signals within calibrated healthy variation",
+    "AND": "No intervention/transient or quality fault",
+    "THEN": "Normal-pattern class",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Normal is one of nine conditions; only eight are faults",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF pp. 4–5",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E02",
+    "source_rule_id": "P09-D02",
+    "paper_id": "P09",
+    "rule_name": "Underload",
+    "IF": "Current normalized mean ~0.8",
+    "AND": "Well-specific threshold/calibration",
+    "THEN": "Underload candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Illustrative relative limit; not universal protection setting",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF p. 8",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E03",
+    "source_rule_id": "P09-D03",
+    "paper_id": "P09",
+    "rule_name": "Overload",
+    "IF": "Current normalized mean ~1.2",
+    "AND": "Well-specific threshold/calibration",
+    "THEN": "Overload candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Text incorrectly repeats underload for 1.2; use as suspected typo pending validation",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "PDF p. 8",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E04",
+    "source_rule_id": "P09-D04",
+    "paper_id": "P09",
+    "rule_name": "Gas interference",
+    "IF": "Current variance increases",
+    "AND": "GLR/gas increases; current waveform matches reference",
+    "THEN": "Gas interference candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Electrical-only recognition has blind spots",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF pp. 6, 8–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E05",
+    "source_rule_id": "P09-D05",
+    "paper_id": "P09",
+    "rule_name": "Gas lock",
+    "IF": "Current fluctuates and decreases toward underload trip",
+    "AND": "Liquid falls and GLR rises",
+    "THEN": "Gas-lock candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Confirm with production rather than current alone",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF p. 6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E06",
+    "source_rule_id": "P09-D06",
+    "paper_id": "P09",
+    "rule_name": "Supply shortage",
+    "IF": "Current steadily decreases then cycles after shutdown",
+    "AND": "Liquid supply/level declining",
+    "THEN": "Inflow deficiency candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Gas-related and leakage alternatives remain",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF p. 6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E07",
+    "source_rule_id": "P09-D07",
+    "paper_id": "P09",
+    "rule_name": "Tubing leak",
+    "IF": "Wellhead pressure abruptly decreases and liquid rate falls",
+    "AND": "Current remains near its prior mean",
+    "THEN": "Tubing integrity concern",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Requires integrity confirmation; rate pressure change alone is nonspecific",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF p. 7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E08",
+    "source_rule_id": "P09-D08",
+    "paper_id": "P09",
+    "rule_name": "Voltage deviation",
+    "IF": "Voltage exceeds or falls below motor-rated condition",
+    "AND": "Associated current/production pattern with unchanged GLR",
+    "THEN": "Electrical supply anomaly",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. VSD frequency, voltage location and loading affect interpretation",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "PDF pp. 7–8",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P09-E09",
+    "source_rule_id": "P09-D09",
+    "paper_id": "P09",
+    "rule_name": "Pattern matching",
+    "IF": "Cross-correlation with reference current waveform exceeds tuned criterion",
+    "AND": "Auxiliary production pattern agrees",
+    "THEN": "Classify similar operating pattern",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Numerical correlation threshold not provided",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF pp. 8–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P10-E01",
+    "source_rule_id": "P10-D01",
+    "paper_id": "P10",
+    "rule_name": "Cycling hypothesis",
+    "IF": "Motor repeatedly cycles",
+    "AND": "Context supports low cooling flow",
+    "THEN": "Investigate gas lock, scale or other flow restriction",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Geology and deliberate field operation also cause cycling",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 2",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P10-E02",
+    "source_rule_id": "P10-D02",
+    "paper_id": "P10",
+    "rule_name": "Gassy pattern",
+    "IF": "Current fluctuates repeatedly",
+    "AND": "Gas context corroborates",
+    "THEN": "Gas-loading instability candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Current alone cannot prove gas",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 2",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P10-E03",
+    "source_rule_id": "P10-D03",
+    "paper_id": "P10",
+    "rule_name": "Solids pattern",
+    "IF": "Intermittent current spikes",
+    "AND": "Evidence of solids or overheating/restarts",
+    "THEN": "Investigate solids-induced loading",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Not unique to solids",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 2",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P10-E04",
+    "source_rule_id": "P10-D04",
+    "paper_id": "P10",
+    "rule_name": "SVM anomaly",
+    "IF": "Selected normalized features fall on anomaly side of linear SVM",
+    "AND": "Valid data and supported operating regime",
+    "THEN": "Flag abnormal/inefficient state for review",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Binary output is not a particular failure mode",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 4–5",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P10-E05",
+    "source_rule_id": "P10-D05",
+    "paper_id": "P10",
+    "rule_name": "Data gap",
+    "IF": "Consecutive records missing for days",
+    "AND": "Actual equipment state unknown",
+    "THEN": "Flag telemetry uncertainty",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Authors duplicate prior periods; deployment should retain missingness and suppress unsupported certainty",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P11-E01",
+    "source_rule_id": "P11-D01",
+    "paper_id": "P11",
+    "rule_name": "Reliability priorities",
+    "IF": "Sand proxy, depth and cycle rank highest in AFS",
+    "AND": "Associations confirmed in own asset",
+    "THEN": "Prioritize solids control, cable quality and avoiding unplanned trips",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author recommendations; no deterministic failure threshold",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 7, 9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P11-E02",
+    "source_rule_id": "P11-D02",
+    "paper_id": "P11",
+    "rule_name": "Vendor comparison",
+    "IF": "Vendor run lives differ",
+    "AND": "Equivalent operating environments not controlled",
+    "THEN": "Do not infer vendor superiority without adjustment",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Authors explicitly call comparisons preliminary",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "p. 4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P11-E03",
+    "source_rule_id": "P11-D03",
+    "paper_id": "P11",
+    "rule_name": "Post-event feature",
+    "IF": "HUD measured after pulling failed pump",
+    "AND": "Prediction intended before failure/at installation",
+    "THEN": "Exclude that future value or replace with contemporaneous sand metric",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Prevent temporal leakage; derived deployment rule",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "p. 3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P11-E04",
+    "source_rule_id": "P11-D04",
+    "paper_id": "P11",
+    "rule_name": "Beam geometry limits",
+    "IF": "Beam pump tortuosity >=85° or depth >1600 m",
+    "AND": "Studied beam-pump context only",
+    "THEN": "Review source beam design recommendation",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Not an ESP limit; tortuosity definition site-specific",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p. 9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P12-E01",
+    "source_rule_id": "P12-D01",
+    "paper_id": "P12",
+    "rule_name": "Mode then cause",
+    "IF": "Observed component/function failure established",
+    "AND": "Operating, installation and DIFA evidence assembled",
+    "THEN": "Record mode separately from one or more supported causes",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Motor short is an observed mode, not a sufficient root cause",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "PDF pp. 77–88",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P12-E02",
+    "source_rule_id": "P12-D02",
+    "paper_id": "P12",
+    "rule_name": "Non-failure exclusion",
+    "IF": "Equipment pulled for resizing, stimulation, testing, conversion, economic/strategic change",
+    "AND": "No demonstrated loss of intended function",
+    "THEN": "Code non-failure removal separately",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Prevent failure-label contamination",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "PDF pp. 77–88",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P12-E03",
+    "source_rule_id": "P12-D03",
+    "paper_id": "P12",
+    "rule_name": "Unknown cause",
+    "IF": "Failure exists",
+    "AND": "DIFA/RCA incomplete",
+    "THEN": "Retain unknown root cause",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Do not fabricate certainty from common field frequencies",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "PDF pp. 77–88",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P12-E04",
+    "source_rule_id": "P12-D04",
+    "paper_id": "P12",
+    "rule_name": "Derived motor load",
+    "IF": "All three phase currents and nameplate current valid",
+    "AND": "Same electrical measurement basis",
+    "THEN": "Mean phase current/nameplate gives load fraction; multiply by 100 for percent",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Printed AMP% equation omits ×100; do not mix ratio and percentage",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF pp. 67–68",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P12-E05",
+    "source_rule_id": "P12-D05",
+    "paper_id": "P12",
+    "rule_name": "Run-boundary metadata",
+    "IF": "Equipment parameter fixed within an installation",
+    "AND": "Confirmed installation history",
+    "THEN": "Fill configuration only within that run",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Do not propagate old pump hardware across replacement",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "PDF pp. 67–68",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P12-E06",
+    "source_rule_id": "P12-D06",
+    "paper_id": "P12",
+    "rule_name": "Outlier screening",
+    "IF": "Per-well |z|>3",
+    "AND": "Also outside Q1−1.5 IQR to Q3+1.5 IQR",
+    "THEN": "Flag overlapping statistical outlier",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source replaces with Na N; genuine precursors must not be blindly removed",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF pp. 64–65",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P12-E07",
+    "source_rule_id": "P12-D07",
+    "paper_id": "P12",
+    "rule_name": "Horizon selection",
+    "IF": "Candidate failure classifier evaluated",
+    "AND": "30-day precision/recall favorable relative to 1/7-day models in source",
+    "THEN": "Pilot 30-day risk with local chronological validation",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Short-window precision ≤18% reported; high accuracy alone misleading",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "PDF pp. 181,187–188",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P12-E08",
+    "source_rule_id": "P12-D08",
+    "paper_id": "P12",
+    "rule_name": "Leakage gate",
+    "IF": "Future failure countdown, future test/backfill, final cause or whole-run information enters input",
+    "AND": "Prediction is intended before that information existed",
+    "THEN": "Exclude or reconstruct as-of predictor",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Derived engineering rule; source itself documents severe leakage sensitivity",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "PDF pp. 66–74,184–187",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P13-E01",
+    "source_rule_id": "P13-D01",
+    "paper_id": "P13",
+    "rule_name": "Quality cohort",
+    "IF": "Required six rod signals available over preceding 4 h",
+    "AND": "≥50 d reasonably consistent data",
+    "THEN": "Eligible for source model",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Poor data excluded, so reported performance does not apply to all assets",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "p. 6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P13-E02",
+    "source_rule_id": "P13-D02",
+    "paper_id": "P13",
+    "rule_name": "Tubing candidate",
+    "IF": "Fluid load, tubing pressure, casing pressure, peak load and rod horsepower low; fillage high; minimum load high",
+    "AND": "Variability patterns agree with source Table 3",
+    "THEN": "Rod tubing-failure candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Not an ESP rule",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P13-E03",
+    "source_rule_id": "P13-D03",
+    "paper_id": "P13",
+    "rule_name": "Event aggregation",
+    "IF": "Contiguous high-scoring periods",
+    "AND": "Whole-event features and competing model scores considered",
+    "THEN": "Assign event class rather than alarm every sample",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source score called p-value but is a model confidence score",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P13-E04",
+    "source_rule_id": "P13-D04",
+    "paper_id": "P13",
+    "rule_name": "Score gates",
+    "IF": "Tubing score >0.5 or pump score >0.75",
+    "AND": "Source model and asset class",
+    "THEN": "Classify target event",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Thresholds tune precision/recall, not physical fault limits",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 6–7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P13-E05",
+    "source_rule_id": "P13-D05",
+    "paper_id": "P13",
+    "rule_name": "Bad load signal",
+    "IF": "Load flatlines/spikes",
+    "AND": "Load cell moved, detached or malfunctioning",
+    "THEN": "Check sensor before diagnosing pump failure",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Rod example; general evidence-quality lesson transferable",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p. 12",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P14-E01",
+    "source_rule_id": "P14-D01",
+    "paper_id": "P14",
+    "rule_name": "Mode then cause",
+    "IF": "Observed component/function failure established",
+    "AND": "Operating, installation and DIFA evidence assembled",
+    "THEN": "Record mode separately from one or more supported causes",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Motor short is an observed mode, not a sufficient root cause",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "pp. 4–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P14-E02",
+    "source_rule_id": "P14-D02",
+    "paper_id": "P14",
+    "rule_name": "Non-failure exclusion",
+    "IF": "Equipment pulled for resizing, stimulation, testing, conversion, economic/strategic change",
+    "AND": "No demonstrated loss of intended function",
+    "THEN": "Code non-failure removal separately",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Prevent failure-label contamination",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "pp. 10, 23",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P14-E03",
+    "source_rule_id": "P14-D03",
+    "paper_id": "P14",
+    "rule_name": "Unknown cause",
+    "IF": "Failure exists",
+    "AND": "DIFA/RCA incomplete",
+    "THEN": "Retain unknown root cause",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Do not fabricate certainty from common field frequencies",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "pp. 10–12",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P14-E04",
+    "source_rule_id": "P14-D04",
+    "paper_id": "P14",
+    "rule_name": "Motor short investigation",
+    "IF": "Motor short confirmed",
+    "AND": "Heat, splice/grounding, deposits or fluid ingress possible",
+    "THEN": "Investigate multiple pathways",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Weak overall statistical association prevents deterministic mode→cause mapping",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 10, 12–13",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P14-E05",
+    "source_rule_id": "P14-D05",
+    "paper_id": "P14",
+    "rule_name": "Low-flow differential",
+    "IF": "Low flow recurs with pressure/current changes",
+    "AND": "Leak not independently verified",
+    "THEN": "Investigate composite hydraulic/electrical/environmental causes",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Cobra-08 example is a retrospective what-could-have-changed analysis",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 13–14",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P14-E06",
+    "source_rule_id": "P14-D06",
+    "paper_id": "P14",
+    "rule_name": "Chemical incompatibility",
+    "IF": "New deposits/emulsions/seal damage follows treatment or fluid change",
+    "AND": "Chemical/material evidence supports relation",
+    "THEN": "Review compatibility and treatment delivery",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Dose/treatment selection require specific chemistry",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 14, 22",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P15-E01",
+    "source_rule_id": "P15-D01",
+    "paper_id": "P15",
+    "rule_name": "Twin deviation",
+    "IF": "Measured response differs materially from calibrated twin",
+    "AND": "Normal controls/transients and model uncertainty accounted for",
+    "THEN": "Investigate abnormal system condition",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Conceptual residual logic; no thresholds or fault classifier published",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "pp. 3, 8–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P15-E02",
+    "source_rule_id": "P15-D02",
+    "paper_id": "P15",
+    "rule_name": "Synthetic training",
+    "IF": "Failure observations sparse",
+    "AND": "Simulator includes relevant operating configurations and normal changes",
+    "THEN": "Use labeled synthetic signatures with real data",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Simulation-to-field validity still requires field trials",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp. 8–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P16-E01",
+    "source_rule_id": "P16-D01",
+    "paper_id": "P16",
+    "rule_name": "Risk classification",
+    "IF": "Quality-valid historical features available",
+    "AND": "Trained random forest exceeds selected decision boundary",
+    "THEN": "Flag well/pump failure risk for engineering review.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. The model classifies impending failure, not an identified root cause; threshold not published.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp.9–20",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P16-E02",
+    "source_rule_id": "P16-D02",
+    "paper_id": "P16",
+    "rule_name": "Training quality gate",
+    "IF": "120-day pre-failure window assembled",
+    "AND": "Data quality/completeness >75%",
+    "THEN": "Retain candidate failure window; exclude normal examples within 120 days around failures.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author dataset-selection logic, not operating alarm.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High for reproducing method",
+    "source_pages": "pp.6–10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P18-E01",
+    "source_rule_id": "P18-D01",
+    "paper_id": "P18",
+    "rule_name": "Health anomaly",
+    "IF": "T-squared exceeds healthy 95% confidence limit",
+    "AND": "Baseline and current operating state comparable and data quality valid",
+    "THEN": "Flag anomalous ESP operation, not a proven component cause.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. PCA reduces correlated signals; Mahalanobis-type distance measures departure.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp.4–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E01",
+    "source_rule_id": "P19-D01",
+    "paper_id": "P19",
+    "rule_name": "Fluid characteristics changed",
+    "IF": "I constant; PIP↑; motor temperature↓/constant; Q↑; tubing pressure↑/constant; PDP↑/constant; intake temperature↓/constant",
+    "AND": "Frequency constant",
+    "THEN": "Fluid characteristics changed is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Fluid characteristics changed",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Check well test and fluid composition; involve reservoir team for water-cut change; assess pump sizing and operating range.",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E02",
+    "source_rule_id": "P19-D02",
+    "paper_id": "P19",
+    "rule_name": "Closed valve",
+    "IF": "I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↑; PDP↑; intake temperature↑",
+    "AND": "Frequency constant",
+    "THEN": "Closed valve is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Closed valve",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Check actual valve position, operator history and intended choke setting; repair malfunction under approved procedure.",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E03",
+    "source_rule_id": "P19-D03",
+    "paper_id": "P19",
+    "rule_name": "Plugged tubing",
+    "IF": "I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↑; intake temperature↑",
+    "AND": "Frequency constant",
+    "THEN": "Plugged tubing is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Plugged tubing",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Model restriction; identify deposit and check-valve configuration; select engineered chemical/cleaning or intervention program.",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E04",
+    "source_rule_id": "P19-D04",
+    "paper_id": "P19",
+    "rule_name": "Plugged pump",
+    "IF": "I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑",
+    "AND": "Frequency constant",
+    "THEN": "Plugged pump is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Plugged pump",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Compare pump curve and fluid samples; qualified team selects compatible treatment; bacteria case recovered after biocide.",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E05",
+    "source_rule_id": "P19-D05",
+    "paper_id": "P19",
+    "rule_name": "Tubing leak",
+    "IF": "I↓/constant; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP constant; intake temperature↑",
+    "AND": "Frequency constant",
+    "THEN": "Tubing leak is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Tubing leak",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Qualified integrity investigation and engineered pressure test; repair confirmed leaking joint(s).",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E06",
+    "source_rule_id": "P19-D06",
+    "paper_id": "P19",
+    "rule_name": "Gas locking",
+    "IF": "I↓; PIP↑/constant; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑",
+    "AND": "Frequency constant",
+    "THEN": "Gas locking is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Gas locking",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Assess free gas, submergence, BEP and casing pressure; engineer frequency/PID amperage or pressure control; specialist gas-handling solution.",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E07",
+    "source_rule_id": "P19-D07",
+    "paper_id": "P19",
+    "rule_name": "Reverse pump rotation",
+    "IF": "Frequency↓/constant; I↓; PIP↑; motor temperature↑/constant; Q↓; tubing pressure↓; PDP↓/constant; intake temperature↑/constant",
+    "AND": "Frequency decreases or constant",
+    "THEN": "Reverse pump rotation is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Reverse pump rotation",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Qualified electrical verification of rotation and phase sequence; verify absence of backspin before any approved restart.",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E08",
+    "source_rule_id": "P19-D08",
+    "paper_id": "P19",
+    "rule_name": "Broken pump shaft",
+    "IF": "I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑",
+    "AND": "Frequency constant",
+    "THEN": "Broken pump shaft is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Broken pump shaft",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Check developed head, undercurrent trip and backspin; specialist diagnosis and repair planning.",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E09",
+    "source_rule_id": "P19-D09",
+    "paper_id": "P19",
+    "rule_name": "Worn pump",
+    "IF": "I↓; PIP↑; motor temperature↑; Q↓; tubing pressure↓; PDP↓; intake temperature↑",
+    "AND": "Frequency constant",
+    "THEN": "Worn pump is a candidate diagnosis.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published fuzzy matrix; arrows denote trend. Several patterns overlap and require confirmation.",
+    "recommended_actions": [
+      {
+        "condition": "Worn pump",
+        "immediate": "Verify pattern, sensor quality and actual operating condition; involve field service.",
+        "short_term": "Compare normalized efficiency/head with installation baseline; check vibration; specialist-approved curve test within equipment ratings.",
+        "attribution": "Source Table 1 pp.7–9; actions paraphrased as engineering tasks. Source fluid dumping/venting/shut-in/electrical steps require an approved site-specific procedure."
+      }
+    ],
+    "confidence": "Medium for screening, Low for unique cause",
+    "source_pages": "Table 1 pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E10",
+    "source_rule_id": "P19-D10",
+    "paper_id": "P19",
+    "rule_name": "PIP change",
+    "IF": "absolute daily-average PIP change >=5% in 24 h",
+    "AND": "Frequency unchanged",
+    "THEN": "Investigate upstream/inflow issue, tubing leak or plugging.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E11",
+    "source_rule_id": "P19-D11",
+    "paper_id": "P19",
+    "rule_name": "Rapid motor temperature rise",
+    "IF": "motor temperature increases >=10% over 30 min",
+    "AND": "With/without frequency change or startup/restart; context retained",
+    "THEN": "Flag significant flow/cooling change even below absolute thermal limit.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic; percent-temperature change is scale-dependent and must be redefined in engineering units before implementation.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P19-E12",
+    "source_rule_id": "P19-D12",
+    "paper_id": "P19",
+    "rule_name": "Wellhead pressure change",
+    "IF": "absolute daily-average WHP change >5% in 24 h",
+    "AND": "Frequency unchanged",
+    "THEN": "Check closed/partly closed/faulty surface valve.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E13",
+    "source_rule_id": "P19-D13",
+    "paper_id": "P19",
+    "rule_name": "Unstable intake/current",
+    "IF": "PIP standard deviation changes >20% over 24 h",
+    "AND": "Current SD may also change >20% over same interval",
+    "THEN": "Investigate pump-off/gas cycling and solids mobilization.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E14",
+    "source_rule_id": "P19-D14",
+    "paper_id": "P19",
+    "rule_name": "Rapid discharge change",
+    "IF": "absolute PDP change >=20% over 15 min",
+    "AND": "Frequency/startup context retained through 48 h",
+    "THEN": "Investigate slugging or abrasive settling in discharge/tubing.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E15",
+    "source_rule_id": "P19-D15",
+    "paper_id": "P19",
+    "rule_name": "Discharge thermal rise",
+    "IF": "absolute daily-average discharge temperature change >=7% over 48 h",
+    "AND": "Frequency unchanged",
+    "THEN": "Investigate impeded flow and scale/asphaltene/bacterial plugging.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic; percent-temperature change is scale-dependent and must be redefined in engineering units before implementation.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.11",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P19-E16",
+    "source_rule_id": "P19-D16",
+    "paper_id": "P19",
+    "rule_name": "Vibration increase",
+    "IF": "vibration >20% above installation baseline",
+    "AND": "Comparable speed and measurement",
+    "THEN": "Check bearing wear, stage imbalance; if rate declining also consider pump-off.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.11",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E17",
+    "source_rule_id": "P19-D17",
+    "paper_id": "P19",
+    "rule_name": "High motor loading",
+    "IF": "motor amps >=90% nameplate at 60 Hz",
+    "AND": "Rating and measurement location verified",
+    "THEN": "Consider fluid-density increase or scale-related bearing drag.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.11",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E18",
+    "source_rule_id": "P19-D18",
+    "paper_id": "P19",
+    "rule_name": "Loading change",
+    "IF": "motor loading changes >25% over time",
+    "AND": "Exclude frequency changes; trend interval not specified",
+    "THEN": "Investigate plugging, wear, bearing damage; correlate current/temperature.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.11",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P19-E19",
+    "source_rule_id": "P19-D19",
+    "paper_id": "P19",
+    "rule_name": "Specific-energy deterioration",
+    "IF": "source specific-energy/lift metric differs >15% from as-installed",
+    "AND": "Comparable duty and reliable model",
+    "THEN": "Check changing PI, abrasion or plugging; pressure/model mismatch supports PI investigation.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.11",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P19-E20",
+    "source_rule_id": "P19-D20",
+    "paper_id": "P19",
+    "rule_name": "Worn versus plugged head curve",
+    "IF": "head curve lower over operating range",
+    "AND": "Shut-in head also lower than baseline",
+    "THEN": "Wear more consistent; partial plugging may retain near-new shut-in head.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author screening heuristic. The observation window and baseline must be reproduced; the threshold is not a universal equipment limit.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium as candidate heuristic",
+    "source_pages": "p.11, Table 1 p.9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P20-E01",
+    "source_rule_id": "P20-D01",
+    "paper_id": "P20",
+    "rule_name": "ADTree alert",
+    "IF": "Weighted sum of traversed ADTree prediction nodes is negative",
+    "AND": "Valid rod-pump feature vector",
+    "THEN": "Flag potential future failure.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Classifier decision rule; no unique physical cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium for study",
+    "source_pages": "p.6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P21-E01",
+    "source_rule_id": "P21-D01",
+    "paper_id": "P21",
+    "rule_name": "Frozen-card check",
+    "IF": "Card area, peak and minimum load all exactly unchanged",
+    "AND": "Consecutive days accumulate",
+    "THEN": "Consider POC/data problem or pump issue; do not assume healthy.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source warning is ambiguousensor-versus-process evidence.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp.3–4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P21-E02",
+    "source_rule_id": "P21-D02",
+    "paper_id": "P21",
+    "rule_name": "Cluster training eligibility",
+    "IF": "At least 100 nonmissing signatures",
+    "AND": "Normal cluster dominates and failure cluster includes last pre-event observation; tubing-failure card shrinks sufficiently",
+    "THEN": "Accept rule-consistent labeled sequence for multiclass training.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Training filter excludes atypical events and can bias learned population.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High for method",
+    "source_pages": "pp.5–6",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P22-E01",
+    "source_rule_id": "P22-D01",
+    "paper_id": "P22",
+    "rule_name": "High-rate thrust warning",
+    "IF": "Estimated/measured flow exceeds speed-corrected recommended maximum",
+    "AND": "Density and curve valid",
+    "THEN": "Flag upthrust risk and review duty.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source definition; thresholds are model-specific.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "p.4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P22-E02",
+    "source_rule_id": "P22-D02",
+    "paper_id": "P22",
+    "rule_name": "Low-rate thrust warning",
+    "IF": "Flow below speed-corrected recommended minimum",
+    "AND": "Data/curve valid",
+    "THEN": "Flag downthrust risk and review restriction/inflow.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Cannot prescribe choke direction without full system constraints.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "p.4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P22-E03",
+    "source_rule_id": "P22-D03",
+    "paper_id": "P22",
+    "rule_name": "Drawdown protection",
+    "IF": "PIP approaches field minimum/bubblepoint-related limit",
+    "AND": "Limit set from well/fluid/pump design",
+    "THEN": "Review pump-off and drawdown risk.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. No universal pressure given.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P23-E01",
+    "source_rule_id": "P23-D01",
+    "paper_id": "P23",
+    "rule_name": "Harmonic-based candidate",
+    "IF": "First/second shaft-order behavior abnormal",
+    "AND": "Raw signal quality and speed known",
+    "THEN": "Consider imbalance/misalignment; classifier/inspection needed.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source does not give exclusive 1×/2× thresholds.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P23-E02",
+    "source_rule_id": "P23-D02",
+    "paper_id": "P23",
+    "rule_name": "Rubbing candidate",
+    "IF": "Low-frequency vibration noise present",
+    "AND": "Sensor fault and other mechanisms checked",
+    "THEN": "Consider rubbing.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Nonunique signature.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P24-E01",
+    "source_rule_id": "P24-D01",
+    "paper_id": "P24",
+    "rule_name": "Polymer thermal candidate",
+    "IF": "Motor temperature rises in polymer flood well",
+    "AND": "Cooling/deposition evidence and frequency ramp down present",
+    "THEN": "Investigate polymer deposition and stator overheating.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Mechanism described; not validated uniquely by classifier.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P24-E02",
+    "source_rule_id": "P24-D02",
+    "paper_id": "P24",
+    "rule_name": "Pre-event classification",
+    "IF": "Cleaned features mapped through PCA/XGBoost",
+    "AND": "Model identifies preworkover class",
+    "THEN": "Issue impending electrical-event advisory.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Event-date label may reflect workover scheduling rather than physical onset.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp.7–9",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P25-E01",
+    "source_rule_id": "P25-D01",
+    "paper_id": "P25",
+    "rule_name": "Gas-risk review",
+    "IF": "Estimated gas flow changes materially",
+    "AND": "Estimator within validated fluid/speed/pressure domain and corroborating operating evidence",
+    "THEN": "Review gas interference risk and operating point.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Derived operational use; source provides no calibrated gas-lock classifier or threshold.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "pp.1, 7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P26-E01",
+    "source_rule_id": "P26-D01",
+    "paper_id": "P26",
+    "rule_name": "Pressure-collapse hypothesis—do not deploy",
+    "IF": "Pump discharge pressure tends toward zero",
+    "AND": "Authors associate this with loss of lift",
+    "THEN": "Paper infers failure; engineering review rejects zero absolute/gauge downhole PDP as a universal criterion.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Hydrostatic pressure can remain after shutdown; use developed differential/head and verified state, not literal zero-PDP rule.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P26-E02",
+    "source_rule_id": "P26-D02",
+    "paper_id": "P26",
+    "rule_name": "Forecast residual review (derived)",
+    "IF": "Pressure forecast diverges from valid measurement",
+    "AND": "Run state and changing controls accounted for",
+    "THEN": "Investigate hydraulic/model anomaly.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Proposed adaptation, not a tested source diagnostic.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "pp.9–10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P27-E01",
+    "source_rule_id": "P27-D01",
+    "paper_id": "P27",
+    "rule_name": "Sphere anomaly",
+    "IF": "New PC score distance exceeds healthy sphere radius",
+    "AND": "Training transform and comparable valid operating state used",
+    "THEN": "Flag abnormal operation for investigation.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Center least-squares fitted; radius max healthy distance. Does not identify cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P27-E02",
+    "source_rule_id": "P27-D02",
+    "paper_id": "P27",
+    "rule_name": "Abrupt shaft limitation",
+    "IF": "Shaft failure has no measured precursor",
+    "AND": "Signals stayed normal before event",
+    "THEN": "Allow event detection without claiming prediction.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Observed model limitation, not proof all shaft failures unforecastable.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.5",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P28-E01",
+    "source_rule_id": "P28-D01",
+    "paper_id": "P28",
+    "rule_name": "Mode-specific anomaly",
+    "IF": "Cluster drifts outside known stable region",
+    "AND": "Same operating frequency and valid signals",
+    "THEN": "Investigate ESP dynamics.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Different frequencies naturally form different clusters.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.12",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P28-E02",
+    "source_rule_id": "P28-D02",
+    "paper_id": "P28",
+    "rule_name": "Ground-fault investigation",
+    "IF": "Downhole data freeze/disappear",
+    "AND": "Electrical integrity test confirms grounded path",
+    "THEN": "Treat as electrical degradation requiring engineering assessment.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Sensor loss alone does not prove cable fault.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium/High with confirmed test",
+    "source_pages": "pp.10–11",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P29-E01",
+    "source_rule_id": "P29-D01",
+    "paper_id": "P29",
+    "rule_name": "Preserve failure evidence",
+    "IF": "ESP trips or appears grounded",
+    "AND": "Restart could overwrite history or worsen damage",
+    "THEN": "Capture drive history and diagnose before restart decisions.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Author emphasizes evidence preservation and avoiding repeated blind restart.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "pp.1–2",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P29-E02",
+    "source_rule_id": "P29-D02",
+    "paper_id": "P29",
+    "rule_name": "Underload blind spot",
+    "IF": "Oversized motor operates near idle current",
+    "AND": "Low-flow/hot-well service or pump plugging risk",
+    "THEN": "Current-only underload may be inadequate; assess independent flow protection.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Small current difference masks loss of delivery.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium/High",
+    "source_pages": "p.2",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P29-E03",
+    "source_rule_id": "P29-D03",
+    "paper_id": "P29",
+    "rule_name": "Scale/thrust linkage",
+    "IF": "Heavy scale locks floating impeller to shaft",
+    "AND": "Thrust bearing overloaded",
+    "THEN": "Investigate scale as initiating cause, not just bearing failure.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Distinguishes failure mode from root cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P29-E04",
+    "source_rule_id": "P29-D04",
+    "paper_id": "P29",
+    "rule_name": "Compatibility gate",
+    "IF": "Treatment or reservoir conditions change",
+    "AND": "ESP material/elastomer compatibility unverified",
+    "THEN": "Obtain grade-specific compatibility assessment/coupon testing.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published generic material names are insufficient for all grades.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "pp.2–3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E01",
+    "source_rule_id": "P30-D01",
+    "paper_id": "P30",
+    "rule_name": "Broken shaft",
+    "IF": "Current/torque fall; flow rapidly→0; PIP rises; motor temperature rises.",
+    "AND": "Valid reference and sufficient available inputs",
+    "THEN": "Broken shaft candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp.3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E02",
+    "source_rule_id": "P30-D02",
+    "paper_id": "P30",
+    "rule_name": "Pump wear",
+    "IF": "Vibration↑, efficiency/current/flow↓, PIP↑.",
+    "AND": "Valid reference and sufficient available inputs",
+    "THEN": "Pump wear candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E03",
+    "source_rule_id": "P30-D03",
+    "paper_id": "P30",
+    "rule_name": "Gauge fault",
+    "IF": "Inaccurate electrical/downhole readings.",
+    "AND": "Valid reference and sufficient available inputs",
+    "THEN": "Gauge fault candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E04",
+    "source_rule_id": "P30-D04",
+    "paper_id": "P30",
+    "rule_name": "Low flow",
+    "IF": "Low speed, current↓, PIP↑, PDP↓, motor temperature↑; WHP response depends on choke.",
+    "AND": "Valid reference and sufficient available inputs",
+    "THEN": "Low flow candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.4",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E05",
+    "source_rule_id": "P30-D05",
+    "paper_id": "P30",
+    "rule_name": "Deadhead",
+    "IF": "PDP/PIP and differential pressure rise; motor temperature↑; WHP helps locate restriction.",
+    "AND": "Valid reference and sufficient available inputs",
+    "THEN": "Deadhead candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.",
+    "recommended_actions": [
+      {
+        "condition": "Deadhead",
+        "immediate": "Verify pressure pattern and actual valve status with operations.",
+        "short_term": "Follow approved restriction/valve correction and restart process.",
+        "attribution": "pp.12–13"
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp.4, 12–13",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E06",
+    "source_rule_id": "P30-D06",
+    "paper_id": "P30",
+    "rule_name": "Gas ingestion",
+    "IF": "Unstable PIP/current/motor temperature; flow↓.",
+    "AND": "Valid reference and sufficient available inputs",
+    "THEN": "Gas ingestion candidate",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source physical pattern feeds Bayesian network; nonunique measurements need corroboration.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.5",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E07",
+    "source_rule_id": "P30-D07",
+    "paper_id": "P30",
+    "rule_name": "Missing-input gate",
+    "IF": "Two or more crucial inputs absent",
+    "AND": "Crucial set={PIP, PDP, frequency}",
+    "THEN": "Do not run diagnosis as relevant/accurate.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source says one missing crucial can be tolerated, but two makes diagnosis useless.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High for source constraint",
+    "source_pages": "p.14",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E08",
+    "source_rule_id": "P30-D08",
+    "paper_id": "P30",
+    "rule_name": "Optional-input gate",
+    "IF": "Three or more optional inputs absent",
+    "AND": "Optional set={delta P, average amps, voltage, WHP, WHT}",
+    "THEN": "Abstain or seek engineer review.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source limitation; not a universal information-theory rule.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High for source constraint",
+    "source_pages": "p.14",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P30-E09",
+    "source_rule_id": "P30-D09",
+    "paper_id": "P30",
+    "rule_name": "Probabilistic alert",
+    "IF": "Event probability exceeds~75%",
+    "AND": "Reference/data gates pass",
+    "THEN": "Send event advisory.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Expert probability tables are not necessarily statistically calibrated.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "p.13",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P31-E01",
+    "source_rule_id": "P31-D01",
+    "paper_id": "P31",
+    "rule_name": "Buildup normal range",
+    "IF": "0.78 <= actual/theoretical maximum WHP ratio <1.5",
+    "AND": "Test and hydraulic model valid",
+    "THEN": "Source classifies normal operation.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium for case; Low for unvalidated branches",
+    "source_pages": "Fig.4 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P31-E02",
+    "source_rule_id": "P31-D02",
+    "paper_id": "P31",
+    "rule_name": "High pressure ratio",
+    "IF": "actual/theoretical maximum WHP ratio >=1.5",
+    "AND": "Test valid",
+    "THEN": "Source flags low pump efficiency due to gas interference or other causes; unusual direction requires local validation.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium for case; Low for unvalidated branches",
+    "source_pages": "Fig.4 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P31-E03",
+    "source_rule_id": "P31-D03",
+    "paper_id": "P31",
+    "rule_name": "Tubing leak pattern",
+    "IF": "maximum WHP ratio <0.78",
+    "AND": "Pressure increases then decreases",
+    "THEN": "Suspect tubing leak; pressure cannot remain constant.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium for case; Low for unvalidated branches",
+    "source_pages": "Fig.4 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P31-E04",
+    "source_rule_id": "P31-D04",
+    "paper_id": "P31",
+    "rule_name": "Low-head plateau",
+    "IF": "maximum WHP ratio <0.78",
+    "AND": "Pressure does not increase then decrease, but increases then flattens",
+    "THEN": "Suspect worn vanes, broken shaft or scaling.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium for case; Low for unvalidated branches",
+    "source_pages": "Fig.4 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P31-E05",
+    "source_rule_id": "P31-D05",
+    "paper_id": "P31",
+    "rule_name": "Y-adapter candidate",
+    "IF": "maximum WHP ratio <0.78; neither preceding curve pattern matches",
+    "AND": "Maximum-current ratio before/after test <1",
+    "THEN": "Source infers lift loss or idle cycling from Y-adapter leak.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium for case; Low for unvalidated branches",
+    "source_pages": "Fig.4 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P31-E06",
+    "source_rule_id": "P31-D06",
+    "paper_id": "P31",
+    "rule_name": "Viscosity/emulsion candidate",
+    "IF": "maximum WHP ratio <0.78; neither preceding curve pattern matches",
+    "AND": "Maximum-current ratio before/after test >=1",
+    "THEN": "Source infers lift-capacity loss from high viscosity or emulsion.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Published decision tree; physical assumptions and local thresholds require validation. Test involves pump operating toward shut-in head, not ordinary reservoir buildup.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium for case; Low for unvalidated branches",
+    "source_pages": "Fig.4 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P31-E07",
+    "source_rule_id": "P31-D07",
+    "paper_id": "P31",
+    "rule_name": "Do not clear well from normal current",
+    "IF": "Production falls",
+    "AND": "Current-card model predicts normal",
+    "THEN": "Investigate tubing/pump integrity with independent hydraulic evidence.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Confirmed case had 57% normal and 12.3% sand output yet actual tubing leak.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High for limitation",
+    "source_pages": "pp.10–13",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P32-E01",
+    "source_rule_id": "P32-D01",
+    "paper_id": "P32",
+    "rule_name": "PCA persistent alarm",
+    "IF": "More than 12 out-of-control minutes in 1440-minute day",
+    "AND": "Condition occurs on two consecutive days",
+    "THEN": "Flag serious abnormality for engineering inspection.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source multiplier 3×~4 chance exceedances; local validation required.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp.8–10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P32-E02",
+    "source_rule_id": "P32-D02",
+    "paper_id": "P32",
+    "rule_name": "Residual persistent alarm",
+    "IF": "More than 195 out-of-control minutes per day",
+    "AND": "Two consecutive days",
+    "THEN": "Flag serious abnormality.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source multiplier 13×~15; depends on envelope and sampling completeness.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "pp.8–10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P33-E01",
+    "source_rule_id": "P33-D01",
+    "paper_id": "P33",
+    "rule_name": "Three-phase current increase association",
+    "IF": "Three-phase current increase",
+    "AND": "Other evidence and operating state considered",
+    "THEN": "Overload candidate; source association 67.3%",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "Table 2 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P33-E02",
+    "source_rule_id": "P33-D02",
+    "paper_id": "P33",
+    "rule_name": "Production decrease association",
+    "IF": "Production decrease",
+    "AND": "Other evidence and operating state considered",
+    "THEN": "Pump wear candidate; source association 43.1%",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "Table 2 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P33-E03",
+    "source_rule_id": "P33-D03",
+    "paper_id": "P33",
+    "rule_name": "Three-phase current fluctuation association",
+    "IF": "Three-phase current fluctuation",
+    "AND": "Other evidence and operating state considered",
+    "THEN": "Control cabinet fault candidate; source association 34.4%",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "Table 2 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P33-E04",
+    "source_rule_id": "P33-D04",
+    "paper_id": "P33",
+    "rule_name": "Three-phase current fluctuation association",
+    "IF": "Three-phase current fluctuation",
+    "AND": "Other evidence and operating state considered",
+    "THEN": "Motor insulation damage candidate; source association 36.8%",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "Table 2 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P33-E05",
+    "source_rule_id": "P33-D05",
+    "paper_id": "P33",
+    "rule_name": "Gas/liquid ratio increase association",
+    "IF": "Gas/liquid ratio increase",
+    "AND": "Other evidence and operating state considered",
+    "THEN": "Cavitation candidate; source association 52.9%",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "Table 2 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P33-E06",
+    "source_rule_id": "P33-D06",
+    "paper_id": "P33",
+    "rule_name": "Voltage drops to zero association",
+    "IF": "Voltage drops to zero",
+    "AND": "Other evidence and operating state considered",
+    "THEN": "Motor fault candidate; source association 85.2%",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Dataset-specific association, not calibrated field probability or unique cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "Table 2 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P33-E07",
+    "source_rule_id": "P33-D07",
+    "paper_id": "P33",
+    "rule_name": "Published exclusion: Cavitation",
+    "IF": "Temperature drop",
+    "AND": "Source ERIM treats symptom as mutually exclusive with fault",
+    "THEN": "Source removes Cavitation; do not deploy as absolute exclusion.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low; requires correction before use",
+    "source_pages": "Table 3 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P33-E08",
+    "source_rule_id": "P33-D08",
+    "paper_id": "P33",
+    "rule_name": "Published exclusion: Motor insulation failure",
+    "IF": "Three-phase current decrease",
+    "AND": "Source ERIM treats symptom as mutually exclusive with fault",
+    "THEN": "Source removes Motor insulation failure; do not deploy as absolute exclusion.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low; requires correction before use",
+    "source_pages": "Table 3 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P33-E09",
+    "source_rule_id": "P33-D09",
+    "paper_id": "P33",
+    "rule_name": "Published exclusion: Motor insulation failure",
+    "IF": "Voltage drop",
+    "AND": "Source ERIM treats symptom as mutually exclusive with fault",
+    "THEN": "Source removes Motor insulation failure; do not deploy as absolute exclusion.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low; requires correction before use",
+    "source_pages": "Table 3 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P33-E10",
+    "source_rule_id": "P33-D10",
+    "paper_id": "P33",
+    "rule_name": "Published exclusion: Pump outlet blockage",
+    "IF": "Three-phase current decrease",
+    "AND": "Source ERIM treats symptom as mutually exclusive with fault",
+    "THEN": "Source removes Pump outlet blockage; do not deploy as absolute exclusion.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low; requires correction before use",
+    "source_pages": "Table 3 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P33-E11",
+    "source_rule_id": "P33-D11",
+    "paper_id": "P33",
+    "rule_name": "Published exclusion: Pump leakage",
+    "IF": "Oil production increase",
+    "AND": "Source ERIM treats symptom as mutually exclusive with fault",
+    "THEN": "Source removes Pump leakage; do not deploy as absolute exclusion.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Engineering review: phase, location, control response and simultaneous faults can invalidate hard exclusion. P19/P30 can show lower current under restriction.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low; requires correction before use",
+    "source_pages": "Table 3 p.10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P33-E12",
+    "source_rule_id": "P33-D12",
+    "paper_id": "P33",
+    "rule_name": "Worked supply-shortage ranking",
+    "IF": "Production, temperature and three-phase current decrease",
+    "AND": "Candidate set supply shortage, outlet blockage, choked nozzle, insulation failure",
+    "THEN": "Source ranks insufficient formation supply after exclusions.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Useful evidence-ranking example; unvalidated exclusions must become soft penalties/checks.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "pp.9–10",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P34-E01",
+    "source_rule_id": "P34-D01",
+    "paper_id": "P34",
+    "rule_name": "Current-period segmentation",
+    "IF": "Motor current remains>0",
+    "AND": "No intervening zero-current stop",
+    "THEN": "Treat as one uninterrupted motor-current period.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Restart begins a new period; a stop is not automatically failure.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "High",
+    "source_pages": "p.3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P34-E02",
+    "source_rule_id": "P34-D02",
+    "paper_id": "P34",
+    "rule_name": "Observed life association",
+    "IF": "Injector TVDSS variation, F2 fraction, gross pore volume higher",
+    "AND": "Gross porosity lower in fitted combined model",
+    "THEN": "Longer observed time-to-failure associated in this dataset.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Not a causal operating prescription; geological confounding.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "pp.2–3",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P34-E03",
+    "source_rule_id": "P34-D03",
+    "paper_id": "P34",
+    "rule_name": "Retrospective tree leaf 1",
+    "IF": "INJ_TBG_PCT_MAX<93.71022",
+    "AND": "PROD_CSG_PCT_MIN_MEDIAN<.5574627202",
+    "THEN": "Fitted mean hours-on=1483.39 h",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low for deployment",
+    "source_pages": "Appendix 1 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P34-E04",
+    "source_rule_id": "P34-D04",
+    "paper_id": "P34",
+    "rule_name": "Retrospective tree leaf 2",
+    "IF": "INJ_TBG_PCT_MAX<93.71022",
+    "AND": "PROD_CSG_PCT_MIN_MEDIAN>=.5574627202",
+    "THEN": "Fitted mean hours-on=4984.36 h",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low for deployment",
+    "source_pages": "Appendix 1 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P34-E05",
+    "source_rule_id": "P34-D05",
+    "paper_id": "P34",
+    "rule_name": "Retrospective tree leaf 3",
+    "IF": "INJ_TBG_PCT_MAX>=93.71022",
+    "AND": "STM_TBG_STDDEV_MEAN<.4059904246",
+    "THEN": "Fitted mean hours-on=8343.72 h",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low for deployment",
+    "source_pages": "Appendix 1 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P34-E06",
+    "source_rule_id": "P34-D06",
+    "paper_id": "P34",
+    "rule_name": "Retrospective tree leaf 4",
+    "IF": "INJ_TBG_PCT_MAX>=93.71022",
+    "AND": "STM_TBG_STDDEV_MEAN>=.4059904246 and<.8842965364",
+    "THEN": "Fitted mean hours-on=12603.11 h",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low for deployment",
+    "source_pages": "Appendix 1 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P34-E07",
+    "source_rule_id": "P34-D07",
+    "paper_id": "P34",
+    "rule_name": "Retrospective tree leaf 5",
+    "IF": "INJ_TBG_PCT_MAX>=93.71022",
+    "AND": "STM_TBG_STDDEV_MEAN>=.8842965364",
+    "THEN": "Fitted mean hours-on=6108.51 h",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Uses summaries over completed production periods; future information prevents direct online prediction. Tag scaling must be recovered.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low for deployment",
+    "source_pages": "Appendix 1 p.7",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P35-E01",
+    "source_rule_id": "P35-D01",
+    "paper_id": "P35",
+    "rule_name": "Published thermal label",
+    "IF": "Motor temperature>90°C",
+    "AND": "Rising over 2–4 h in early description; later table omits trend condition",
+    "THEN": "Assign source Failure label, not confirmed physical failure.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Threshold derived from selected field data; conflicts with reported cleaned minimum 95°C and 88.3% stable population if applied as OR alone.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low; do not deploy unchanged",
+    "source_pages": "pp.6, 13–15",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P35-E02",
+    "source_rule_id": "P35-D02",
+    "paper_id": "P35",
+    "rule_name": "Published vibration label",
+    "IF": "Delta vibration X>.02 g",
+    "AND": "Sustained 1 h in example",
+    "THEN": "Assign source Failure label.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Delta definition and persistence later omitted; absolute vibration>.02 g is not equivalent.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "pp.6, 14",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P35-E03",
+    "source_rule_id": "P35-D03",
+    "paper_id": "P35",
+    "rule_name": "Published pressure label",
+    "IF": "Intake pressure slope<−100 psi/min",
+    "AND": "Trend window and measurement quality valid",
+    "THEN": "Assign source Failure label.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Source screening/label rule, not a validated cause.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low/Medium",
+    "source_pages": "p.14",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P35-E04",
+    "source_rule_id": "P35-D04",
+    "paper_id": "P35",
+    "rule_name": "Published unstable label",
+    "IF": "T85–90°C or delta Vibration X .01–.02 g or pressure slope−100 to−50 psi/min",
+    "AND": "No higher-priority failure condition",
+    "THEN": "Assign source Unstable label.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Boundary inclusivity/priority and complete Boolean formulation need clarification.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Low",
+    "source_pages": "p.14",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "do_not_deploy_as_written"
+  },
+  {
+    "id": "P36-E01",
+    "source_rule_id": "P36-D01",
+    "paper_id": "P36",
+    "rule_name": "Surveillance-by-exception",
+    "IF": "Neural anomaly score exceeds selected threshold",
+    "AND": "High-quality data and applicable baseline group",
+    "THEN": "Prioritize well for engineer cause investigation.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Anomaly is not a confirmed physical fault or calibrated failure probability.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "Proof-of-concept/pilot sections",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P36-E02",
+    "source_rule_id": "P36-D02",
+    "paper_id": "P36",
+    "rule_name": "Threshold tradeoff",
+    "IF": "Threshold reduced from~80% toward<40%",
+    "AND": "Same historical test data/model",
+    "THEN": "Earlier and more sensitive alerts, but higher false-alert risk.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Score percentages lack calibrated risk interpretation.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "Proof-of-concept section",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P37-E01",
+    "source_rule_id": "P37-D01",
+    "paper_id": "P37",
+    "rule_name": "Surveillance-by-exception",
+    "IF": "Neural anomaly score exceeds selected threshold",
+    "AND": "High-quality data and applicable baseline group",
+    "THEN": "Prioritize well for engineer cause investigation.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Anomaly is not a confirmed physical fault or calibrated failure probability.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "Proof-of-concept/pilot sections",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  },
+  {
+    "id": "P37-E02",
+    "source_rule_id": "P37-D02",
+    "paper_id": "P37",
+    "rule_name": "Threshold tradeoff",
+    "IF": "Threshold reduced from~80% toward<40%",
+    "AND": "Same historical test data/model",
+    "THEN": "Earlier and more sensitive alerts, but higher false-alert risk.",
+    "alternative_causes": "Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.",
+    "recommended_checks": "Verify premises, units, operating state and data freshness. Score percentages lack calibrated risk interpretation.",
+    "recommended_actions": [
+      {
+        "action": "Review condition-specific actions in the paper report; no unique action is automatically assigned."
+      }
+    ],
+    "confidence": "Medium",
+    "source_pages": "Proof-of-concept section",
+    "derivation": "Analyst operational conversion of cited source logic",
+    "status": "candidate_requires_local_validation"
+  }
+]

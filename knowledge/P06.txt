@@ -1,0 +1,664 @@
+ESP research knowledge: P06
+
+Title: Artificial Intelligence Can Reduce ESP Failures
+
+Authors: Nico Jansen van Rensburg
+
+Year: 2019
+
+Publication: Journal of Petroleum Technology, May 2019, guest editorial; starts p. 16
+
+DOI: Not printed
+
+Related study group: G01
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P06-F01
+Type: Failures
+
+Failure or condition: Unspecified ESP failure / unfamiliar anomalies
+
+Category: Pump
+
+Symptoms: Behavior deviates from normal baseline
+
+Root causes: Cause must be investigated; not identified by editorial
+
+Consequences: Possible degradation and shutdown
+
+Field indicators: Model anomaly output
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 1–2
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P06-F02
+Type: Failures
+
+Failure or condition: Corrosive / thermal / pressure exposure
+
+Category: Pump
+
+Symptoms: Background stresses only
+
+Root causes: Harsh subsurface conditions
+
+Consequences: Equipment degradation
+
+Field indicators: No fault signature supplied
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 1
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P06-D01
+Type: Rules
+
+Rule name: Anomaly review
+
+Source status: candidate_requires_local_validation
+
+IF: Model flags abnormal baseline relationship
+
+AND: Independent process/event evidence reviewed
+
+THEN: Investigate and select mitigation
+
+Engineering explanation: Editorial does not publish executable physical fault rules
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Editorial does not publish executable physical fault rules
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 1–2
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P06-D02
+Type: Rules
+
+Rule name: Unknown behavior
+
+Source status: candidate_requires_local_validation
+
+IF: Anomaly unfamiliar to operators
+
+AND: Cause not yet established
+
+THEN: Document and investigate before assigning diagnosis
+
+Engineering explanation: Novelty is not proof of a particular failure mode
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Novelty is not proof of a particular failure mode
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 2
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P06-I01
+Type: Indicators
+
+Indicator: Learned anomaly
+
+Physical meaning: Unexpected relation among process variables
+
+Required parameters: Unspecified ESP operating KPIs
+
+Typical trend: Departure from normal training baseline
+
+Lead time qualification: One historical example 12 days
+
+Relevant channels: Not enumerated in this editorial; no individual channel can be confirmed
+
+Avalon availability: Unknown
+
+PDF pages: pp. 1–2
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P06-A01
+Type: Actions
+
+Condition: Anomaly
+
+Immediate actions: Verify process condition
+
+Short term actions: Determine mitigation or managed operation until planned shutdown
+
+Long term actions: Document root cause and response
+
+Prevention: Use supplementary surveillance and maintain normal control protections
+
+Expected benefit: More decision time and focused workload
+
+Production impact: No quantified uplift
+
+Attribution: p. 2
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P06-M01
+Type: AI Models
+
+Model type: Neural-network normal-behavior/anomaly model; architecture not disclosed
+
+Inputs: Historical and real-time ESP KPIs, unnamed
+
+Outputs: Anomaly/failure likelihood described conceptually
+
+Reported performance: One 12-day retrospective example; no sensitivity, specificity, calibration or false-alert figures.
+
+Advantages: Fleet triage and unfamiliar-pattern detection.
+
+Limitations: Two-page guest editorial; no reproducible model specification or independent results; probable same Siemens case as P04/P36.
+
+Data feasibility: Cannot determine from unnamed inputs. Do not assume lost-sensor compatibility.
+
+Complexity: High
+
+Prediction target: Possible failure-associated anomalies.
+
+Lead time qualification: 12 days in one example, not guaranteed.
+
+Signals: Undisclosed process KPIs.
+
+Source thresholds: None reported.
+
+Implementation proposal: Use as a concept entry and trace implementation evidence to technical papers, without treating it as an independent validation.
+
+Recommended future model: Normal-behavior model concept only; use stronger papers for design.
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0101
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Describe the operational value of neural-network anomaly surveillance and a 30-ESP pilot.
+
+Engineering context: Unexpected failures despite conventional alarms and heavy monitoring workload.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0102
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Unspecified ESP failure / unfamiliar anomalies; Corrosive / thermal / pressure exposure
+
+Engineering context: Anomalous learned relationships in operating KPIs rather than a disclosed fault-specific trend.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0103
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Historical and real-time ESP KPIs, unnamed
+
+Engineering context: 30 onshore ESPs, 200–500 k W. Specific sensor inputs and sampling frequency are not listed here.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0104
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Cannot determine from unnamed inputs. Do not assume lost-sensor compatibility.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0105
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Anomaly review: Investigate and select mitigation; Unknown behavior: Document and investigate before assigning diagnosis
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0106
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: 12 days in one example, not guaranteed.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0107
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: One 12-day retrospective example; no sensitivity, specificity, calibration or false-alert figures.
+
+Engineering context: Two-page guest editorial; no reproducible model specification or independent results; probable same Siemens case as P04/P36.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0108
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: None reported.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0109
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Anomaly monitoring supports operator prioritization and investigation.
+
+Engineering context: No fault-specific author rules.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0110
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Normal-behavior model concept only; use stronger papers for design.
+
+Engineering context: Use as a concept entry and trace implementation evidence to technical papers, without treating it as an independent validation.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0111
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Anomalous learned relationships in operating KPIs rather than a disclosed fault-specific trend.
+
+Engineering context: Unexpected failures despite conventional alarms and heavy monitoring workload.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0112
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify process condition
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0113
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Anomaly/failure likelihood described conceptually; an output must be interpreted within the reported validation.
+
+Engineering context: Two-page guest editorial; no reproducible model specification or independent results; probable same Siemens case as P04/P36.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0114
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: 12 days in one example, not guaranteed.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0115
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Historical and real-time ESP KPIs, unnamed
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0116
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Cannot determine from unnamed inputs. Do not assume lost-sensor compatibility.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0117
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Determine mitigation or managed operation until planned shutdown
+
+Engineering context: p. 2
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0118
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: None reported.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0119
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Replacement, downtime and production losses discussed qualitatively; no measured savings.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0120
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: No fault-specific author rules.
+
+Source report: reports/P06.md
+
+Review status: Pending
+
+Source caveats: The advertisement on page 2 is unrelated and excluded. ML is broader than deep learning, despite the editorial's simplified description.
+
+Source report: reports/P06.md. PDF page references refer to the original paper, not this text file.

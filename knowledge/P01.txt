@@ -1,0 +1,1677 @@
+ESP research knowledge: P01
+
+Title: A Neural Network Model for Electric Submersible Pump Surveillance
+
+Authors: Rajesh Sharma; Nitin Pandey (author heading; affiliation text inconsistently adds Sharma to the second name)
+
+Year: 2016
+
+Publication: International Conference on Communication and Signal Processing (ICCSP), India, 6–8 April; pp. 2083–2088
+
+DOI: Not printed in supplied paper
+
+Related study group: None assigned
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P01-F01
+Type: Failures
+
+Failure or condition: Low intake pressure / excessive drawdown
+
+Category: Reservoir
+
+Symptoms: High rate with low PIP
+
+Root causes: Withdrawal relative to inflow; gas liberation is a candidate mechanism
+
+Consequences: Loss of stable lift
+
+Field indicators: PIP versus reported gas pressure
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 2–3
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F02
+Type: Failures
+
+Failure or condition: Gas interference / gas locking
+
+Category: Pump
+
+Symptoms: Reduced throughput; potential inability to lift
+
+Root causes: Excess free gas at intake or inadequate separation
+
+Consequences: Reduced or stopped production
+
+Field indicators: Gas fraction, Turpin coefficient, lock ratio
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 2–3
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F03
+Type: Failures
+
+Failure or condition: High-viscosity hydraulic impairment
+
+Category: Pump
+
+Symptoms: Adverse viscosity check; no unique signature provided
+
+Root causes: Fluid properties dependent on composition, pressure and temperature
+
+Consequences: Pump performance loss / failure risk
+
+Field indicators: Calculated viscosity
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 3
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F04
+Type: Failures
+
+Failure or condition: Off-range pump operation
+
+Category: Pump
+
+Symptoms: Intake/discharge duty outside pump range
+
+Root causes: Pump selection or operating point mismatch
+
+Consequences: Unreliable operation
+
+Field indicators: Intake volume and outside-range ratio
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F05
+Type: Failures
+
+Failure or condition: Scale / corrosion deposits / debris / intake blockage
+
+Category: Pump
+
+Symptoms: Progressive throughput and efficiency decline
+
+Root causes: Mineral deposits, corrosion products or debris
+
+Consequences: Flow restriction and possible failure
+
+Field indicators: Rate and pressure performance; no diagnostic threshold
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 1–2
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F06
+Type: Failures
+
+Failure or condition: Perforation blockage
+
+Category: Reservoir
+
+Symptoms: Restricted inflow; detailed signature not supplied
+
+Root causes: Blockage at perforations
+
+Consequences: Reduced inflow / lift
+
+Field indicators: Inflow and PIP context; inferred checks
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 1–2
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F07
+Type: Failures
+
+Failure or condition: Broken shaft / shaft failure
+
+Category: Pump
+
+Symptoms: Loss of pumping; detailed signature not supplied
+
+Root causes: Mechanical damage; cause not resolved
+
+Consequences: Loss of lift
+
+Field indicators: Electrical and hydraulic response; inferred checks
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 1–2
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F08
+Type: Failures
+
+Failure or condition: Hole in tubing / tubing damage
+
+Category: Surface Network
+
+Symptoms: Reduced delivered flow; signature not specified
+
+Root causes: Tubing integrity damage; temperature cited as stressor
+
+Consequences: Lost delivery / recirculation
+
+Field indicators: Pressure/rate mismatch; inferred
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 1–2; category is closest available taxonomy, component is downhole tubing
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F09
+Type: Failures
+
+Failure or condition: Motor/seal overheating
+
+Category: Motor
+
+Symptoms: Temperature high
+
+Root causes: Insufficient cooling velocity or excessive thermal duty
+
+Consequences: Seal, motor or tubing damage
+
+Field indicators: Motor skin/internal/winding temperature and cooling flow
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 2, 4–5
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F10
+Type: Failures
+
+Failure or condition: Motor or pump erosion
+
+Category: Motor
+
+Symptoms: Degradation not uniquely specified
+
+Root causes: High velocity; abrasive fluid
+
+Consequences: Equipment wear / failure
+
+Field indicators: Flow velocity and solids context
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 1–2, 4
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F11
+Type: Failures
+
+Failure or condition: Cable voltage loss / thermal damage; motor-lead overheating
+
+Category: Cable
+
+Symptoms: High loss or temperature ratio
+
+Root causes: Cable length, frequency, current and rating mismatch
+
+Consequences: Burnout and pump power loss
+
+Field indicators: Voltage-loss and cable/MLE temperature ratios
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 4–5
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F12
+Type: Failures
+
+Failure or condition: Motor overload
+
+Category: Motor
+
+Symptoms: Load exceeds rating
+
+Root causes: Required horsepower exceeds motor capability
+
+Consequences: Motor stress and shutdown risk
+
+Field indicators: Motor load ratio
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 5
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-F13
+Type: Failures
+
+Failure or condition: Inadequate start voltage
+
+Category: VSD
+
+Symptoms: Startup margin inadequate; source rule contradictory
+
+Root causes: Surface-drive startup voltage relative to motor voltage
+
+Consequences: Starting difficulty / electrical stress (inference)
+
+Field indicators: Startup voltage ratio
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D01
+Type: Rules
+
+Rule name: PIP check
+
+Source status: candidate_requires_local_validation
+
+IF: PIP < gas pressure at intake
+
+AND: Source also associates this with excessive rate
+
+THEN: Flag low-intake-pressure danger
+
+Engineering explanation: Gas-pressure definition and operating context must be established
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Gas-pressure definition and operating context must be established
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 3
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D02
+Type: Rules
+
+Rule name: Gas fraction
+
+Source status: candidate_requires_local_validation
+
+IF: Gas fraction before separation > 0.8
+
+AND: Same gas-fraction basis as source
+
+THEN: Warn of reduced throughput
+
+Engineering explanation: Source-specific screening value; separator and pump capability matter
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Source-specific screening value; separator and pump capability matter
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 3
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D03
+Type: Rules
+
+Rule name: Turpin
+
+Source status: candidate_requires_local_validation
+
+IF: Turpin coefficient > 1
+
+AND: Coefficient calculated from intake gas/liquid and PIP
+
+THEN: Warn of excessive gas relative to liquid
+
+Engineering explanation: Correlation inputs and applicable units must be validated
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Correlation inputs and applicable units must be validated
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 3
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D04
+Type: Rules
+
+Rule name: Viscosity
+
+Source status: do_not_deploy_as_written
+
+IF: Calculated viscosity > 10
+
+AND: Units are not supplied
+
+THEN: Flag viscosity warning for review
+
+Engineering explanation: Do not deploy an undefined-unit threshold
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Do not deploy an undefined-unit threshold
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 3
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D05
+Type: Rules
+
+Rule name: Gas lock
+
+Source status: candidate_requires_local_validation
+
+IF: Gas-at-intake / component gas-lock ratio >= 1
+
+AND: Compatible fraction basis
+
+THEN: Flag gas-lock danger
+
+Engineering explanation: Equipment-specific gas handling exceeded
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Equipment-specific gas handling exceeded
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 3
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D06
+Type: Rules
+
+Rule name: Rated operating range
+
+Source status: candidate_requires_local_validation
+
+IF: Pump intake rate > maximum graph range
+
+AND: Intake volumes calculated on consistent conditions
+
+THEN: Flag outside pump range
+
+Engineering explanation: Requires actual pump curve
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Requires actual pump curve
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 3
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D07
+Type: Rules
+
+Rule name: Outside range ratio
+
+Source status: candidate_requires_local_validation
+
+IF: Calculated outside-range ratio > 0.1
+
+AND: Exact ratio implementation requires source design details
+
+THEN: Warn off-range operation
+
+Engineering explanation: Not a universal 10% flow tolerance
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Not a universal 10% flow tolerance
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 3–4
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D08
+Type: Rules
+
+Rule name: Cable voltage loss
+
+Source status: do_not_deploy_as_written
+
+IF: Cable voltage loss per thousand > 30
+
+AND: Table labels the maximum as 30 V/ft
+
+THEN: Quarantine threshold pending unit correction
+
+Engineering explanation: Per-thousand and per-foot wording contradict
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Per-thousand and per-foot wording contradict
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 4
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D09
+Type: Rules
+
+Rule name: Cable temperature
+
+Source status: candidate_requires_local_validation
+
+IF: Power-cable temperature ratio > 1
+
+AND: Ratio uses cable thermal/design rating
+
+THEN: Flag cable thermal danger
+
+Engineering explanation: Risk of cable burnout and loss of power
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Risk of cable burnout and loss of power
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 4
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D10
+Type: Rules
+
+Rule name: Motor lead temperature
+
+Source status: candidate_requires_local_validation
+
+IF: Motor-lead cable temperature ratio > 1
+
+AND: Applicable lead rating is known
+
+THEN: Flag motor-lead thermal danger
+
+Engineering explanation: Component thermal margin exhausted
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Component thermal margin exhausted
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 4
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D11
+Type: Rules
+
+Rule name: Low cooling velocity
+
+Source status: candidate_requires_local_validation
+
+IF: Motor flow velocity < 1 ft/s
+
+AND: Geometry and fluid flow confirmed
+
+THEN: Flag overheating risk
+
+Engineering explanation: Insufficient cooling around motor
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Insufficient cooling around motor
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 4
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D12
+Type: Rules
+
+Rule name: High velocity
+
+Source status: candidate_requires_local_validation
+
+IF: Motor flow velocity > 7.5 ft/s
+
+AND: Source application context retained
+
+THEN: Flag erosion danger
+
+Engineering explanation: Not a universal OEM limit
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Not a universal OEM limit
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 4
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D13
+Type: Rules
+
+Rule name: Abrasive velocity
+
+Source status: candidate_requires_local_validation
+
+IF: Motor flow velocity > 12 ft/s
+
+AND: Fluid contains abrasives
+
+THEN: Warn abrasive erosion
+
+Engineering explanation: Do not treat clean and abrasive fluids identically
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Do not treat clean and abrasive fluids identically
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 4
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D14
+Type: Rules
+
+Rule name: Overload
+
+Source status: candidate_requires_local_validation
+
+IF: Motor load ratio > 1
+
+AND: Rated horsepower basis confirmed
+
+THEN: Flag overload
+
+Engineering explanation: Demand exceeds rated motor power
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Demand exceeds rated motor power
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 5
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D15
+Type: Rules
+
+Rule name: Skin temperature
+
+Source status: do_not_deploy_as_written
+
+IF: Motor internal-stage temperature > 300°F
+
+AND: Table labels this as a skin-temperature check
+
+THEN: Flag thermal danger for review
+
+Engineering explanation: Measured-versus-calculated location is ambiguous
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Measured-versus-calculated location is ambiguous
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D16
+Type: Rules
+
+Rule name: Winding temperature
+
+Source status: candidate_requires_local_validation
+
+IF: Motor internal temperature > rated stage temperature
+
+AND: Comparable measurement and rating
+
+THEN: Flag winding thermal danger
+
+Engineering explanation: Use actual component rating
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Use actual component rating
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 5
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-D17
+Type: Rules
+
+Rule name: Start voltage contradiction
+
+Source status: candidate_requires_local_validation
+
+IF: Startup ratio > 0.5 (as printed)
+
+AND: Text says voltage must be at least 50%; table also prints 50 V
+
+THEN: Do not activate the printed comparator
+
+Engineering explanation: Minimum requirement implies the opposite danger direction; correction needs validation
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Minimum requirement implies the opposite danger direction; correction needs validation
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 5
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-I01
+Type: Indicators
+
+Indicator: Intake/gas margin
+
+Physical meaning: Available intake pressure relative to gas condition
+
+Required parameters: PIP; gas-pressure definition
+
+Typical trend: PIP below gas pressure
+
+Lead time qualification: Not reported
+
+Relevant channels: Intake Pressure; Gas Rate (support only)
+
+Avalon availability: Unknown
+
+PDF pages: p. 3
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-I02
+Type: Indicators
+
+Indicator: Gas-loading indices
+
+Physical meaning: Gas relative to liquid or component gas capacity
+
+Required parameters: Gas/oil/water rates, PIP, separator and pump gas limits
+
+Typical trend: Gas fraction, Turpin coefficient or lock ratio rises
+
+Lead time qualification: Not reported
+
+Relevant channels: Gas Rate; Oil Rate; Water Rate; Intake Pressure
+
+Avalon availability: Unknown
+
+PDF pages: p. 3
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-I03
+Type: Indicators
+
+Indicator: Thermal/loading margin
+
+Physical meaning: Distance from cable/motor thermal or load rating
+
+Required parameters: Current, cable thermal model, motor temperatures, horsepower
+
+Typical trend: Ratio approaches/exceeds one; temperature increases
+
+Lead time qualification: Not reported
+
+Relevant channels: ESP Current; Voltage; Frequency; Temperature
+
+Avalon availability: Unknown
+
+PDF pages: pp. 4–5
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-I04
+Type: Indicators
+
+Indicator: Hydraulic duty/cooling margin
+
+Physical meaning: Operation relative to permitted flow and cooling ranges
+
+Required parameters: Intake/discharge rates, geometry, fluid properties
+
+Typical trend: Outside-range ratio increases; motor cooling velocity low or excessive
+
+Lead time qualification: Not reported
+
+Relevant channels: Oil Rate; Water Rate; Gas Rate; Frequency; Intake Pressure; Discharge Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp. 3–5
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-A01
+Type: Actions
+
+Condition: Gas / drawdown / off-range risk
+
+Immediate actions: Validate rates, pressures and pump curve
+
+Short term actions: Review speed and gas handling with ESP specialist
+
+Long term actions: Reassess pump selection/separation
+
+Prevention: Track operating envelope and gas margin
+
+Expected benefit: Maintain stable lift
+
+Production impact: Unquantified; lowering speed may sacrifice immediate rate
+
+Attribution: Engineering proposal based on pp. 2–5
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-A02
+Type: Actions
+
+Condition: Thermal / cable / overload risk
+
+Immediate actions: Check rating, sensor quality and protection status
+
+Short term actions: Review cooling, load and electrical supply
+
+Long term actions: Correct equipment/cable sizing or damage
+
+Prevention: Monitor rated thermal/electrical margins
+
+Expected benefit: Avoid avoidable damage and trips
+
+Production impact: Unquantified
+
+Attribution: Engineering proposal based on pp. 4–5
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-A03
+Type: Actions
+
+Condition: Deposits / mechanical integrity
+
+Immediate actions: Correlate hydraulic and electrical changes
+
+Short term actions: Obtain integrity, solids and failure evidence
+
+Long term actions: Plan condition-specific remediation
+
+Prevention: Maintain failure and teardown records
+
+Expected benefit: Better diagnosis and equipment life
+
+Production impact: Unquantified
+
+Attribution: Engineering proposal; no treatment recipe in paper
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P01-M01
+Type: AI Models
+
+Model type: Proposed supervised three-layer feed-forward ANN; one binary output node; training/testing deferred
+
+Inputs: 20 proposed inputs listed in Section 5; measured and calculated surface/downhole variables
+
+Outputs: Failure-directed operating condition versus suitable operation
+
+Reported performance: Not reported. No dataset size, holdout results, confusion matrix or validated warning time.
+
+Advantages: Combines heterogeneous component limits and operating patterns.
+
+Limitations: Conceptual study; incomplete feature equations; several threshold/unit/comparator errors; model-specific inputs and extensive downhole/design data required.
+
+Data feasibility: Avalon alone: not established. Combined Avalon, test and surface-pressure data: insufficient without equipment ratings, fluid properties and valid downhole/calculated features. Surface-only version would be a new model.
+
+Complexity: Medium
+
+Prediction target: Potential adverse operating conditions; neither remaining life nor failure date demonstrated.
+
+Lead time qualification: Not reported.
+
+Signals: Twenty proposed inputs plus component limits.
+
+Source thresholds: Source thresholds appear in Section 6 and must retain ambiguity flags.
+
+Implementation proposal: Start with reviewed rated-limit checks; quarantine contradictory thresholds; collect adjudicated failures before training the ANN.
+
+Recommended future model: Future failure-risk classifier with component metadata and labeled run histories; reduced-sensor retraining needed.
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0001
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Propose a supervised three-layer ANN that flags operating conditions liable to cause ESP failure.
+
+Engineering context: Human surveillance must combine surface measurements, downhole conditions and component design limits; isolated alarms cannot identify all developing operating risks.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0002
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Low intake pressure / excessive drawdown; Gas interference / gas locking; High-viscosity hydraulic impairment; Off-range pump operation; Scale / corrosion deposits / debris / intake blockage; Perforation blockage; Broken shaft / shaft failure; Hole in tubing / tubing damage; Motor/seal overheating; Motor or pump erosion; Cable voltage loss / thermal damage; motor-lead overheating; Motor overload; Inadequate start voltage
+
+Engineering context: Compare measured/calculated conditions with pump, motor and cable ratings and investigate low intake pressure, gas, heat, load and rate excursions (pp. 1–5).
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0003
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 20 proposed inputs listed in Section 5; measured and calculated surface/downhole variables
+
+Engineering context: First 20 are the authors' proposed ANN inputs (p. 5); remaining items support calculations or are monitoring/background variables (pp. 1–5). Detection and prediction are proposed, not demonstrated.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0004
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Avalon alone: not established. Combined Avalon, test and surface-pressure data: insufficient without equipment ratings, fluid properties and valid downhole/calculated features. Surface-only version would be a new model.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0005
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: PIP check: Flag low-intake-pressure danger; Gas fraction: Warn of reduced throughput; Turpin: Warn of excessive gas relative to liquid
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0006
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not reported.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0007
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Not reported. No dataset size, holdout results, confusion matrix or validated warning time.
+
+Engineering context: Conceptual study; incomplete feature equations; several threshold/unit/comparator errors; model-specific inputs and extensive downhole/design data required.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0008
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Source thresholds appear in Section 6 and must retain ambiguity flags.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0009
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Component limits, gas/cooling checks, measured-versus-calculated inputs, threshold caveats.
+
+Engineering context: Rating-based thermal, overload and operating-range checks after validation; do not deploy contradictory rules.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0010
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Future failure-risk classifier with component metadata and labeled run histories; reduced-sensor retraining needed.
+
+Engineering context: Start with reviewed rated-limit checks; quarantine contradictory thresholds; collect adjudicated failures before training the ANN.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0011
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Compare measured/calculated conditions with pump, motor and cable ratings and investigate low intake pressure, gas, heat, load and rate excursions (pp. 1–5).
+
+Engineering context: Human surveillance must combine surface measurements, downhole conditions and component design limits; isolated alarms cannot identify all developing operating risks.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0012
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Validate rates, pressures and pump curve
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0013
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Failure-directed operating condition versus suitable operation; an output must be interpreted within the reported validation.
+
+Engineering context: Conceptual study; incomplete feature equations; several threshold/unit/comparator errors; model-specific inputs and extensive downhole/design data required.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0014
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not reported.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0015
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 20 proposed inputs listed in Section 5; measured and calculated surface/downhole variables
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0016
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Avalon alone: not established. Combined Avalon, test and surface-pressure data: insufficient without equipment ratings, fluid properties and valid downhole/calculated features. Surface-only version would be a new model.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0017
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Review speed and gas handling with ESP specialist
+
+Engineering context: Engineering proposal based on pp. 2–5
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0018
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Source thresholds appear in Section 6 and must retain ambiguity flags.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0019
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Lost lift, falling throughput, premature equipment replacement and shutdown; no quantified production loss or benefit.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0020
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Rating-based thermal, overload and operating-range checks after validation; do not deploy contradictory rules.
+
+Source report: reports/P01.md
+
+Review status: Pending
+
+Source caveats: Changes in water cut, frequency and downhole pressure are stressors/context, not independent proven failure modes. No sensor-failure or injection diagnostic was validated.
+
+Source report: reports/P01.md. PDF page references refer to the original paper, not this text file.

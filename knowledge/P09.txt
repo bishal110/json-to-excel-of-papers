@@ -1,0 +1,1238 @@
+ESP research knowledge: P09
+
+Title: Condition monitoring and fault diagnosis of electric submersible pump based on wellhead electrical parameters and production parameters
+
+Authors: Lu Li; Chenquan Hua; Xuan Xu
+
+Year: 2018
+
+Publication: Systems Science & Control Engineering, 6(3), 253–261
+
+DOI: 10.1080/21642583.2018.1548983
+
+Related study group: None assigned
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P09-F01
+Type: Failures
+
+Failure or condition: Underload
+
+Category: Motor
+
+Symptoms: Current decreases toward threshold
+
+Root causes: Low load; cause not uniquely determined
+
+Consequences: Protective shutdown
+
+Field indicators: Normalized current and liquid response
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF pp. 4–5, 8
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-F02
+Type: Failures
+
+Failure or condition: Overload
+
+Category: Motor
+
+Symptoms: Current rises toward trip level; liquid decreases in schematic
+
+Root causes: Excess load
+
+Consequences: Trip/production loss
+
+Field indicators: Current above baseline, GLR stable
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF pp. 4–6
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-F03
+Type: Failures
+
+Failure or condition: Gas interference
+
+Category: Pump
+
+Symptoms: Current variance and GLR rise
+
+Root causes: Free gas changes pump loading
+
+Consequences: Reduced stable hydraulic capacity
+
+Field indicators: Current fluctuation, gas/liquid rates
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF pp. 4, 6
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-F04
+Type: Failures
+
+Failure or condition: Gas locking
+
+Category: Pump
+
+Symptoms: Large current fluctuations then underload shutdown; liquid declines
+
+Root causes: Excess gas in pump
+
+Consequences: Loss of lift
+
+Field indicators: GLR rises, fluctuating decreasing current
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF pp. 4, 6
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-F05
+Type: Failures
+
+Failure or condition: Insufficient liquid supply
+
+Category: Reservoir
+
+Symptoms: Current decreases, cycles off/restarts; liquid falls
+
+Root causes: Moving fluid level falls relative to intake
+
+Consequences: Underload shutdown
+
+Field indicators: Current slope, GLR, liquid supply
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF p. 6
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-F06
+Type: Failures
+
+Failure or condition: Tubing/tool-string leak
+
+Category: Surface Network
+
+Symptoms: Pressure and delivered liquid fall, current approximately unchanged
+
+Root causes: Tubing-to-annulus leakage
+
+Consequences: Lost delivered production
+
+Field indicators: Wellhead pressure/rate with current
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF pp. 6–7; component downhole tubing
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-F07
+Type: Failures
+
+Failure or condition: Overvoltage
+
+Category: VSD
+
+Symptoms: Voltage/current/production rise then trip; GLR stable
+
+Root causes: Supply above rated value
+
+Consequences: Protective shutdown
+
+Field indicators: Voltage versus rating
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: PDF pp. 7–8
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-F08
+Type: Failures
+
+Failure or condition: Undervoltage
+
+Category: VSD
+
+Symptoms: Source schematic shows voltage/current/rates decreasing then trip
+
+Root causes: Supply below rating
+
+Consequences: Reduced lifting / shutdown
+
+Field indicators: Voltage and hydraulic response
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: PDF pp. 7–8
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-F09
+Type: Failures
+
+Failure or condition: Impeller eccentric wear / sand plugging; bearing eccentric wear; excessive shaft thrust
+
+Category: Pump
+
+Symptoms: Discussed only in cited background
+
+Root causes: Mechanical wear/solids
+
+Consequences: Mechanical degradation
+
+Field indicators: Vibration cited, not validated by this surface scheme
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: PDF p. 2
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D01
+Type: Rules
+
+Rule name: Normal reference
+
+Source status: candidate_requires_local_validation
+
+IF: All six signals within calibrated healthy variation
+
+AND: No intervention/transient or quality fault
+
+THEN: Normal-pattern class
+
+Engineering explanation: Normal is one of nine conditions; only eight are faults
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Normal is one of nine conditions; only eight are faults
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF pp. 4–5
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D02
+Type: Rules
+
+Rule name: Underload
+
+Source status: candidate_requires_local_validation
+
+IF: Current normalized mean ~0.8
+
+AND: Well-specific threshold/calibration
+
+THEN: Underload candidate
+
+Engineering explanation: Illustrative relative limit; not universal protection setting
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Illustrative relative limit; not universal protection setting
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF p. 8
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D03
+Type: Rules
+
+Rule name: Overload
+
+Source status: candidate_requires_local_validation
+
+IF: Current normalized mean ~1.2
+
+AND: Well-specific threshold/calibration
+
+THEN: Overload candidate
+
+Engineering explanation: Text incorrectly repeats underload for 1.2; use as suspected typo pending validation
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Text incorrectly repeats underload for 1.2; use as suspected typo pending validation
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: PDF p. 8
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D04
+Type: Rules
+
+Rule name: Gas interference
+
+Source status: candidate_requires_local_validation
+
+IF: Current variance increases
+
+AND: GLR/gas increases; current waveform matches reference
+
+THEN: Gas interference candidate
+
+Engineering explanation: Electrical-only recognition has blind spots
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Electrical-only recognition has blind spots
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF pp. 6, 8–9
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D05
+Type: Rules
+
+Rule name: Gas lock
+
+Source status: candidate_requires_local_validation
+
+IF: Current fluctuates and decreases toward underload trip
+
+AND: Liquid falls and GLR rises
+
+THEN: Gas-lock candidate
+
+Engineering explanation: Confirm with production rather than current alone
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Confirm with production rather than current alone
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF p. 6
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D06
+Type: Rules
+
+Rule name: Supply shortage
+
+Source status: candidate_requires_local_validation
+
+IF: Current steadily decreases then cycles after shutdown
+
+AND: Liquid supply/level declining
+
+THEN: Inflow deficiency candidate
+
+Engineering explanation: Gas-related and leakage alternatives remain
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Gas-related and leakage alternatives remain
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF p. 6
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D07
+Type: Rules
+
+Rule name: Tubing leak
+
+Source status: candidate_requires_local_validation
+
+IF: Wellhead pressure abruptly decreases and liquid rate falls
+
+AND: Current remains near its prior mean
+
+THEN: Tubing integrity concern
+
+Engineering explanation: Requires integrity confirmation; rate pressure change alone is nonspecific
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Requires integrity confirmation; rate pressure change alone is nonspecific
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF p. 7
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D08
+Type: Rules
+
+Rule name: Voltage deviation
+
+Source status: candidate_requires_local_validation
+
+IF: Voltage exceeds or falls below motor-rated condition
+
+AND: Associated current/production pattern with unchanged GLR
+
+THEN: Electrical supply anomaly
+
+Engineering explanation: VSD frequency, voltage location and loading affect interpretation
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. VSD frequency, voltage location and loading affect interpretation
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: PDF pp. 7–8
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-D09
+Type: Rules
+
+Rule name: Pattern matching
+
+Source status: candidate_requires_local_validation
+
+IF: Cross-correlation with reference current waveform exceeds tuned criterion
+
+AND: Auxiliary production pattern agrees
+
+THEN: Classify similar operating pattern
+
+Engineering explanation: Numerical correlation threshold not provided
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Numerical correlation threshold not provided
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: PDF pp. 8–9
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-I01
+Type: Indicators
+
+Indicator: Current normalized mean
+
+Physical meaning: Loading relative to healthy mean
+
+Required parameters: I / healthy I
+
+Typical trend: Below/above baseline
+
+Lead time qualification: No measured pre-failure horizon
+
+Relevant channels: ESP Current
+
+Avalon availability: Unknown
+
+PDF pages: PDF p. 8
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-I02
+Type: Indicators
+
+Indicator: Current waveform/variance plus GLR
+
+Physical meaning: Unstable fluid/gas loading
+
+Required parameters: High-rate current waveform, gas/liquid rates
+
+Typical trend: Variance/GLR rises
+
+Lead time qualification: No measured horizon
+
+Relevant channels: ESP Current; Gas Rate; Oil Rate; Water Rate
+
+Avalon availability: Unknown
+
+PDF pages: PDF pp. 6, 8
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-I03
+Type: Indicators
+
+Indicator: Pressure-rate loss without current change
+
+Physical meaning: Possible loss of delivered flow path
+
+Required parameters: Surface pressure, liquid rate, current
+
+Typical trend: Pressure/rate down, current steady
+
+Lead time qualification: Detection pattern, not proven leading warning
+
+Relevant channels: ESP Current; Wellhead Pressure; Oil Rate; Water Rate
+
+Avalon availability: Unknown
+
+PDF pages: PDF p. 7
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-A01
+Type: Actions
+
+Condition: Electrical load/voltage anomaly
+
+Immediate actions: Validate signal, frequency and equipment ratings
+
+Short term actions: Review protection/supply and load with electrical/ESP team
+
+Long term actions: Correct verified electrical or loading cause
+
+Prevention: Calibrate per-well reference and retain event history
+
+Expected benefit: Avoid misclassification and damaging operation
+
+Production impact: Unquantified
+
+Attribution: Engineering proposal from PDF pp. 5–9
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-A02
+Type: Actions
+
+Condition: Gas / low supply
+
+Immediate actions: Check liquid/gas data age and well operating changes
+
+Short term actions: Investigate inflow and gas handling before approved adjustments
+
+Long term actions: Review pump selection and monitoring coverage
+
+Prevention: Monitor combined electrical/production signatures
+
+Expected benefit: Restore stable lift if cause confirmed
+
+Production impact: Unquantified
+
+Attribution: Engineering proposal
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-A03
+Type: Actions
+
+Condition: Leak suspicion
+
+Immediate actions: Verify surface pressure/rate and current trend
+
+Short term actions: Perform approved integrity investigation
+
+Long term actions: Repair confirmed leak
+
+Prevention: Maintain integrity history
+
+Expected benefit: Recover delivered production
+
+Production impact: Unquantified
+
+Attribution: Engineering proposal; no repair procedure supplied
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P09-M01
+Type: AI Models
+
+Model type: Deterministic feature extraction and pattern matching: normalized mean, variance, thresholds, frequency features and waveform correlation
+
+Inputs: Six surface signal groups with dynamic per-well reference patterns
+
+Outputs: Nine operating conditions including normal
+
+Reported performance: Qualitative laboratory/field suitability claim; no confusion matrix, sample count or numerical accuracy.
+
+Advantages: Explicitly designed without downhole measurements; interpretable combined signatures.
+
+Limitations: Several table/text contradictions; diagrams schematic; current waveform sampling requirement unspecified; live gas/liquid meter unlike intermittent tests; pressure formulas dimensionally ambiguous.
+
+Data feasibility: Combined Avalon+tests+surface pressure supports a reduced screening version if time aligned; exact method requires real-time gas/liquid sensing and waveform fidelity. Avalon alone insufficient for differential diagnosis.
+
+Complexity: Medium
+
+Prediction target: Current operating-condition diagnosis; no demonstrated failure-date or RUL prediction.
+
+Lead time qualification: Not reported.
+
+Signals: Current, voltage, real-time gas/liquid rates, GLR, surface pressure.
+
+Source thresholds: Normal current ±5%; illustrative normalized 0.8/1.2; site calibration required; correlation threshold undisclosed.
+
+Implementation proposal: Implement as ranked hypotheses with test age/coverage visible; collect event-rate electrical data and confirm with fresh tests before causal advice.
+
+Recommended future model: Surface-only interpretable classifier; current waveform matching plus production context.
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0161
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Diagnose ESP operating conditions with surface electrical and production signals to reduce reliance on downhole instruments.
+
+Engineering context: Downhole sensor exposure/cost and ambiguity of single-current diagnostics.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0162
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Underload; Overload; Gas interference; Gas locking; Insufficient liquid supply; Tubing/tool-string leak; Overvoltage; Undervoltage; Impeller eccentric wear / sand plugging; bearing eccentric wear; excessive shaft thrust
+
+Engineering context: Combine normalized current mean/variance/waveform with voltage, wellhead pressure, liquid/gas rate and gas–liquid ratio (PDF pp. 3–9).
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0163
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Six surface signal groups with dynamic per-well reference patterns
+
+Engineering context: Six ground-acquired signal groups are the first six. Remaining terms are features/reference values or mechanistic explanatory quantities. No requirement for direct downhole sensing in proposed detector. Sparse Excel tests do not equal its real-time two-phase meter.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0164
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Combined Avalon+tests+surface pressure supports a reduced screening version if time aligned; exact method requires real-time gas/liquid sensing and waveform fidelity. Avalon alone insufficient for differential diagnosis.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0165
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Normal reference: Normal-pattern class; Underload: Underload candidate; Overload: Overload candidate
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0166
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not reported.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0167
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Qualitative laboratory/field suitability claim; no confusion matrix, sample count or numerical accuracy.
+
+Engineering context: Several table/text contradictions; diagrams schematic; current waveform sampling requirement unspecified; live gas/liquid meter unlike intermittent tests; pressure formulas dimensionally ambiguous.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0168
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Normal current ±5%; illustrative normalized 0.8/1.2; site calibration required; correlation threshold undisclosed.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0169
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Combined surface diagnostic signatures, electrical-only ambiguity and sensor requirements.
+
+Engineering context: Gas/underload/low-inflow/leak/electrical candidates with alternatives and missing-evidence flags.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0170
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Surface-only interpretable classifier; current waveform matching plus production context.
+
+Engineering context: Implement as ranked hypotheses with test age/coverage visible; collect event-rate electrical data and confirm with fresh tests before causal advice.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0171
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Combine normalized current mean/variance/waveform with voltage, wellhead pressure, liquid/gas rate and gas–liquid ratio (PDF pp. 3–9).
+
+Engineering context: Downhole sensor exposure/cost and ambiguity of single-current diagnostics.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0172
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Validate signal, frequency and equipment ratings
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0173
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Nine operating conditions including normal; an output must be interpreted within the reported validation.
+
+Engineering context: Several table/text contradictions; diagrams schematic; current waveform sampling requirement unspecified; live gas/liquid meter unlike intermittent tests; pressure formulas dimensionally ambiguous.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0174
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not reported.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0175
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Six surface signal groups with dynamic per-well reference patterns
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0176
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Combined Avalon+tests+surface pressure supports a reduced screening version if time aligned; exact method requires real-time gas/liquid sensing and waveform fidelity. Avalon alone insufficient for differential diagnosis.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0177
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Review protection/supply and load with electrical/ESP team
+
+Engineering context: Engineering proposal from PDF pp. 5–9
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0178
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Normal current ±5%; illustrative normalized 0.8/1.2; site calibration required; correlation threshold undisclosed.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0179
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Impaired lift, protective shutdown and lost production; no quantified savings.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0180
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Gas/underload/low-inflow/leak/electrical candidates with alternatives and missing-evidence flags.
+
+Source report: reports/P09.md
+
+Review status: Pending
+
+Source caveats: Table 1 underload/overload labels for current appear reversed relative to Sections 4.2/4.3. The undervoltage narrative says overload shutdown after underload limit; quarantine literal trip-type rule. Surface-to-downhole pressure equations need dimensional validation.
+
+Source report: reports/P09.md. PDF page references refer to the original paper, not this text file.

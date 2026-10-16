@@ -1,0 +1,664 @@
+ESP research knowledge: P36
+
+Title: Usage of Artificial Intelligence to Reduce Operational Disruptions of ESPs by Implementing Predictive Maintenance
+
+Authors: Nico Jansen van Rensburg
+
+Year: 2018
+
+Publication: ADIPEC, Abu Dhabi, 12–15 November; SPE-192610-MS
+
+DOI: 10.2118/192610-MS (printed in P37 references)
+
+Related study group: G01
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P36-F01
+Type: Failures
+
+Failure or condition: Unspecified ESP abnormal operation
+
+Category: Pump
+
+Symptoms: Departure from learned normal multivariable relationships.
+
+Root causes: Known or novel anomaly; cause often not identified.
+
+Consequences: Potential performance degradation or failure.
+
+Field indicators: Anomaly score and contributing process variables.
+
+Confidence level: Low
+
+Confidence basis: Medium for anomaly concept; Low for physical cause
+
+PDF pages: Pilot/results sections
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P36-F02
+Type: Failures
+
+Failure or condition: Telemetry/data quality disturbance
+
+Category: Sensor
+
+Symptoms: Missing, misaligned or inconsistent process data.
+
+Root causes: Historian compression, time alignment or sensor issue.
+
+Consequences: False/late anomaly notifications.
+
+Field indicators: Data freshness, quality and cross-signal checks.
+
+Confidence level: High
+
+Confidence basis: High for data requirement
+
+PDF pages: Training/architecture sections
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P36-D01
+Type: Rules
+
+Rule name: Surveillance-by-exception
+
+Source status: candidate_requires_local_validation
+
+IF: Neural anomaly score exceeds selected threshold
+
+AND: High-quality data and applicable baseline group
+
+THEN: Prioritize well for engineer cause investigation.
+
+Engineering explanation: Anomaly is not a confirmed physical fault or calibrated failure probability.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Anomaly is not a confirmed physical fault or calibrated failure probability.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: Proof-of-concept/pilot sections
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P36-D02
+Type: Rules
+
+Rule name: Threshold tradeoff
+
+Source status: candidate_requires_local_validation
+
+IF: Threshold reduced from~80% toward<40%
+
+AND: Same historical test data/model
+
+THEN: Earlier and more sensitive alerts, but higher false-alert risk.
+
+Engineering explanation: Score percentages lack calibrated risk interpretation.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Score percentages lack calibrated risk interpretation.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: Proof-of-concept section
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P36-I01
+Type: Indicators
+
+Indicator: Neural anomaly score
+
+Physical meaning: Departure from equipment-group normal behavior.
+
+Required parameters: Synchronized electrical, surface and downhole process data.
+
+Typical trend: Score exceeds tuned threshold.
+
+Lead time qualification: One historical example 12 days; higher threshold typically hours, lower threshold days with more false alerts. No distribution.
+
+Relevant channels: ESP Current, Frequency, Intake Pressure, Temperature, Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: Historical proof-of-concept results
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P36-A01
+Type: Actions
+
+Condition: Neural anomaly
+
+Immediate actions: Verify with independent SCADA trends and event logs.
+
+Short term actions: Engineer identifies cause and chooses approved mitigation/planned maintenance.
+
+Long term actions: Document novel patterns and confirmed outcomes to improve knowledge.
+
+Prevention: Maintain representative normal baseline, alignment and cohort mapping.
+
+Expected benefit: Potential earlier investigation and less manual surveillance.
+
+Production impact: No quantified achieved production gain or fleet avoided-failure rate.
+
+Attribution: Source pilot workflow; human decides actions.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P36-M01
+Type: AI Models
+
+Model type: Generic multilayer neural-network anomaly detector; architecture/loss not disclosed.
+
+Inputs: 30 onshore ESPs, 200–500 k W; equipment variants grouped; one-year normal training baseline; surface/downhole telemetry.
+
+Outputs: Anomaly level and prioritized advisory.
+
+Reported performance: 12 day retrospective example; no precision, recall, confusion matrix, false alerts per well-month or independent event denominator.
+
+Advantages: Learns complex normal relationships; can highlight previously unrecognized anomalies.
+
+Limitations: Manual training-data curation; repeated tuning on same history; missing cause specificity; limited reproducibility; related publications reuse pilot evidence.
+
+Data feasibility: Potential Avalon-fed monitoring, but full published model uses downhole inputs. A sensor-lost cohort requires new baseline and validation; Excel tests supply contextual evidence rather than fast stream.
+
+Complexity: High
+
+Prediction target: Abnormal behavior preceding some interruptions; not RUL or unique cause.
+
+Lead time qualification: One 12 day case; no guaranteed horizon.
+
+Signals: Seven process variables plus quality/event records.
+
+Source thresholds: ~80% versus<40% anomaly-score examples; final operating cutoff undisclosed.
+
+Implementation proposal: Pilot in advisory mode with cohort-specific baseline and prospective event/alert audit; compare simple PCA/tree baselines before deep model.
+
+Recommended future model: Normal-behavior multivariate anomaly model per sensor/equipment cohort.
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0701
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Demonstrate normal-behavior neural anomaly surveillance using historian data and an advisory cloud pilot.
+
+Engineering context: Retrospective troubleshooting gives limited time to plan action; fleet monitoring burden is high.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0702
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Unspecified ESP abnormal operation; Telemetry/data quality disturbance
+
+Engineering context: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0703
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 30 onshore ESPs, 200–500 k W; equipment variants grouped; one-year normal training baseline; surface/downhole telemetry.
+
+Engineering context: Seven variables explicitly listed p.5; 5–10 second polling with store-on-change compression. Sampling regularization must not create fictitious measurements.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0704
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Potential Avalon-fed monitoring, but full published model uses downhole inputs. A sensor-lost cohort requires new baseline and validation; Excel tests supply contextual evidence rather than fast stream.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0705
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Surveillance-by-exception: Prioritize well for engineer cause investigation.; Threshold tradeoff: Earlier and more sensitive alerts, but higher false-alert risk.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0706
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: One 12 day case; no guaranteed horizon.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0707
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: 12 day retrospective example; no precision, recall, confusion matrix, false alerts per well-month or independent event denominator.
+
+Engineering context: Manual training-data curation; repeated tuning on same history; missing cause specificity; limited reproducibility; related publications reuse pilot evidence.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0708
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: ~80% versus<40% anomaly-score examples; final operating cutoff undisclosed.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0709
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Anomaly versus cause; threshold/lead tradeoff; independent operations checks.
+
+Engineering context: Quality-gated anomaly escalation with no autonomous setpoint or restart.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0710
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Normal-behavior multivariate anomaly model per sensor/equipment cohort.
+
+Engineering context: Pilot in advisory mode with cohort-specific baseline and prospective event/alert audit; compare simple PCA/tree baselines before deep model.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0711
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Review sustained changes in the required measurements against operating state, recent interventions and valid well tests.
+
+Engineering context: Retrospective troubleshooting gives limited time to plan action; fleet monitoring burden is high.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0712
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify with independent SCADA trends and event logs.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0713
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Anomaly level and prioritized advisory.; an output must be interpreted within the reported validation.
+
+Engineering context: Manual training-data curation; repeated tuning on same history; missing cause specificity; limited reproducibility; related publications reuse pilot evidence.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0714
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: One 12 day case; no guaranteed horizon.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0715
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 30 onshore ESPs, 200–500 k W; equipment variants grouped; one-year normal training baseline; surface/downhole telemetry.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0716
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Potential Avalon-fed monitoring, but full published model uses downhole inputs. A sensor-lost cohort requires new baseline and validation; Excel tests supply contextual evidence rather than fast stream.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0717
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Engineer identifies cause and chooses approved mitigation/planned maintenance.
+
+Engineering context: Source pilot workflow; human decides actions.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0718
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: ~80% versus<40% anomaly-score examples; final operating cutoff undisclosed.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0719
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Unplanned shutdown, reduced production and workover expense; no measured production uplift established.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0720
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Quality-gated anomaly escalation with no autonomous setpoint or restart.
+
+Source report: reports/P36.md
+
+Review status: Pending
+
+Source caveats: Overlaps P04/P06/P08/P36/P37 pilot family; do not count repeated 12 day example as independent validation. Conventional alarms can also be preventive; broad vendor contrast is not engineering fact. Source typography 2000 C likely intended 200°C; not a valid equipment operating limit.
+
+Source report: reports/P36.md. PDF page references refer to the original paper, not this text file.

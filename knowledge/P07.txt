@@ -1,0 +1,722 @@
+ESP research knowledge: P07
+
+Title: Automatic Early Fault Detection for Rod Pump Systems
+
+Authors: S. Liu; C. S. Raghavendra; Y. Liu; K. Yao; O. Balogun; L. Olabinjo; R. Soma; J. Ivanhoe; B. Smith; B. Seren; T. L. Lenz; C. G. Dinesh Babu; I. Ershaghi
+
+Year: 2011
+
+Publication: SPE ATCE, Denver, 30 October–2 November; SPE 146038
+
+DOI: Not printed
+
+Related study group: None assigned
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P07-F01
+Type: Failures
+
+Failure or condition: Tubing failure/leak
+
+Category: Surface Network
+
+Symptoms: Learned load/production pattern
+
+Root causes: Mechanical wear/design/manufacture or corrosive fluids
+
+Consequences: Lost delivery/workover
+
+Field indicators: Rod-system classifier features
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 2, 7–10; downhole tubing
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P07-F02
+Type: Failures
+
+Failure or condition: Rod string failure
+
+Category: Pump
+
+Symptoms: Learned rod-load pattern
+
+Root causes: Mechanical or chemical degradation, including H2 S/bacteria context
+
+Consequences: Lost rod-pump function
+
+Field indicators: Rod/card/load signals; no ESP equivalent
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 2, 7–10
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P07-F03
+Type: Failures
+
+Failure or condition: Rod pump failure
+
+Category: Pump
+
+Symptoms: Efficiency loss then shutdown
+
+Root causes: Mechanical/chemical mechanisms
+
+Consequences: Lost production
+
+Field indicators: Card/runtime/production
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: p. 2
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P07-D01
+Type: Rules
+
+Rule name: Learned classification
+
+Source status: candidate_requires_local_validation
+
+IF: Boosted Bayesian-network/decision-tree vote indicates pre-failure/failure
+
+AND: Domain-relevant normalized inputs and reliable labels
+
+THEN: Raise rod-pump alert
+
+Engineering explanation: No explicit physical diagnostic IF/THEN thresholds published
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. No explicit physical diagnostic IF/THEN thresholds published
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–8
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P07-D02
+Type: Rules
+
+Rule name: Missing records
+
+Source status: candidate_requires_local_validation
+
+IF: Data absent
+
+AND: Maintenance/failure/telemetry explanation unresolved
+
+THEN: Flag missingness for SME interpretation
+
+Engineering explanation: Missing data are not automatically normal or failed
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Missing data are not automatically normal or failed
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 10
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P07-I01
+Type: Indicators
+
+Indicator: Pre-failure classification
+
+Physical meaning: Learned rod-system condition resembles pre-event examples
+
+Required parameters: 14+ daily rod-system attributes
+
+Typical trend: Model transitions normal to pre-failure
+
+Lead time qualification: Example pre-tubing signal ~8 months before recorded date; failure detected ~2 months before recorded date; recognition delay confounds actual lead time
+
+Relevant channels: Oil Rate; Water Rate (production context only); requires rod-specific card/load/runtime signals
+
+Avalon availability: Unknown
+
+PDF pages: pp. 8–10
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P07-A01
+Type: Actions
+
+Condition: Rod-pump alert
+
+Immediate actions: Verify card/load/production and record timing
+
+Short term actions: Prioritize field inspection and planned workover
+
+Long term actions: Improve labels and field-wide training
+
+Prevention: Track actual event versus reporting timestamps
+
+Expected benefit: Earlier and more efficient response
+
+Production impact: No quantified ESP benefit
+
+Attribution: pp. 2, 8–10; rod context
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P07-A02
+Type: Actions
+
+Condition: Transfer to ESP
+
+Immediate actions: Do not deploy rod classifier on ESPs
+
+Short term actions: Replace feature set with ESP electrical/hydraulic features
+
+Long term actions: Train and validate new ESP model
+
+Prevention: Keep asset taxonomy separate
+
+Expected benefit: Avoid invalid diagnostic transfer
+
+Production impact: Unquantified
+
+Attribution: Engineering proposal
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P07-M01
+Type: AI Models
+
+Model type: Ada BNet (Ada Boost+Bayesian networks) and Ada DT (Ada Boost+decision trees)
+
+Inputs: 14+ daily rod-pump attributes with expert preprocessing and normalization
+
+Outputs: Normal, tubing failure, rod failure and pre-signal classes
+
+Reported performance: Narrative reports Ada BNet normal 97.7%, failure 91.9%; Table 3 has transposed/inconsistent labels/count orientation. Ada DT ~95% best at 80–180 iterations. Training-table 'percent' entries are actually fractional-looking errors; do not reproduce as <0.12% without correction.
+
+Advantages: Single field model rather than one per well; well-level evaluation.
+
+Limitations: Rod systems; recorded-date bias; missing-data fill; table inconsistencies; claimed proof of no overfitting contradicted by reported overfit above 180 iterations; record-level CV may leak within wells.
+
+Data feasibility: No direct ESP implementation with Avalon/tests/pressures: rod card/load inputs missing. General workflow transferable.
+
+Complexity: Medium
+
+Prediction target: Rod-system failure states and pre-signals, not validated ESP failures.
+
+Lead time qualification: 2/8-month examples reference recorded dates, not verified physical onset.
+
+Signals: Rod load/card/production/runtime and adjudicated event labels.
+
+Source thresholds: Learned model votes; no transferable engineering limits.
+
+Implementation proposal: Transfer evaluation/label discipline only; establish ESP-specific features, whole-run temporal holdout and alert-event matching.
+
+Recommended future model: Boosted classifier benchmark after complete ESP retraining.
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0121
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Train a field-wide boosted classifier for normal, pre-failure, tubing and rod failures.
+
+Engineering context: Manual dynamometer interpretation misses early patterns and recorded failure dates lag physical events.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0122
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Tubing failure/leak; Rod string failure; Rod pump failure
+
+Engineering context: Changes in rod-pump load/card/runtime/production features; these are not ESP signals.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0123
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 14+ daily rod-pump attributes with expert preprocessing and normalization
+
+Engineering context: 12 training wells; 426 test wells; normalization divides attributes by their means. Historical intermittent tests carried forward. Rod features are unavailable on ESP equipment by design.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0124
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: No direct ESP implementation with Avalon/tests/pressures: rod card/load inputs missing. General workflow transferable.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0125
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Learned classification: Raise rod-pump alert; Missing records: Flag missingness for SME interpretation
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0126
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: 2/8-month examples reference recorded dates, not verified physical onset.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0127
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: Narrative reports Ada BNet normal 97.7%, failure 91.9%; Table 3 has transposed/inconsistent labels/count orientation. Ada DT ~95% best at 80–180 iterations. Training-table 'percent' entries are actually fractional-looking errors; do not reproduce as <0.12% without correction.
+
+Engineering context: Rod systems; recorded-date bias; missing-data fill; table inconsistencies; claimed proof of no overfitting contradicted by reported overfit above 180 iterations; record-level CV may leak within wells.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0128
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Learned model votes; no transferable engineering limits.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0129
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Reporting-delay bias, field model normalization, missing-data handling caveats.
+
+Engineering context: Missing-record triage only; exclude rod fault rules from ESP advice.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0130
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Boosted classifier benchmark after complete ESP retraining.
+
+Engineering context: Transfer evaluation/label discipline only; establish ESP-specific features, whole-run temporal holdout and alert-event matching.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0131
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Changes in rod-pump load/card/runtime/production features; these are not ESP signals.
+
+Engineering context: Manual dynamometer interpretation misses early patterns and recorded failure dates lag physical events.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0132
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify card/load/production and record timing
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0133
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Normal, tubing failure, rod failure and pre-signal classes; an output must be interpreted within the reported validation.
+
+Engineering context: Rod systems; recorded-date bias; missing-data fill; table inconsistencies; claimed proof of no overfitting contradicted by reported overfit above 180 iterations; record-level CV may leak within wells.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0134
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: 2/8-month examples reference recorded dates, not verified physical onset.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0135
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 14+ daily rod-pump attributes with expert preprocessing and normalization
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0136
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: No direct ESP implementation with Avalon/tests/pressures: rod card/load inputs missing. General workflow transferable.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0137
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Prioritize field inspection and planned workover
+
+Engineering context: pp. 2, 8–10; rod context
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0138
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Learned model votes; no transferable engineering limits.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0139
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Workover downtime, deferred production and labor; no measured economic reduction.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0140
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Missing-record triage only; exclude rod fault rules from ESP advice.
+
+Source report: reports/P07.md
+
+Review status: Pending
+
+Source caveats: Normal is a class, not a failure mode. No injection analysis.
+
+Source report: reports/P07.md. PDF page references refer to the original paper, not this text file.

@@ -1,0 +1,372 @@
+[
+  {
+    "paper_id": "P01",
+    "what": "Potential adverse operating conditions; neither remaining life nor failure date demonstrated.",
+    "lead": "Not reported.",
+    "signals": "Twenty proposed inputs plus component limits.",
+    "thresholds": "Source thresholds appear in Section 6 and must retain ambiguity flags.",
+    "approach": "Start with reviewed rated-limit checks; quarantine contradictory thresholds; collect adjudicated failures before training the ANN.",
+    "validation_limits": "Conceptual study; incomplete feature equations; several threshold/unit/comparator errors; model-specific inputs and extensive downhole/design data required.",
+    "project_use": "Useful feature/rule inventory; weak predictive evidence."
+  },
+  {
+    "paper_id": "P02",
+    "what": "Response to control changes and constraint crossing; not validated remaining life.",
+    "lead": "Motor response 2–3 hours and intake response 5–10 days; no failure horizon.",
+    "signals": "State, history, CIPs, production, pump model and metadata.",
+    "thresholds": "Field-specific values and unit discrepancy in Section 6.",
+    "approach": "First implement data-quality and stability gates, then shadow-test recommendations with uncertainty and human approval; use tests to verify incremental oil.",
+    "validation_limits": "Stable wells only; blending confidence algorithm undisclosed; network interference and equivalent injection unresolved; geologist approves settings; sample-count/pressure-unit discrepancies.",
+    "project_use": "Strong practical optimization architecture for Avalon plus tests; downhole sensor loss limits direct adoption."
+  },
+  {
+    "paper_id": "P03",
+    "what": "Possible developing distress/risk, not specific failure or RUL.",
+    "lead": "7/30/60 days are analysis windows, not proven warning lead times.",
+    "signals": "Eight signals plus event masks and confirmed outcomes.",
+    "thresholds": "Figure 3 prints D=(-100,-0.6,-0.2), C=(-0.5, 0, 0.5), I=(0.2, 0.6,100). Curve shoulders and text's triangle notation need careful implementation; no validated alert DOF threshold.",
+    "approach": "Implement as explainable hypothesis scores, with unit-consistent slopes, event segmentation and missing-signal coverage; validate specificity before operational use.",
+    "validation_limits": "Nine selected wells; actual causes not established; scale/unit-sensitive arctangent; common memberships; trip contamination; three identical rule vectors; 30/60-day gaps.",
+    "project_use": "Highly relevant offshore cautionary case and transparent rules; score reflects architecture/lessons, not proven predictive performance."
+  },
+  {
+    "paper_id": "P04",
+    "what": "Abnormal operation potentially preceding failure; not a verified failure mode or exact date.",
+    "lead": "12 days in one historical case; hours-to-days threshold tradeoff.",
+    "signals": "Seven synchronized inputs, variant and historical events.",
+    "thresholds": "Source examples >80% and <40%; not proven probabilities or field alarm settings.",
+    "approach": "Train on adjudicated healthy regimes, hold out complete wells/runs, score in shadow mode, calibrate false alerts and provide evidence to engineers.",
+    "validation_limits": "Architecture/training details undisclosed; causality unclear; manual baseline cleansing; unknown anomalies hard to interpret; repeated historical tuning risks optimism.",
+    "project_use": "Useful anomaly-monitoring architecture; limited reproducibility and no validated sensor-loss pathway."
+  },
+  {
+    "paper_id": "P05",
+    "what": "Developing multivariate instability preceding some trips.",
+    "lead": "Hours; one illustrated ~30-hour interval.",
+    "signals": "Historian variables, event log and clean healthy baseline.",
+    "thresholds": "95% F-distribution boundary; figure example T² boundary near 10, not transferable.",
+    "approach": "Build regime-specific robust PCA with run-state masks, contributor display, persistence and false-alert evaluation; keep recommendation assessment outside raw contribution ranking.",
+    "validation_limits": "Linear normal model; correlated data; anonymized inputs; fixed-other-variable bands are not causal control policy; no held-out performance counts.",
+    "project_use": "Strong explainable first-stage anomaly framework; reduced-sensor variant requires new validation."
+  },
+  {
+    "paper_id": "P06",
+    "what": "Possible failure-associated anomalies.",
+    "lead": "12 days in one example, not guaranteed.",
+    "signals": "Undisclosed process KPIs.",
+    "thresholds": "None reported.",
+    "approach": "Use as a concept entry and trace implementation evidence to technical papers, without treating it as an independent validation.",
+    "validation_limits": "Two-page guest editorial; no reproducible model specification or independent results; probable same Siemens case as P04/P36.",
+    "project_use": "Useful stakeholder explanation; little implementable engineering detail."
+  },
+  {
+    "paper_id": "P07",
+    "what": "Rod-system failure states and pre-signals, not validated ESP failures.",
+    "lead": "2/8-month examples reference recorded dates, not verified physical onset.",
+    "signals": "Rod load/card/production/runtime and adjudicated event labels.",
+    "thresholds": "Learned model votes; no transferable engineering limits.",
+    "approach": "Transfer evaluation/label discipline only; establish ESP-specific features, whole-run temporal holdout and alert-event matching.",
+    "validation_limits": "Rod systems; recorded-date bias; missing-data fill; table inconsistencies; claimed proof of no overfitting contradicted by reported overfit above 180 iterations; record-level CV may leak within wells.",
+    "project_use": "Methodological comparison; low direct ESP relevance."
+  },
+  {
+    "paper_id": "P08",
+    "what": "Abnormal behavior requiring review.",
+    "lead": "Not quantified here.",
+    "signals": "Quality synchronized process history; full list not disclosed.",
+    "thresholds": "Not reported.",
+    "approach": "Build read-only evidence-backed fleet triage in Copilot, keep existing control/protection workflow and measure alert usefulness.",
+    "validation_limits": "Architecture-level treatment; root causes and model mechanics undisclosed; availability of unknown downhole inputs not resolved.",
+    "project_use": "Directly relevant Copilot operating model and user workflow."
+  },
+  {
+    "paper_id": "P09",
+    "what": "Current operating-condition diagnosis; no demonstrated failure-date or RUL prediction.",
+    "lead": "Not reported.",
+    "signals": "Current, voltage, real-time gas/liquid rates, GLR, surface pressure.",
+    "thresholds": "Normal current ±5%; illustrative normalized 0.8/1.2; site calibration required; correlation threshold undisclosed.",
+    "approach": "Implement as ranked hypotheses with test age/coverage visible; collect event-rate electrical data and confirm with fresh tests before causal advice.",
+    "validation_limits": "Several table/text contradictions; diagrams schematic; current waveform sampling requirement unspecified; live gas/liquid meter unlike intermittent tests; pressure formulas dimensionally ambiguous.",
+    "project_use": "High relevance to lost downhole sensors, conditional on surface-rate data quality."
+  },
+  {
+    "paper_id": "P10",
+    "what": "Anomalous/inefficient state associated with future reported events.",
+    "lead": "90 days is evaluation tolerance, not demonstrated per-event warning time.",
+    "signals": "Electrical, runtime, quality and confirmed events.",
+    "thresholds": "Site maximum current for cleaning; no universal failure thresholds; SVM boundary learned.",
+    "approach": "Strong surface-only baseline candidate; retain missingness, mask planned cycling, evaluate chronological run-held-out event precision/recall and false alerts per well-month.",
+    "validation_limits": "Labels subjective; inefficiency versus failure confused; 90-day window can inflate usefulness; no fixed RUL; copying prior data can manufacture patterns.",
+    "project_use": "One of the most directly usable electrical-only starting points, with modest reported performance."
+  },
+  {
+    "paper_id": "P11",
+    "what": "Service-life estimate conditional on recorded attributes.",
+    "lead": "No early-warning horizon; post-pull predictor compromises prospective use.",
+    "signals": "Static metadata, operation cycles, production and valid pre-event solids metric.",
+    "thresholds": "No ESP alarm thresholds. Beam geometry recommendations must remain separate.",
+    "approach": "Assemble run-level dataset including censored survivors; replace HUD leakage; validate survival/life models on later installations.",
+    "validation_limits": "Post-pull HUD risks target leakage; censoring treatment and held-out validation unclear; correlated feature weights are not causes; only failure cases may bias life model.",
+    "project_use": "Strong reliability-data and leakage lessons; preliminary life model."
+  },
+  {
+    "paper_id": "P12",
+    "what": "Candidate RUL, horizon risk and failure class; cause attribution framework separate from prediction.",
+    "lead": "30-day risk labels preferred in source; 1/7-day precision weak. Case 12-day and 30–90-day claims are not robust prospective guarantees.",
+    "signals": "Full as-of feature set, run boundaries, event labels, censoring and sensor-coverage flags.",
+    "thresholds": "30/14/7/1-day label horizons; z/IQR data screens; hours-online ≤24 and study choke cap 128/64 inch are data checks, not universal operating alarms.",
+    "approach": "Rebuild raw-to-feature pipeline with no backward future fill, per-run temporal holdouts/purge, censored survivors and external field tests; compare 30-day RF against simple electrical baseline before RUL.",
+    "validation_limits": "Conflicting cohort/metric tables, ambiguous split nomenclature, backward filling and full-well imputation risk lookahead, supervised failure clustering may require unavailable future mode, censoring handling unclear, post-event labels mixed with causal categories and WO. Claimed R² '4.0' is invalid as a conventional positive upper-bound score and likely missing a sign; retain as source error.",
+    "project_use": "Rich ontology/feature catalog and leakage lessons; headline model/economic claims require substantial audit."
+  },
+  {
+    "paper_id": "P13",
+    "what": "Rod failure/suboptimal states; ESP extension proposed.",
+    "lead": "31-day life-estimation error in abstract is not warning time; no validated ESP lead.",
+    "signals": "Rod-specific six core signals and event labels.",
+    "thresholds": "Model scores .5/.75; eligibility 4 h/50 d, not ESP alarm limits.",
+    "approach": "Transfer data eligibility, whole-well/time holdouts and event-level alert accounting to an ESP pilot.",
+    "validation_limits": "Rod-specific features; imbalance (~1% failure time) inflates accuracy; retrospective labels use later evidence; cannot use those future observations live; small suboptimal-event cohorts.",
+    "project_use": "Useful deployment/evaluation workflow; no direct ESP model validation."
+  },
+  {
+    "paper_id": "P14",
+    "what": "No validated forecast; improved labels enable future models.",
+    "lead": "Not reported.",
+    "signals": "Failure and DIFA evidence plus matched operating history.",
+    "thresholds": "No validated sensor alarm thresholds; generic thermal-aging statements are not ESP-specific trip settings.",
+    "approach": "Adopt separate symptom/mode/component/cause/evidence-status fields; retain unknowns and non-failure pulls; later train only on adjudicated histories.",
+    "validation_limits": "Incomplete RCA, selection/subjective reporting, weak association, counts and category counts not perfectly consistent; counterfactual economics and unsupported discussion percentages.",
+    "project_use": "High-value Copilot ontology and reliability database foundation; no proven predictive engine."
+  },
+  {
+    "paper_id": "P15",
+    "what": "Simulated response and synthetic fault signatures; future RUL/diagnostic capability.",
+    "lead": "Not reported.",
+    "signals": "System metadata, telemetry and calibration references.",
+    "thresholds": "No operational alarm limits; two-minute simulation target is computational cadence.",
+    "approach": "Begin with calibrated hydraulic/electrical residuals and independent tests; add thermal model and missing-sensor estimates with uncertainty before full twin.",
+    "validation_limits": "Calibration/identifiability, uncertain physics, sim-to-real gap; stochastic life assignment is not observed RUL; no deployed validation.",
+    "project_use": "Strong future architecture; too data-intensive for first Copilot release."
+  },
+  {
+    "paper_id": "P16",
+    "what": "Aggregate failure risk and pump-component risk.",
+    "lead": "Nominal 30/45 day labels; historical blind averages about 60 days are a different measurement, with broad ranges including 0 days for well failures.",
+    "signals": "Measured telemetry, physical model outputs, maintenance/install outcomes.",
+    "thresholds": "No operational risk cutoff disclosed. >75% data quality over 120 days is a training gate.",
+    "approach": "Reconstruct independent ESP-run timelines, causal features and physical models; prospective shadow alerts; measure event precision/recall, false alarms per well-month and lead distributions.",
+    "validation_limits": "Small component sample, SME-corrected event dates, balanced initial test prevalence and retrospective review. Roughly 40% well failures missed. Complete 18-feature names not disclosed.",
+    "project_use": "Strong hybrid-model design and useful evaluation evidence, with significant sensor and model prerequisites."
+  },
+  {
+    "paper_id": "P17",
+    "what": "Aggregate failure risk, strongest near-term horizon.",
+    "lead": "1–3 days supported more strongly than 7–14 days. This is forecast-label horizon, not demonstrated maintenance lead for every event.",
+    "signals": "Daily telemetry, production context, resistance, physics and exposure features.",
+    "thresholds": "Probability .5 in balanced classification; not a fleet-calibrated operating alarm.85% separation is a modeling assumption.",
+    "approach": "Use strictly past-only filling; show missingness; split by run/well/time; recalibrate for rare actual failures and compare measured-only versus inferred-feature models.",
+    "validation_limits": "Balanced 50/50 class evaluation; interpolated/imputed values are not recovered measurements. Akima≤5 day gaps and long-gap moving-average/linear fills may use future data unless made causal. Component/manufacturer/stage metadata unavailable.",
+    "project_use": "Good evidence for engineered features and horizon-dependent performance; not a ready-to-deploy sensorless model."
+  },
+  {
+    "paper_id": "P18",
+    "what": "Departure from normal multivariate operation.",
+    "lead": "Case-specific hours; no population warning distribution or RUL.",
+    "signals": "Consistent synchronized multichannel telemetry.",
+    "thresholds": "95% confidence bound on T-squared; model-specific, not physical trip.",
+    "approach": "Fit healthy regime-specific baselines; exclude startup/shutdown transients as appropriate; require persistence and contribution review; evaluate false alerts and event detection.",
+    "validation_limits": "Limited illustrated cases; no validated causal diagnosis; 95% pointwise bound does not equal 5% fleet event false-alarm rate; operating regime shifts matter.",
+    "project_use": "Useful early unsupervised pilot; overlaps P05 and must not be counted as independent replication."
+  },
+  {
+    "paper_id": "P19",
+    "what": "Abnormal operating conditions; paper demonstrates detection/prescriptive support, not calibrated RUL.",
+    "lead": "Not established.15/30 min and 24/48 h thresholds are observation windows.",
+    "signals": "Core 8 channels plus optional vibration/discharge temperature/rating/curves.",
+    "thresholds": "PIP change: absolute daily-average PIP change >=5% in 24 h; Rapid motor temperature rise: motor temperature increases >=10% over 30 min; Wellhead pressure change: absolute daily-average WHP change >5% in 24 h; Unstable intake/current: PIP standard deviation changes >20% over 24 h; Rapid discharge change: absolute PDP change >=20% over 15 min; Discharge thermal rise: absolute daily-average discharge temperature change >=7% over 48 h; Vibration increase: vibration >20% above installation baseline; High motor loading: motor amps >=90% nameplate at 60 Hz; Loading change: motor loading changes >25% over time; Specific-energy deterioration: source specific-energy/lift metric differs >15% from as-installed; Worn versus plugged head curve: head curve lower over operating range",
+    "approach": "Implement source-qualified candidate rules with data/frequency gates; retain multiple causes; score evidence completeness; display approved checks and verified operational limits.",
+    "validation_limits": "Membership thresholds not fully reproducible; overlapping pump patterns; experimental percentages not universal limits; no sensitivity/specificity.",
+    "project_use": "Highest-value rule/action source for the requested Copilot, provided ambiguity and measurement dependence are retained."
+  },
+  {
+    "paper_id": "P20",
+    "what": "Rod pump/tubing failure patterns.",
+    "lead": "One-month examples; evaluation counts alarms within 60 days.14 day/7 day windows are features, not lead.",
+    "signals": "Dynamometer/load/runtime and outcome records.",
+    "thresholds": "ADTree negative score; no transferable physical cutoff.",
+    "approach": "For ESP build fresh features; avoid interpreting random-peek test adaptation as untouched prospective validation.",
+    "validation_limits": "Very small event count; random-peek uses unlabeled test distribution (transductive evaluation); high false alarms; inconsistent counts/metrics; smoothing may erase real events.",
+    "project_use": "Methodological reference; weak direct ESP applicability."
+  },
+  {
+    "paper_id": "P21",
+    "what": "Trend-bearing rod pump/tubing failures; abrupt rod/joint events not reliably forecast.",
+    "lead": "100 day evaluation tolerance is not proven 100 day advance warning; actual failure may precede recorded discovery.",
+    "signals": "Load-card/runtime series and independent event dates.",
+    "thresholds": "100 nonmissing signatures; normal cluster>50% algorithm versus 70% prose; tubing-card shrinkage lambda unspecified.",
+    "approach": "Use source methodology to design cross-well ESP study; audit true onset vs discovery date and report abrupt-event detection separately.",
+    "validation_limits": "100 day matching tolerance; alerts within 15 days of downtime filtered; different fields vary markedly; prose incorrectly labels false positive as false negative; normal-cluster cutoff 70% prose versus 50% algorithm.",
+    "project_use": "Useful global-model and evaluation lessons; not an ESP diagnostic source."
+  },
+  {
+    "paper_id": "P22",
+    "what": "Off-envelope operation and impending trip risk; no RUL prediction.",
+    "lead": "Not quantified.",
+    "signals": "Telemetry plus curves/nameplates/fluid data.",
+    "thresholds": "Local curve limits and nameplates; 60→80% loading is an example, not alarm threshold.",
+    "approach": "Start with electrical/rating dashboard, add pressure-based duty for instrumented wells, display uncertainty for sensor-lost wells.",
+    "validation_limits": "Rate/head inference requires density and calibration; claimed benefits lack control cohort.",
+    "project_use": "Strong blueprint for practical surveillance and sensor-availability tiers."
+  },
+  {
+    "paper_id": "P23",
+    "what": "Present mechanical/sensor fault class; future failure not validated.",
+    "lead": "Not reported.",
+    "signals": "Raw accelerometers and speed.",
+    "thresholds": "No physical alarm cutoffs; spectral roll off.85 is feature definition.",
+    "approach": "Confirm waveform availability; first run simple spectral/baseline classifiers; split by physical unit/test run before investing in deep fusion.",
+    "validation_limits": "Labwater data; random record split may share machine/test run signatures; no held-out field run validation or predictive lead; high training cost.",
+    "project_use": "Useful mechanical fault ontology; low immediate fit without waveform sensors."
+  },
+  {
+    "paper_id": "P24",
+    "what": "Electrical preworkover state.",
+    "lead": "≤7 day label; point recall 60% does not equal 60% event recall or guaranteed 7 day warning.",
+    "signals": "Eight synchronized signals, causal moving differences, independent failure/workover records.",
+    "thresholds": "1.5 IQR is cleaning threshold, not fault limit; no physical operating cutoff.",
+    "approach": "Preserve genuine extremes; fit transforms on training only; chronological ESP-run holdout; report event recall, alarm duration, lead and false alerts.",
+    "validation_limits": "70/30 versus 70/15/15 split descriptions; random folds not well/run chronological validation; full-data PCA/scaling language risks leakage; tables contain impossible descriptive ordering(mean/std versus max); standardization text says variance rather than SD.",
+    "project_use": "Good reproducible baseline candidate and polymer mechanism, with validation caveats."
+  },
+  {
+    "paper_id": "P25",
+    "what": "Gas mass flow soft sensor, not future failure.",
+    "lead": "None established.",
+    "signals": "Total flow and developed head preferred; optional raw vibration/torque.",
+    "thresholds": "Source introduction says gas-oil ratio should not exceed 10%; definition/dimensions ambiguous and pump-specific—do not use as universal gas fraction trip.",
+    "approach": "Calibrate against multiphase measurements and physical head calculation across local speed/fluid domain; reject extrapolation and negative unphysical outputs.",
+    "validation_limits": "Narrow test domain; no offshore validation, failure outcomes or RUL; head/elevation is not simply well depth. Some estimates negative at zero gas.",
+    "project_use": "Useful virtual-sensor research direction, limited immediate use with sparse tests/lost sensors."
+  },
+  {
+    "paper_id": "P26",
+    "what": "Pressure trajectory hypothesis, not established failure/RUL.",
+    "lead": "Not reported.",
+    "signals": "Pressure, current, speed, temperature, vibration histories.",
+    "thresholds": "30–70 Hz stated as typical range, 52 Hz case; neither is universal operating limit. No validated alarm threshold.",
+    "approach": "Use only as low-priority concept; define physical target and causal validation before LSTM development.",
+    "validation_limits": "Assumes build-up failure mechanism; instantaneous failures acknowledged; no non-Newtonian rheology validation or quantified predictive evidence; table lacks units.",
+    "project_use": "Limited practical evidence; useful primarily as an example of prediction claims needing stronger validation."
+  },
+  {
+    "paper_id": "P27",
+    "what": "Some developing faults; abrupt failures may only be detected.",
+    "lead": "Unquantified; 20 events before recorded failure.",
+    "signals": "13 synchronized channels with mode/quality metadata.",
+    "thresholds": "Maximum training distance, not physical safety limit.",
+    "approach": "Use high-frequency Avalon data and regime-specific baselines; compare PCA residual/SPE and T² with sphere; test independent runs and record false alerts per operating hour.",
+    "validation_limits": "Normal/failure sampling resolution differs; only 70% variance retained; 20 min samples miss fast dynamics; same wells contribute healthy/failure periods; small selected normal set.",
+    "project_use": "Useful realistic evidence on anomaly-monitor limits and missed failures."
+  },
+  {
+    "paper_id": "P28",
+    "what": "Deteriorating multivariate behavior, especially electrical cases; no validated RUL.",
+    "lead": "Well A drift April 2018, failure June 2018(~2 months), source says 3 months; Well B failure-region May 2016 precedes March 2017 sensor issue 10 months and August 2017 terminal failure; not transferable forecast horizon.",
+    "signals": "Frequency-specific telemetry and quality/electrical integrity records.",
+    "thresholds": "Tree.5; source typical undervoltage 20% off nameplate requires actual OEM/site settings. No universal PCA radius.",
+    "approach": "Keep sensor loss separate from physical fault; retain mode-specific baseline; independently test surface-only model and alert-to-confirmed-fault timing.",
+    "validation_limits": "Small cases; automatic real-time deployment future work; tree labels/sample independence unspecified; months-long retrospective drift can reflect onset/discovery ambiguity.",
+    "project_use": "Highly relevant to lost-downhole-sensor scenario, with strong caution against treating missing data as healthy."
+  },
+  {
+    "paper_id": "P29",
+    "what": "Recurring risk/exposure and duty mismatch, not individual failure time.",
+    "lead": "Not quantified.",
+    "signals": "Telemetry plus design and forensic records.",
+    "thresholds": "No universal numerical warning. Biweekly data review and quarterly optimization are source practices.",
+    "approach": "Create ESP-run/DIFA taxonomy linking initiating cause, mechanism, failed part and corrective action; verify effectiveness on subsequent runs.",
+    "validation_limits": "Small field, concurrent interventions, ambiguous improvement percentages/economic units.",
+    "project_use": "Foundational reliability knowledge for the Copilot and future outcome labels."
+  },
+  {
+    "paper_id": "P30",
+    "what": "Stress-pattern detection before possible damage; existing fault diagnosis.",
+    "lead": "10/57 events≥1 h before engineer report; stress-to-failure time not calibrated.",
+    "signals": "Eight core inputs with quality/reference context.",
+    "thresholds": "~75% event probability; trend threshold examples~40% strong change,~5% wear; sensor-resolution-specific noise limits.",
+    "approach": "Implement explainable candidate logic first; calibrate priors locally, abstain on missing critical evidence; measure alarm workload and confirmed outcomes.",
+    "validation_limits": "Reference tuning after frequency change;~5% unusual wells require tuning; incomplete sensors+unusual conditions degrade accuracy; 57 event selection does not prove universal 100% recall.",
+    "project_use": "Excellent probabilistic-copilot architecture, with explicit limits important for sensor-lost wells."
+  },
+  {
+    "paper_id": "P31",
+    "what": "Present operational class and integrity/performance fault; no validated RUL.",
+    "lead": "No quantified advance warning; 24 h card is lookback.",
+    "signals": "Current plus engineered WHP response and physical model.",
+    "thresholds": "Pressure ratio 0.78/1.5, current ratio 1; learning rate.4 is model setting, not field alarm.",
+    "approach": "Use production-current mismatch as screening; retain multiple causes; implement pressure interpretation only for approved acquired tests with uncertainty.",
+    "validation_limits": "Synthetic training and validation not fully characterized; current classes overlap; Figure 5 rendering partly corrupted; empirical 0.78/1.5/1 cutoffs not universal.",
+    "project_use": "Highly useful sensor-loss diagnostic concept, with additional test/model requirements."
+  },
+  {
+    "paper_id": "P32",
+    "what": "Persistent abnormal operation or earlier recognition of existing failure.",
+    "lead": "Abstract~2 weeks; detailed means 5/40 days. Source explicitly says one event already catastrophic for 14 days before confirmation—do not label all lead as prevention time.",
+    "signals": "Synchronized minute telemetry, actual vibration for residual method, independent onset/confirmation dates.",
+    "thresholds": "PCA nominal tail.0027; residual.01;>12/>195 minutes daily and 2 days persistence. These statistical assumptions are not valid fleet guarantees under autocorrelation.",
+    "approach": "Tune causal alarm persistence by fault urgency; preserve fast protective systems; count missing minutes separately; validate on healthy and failed runs.",
+    "validation_limits": "Six failed wells only; parameter selection retrospective; no fleet rate denominator; two-day persistence delays fast faults; real-power proxy I×V omits three-phase power factor/efficiency.",
+    "project_use": "Useful alarm aggregation and data-quality lessons; reported warning needs onset audit."
+  },
+  {
+    "paper_id": "P33",
+    "what": "Current fault diagnosis/ranking; early recognition of some progressing conditions.",
+    "lead": "Not established as a transferable forecast horizon.30–60 min general assertion is not evidence for all ESP failure modes.",
+    "signals": "Surface electrical/pressure/temperature plus reliable rate estimates and metadata.",
+    "thresholds": "Normalized>1 termed overload, cap 1.5; normal-reference exceedance is not equipment-rated overload. Partial associations/exclusions retained for audit, not approved rules.",
+    "approach": "Start with curated symptoms and soft candidate ranking, not full architecture; keep alternatives, unknown state and evidence provenance; validate independent wells and calibrated confidence.",
+    "validation_limits": "Restricted private data/graph; hard exclusions physically overbroad; random event split not external-field validation; equation 8 accuracy omits TN and F1 derivation inconsistent; confidence scores from two models may be incomparable; exact 50-label taxonomy not cleanly enumerated.",
+    "project_use": "Strong conceptual fit for sensor-lost offshore wells; rules need substantial engineering review."
+  },
+  {
+    "paper_id": "P34",
+    "what": "Exploratory lifetime association and final-period failure classification.",
+    "lead": "Not quantified; source explicitly describes some predictions as failure happening.",
+    "signals": "Current-defined periods, independent event labels and operating context.",
+    "thresholds": "Tree cutoffs are fitted retrospective partitions, not control settings.",
+    "approach": "Use past-only rolling exposure; retain censored runs and competing shutdown reasons; assess survival models with independent future runs.",
+    "validation_limits": "Completed-run summaries leak future information if used as prospective predictors; only 29/42 failure cases; correlated features; no reliable external validation or forecast lead.",
+    "project_use": "Useful time segmentation and leakage lesson; thermal SAGD limits offshore transfer."
+  },
+  {
+    "paper_id": "P35",
+    "what": "Operational state according to retrospective rules; superiority in future failure prediction not established.",
+    "lead": "No validated forecast horizon; 2–4 h/1 h conditions and 4 h plots are not demonstrated advance warning.",
+    "signals": "Eight physical variables plus causal engineered trends and independent outcomes.",
+    "thresholds": "90°C,.02 g delta,−100 psi/min are study-specific and internally inconsistent with distribution; not approved ESP limits.",
+    "approach": "Benchmark direct rules against trees using independent DIFA/trip labels; fit preprocessing within training folds; grouped chronological holdout and event-level alarms; preserve genuine anomalies.",
+    "validation_limits": "One well, selected anomalous window; labels depend on same signals as features; no independent event-level prospective validation; chronological versus stratified K-fold descriptions conflict; preprocessing/SMOTE placement unclear; outlier removal may discard true faults; claimed 5 PC variance 90/95/97% inconsistent.",
+    "project_use": "Feature-engineering reference; evidence contradictions limit confidence in quantitative claims."
+  },
+  {
+    "paper_id": "P36",
+    "what": "Abnormal behavior preceding some interruptions; not RUL or unique cause.",
+    "lead": "One 12 day case; no guaranteed horizon.",
+    "signals": "Seven process variables plus quality/event records.",
+    "thresholds": "~80% versus<40% anomaly-score examples; final operating cutoff undisclosed.",
+    "approach": "Pilot in advisory mode with cohort-specific baseline and prospective event/alert audit; compare simple PCA/tree baselines before deep model.",
+    "validation_limits": "Manual training-data curation; repeated tuning on same history; missing cause specificity; limited reproducibility; related publications reuse pilot evidence.",
+    "project_use": "Useful advisory surveillance architecture; limited quantitative evidence."
+  },
+  {
+    "paper_id": "P37",
+    "what": "Abnormal behavior preceding some interruptions; not RUL or unique cause.",
+    "lead": "One 12 day case; no guaranteed horizon.",
+    "signals": "Seven process variables plus quality/event records.",
+    "thresholds": "~80% versus<40% anomaly-score examples; final operating cutoff undisclosed.",
+    "approach": "Pilot in advisory mode with cohort-specific baseline and prospective event/alert audit; compare simple PCA/tree baselines before deep model.",
+    "validation_limits": "Manual training-data curation; repeated tuning on same history; missing cause specificity; limited reproducibility; related publications reuse pilot evidence.",
+    "project_use": "Useful advisory surveillance architecture; limited quantitative evidence."
+  }
+]

@@ -1,0 +1,1021 @@
+ESP research knowledge: P02
+
+Title: AI-Based ESP Optimal Control Solution to Optimize Oil Flow Across Multiple Wells
+
+Authors: Dmitry Krikunov; Semen Kosyachenko; Dmitry Lukovkin; Alexander Kunchinin; Roman Tolmachev; Roman Chebotarev
+
+Year: 2019
+
+Publication: SPE Gas & Oil Technology Showcase and Conference, Dubai, 21–23 October; SPE-198673-MS
+
+DOI: Not printed; SPE-198673-MS is the paper identifier
+
+Related study group: None assigned
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P02-F01
+Type: Failures
+
+Failure or condition: Well drying / excessive drawdown
+
+Category: Reservoir
+
+Symptoms: Low intake pressure after speed increase
+
+Root causes: Withdrawal exceeds sustainable inflow
+
+Consequences: Shutdown / curtailed production
+
+Field indicators: Intake pressure response over days
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 5, 7–8
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-F02
+Type: Failures
+
+Failure or condition: Motor overheating / overload
+
+Category: Motor
+
+Symptoms: High temperature/current
+
+Root causes: Unsuitable speed/loading
+
+Consequences: Trip or damage risk
+
+Field indicators: Motor temperature/current
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 5, 8
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-F03
+Type: Failures
+
+Failure or condition: Insulation deterioration
+
+Category: Cable
+
+Symptoms: Low isolation resistance
+
+Root causes: Underlying failure mechanism not diagnosed
+
+Consequences: Electrical failure risk
+
+Field indicators: Insulation resistance
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 5
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-F04
+Type: Failures
+
+Failure or condition: High tubing/backpressure constraint
+
+Category: Surface Network
+
+Symptoms: Pressure exceeds operating constraint
+
+Root causes: Network or operating setting
+
+Consequences: Reduced safe capacity
+
+Field indicators: Tubing/manifold pressure
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 5, 9
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-F05
+Type: Failures
+
+Failure or condition: Sensor/data-state mismatch
+
+Category: Sensor
+
+Symptoms: Nonzero reported production with pump recorded off
+
+Root causes: State recording/metering mismatch in studied data
+
+Consequences: Biased daily rate and wrong recommendations
+
+Field indicators: Run-state versus rate consistency
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 4–5
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-D01
+Type: Rules
+
+Rule name: Eligibility
+
+Source status: candidate_requires_local_validation
+
+IF: All critical variables available at required frequency
+
+AND: Historical behavior passes stability test
+
+THEN: Allow recommendation generation
+
+Engineering explanation: Unstable or incomplete wells excluded; numerical stability tolerance undisclosed
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Unstable or incomplete wells excluded; numerical stability tolerance undisclosed
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3, 9
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-D02
+Type: Rules
+
+Rule name: Intake margin
+
+Source status: candidate_requires_local_validation
+
+IF: Predicted intake pressure > 30.4×10^4 kg/m²
+
+AND: Use source error bound 2.4×10^4 at 99% confidence
+
+THEN: Meets source lower limit 28×10^4 with modeled confidence
+
+Engineering explanation: Table 2 prints >28 kg/m²; prose differs by 10^4. Pressure-force unit convention also needs resolution.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Table 2 prints >28 kg/m²; prose differs by 10^4. Pressure-force unit convention also needs resolution.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 5, 7
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-D03
+Type: Rules
+
+Rule name: Constraint optimizer
+
+Source status: candidate_requires_local_validation
+
+IF: Predicted temperature <110°C, insulation >8000 ohm, tubing pressure <40×10^4 kg/m² and current <200 A
+
+AND: All error-adjusted constraints plus intake limit pass
+
+THEN: Select greatest eligible frequency in 40–60 Hz at 1-Hz steps
+
+Engineering explanation: Field-specific constraints, not universal ESP ratings
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Field-specific constraints, not universal ESP ratings
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 5, 7
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-D04
+Type: Rules
+
+Rule name: Economic gate
+
+Source status: candidate_requires_local_validation
+
+IF: Incremental electricity cost exceeds incremental oil revenue
+
+AND: Forecast and prices use consistent volume/water-cut definitions
+
+THEN: Withhold production-increase recommendation
+
+Engineering explanation: Avoid uneconomic speed increases
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Avoid uneconomic speed increases
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 8
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-D05
+Type: Rules
+
+Rule name: Drying/thermal reduction
+
+Source status: candidate_requires_local_validation
+
+IF: Predicted operating limit violated
+
+AND: Lower speed restores acceptable operation
+
+THEN: Recommend frequency reduction
+
+Engineering explanation: May lower immediate oil while protecting continuity
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. May lower immediate oil while protecting continuity
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 8
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-D06
+Type: Rules
+
+Rule name: Intermittent operation
+
+Source status: candidate_requires_local_validation
+
+IF: Well uses fixed 50-Hz intermittent mode
+
+AND: Duty-cycle change remains feasible
+
+THEN: Optimize operating and idle durations
+
+Engineering explanation: Control variable is duty cycle rather than frequency
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Control variable is duty cycle rather than frequency
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 8
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-D07
+Type: Rules
+
+Rule name: Bad data
+
+Source status: candidate_requires_local_validation
+
+IF: Measured/model values disagree beyond source tolerance
+
+AND: Reliable correction model exists
+
+THEN: Replace suspect historical value for analysis; otherwise exclude interval
+
+Engineering explanation: Preserve raw measurements and quality flag in deployment (proposed safeguard)
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Preserve raw measurements and quality flag in deployment (proposed safeguard)
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p. 4
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-I01
+Type: Indicators
+
+Indicator: Predicted CIP margin
+
+Physical meaning: Safety margin after a proposed control change
+
+Required parameters: PIP, temperature, insulation resistance, current, tubing pressure
+
+Typical trend: Margin shrinks including prediction error
+
+Lead time qualification: Temperature response 2–3 h; PIP settles 5–10 d; these are response times, not failure lead times
+
+Relevant channels: ESP Current; Frequency; Intake Pressure; Temperature; Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp. 5–7
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-I02
+Type: Indicators
+
+Indicator: Marginal production economics
+
+Physical meaning: Incremental oil value relative to energy cost
+
+Required parameters: Oil rate, water cut, power, prices
+
+Typical trend: Energy cost exceeds incremental value
+
+Lead time qualification: Not a failure predictor
+
+Relevant channels: Oil Rate; Water Rate; ESP Current; Voltage; Frequency
+
+Avalon availability: Unknown
+
+PDF pages: p. 8
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-A01
+Type: Actions
+
+Condition: Insufficient / unstable data
+
+Immediate actions: Withhold optimization recommendation
+
+Short term actions: Repair timestamps, state and metering inconsistencies
+
+Long term actions: Develop instability classifier
+
+Prevention: Require completeness and stability gates
+
+Expected benefit: Avoid biased settings
+
+Production impact: No quantified benefit
+
+Attribution: Author workflow pp. 3–5, 9
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-A02
+Type: Actions
+
+Condition: Constrained operating point
+
+Immediate actions: Review predicted constraint and uncertainty
+
+Short term actions: Reduce frequency where needed; obtain geologist review
+
+Long term actions: Reassess well and equipment model
+
+Prevention: Use error margins and re-evaluate after appropriate response interval
+
+Expected benefit: Reduce drying/overheating exposure
+
+Production impact: May reduce immediate rate; total pilot uplift 1.5%
+
+Attribution: pp. 7–9
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-A03
+Type: Actions
+
+Condition: Eligible production increase
+
+Immediate actions: Check all constraints and incremental economics
+
+Short term actions: Apply approved frequency/duty recommendation and monitor
+
+Long term actions: Extend to network-aware optimization
+
+Prevention: Maintain production tests and model quality
+
+Expected benefit: Recover production potential
+
+Production impact: 1.5% mean field increase reported, not guaranteed
+
+Attribution: pp. 8–9
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P02-M01
+Type: AI Models
+
+Model type: Hybrid pump physics plus pooled random forest and per-well linear regression; weighted prediction of increments; constrained grid search
+
+Inputs: Current state, lagged/smoothed state, historical changes, proposed frequency change, static/pump data and economic data
+
+Outputs: Post-change critical parameters, production response and recommended frequency/duty
+
+Reported performance: One-sided intake-pressure prediction error ≤2.4×10^4 kg/m² for 99% of source cases; no full-model accuracy statistic. Production uplift 1.5% is not accuracy.
+
+Advantages: Increment prediction reduces slowly varying reservoir measurement bias; pooled model supports sparse individual histories; uncertainty included.
+
+Limitations: Stable wells only; blending confidence algorithm undisclosed; network interference and equivalent injection unresolved; geologist approves settings; sample-count/pressure-unit discrepancies.
+
+Data feasibility: Avalon alone: no. Combined three user sources: partial; need static equipment/fluid metadata, valid downhole CIPs, insulation, energy/prices and reservoir context. Injection response not solved.
+
+Complexity: High
+
+Prediction target: Response to control changes and constraint crossing; not validated remaining life.
+
+Lead time qualification: Motor response 2–3 hours and intake response 5–10 days; no failure horizon.
+
+Signals: State, history, CIPs, production, pump model and metadata.
+
+Source thresholds: Field-specific values and unit discrepancy in Section 6.
+
+Implementation proposal: First implement data-quality and stability gates, then shadow-test recommendations with uncertainty and human approval; use tests to verify incremental oil.
+
+Recommended future model: Hybrid response-to-frequency model; duty-cycle optimizer; later network and producer–injector optimization.
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0021
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Recommend ESP frequency or intermittent duty settings using hybrid physics/ML response predictions and operating constraints.
+
+Engineering context: Manual settings can leave production potential unused or exceed drawdown, thermal, current and insulation constraints.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0022
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Well drying / excessive drawdown; Motor overheating / overload; Insulation deterioration; High tubing/backpressure constraint; Sensor/data-state mismatch
+
+Engineering context: Stable well with available operating history, production and controllable frequency; risk if predicted CIP margins deteriorate (pp. 3–8).
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0023
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Current state, lagged/smoothed state, historical changes, proposed frequency change, static/pump data and economic data
+
+Engineering context: Table 1 p. 3: first ten at one minute, state at five minutes, flowing level hourly, density/water cut/production daily, static/rated/reservoir data half-yearly or less frequently. Insulation/PIP in critical constraints. Historical data older than 1.5 years gave little added benefit.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0024
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Avalon alone: no. Combined three user sources: partial; need static equipment/fluid metadata, valid downhole CIPs, insulation, energy/prices and reservoir context. Injection response not solved.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0025
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Eligibility: Allow recommendation generation; Intake margin: Meets source lower limit 28×10^4 with modeled confidence; Constraint optimizer: Select greatest eligible frequency in 40–60 Hz at 1-Hz steps
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0026
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Motor response 2–3 hours and intake response 5–10 days; no failure horizon.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0027
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: One-sided intake-pressure prediction error ≤2.4×10^4 kg/m² for 99% of source cases; no full-model accuracy statistic. Production uplift 1.5% is not accuracy.
+
+Engineering context: Stable wells only; blending confidence algorithm undisclosed; network interference and equivalent injection unresolved; geologist approves settings; sample-count/pressure-unit discrepancies.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0028
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Field-specific values and unit discrepancy in Section 6.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0029
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Data reconciliation, response-time windows, constrained optimization, economics and approval requirements.
+
+Engineering context: Low-intake/overheat constraint review; incomplete-data suppression.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0030
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Hybrid response-to-frequency model; duty-cycle optimizer; later network and producer–injector optimization.
+
+Engineering context: First implement data-quality and stability gates, then shadow-test recommendations with uncertainty and human approval; use tests to verify incremental oil.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0031
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Stable well with available operating history, production and controllable frequency; risk if predicted CIP margins deteriorate (pp. 3–8).
+
+Engineering context: Manual settings can leave production potential unused or exceed drawdown, thermal, current and insulation constraints.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0032
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Withhold optimization recommendation
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0033
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Post-change critical parameters, production response and recommended frequency/duty; an output must be interpreted within the reported validation.
+
+Engineering context: Stable wells only; blending confidence algorithm undisclosed; network interference and equivalent injection unresolved; geologist approves settings; sample-count/pressure-unit discrepancies.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0034
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Motor response 2–3 hours and intake response 5–10 days; no failure horizon.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0035
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Current state, lagged/smoothed state, historical changes, proposed frequency change, static/pump data and economic data
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0036
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Avalon alone: no. Combined three user sources: partial; need static equipment/fluid metadata, valid downhole CIPs, insulation, energy/prices and reservoir context. Injection response not solved.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0037
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Repair timestamps, state and metering inconsistencies
+
+Engineering context: Author workflow pp. 3–5, 9
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0038
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Field-specific values and unit discrepancy in Section 6.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0039
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Reported mean production increase 1.5% after deployment; no transferable per-well gain. Abstract reports 500 wells/6 months, pilot description 480 producers plus 220 injectors (pp. 1–2, 9).
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0040
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Low-intake/overheat constraint review; incomplete-data suppression.
+
+Source report: reports/P02.md
+
+Review status: Pending
+
+Source caveats: Printed true-rate correction Eq. 5 multiplies by 24/on-hours; this appears inconsistent with converting on-time rate to calendar daily volume. Do not implement without resolving rate definitions. Eq. 8 also simplifies random error as twice a term; use proper differencing/noise propagation.
+
+Source report: reports/P02.md. PDF page references refer to the original paper, not this text file.

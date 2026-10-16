@@ -1,0 +1,1649 @@
+ESP research knowledge: P14
+
+Title: Dual-Level Electric Submersible Pump (ESP) Failure Classification: A Novel Comprehensive Classification Bridging Failure Modes and Root Cause Analysis
+
+Authors: Mostafa A. Sobhy; Gehad M. Hegazy; Ahmed H. El-Banbi
+
+Year: 2025
+
+Publication: Energies 18, 3943; published 24 July 2025
+
+DOI: 10.3390/en18153943
+
+Related study group: G03
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P14-F01
+Type: Failures
+
+Failure or condition: Motor short circuit / burnout
+
+Category: Motor
+
+Symptoms: Shutdown, thermal/electrical distress
+
+Root causes: Insulation breakdown, heat, fluid ingress, overcurrent or harmonics
+
+Consequences: Loss of lift/workover
+
+Field indicators: Three-phase current, temperature, electrical tests
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F02
+Type: Failures
+
+Failure or condition: Round/flat cable, splice, MLE or penetrator short / grounding fault
+
+Category: Cable
+
+Symptoms: Electrical shutdown; possible insulation deterioration
+
+Root causes: Thermal/chemical/handling damage, poor splice/grounding or water ingress
+
+Consequences: Power loss and replacement
+
+Field indicators: Insulation/ground testing; current/voltage and DIFA
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F03
+Type: Failures
+
+Failure or condition: Control system / VSD / SWB / PLC / fuse failure
+
+Category: VSD
+
+Symptoms: Erratic control or shutdown
+
+Root causes: Controller faults, programming, fuse or electrical issues
+
+Consequences: Interrupted production
+
+Field indicators: Controller/event diagnostics
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F04
+Type: Failures
+
+Failure or condition: Sensor malfunction / communication interference
+
+Category: Sensor
+
+Symptoms: Erratic, missing or unreliable measurement/control
+
+Root causes: Sensor failure, electrical noise; scale cited as contributor
+
+Consequences: Misdiagnosis or control problems
+
+Field indicators: Quality/consistency and reference checks
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F05
+Type: Failures
+
+Failure or condition: Phase imbalance / harmonics / phase loss / voltage excursions
+
+Category: Motor
+
+Symptoms: Unbalanced or unstable electrical operation
+
+Root causes: Supply/VSD disturbances
+
+Consequences: Heat, insulation stress or stall
+
+Field indicators: Three-phase current/voltage, waveform/power-quality data
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F06
+Type: Failures
+
+Failure or condition: Shaft broken, bent or fatigued
+
+Category: Pump
+
+Symptoms: Loss of transmitted drive / abnormal vibration
+
+Root causes: Fatigue, corrosion, misalignment, overload or restart during backspin
+
+Consequences: Loss of pumping
+
+Field indicators: Vibration/current/hydraulic evidence and teardown
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F07
+Type: Failures
+
+Failure or condition: Thrust bearing wear/seizure; upthrust/downthrust
+
+Category: Pump
+
+Symptoms: Rotational impairment
+
+Root causes: Poor lubrication, wear, corrosion, off-design thrust
+
+Consequences: Mechanical breakdown
+
+Field indicators: Duty point, vibration and DIFA
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F08
+Type: Failures
+
+Failure or condition: Protector/seal failure / motor fluid contamination
+
+Category: Motor
+
+Symptoms: Integrity loss, secondary electrical failure
+
+Root causes: Pressure/thermal stress, incompatible fluids, water ingress
+
+Consequences: Motor damage
+
+Field indicators: Fluid/DIFA and thermal evidence
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F09
+Type: Failures
+
+Failure or condition: Pump stuck/seized
+
+Category: Pump
+
+Symptoms: Locked rotation or failed lift
+
+Root causes: Solids, scale, foreign object or mechanical jam
+
+Consequences: Shutdown
+
+Field indicators: Load/trip data and teardown
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F10
+Type: Failures
+
+Failure or condition: Impeller/diffuser erosion or wear; wear-ring damage
+
+Category: Pump
+
+Symptoms: Reduced efficiency/head; internal leakage
+
+Root causes: Sand/proppant abrasion and aging
+
+Consequences: Declining production
+
+Field indicators: Rate/head under comparable duty; solids evidence
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F11
+Type: Failures
+
+Failure or condition: Coupling failure
+
+Category: Pump
+
+Symptoms: Loss of power transmission
+
+Root causes: Torque overload or misalignment
+
+Consequences: Stopped lift
+
+Field indicators: Mechanical inspection
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F12
+Type: Failures
+
+Failure or condition: Cavitation
+
+Category: Pump
+
+Symptoms: Pitting and rapid impeller wear
+
+Root causes: Local pressure below liquid vapor pressure
+
+Consequences: Mechanical erosion
+
+Field indicators: Pressure/fluid state, vibration and DIFA
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F13
+Type: Failures
+
+Failure or condition: Gas lock / interference
+
+Category: Pump
+
+Symptoms: Low current and reduced/no fluid lift
+
+Root causes: Excess free gas; low intake liquid
+
+Consequences: Unstable flow/shutdown
+
+Field indicators: Current, gas/liquid rates and intake conditions
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F14
+Type: Failures
+
+Failure or condition: Rapid gas decompression damage
+
+Category: Cable
+
+Symptoms: Sudden integrity/mechanical damage
+
+Root causes: Rapid pressure release
+
+Consequences: Cable/component failure
+
+Field indicators: Pressure transient and inspection evidence
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F15
+Type: Failures
+
+Failure or condition: Flow instability / slugging / low-flow condition
+
+Category: Pump
+
+Symptoms: Variable or falling production
+
+Root causes: Fluid transients, inflow limitations or multiple mechanical/hydraulic causes
+
+Consequences: Unstable output
+
+Field indicators: Rate, pressure and current together
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F16
+Type: Failures
+
+Failure or condition: Scale / plugging
+
+Category: Pump
+
+Symptoms: Restricted flow, rising heat or secondary load damage
+
+Root causes: Mineral precipitation; Ca CO3, Ba SO4, iron sulfide mentioned
+
+Consequences: Efficiency loss, seizure or secondary failure
+
+Field indicators: Chemistry, deposits, hydraulic trend
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F17
+Type: Failures
+
+Failure or condition: Corrosion / SSC / hydrogen embrittlement / MIC
+
+Category: Pump
+
+Symptoms: Pits, cracks, seal/shaft/tubing damage
+
+Root causes: CO2/H2 S/water/oxygen chemistry or sulfate-reducing bacteria
+
+Consequences: Integrity loss
+
+Field indicators: Fluid chemistry, material condition and DIFA
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F18
+Type: Failures
+
+Failure or condition: Wax / asphaltene / emulsion blockage
+
+Category: Pump
+
+Symptoms: Restricted flow or impeller clogging
+
+Root causes: Precipitation or incompatible fluid behavior
+
+Consequences: Production decline
+
+Field indicators: Fluid/property and deposit evidence
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F19
+Type: Failures
+
+Failure or condition: Chemical incompatibility / elastomer degradation
+
+Category: Motor
+
+Symptoms: Swelling/seal degradation; fluid ingress
+
+Root causes: Injected chemicals or fluid chemistry incompatible with materials
+
+Consequences: Integrity/thermal/electrical failure
+
+Field indicators: Compatibility tests, treatment history and DIFA
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F20
+Type: Failures
+
+Failure or condition: Chemical-injection line plugging
+
+Category: Injection
+
+Symptoms: Injection restriction; no pressure/rate rule supplied
+
+Root causes: Chemical incompatibility/deposition
+
+Consequences: Treatment delivery failure
+
+Field indicators: Chemical injection history/line integrity
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F21
+Type: Failures
+
+Failure or condition: High pressure / extreme temperature damage
+
+Category: Motor
+
+Symptoms: Seal/lubricant/insulation deterioration
+
+Root causes: Exposure beyond equipment capability
+
+Consequences: Reduced life and shutdown
+
+Field indicators: Temperature/pressure versus component ratings
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F22
+Type: Failures
+
+Failure or condition: Incorrect operating speed / setpoints
+
+Category: VSD
+
+Symptoms: Off-range or inefficient operation
+
+Root causes: Operation/configuration mismatch
+
+Consequences: Stress and premature damage
+
+Field indicators: Frequency, duty point and setpoint audit
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F23
+Type: Failures
+
+Failure or condition: Repeated startup/shutdown wear
+
+Category: Pump
+
+Symptoms: Frequent cycling
+
+Root causes: Operational or supply instability
+
+Consequences: Mechanical/electrical fatigue
+
+Field indicators: Run-state and event counts
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F24
+Type: Failures
+
+Failure or condition: Tubing/casing leak or mechanical integrity failure
+
+Category: Surface Network
+
+Symptoms: Low delivery / pressure imbalance
+
+Root causes: Corrosion, wear, seal or mechanical damage
+
+Consequences: Loss of delivered production
+
+Field indicators: Pressure/rate and integrity verification
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F25
+Type: Failures
+
+Failure or condition: Loose/sheared fasteners / vibration fatigue
+
+Category: Pump
+
+Symptoms: Vibration, misalignment, component damage
+
+Root causes: Thermal expansion or persistent vibration
+
+Consequences: Assembly/mechanical failure
+
+Field indicators: Vibration and inspection
+
+Confidence level: Low
+
+Confidence basis: Low
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F26
+Type: Failures
+
+Failure or condition: Reservoir depletion / high water cut
+
+Category: Reservoir
+
+Symptoms: Low flow or deteriorating economic oil output
+
+Root causes: Reservoir/production changes; not necessarily equipment failure
+
+Consequences: Oil decline or economic pull
+
+Field indicators: Oil/water/pressure history
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-F27
+Type: Failures
+
+Failure or condition: Manufacturing, installation, handling or design defects
+
+Category: Pump
+
+Symptoms: Early failure; signature varies by component
+
+Root causes: Wrong sizing/material, poor weld/assembly, wiring/misalignment, transport/storage damage
+
+Consequences: Premature failure
+
+Field indicators: Configuration, installation/QA and DIFA records
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 3–4, 11–15, 17–23; taxonomy/background or case evidence, not a validated signal classifier
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-D01
+Type: Rules
+
+Rule name: Mode then cause
+
+Source status: candidate_requires_local_validation
+
+IF: Observed component/function failure established
+
+AND: Operating, installation and DIFA evidence assembled
+
+THEN: Record mode separately from one or more supported causes
+
+Engineering explanation: Motor short is an observed mode, not a sufficient root cause
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Motor short is an observed mode, not a sufficient root cause
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: pp. 4–9
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-D02
+Type: Rules
+
+Rule name: Non-failure exclusion
+
+Source status: candidate_requires_local_validation
+
+IF: Equipment pulled for resizing, stimulation, testing, conversion, economic/strategic change
+
+AND: No demonstrated loss of intended function
+
+THEN: Code non-failure removal separately
+
+Engineering explanation: Prevent failure-label contamination
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Prevent failure-label contamination
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: pp. 10, 23
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-D03
+Type: Rules
+
+Rule name: Unknown cause
+
+Source status: candidate_requires_local_validation
+
+IF: Failure exists
+
+AND: DIFA/RCA incomplete
+
+THEN: Retain unknown root cause
+
+Engineering explanation: Do not fabricate certainty from common field frequencies
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Do not fabricate certainty from common field frequencies
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: High
+
+Confidence basis: High
+
+PDF pages: pp. 10–12
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-D04
+Type: Rules
+
+Rule name: Motor short investigation
+
+Source status: candidate_requires_local_validation
+
+IF: Motor short confirmed
+
+AND: Heat, splice/grounding, deposits or fluid ingress possible
+
+THEN: Investigate multiple pathways
+
+Engineering explanation: Weak overall statistical association prevents deterministic mode→cause mapping
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Weak overall statistical association prevents deterministic mode→cause mapping
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 10, 12–13
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-D05
+Type: Rules
+
+Rule name: Low-flow differential
+
+Source status: candidate_requires_local_validation
+
+IF: Low flow recurs with pressure/current changes
+
+AND: Leak not independently verified
+
+THEN: Investigate composite hydraulic/electrical/environmental causes
+
+Engineering explanation: Cobra-08 example is a retrospective what-could-have-changed analysis
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Cobra-08 example is a retrospective what-could-have-changed analysis
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 13–14
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-D06
+Type: Rules
+
+Rule name: Chemical incompatibility
+
+Source status: candidate_requires_local_validation
+
+IF: New deposits/emulsions/seal damage follows treatment or fluid change
+
+AND: Chemical/material evidence supports relation
+
+THEN: Review compatibility and treatment delivery
+
+Engineering explanation: Dose/treatment selection require specific chemistry
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Dose/treatment selection require specific chemistry
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: pp. 14, 22
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-I01
+Type: Indicators
+
+Indicator: Electrical/thermal deterioration
+
+Physical meaning: Stress that can precede insulation damage
+
+Required parameters: Phase currents/voltages, temperature, electrical tests
+
+Typical trend: Heat/imbalance increases; insulation may deteriorate
+
+Lead time qualification: Not quantified
+
+Relevant channels: ESP Current; Voltage; Frequency; Temperature
+
+Avalon availability: Unknown
+
+PDF pages: pp. 12, 17–18
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-I02
+Type: Indicators
+
+Indicator: Low flow with mixed hydraulic/electrical evidence
+
+Physical meaning: Multiple plausible causes rather than a default tubing-leak diagnosis
+
+Required parameters: DHP, WHFP, current, production
+
+Typical trend: Cobra-08 DHP ~1000→1500 psi, WHFP ~80 psi, current declining
+
+Lead time qualification: Retrospective case; no prospective lead time
+
+Relevant channels: ESP Current; Intake Pressure; Discharge Pressure; Oil Rate; Water Rate; Wellhead Pressure
+
+Avalon availability: Unknown
+
+PDF pages: pp. 13–14; DHP location not fully specified
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-I03
+Type: Indicators
+
+Indicator: Chemical/deposit exposure
+
+Physical meaning: Fluid/material incompatibility or precipitation potential
+
+Required parameters: Chemistry, treatment and deposit evidence
+
+Typical trend: Scale, corrosion, emulsions or biofilm develops
+
+Lead time qualification: Not quantified
+
+Relevant channels: Rates/pressures/temperature provide indirect support; chemistry needed
+
+Avalon availability: Unknown
+
+PDF pages: pp. 14, 19–22
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-A01
+Type: Actions
+
+Condition: Motor/cable failures
+
+Immediate actions: Preserve electrical and event evidence
+
+Short term actions: Perform DIFA/RCA and inspect splice/ground/thermal pathways
+
+Long term actions: Improve material, thermal design and installation QA
+
+Prevention: Maintain generator/supply quality and reduce unnecessary cycling
+
+Expected benefit: Reduce recurring failures
+
+Production impact: No controlled quantified gain
+
+Attribution: pp. 12, 15–16
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-A02
+Type: Actions
+
+Condition: Scale / chemical incompatibility
+
+Immediate actions: Verify deposit and chemistry evidence
+
+Short term actions: Review treatment delivery and compatibility; specialist selects mitigation
+
+Long term actions: Improve sampling, chemical management and appropriate materials
+
+Prevention: Source lists inhibition, cleaning/acidizing, water-chemistry and flow management
+
+Expected benefit: Reduce flow restriction and secondary damage
+
+Production impact: Claims >40% treatment reduction and 20% chemical failures lack a clearly supported trial here
+
+Attribution: pp. 14, 19–22
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-A03
+Type: Actions
+
+Condition: Incomplete failure records
+
+Immediate actions: Separate symptom, mode, cause and non-failure reason
+
+Short term actions: Expand DIFA beyond warranty cases
+
+Long term actions: Standardize taxonomy and crosswalk
+
+Prevention: Maintain traceable evidence/confidence
+
+Expected benefit: Better reliability analysis and model labels
+
+Production impact: Unquantified
+
+Attribution: pp. 10–12, 23
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P14-M01
+Type: AI Models
+
+Model type: Descriptive failure statistics, chi-square association and Cramér’s V; no trained predictive AI in this article
+
+Inputs: Failure/DIFA records and contextual operational data
+
+Outputs: Two-level taxonomy, frequency rankings, associations and API-code crosswalk proposed by authors
+
+Reported performance: No ML accuracy. Reported chi-square 342, df 324, p=0.2356; grouped Cramér’s V=0.16. This supports weak association, not causal certainty.
+
+Advantages: Useful structured labels and distinction between failures and operational removals.
+
+Limitations: Incomplete RCA, selection/subjective reporting, weak association, counts and category counts not perfectly consistent; counterfactual economics and unsupported discussion percentages.
+
+Data feasibility: Avalon/tests/pressures support evidence but not confirmed root causes; DIFA, workover and installation records essential. Sensor loss does not prevent taxonomy use.
+
+Complexity: Low
+
+Prediction target: No validated forecast; improved labels enable future models.
+
+Lead time qualification: Not reported.
+
+Signals: Failure and DIFA evidence plus matched operating history.
+
+Source thresholds: No validated sensor alarm thresholds; generic thermal-aging statements are not ESP-specific trip settings.
+
+Implementation proposal: Adopt separate symptom/mode/component/cause/evidence-status fields; retain unknowns and non-failure pulls; later train only on adjudicated histories.
+
+Recommended future model: NLP-assisted failure-report labeling; hierarchical mode classifier followed by evidence-based cause ranking; no causal certainty from SHAP/frequencies.
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0261
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Separate observed failure modes from contributing root causes through a two-level IFMRC taxonomy.
+
+Engineering context: Shutdowns, equipment failure, non-failure pulls and causes are mixed in databases, undermining diagnosis and reliability models.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0262
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Motor short circuit / burnout; Round/flat cable, splice, MLE or penetrator short / grounding fault; Control system / VSD / SWB / PLC / fuse failure; Sensor malfunction / communication interference; Phase imbalance / harmonics / phase loss / voltage excursions; Shaft broken, bent or fatigued; Thrust bearing wear/seizure; upthrust/downthrust; Protector/seal failure / motor fluid contamination; Pump stuck/seized; Impeller/diffuser erosion or wear; wear-ring damage; Coupling failure; Cavitation; Gas lock / interference; Rapid gas decompression damage; Flow instability / slugging / low-flow condition; Scale / plugging; Corrosion / SSC / hydrogen embrittlement / MIC; Wax / asphaltene / emulsion blockage; Chemical incompatibility / elastomer degradation; Chemical-injection line plugging; High pressure / extreme temperature damage; Incorrect operating speed / setpoints; Repeated startup/shutdown wear; Tubing/casing leak or mechanical integrity failure; Loose/sheared fasteners / vibration fatigue; Reservoir depletion / high water cut; Manufacturing, installation, handling or design defects
+
+Engineering context: Capture pump-down event, verify whether it is an actual failure, identify failed component/mode, then investigate multiple root causes with operating evidence and DIFA.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0263
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: Failure/DIFA records and contextual operational data
+
+Engineering context: Statistical taxonomy inputs are mainly failure/workover/DIFA records. Signals are diagnostic context, not a fitted predictor set. >4000 installations; 3190 failure/pull records, ~800 non-failure records; 990 incomplete RCA, 2200 complete DIFA. Counts are approximate and inconsistently described elsewhere.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0264
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Avalon/tests/pressures support evidence but not confirmed root causes; DIFA, workover and installation records essential. Sensor loss does not prevent taxonomy use.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0265
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Mode then cause: Record mode separately from one or more supported causes; Non-failure exclusion: Code non-failure removal separately; Unknown cause: Retain unknown root cause
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0266
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Not reported.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0267
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: No ML accuracy. Reported chi-square 342, df 324, p=0.2356; grouped Cramér’s V=0.16. This supports weak association, not causal certainty.
+
+Engineering context: Incomplete RCA, selection/subjective reporting, weak association, counts and category counts not perfectly consistent; counterfactual economics and unsupported discussion percentages.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0268
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: No validated sensor alarm thresholds; generic thermal-aging statements are not ESP-specific trip settings.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0269
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Two-level taxonomy, non-failure events, DIFA requirements, multi-cause relationships and chemical compatibility.
+
+Engineering context: Cause-investigation workflows with alternatives; use author crosswalk as proposed mapping, not authoritative replacement for current standards.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0270
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: NLP-assisted failure-report labeling; hierarchical mode classifier followed by evidence-based cause ranking; no causal certainty from SHAP/frequencies.
+
+Engineering context: Adopt separate symptom/mode/component/cause/evidence-status fields; retain unknowns and non-failure pulls; later train only on adjudicated histories.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0271
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Capture pump-down event, verify whether it is an actual failure, identify failed component/mode, then investigate multiple root causes with operating evidence and DIFA.
+
+Engineering context: Shutdowns, equipment failure, non-failure pulls and causes are mixed in databases, undermining diagnosis and reliability models.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0272
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Preserve electrical and event evidence
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0273
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Two-level taxonomy, frequency rankings, associations and API-code crosswalk proposed by authors; an output must be interpreted within the reported validation.
+
+Engineering context: Incomplete RCA, selection/subjective reporting, weak association, counts and category counts not perfectly consistent; counterfactual economics and unsupported discussion percentages.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0274
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Not reported.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0275
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: Failure/DIFA records and contextual operational data
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0276
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Avalon/tests/pressures support evidence but not confirmed root causes; DIFA, workover and installation records essential. Sensor loss does not prevent taxonomy use.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0277
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Perform DIFA/RCA and inspect splice/ground/thermal pathways
+
+Engineering context: pp. 12, 15–16
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0278
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: No validated sensor alarm thresholds; generic thermal-aging statements are not ESP-specific trip settings.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0279
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: Cobra-08 counterfactual estimates >8000 STB deferment and ~$150 k/workover potentially avoidable; not demonstrated realized savings. Source discusses ~30+ days avoided workover, also hypothetical (pp. 13–14).
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0280
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Cause-investigation workflows with alternatives; use author crosswalk as proposed mapping, not authoritative replacement for current standards.
+
+Source report: reports/P14.md
+
+Review status: Pending
+
+Source caveats: Closely overlaps P12, including Cobra-08. Do not double-count cases. LPUM/LOAM/HIAM mappings in Appendix C are not unique physical diagnoses. Chemical injection is not equivalent to reservoir water-injection surveillance.
+
+Source report: reports/P14.md. PDF page references refer to the original paper, not this text file.

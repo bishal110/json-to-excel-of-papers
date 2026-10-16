@@ -1,0 +1,1097 @@
+ESP research knowledge: P28
+
+Title: Predictive Data Analytics for Effective Electric Submersible Pump Management
+
+Authors: Sanusi Sherif; Omisore Adenike; Eremiokhale Obehi; Adebowale Funso; Blankson Eyituoyo
+
+Year: 2019
+
+Publication: SPE Nigeria Annual International Conference, Lagos, 5–7 August; SPE-198759-MS
+
+DOI: Not printed in supplied paper.
+
+Related study group: None assigned
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Scope: Research-reference knowledge. These records do not describe a live well. Reviewed means content review, not approval to operate equipment. Preserve alternatives, input requirements and source restrictions in answers.
+
+
+---
+Knowledge record: P28-F01
+Type: Failures
+
+Failure or condition: Downthrust wear
+
+Category: Pump
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F02
+Type: Failures
+
+Failure or condition: Upthrust wear
+
+Category: Pump
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F03
+Type: Failures
+
+Failure or condition: Plugged stages
+
+Category: Pump
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F04
+Type: Failures
+
+Failure or condition: Twisted shaft
+
+Category: Pump
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F05
+Type: Failures
+
+Failure or condition: Pump corrosion
+
+Category: Pump
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F06
+Type: Failures
+
+Failure or condition: Motor overload
+
+Category: Motor
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F07
+Type: Failures
+
+Failure or condition: Motor underload
+
+Category: Motor
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F08
+Type: Failures
+
+Failure or condition: Overvoltage
+
+Category: Motor
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F09
+Type: Failures
+
+Failure or condition: Undervoltage
+
+Category: Motor
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F10
+Type: Failures
+
+Failure or condition: Voltage imbalance
+
+Category: Motor
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F11
+Type: Failures
+
+Failure or condition: Cable mechanical damage
+
+Category: Cable
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F12
+Type: Failures
+
+Failure or condition: Cable deterioration
+
+Category: Cable
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F13
+Type: Failures
+
+Failure or condition: Cable excessive current
+
+Category: Cable
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F14
+Type: Failures
+
+Failure or condition: Seal section leak
+
+Category: Pump
+
+Symptoms: Named taxonomy; no unique validated per-mode signature.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F15
+Type: Failures
+
+Failure or condition: Downhole ground fault
+
+Category: Cable
+
+Symptoms: Electrical integrity test positive; may progress to inability to run.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-F16
+Type: Failures
+
+Failure or condition: Frozen/lost downhole sensors
+
+Category: Sensor
+
+Symptoms: Frozen or absent displays.
+
+Root causes: Mechanism indicated by name; field causes require DIFA.
+
+Consequences: Reduced delivery, trips or failure.
+
+Field indicators: Electrical/thermal/hydraulic trends and confirmed integrity/DIFA evidence.
+
+Confidence level: Low
+
+Confidence basis: Medium for field ground-fault cases; Low for taxonomy-only specifics
+
+PDF pages: Fig.3 p.3; pp.9–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-D01
+Type: Rules
+
+Rule name: Mode-specific anomaly
+
+Source status: candidate_requires_local_validation
+
+IF: Cluster drifts outside known stable region
+
+AND: Same operating frequency and valid signals
+
+THEN: Investigate ESP dynamics.
+
+Engineering explanation: Different frequencies naturally form different clusters.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Different frequencies naturally form different clusters.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium
+
+PDF pages: p.12
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-D02
+Type: Rules
+
+Rule name: Ground-fault investigation
+
+Source status: candidate_requires_local_validation
+
+IF: Downhole data freeze/disappear
+
+AND: Electrical integrity test confirms grounded path
+
+THEN: Treat as electrical degradation requiring engineering assessment.
+
+Engineering explanation: Sensor loss alone does not prove cable fault.
+
+Alternative causes: Other source-specific conditions plus operating changes and data errors; no quantified comparative likelihood.
+
+Recommended checks: Verify premises, units, operating state and data freshness. Sensor loss alone does not prove cable fault.
+
+Recommended actions: action: Review condition-specific actions in the paper report; no unique action is automatically assigned.
+
+Confidence level: Medium
+
+Confidence basis: Medium/High with confirmed test
+
+PDF pages: pp.10–11
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Evidence type: source_logic_or_explicitly_identified_analyst_conversion; see explanation
+
+Review status: Pending
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-I01
+Type: Indicators
+
+Indicator: Frequency-specific PCA drift
+
+Physical meaning: Joint behavior changes while speed held comparable.
+
+Required parameters: Standardized multichannel measurements at one operating frequency.
+
+Typical trend: Cluster moves from healthy region.
+
+Lead time qualification: Retrospective months in 3 failed cases; dates inconsistent in Well A; no population lead distribution.
+
+Relevant channels: ESP Current, Frequency, Intake Pressure, Discharge Pressure, Temperature, Vibration
+
+Avalon availability: Unknown
+
+PDF pages: pp.10–12
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-I02
+Type: Indicators
+
+Indicator: Leakage current / sensor loss
+
+Physical meaning: Potential deteriorating ground insulation or communication fault.
+
+Required parameters: Leakage current, downhole availability, electrical integrity test.
+
+Typical trend: Leakage rises or signals freeze/disappear.
+
+Lead time qualification: Cases months between sensor problems and terminal failure; not guaranteed.
+
+Relevant channels: ESP Current (leakage requires separate tag); other signals provide quality evidence
+
+Avalon availability: Unknown
+
+PDF pages: pp.4, 10–11
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-A01
+Type: Actions
+
+Condition: Predicted abnormality
+
+Immediate actions: Verify signal quality, current well status and recent operations.
+
+Short term actions: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Long term actions: Validate on local ESP runs and retain confirmed intervention outcomes.
+
+Prevention: Monitor alert burden, missed events and model drift.
+
+Expected benefit: Earlier inspection and maintenance planning.
+
+Production impact: Not quantified for this project.
+
+Attribution: Engineering implementation proposal; not a source control procedure.
+
+Source status: advisory_requires_condition_confirmation_and_site_procedure
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: P28-M01
+Type: AI Models
+
+Model type: Standardized PCA2 D plus Azure two-class boosted decision tree screenshot.
+
+Inputs: 8 variables abstract versus 10 Dmethod; 3 failed+1 operating case; tree 70/30 split.
+
+Outputs: Normal/failed status and PCA drift.
+
+Reported performance: PCA PC1=78.47%, PC2=9.94%, total 88.41% variance, not accuracy. Screenshot positive class NORMAL: TP441, FN0, FP14, TN56; accuracy.973, precision.969, recall 1, F1.984, AUC.927. Recast failure-positive: TP56, FN14, FP0, TN441 =>failure recall 80%, precision 100% in reported sample.
+
+Advantages: Direct sensor-loss/ground-fault examples and frequency-conditioning lesson.
+
+Limitations: Small cases; automatic real-time deployment future work; tree labels/sample independence unspecified; months-long retrospective drift can reflect onset/discovery ambiguity.
+
+Data feasibility: Full PCA unavailable after downhole loss; build separate surface baseline. Electrical integrity/DIFA/metadata are additional required records.
+
+Complexity: Medium
+
+Prediction target: Deteriorating multivariate behavior, especially electrical cases; no validated RUL.
+
+Lead time qualification: Well A drift April 2018, failure June 2018(~2 months), source says 3 months; Well B failure-region May 2016 precedes March 2017 sensor issue 10 months and August 2017 terminal failure; not transferable forecast horizon.
+
+Signals: Frequency-specific telemetry and quality/electrical integrity records.
+
+Source thresholds: Tree.5; source typical undervoltage 20% off nameplate requires actual OEM/site settings. No universal PCA radius.
+
+Implementation proposal: Keep sensor loss separate from physical fault; retain mode-specific baseline; independently test surface-only model and alert-to-confirmed-fault timing.
+
+Recommended future model: Sensor-availability-aware anomaly models and electrical degradation risk.
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0541
+Type: Q and A
+
+Audience: engineer
+
+Question: What engineering problem does this paper help me solve?
+
+Ideal answer: Use frequency-specific PCA clusters and decision-tree classification to detect ESP deterioration.
+
+Engineering context: Marginal field with>20 installations and 13 failures; electrical faults dominate and simple trends can obscure drift.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0542
+Type: Q and A
+
+Audience: engineer
+
+Question: Which failure mechanisms should I consider?
+
+Ideal answer: Downthrust wear; Upthrust wear; Plugged stages; Twisted shaft; Pump corrosion; Motor overload; Motor underload; Overvoltage; Undervoltage; Voltage imbalance; Cable mechanical damage; Cable deterioration; Cable excessive current; Seal section leak; Downhole ground fault; Frozen/lost downhole sensors
+
+Engineering context: Lost/frozen downhole displays, ground-fault electrical integrity tests, stall trips and same-frequency multivariate drift.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0543
+Type: Q and A
+
+Audience: engineer
+
+Question: Which measurements and metadata are required?
+
+Ideal answer: 8 variables abstract versus 10 Dmethod; 3 failed+1 operating case; tree 70/30 split.
+
+Engineering context: Listed inputs/context are taken from the cited method; Avalon availability requires a tag audit. Static equipment and failure records are additional requirements.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0544
+Type: Q and A
+
+Audience: engineer
+
+Question: Can I use this when downhole sensors have failed?
+
+Ideal answer: Full PCA unavailable after downhole loss; build separate surface baseline. Electrical integrity/DIFA/metadata are additional required records.
+
+Engineering context: Do not substitute a missing measurement with an assumed normal value.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0545
+Type: Q and A
+
+Audience: engineer
+
+Question: What is the strongest diagnostic logic?
+
+Ideal answer: Mode-specific anomaly: Investigate ESP dynamics.; Ground-fault investigation: Treat as electrical degradation requiring engineering assessment.
+
+Engineering context: Detailed premises and source references are in Section 6.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0546
+Type: Q and A
+
+Audience: engineer
+
+Question: How early can the method warn me?
+
+Ideal answer: Well A drift April 2018, failure June 2018(~2 months), source says 3 months; Well B failure-region May 2016 precedes March 2017 sensor issue 10 months and August 2017 terminal failure; not transferable forecast horizon.
+
+Engineering context: Separate lookback window, matching tolerance, forecast horizon and actual observed lead time.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0547
+Type: Q and A
+
+Audience: engineer
+
+Question: How credible is the reported model performance?
+
+Ideal answer: PCA PC1=78.47%, PC2=9.94%, total 88.41% variance, not accuracy. Screenshot positive class NORMAL: TP441, FN0, FP14, TN56; accuracy.973, precision.969, recall 1, F1.984, AUC.927. Recast failure-positive: TP56, FN14, FP0, TN441 =>failure recall 80%, precision 100% in reported sample.
+
+Engineering context: Small cases; automatic real-time deployment future work; tree labels/sample independence unspecified; months-long retrospective drift can reflect onset/discovery ambiguity.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0548
+Type: Q and A
+
+Audience: engineer
+
+Question: What limits or thresholds should I use?
+
+Ideal answer: Tree.5; source typical undervoltage 20% off nameplate requires actual OEM/site settings. No universal PCA radius.
+
+Engineering context: Use source values as study context until local validation and rating checks.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0549
+Type: Q and A
+
+Audience: engineer
+
+Question: How should this enter the Copilot knowledge base?
+
+Ideal answer: Ground-fault/sensor loss cases; failure-positive metric conversion; gas-lift contingency limits.
+
+Engineering context: Mode-conditioned drift plus electrical integrity verification.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0550
+Type: Q and A
+
+Audience: engineer
+
+Question: What model should we pilot next?
+
+Ideal answer: Sensor-availability-aware anomaly models and electrical degradation risk.
+
+Engineering context: Keep sensor loss separate from physical fault; retain mode-specific baseline; independently test surface-only model and alert-to-confirmed-fault timing.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0551
+Type: Q and A
+
+Audience: operator
+
+Question: What should bring this well to my attention?
+
+Ideal answer: Lost/frozen downhole displays, ground-fault electrical integrity tests, stall trips and same-frequency multivariate drift.
+
+Engineering context: Marginal field with>20 installations and 13 failures; electrical faults dominate and simple trends can obscure drift.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0552
+Type: Q and A
+
+Audience: operator
+
+Question: What should I check first?
+
+Ideal answer: Verify signal quality, current well status and recent operations.
+
+Engineering context: Check timestamps, run state and recent planned operations.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0553
+Type: Q and A
+
+Audience: operator
+
+Question: Does an alert prove the pump is failing?
+
+Ideal answer: Normal/failed status and PCA drift.; an output must be interpreted within the reported validation.
+
+Engineering context: Small cases; automatic real-time deployment future work; tree labels/sample independence unspecified; months-long retrospective drift can reflect onset/discovery ambiguity.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0554
+Type: Q and A
+
+Audience: operator
+
+Question: How much warning time can I rely on?
+
+Ideal answer: Well A drift April 2018, failure June 2018(~2 months), source says 3 months; Well B failure-region May 2016 precedes March 2017 sensor issue 10 months and August 2017 terminal failure; not transferable forecast horizon.
+
+Engineering context: No additional guaranteed warning time should be assumed.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0555
+Type: Q and A
+
+Audience: operator
+
+Question: Can I diagnose the cause from current alone?
+
+Ideal answer: 8 variables abstract versus 10 Dmethod; 3 failed+1 operating case; tree 70/30 split.
+
+Engineering context: Use the complete evidence combination described in Section 6; no standalone current diagnosis is added.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0556
+Type: Q and A
+
+Audience: operator
+
+Question: What if a required signal is missing?
+
+Ideal answer: Full PCA unavailable after downhole loss; build separate surface baseline. Electrical integrity/DIFA/metadata are additional required records.
+
+Engineering context: Mark diagnosis as incomplete and show missing/frozen/stale inputs.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0557
+Type: Q and A
+
+Audience: operator
+
+Question: What should I do after confirming an abnormal condition?
+
+Ideal answer: Have production/reliability engineering check the alert and plan a condition-specific response.
+
+Engineering context: Engineering implementation proposal; not a source control procedure.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0558
+Type: Q and A
+
+Audience: operator
+
+Question: Can I change a setpoint from this paper directly?
+
+Ideal answer: Tree.5; source typical undervoltage 20% off nameplate requires actual OEM/site settings. No universal PCA radius.
+
+Engineering context: The extraction is advisory; use approved well/OEM operating limits and the field procedure.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0559
+Type: Q and A
+
+Audience: operator
+
+Question: What production benefit should I expect?
+
+Ideal answer: After ground-fault failures, gas-lift fallback delivered~75% of previous ESP performance in Well A and 50% in Well B; constrained by gas availability. No demonstrated model-caused uplift.
+
+Engineering context: Study observations and illustrative economics are not guarantees for this well.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
+
+
+---
+Knowledge record: QA-0560
+Type: Q and A
+
+Audience: operator
+
+Question: What should I record for the engineer?
+
+Ideal answer: Observed trends, timestamps, running state, data gaps, recent actions, test dates and outcome; attach relevant source rule IDs.
+
+Engineering context: Mode-conditioned drift plus electrical integrity verification.
+
+Source report: reports/P28.md
+
+Review status: Pending
+
+Source caveats: Figures 3 and 6 visually verified. Reported 100% recall applies NORMAL class, not failures. Cumulative failure ratio is not an annual hazard or reliability estimate.
+
+Source report: reports/P28.md. PDF page references refer to the original paper, not this text file.
